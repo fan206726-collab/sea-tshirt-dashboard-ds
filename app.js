@@ -8,7 +8,14 @@
     // 避免整页空白却没有任何报错。
     if(window.DASHBOARD_DATA){ once(); return; }
     var s=document.createElement('script');
-    s.src='dashboard_data.js?_='+Date.now();
+    s.src='data/dashboard_data.js?_='+Date.now();
+    s.onerror = function(){
+      // 容错：如果 data/ 目录下 404，自动尝试根目录下的 dashboard_data.js
+      var s2 = document.createElement('script');
+      s2.src = 'dashboard_data.js?_=' + Date.now();
+      s2.onload = once; s2.onerror = once;
+      document.head.appendChild(s2);
+    };
     s.onload=once; s.onerror=once;
     document.head.appendChild(s);
     setTimeout(once, 5000);
@@ -843,10 +850,17 @@
     // 已结束的节点排到最后，避免默认视图一打开就是过期内容
     // 倒计时条形图严格只展示有日期的节点；无固定日期节点保留在下方全量列表中展示
     var datedEvents = all.filter(function(h){ return h.days_left != null; });
-    datedEvents.sort(function(a,b){
-      var pa=a.days_left<0?1:0, pb=b.days_left<0?1:0;
-      if(pa!==pb) return pa-pb;
-      return a.days_left-b.days_left;
+    datedEvents.sort(function(a, b){
+      function rankKey(h){
+        if(h.status === '已结束' || h.days_left < 0) return 90000 + Math.abs(h.days_left || 0);
+        // 超过45天的长期展览/活动下沉，避免占用迫切选品视线
+        if(h.long_running || (h.days_to_end && h.days_to_end > 45)) return 5000 + (h.days_to_end || 0);
+        // 进行中的短期促销/活动（按剩余结束天数排序）
+        if(h.status === '进行中') return (h.days_to_end != null ? h.days_to_end : 0);
+        // 未开始的事件按剩余天数排序（优先显示 2天、4天、7天等紧迫事件）
+        return h.days_left;
+      }
+      return rankKey(a) - rankKey(b);
     });
     all = all.concat(undated);
 
@@ -1579,7 +1593,7 @@
       var arr=(D.global_trends||{})[cat.k]||[];
       var box=el('div','gt-cat'); box.appendChild(el('h3',null,cat.label));
       if(!arr.length){
-        box.appendChild(el('div','gt-empty','近 '+((D.meta.global_trends_filter||{}).window_days||14)
+        box.appendChild(el('div','gt-empty','近 '+(((D.meta&&D.meta.global_trends_filter)||{}).window_days||14)
           +' 天没有带日期的新内容；超期与无日期的条目已按规则删除'));
         body.appendChild(box); return;
       }
@@ -2197,26 +2211,67 @@
     };
     document.head.appendChild(s);
   }
-  function checkVersion(){
-    if(typeof fetch!=='function'||!BUILD) return;
-    fetch('version.json?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){
-      if(!j||!j.build||j.build===BUILD) return;
-      if(document.getElementById('ver-bar')) return;
-      var bar=el('div','ver-bar','检测到新版本（'+esc(j.published_at||j.build)+'）'
-        +'<button id="ver-reload">加载新版本</button>'
-        +'<button id="ver-close" aria-label="关闭">✕</button>');
-      bar.id='ver-bar';
-      document.body.appendChild(bar);
-      var btn=document.getElementById('ver-reload');
-      // 带上时间戳强制绕过缓存，否则仍会取到旧的 app.js
-      if(btn) btn.onclick=function(){ location.href=location.pathname+'?_='+Date.now(); };
-      var cls=document.getElementById('ver-close');
-      if(cls) cls.onclick=function(){ if(bar.parentNode) bar.parentNode.removeChild(bar); };
-    }).catch(function(){});
-  }
+  function reloadDashboardData(cb){
+      var oldScript = document.querySelector('script[src*="dashboard_data.js"]');
+      if(oldScript && oldScript.parentNode){
+        oldScript.parentNode.removeChild(oldScript);
+      }
+      var s = document.createElement('script');
+      s.src = 'dashboard_data.js?_=' + Date.now();
+      s.onload = function(){
+        try {
+          if(typeof recomputeCalendar === 'function') recomputeCalendar();
+          if(typeof boot === 'function') boot();
+        } catch(e) {
+          console.error('重新加载数据失败', e);
+        }
+        if(typeof cb === 'function') cb(true);
+      };
+      s.onerror = function(){
+        if(typeof cb === 'function') cb(false);
+      };
+      document.head.appendChild(s);
+    }
 
-  // ---------- 市场大盘 ----------
-  function renderMarket(){
+    function checkVersion(){
+      if(typeof fetch!=='function') return;
+      fetch('version.json?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){
+        if(!j || !j.build) return;
+        // 首次打开记录当前版本，防止每次打开都弹窗提示
+        if(!BUILD || BUILD === 'BUILD_ID'){
+          BUILD = j.build;
+          return;
+        }
+        if(j.build === BUILD) return;
+        if(document.getElementById('ver-bar')) return;
+        var bar=el('div','ver-bar','检测到新版本（'+esc(j.published_at||j.build)+'）'
+          +'<button id="ver-reload">加载新版本</button>'
+          +'<button id="ver-close" aria-label="关闭">✕</button>');
+        bar.id='ver-bar';
+        document.body.appendChild(bar);
+        var btn=document.getElementById('ver-reload');
+        if(btn) {
+          btn.onclick=function(){
+            btn.textContent = '加载中…';
+            btn.disabled = true;
+            reloadDashboardData(function(ok){
+              BUILD = j.build;
+              if(bar && bar.parentNode) bar.parentNode.removeChild(bar);
+              var tip = el('div', 'ver-bar', '✓ 已成功加载最新数据');
+              tip.style.background = '#0e7090';
+              tip.style.color = '#fff';
+              document.body.appendChild(tip);
+              setTimeout(function(){ if(tip.parentNode) tip.parentNode.removeChild(tip); }, 2500);
+            });
+          };
+        }
+        var cls=document.getElementById('ver-close');
+        if(cls) cls.onclick=function(){ if(bar.parentNode) bar.parentNode.removeChild(bar); };
+      }).catch(function(){});
+    }
+
+    // ---------- 市场大盘 ----------
+    function renderMarket(){
     var box=$('#market-body'); if(!box) return;
     box.innerHTML='';
     var mw=(D.meta&&D.meta.market_watch)||[];

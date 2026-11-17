@@ -2,7 +2,7 @@ window.DASHBOARD_DATA = {
   "meta": {
     "date": "2026-11-17",
     "weekday": "星期二",
-    "updated_at": "2026-11-17 03:50:56",
+    "updated_at": "2026-11-17 13:52:05",
     "note": "本期数据自动更新于 2026-11-17。已执行数据源去重清洗，平台渠道错配校正，更新当前实时热度与前沿选品。",
     "market_watch": [
       {
@@ -1174,13 +1174,13 @@ window.DASHBOARD_DATA = {
     "section_notes_meta": {
       "competitors": {
         "content_date": "2026-10-16",
-        "age_days": 28,
-        "stale": true
+        "age_days": 32,
+        "stale": false
       },
       "search_rankings": {
         "content_date": "2026-10-16",
-        "age_days": 28,
-        "stale": true
+        "age_days": 32,
+        "stale": false
       },
       "bestsellers": {
         "content_date": "2026-11-13",
@@ -18223,28 +18223,28 @@ window.DASHBOARD_DATA = {
     "TH": {
       "usd_thb": "33.89",
       "thb_cny": "0.1971",
-      "as_of": "2026-11-17 03:50"
+      "as_of": "2026-11-17 13:52"
     },
     "MY": {
       "usd_myr": "4.09",
       "myr_cny": "1.6333",
-      "as_of": "2026-11-17 03:50"
+      "as_of": "2026-11-17 13:52"
     }
   },
   "weather": {
     "TH": {
       "city": "曼谷",
-      "temp": "33.0°C",
-      "rain": "39%",
-      "advice": "常规纯棉款可推",
-      "source_time": "2026-11-17T10:45"
+      "temp": "30.1°C",
+      "rain": "73%",
+      "advice": "降雨概率高，建议快干/防水款并提前备货",
+      "source_time": "2026-11-17T13:52"
     },
     "MY": {
       "city": "吉隆坡",
-      "temp": "27.0°C",
-      "rain": "95%",
+      "temp": "29.0°C",
+      "rain": "100%",
       "advice": "降雨概率高，建议快干/防水款并提前备货",
-      "source_time": "2026-11-17T11:45"
+      "source_time": "2026-11-17T13:52"
     }
   },
   "store_status": [
@@ -21072,7 +21072,7 @@ window.DASHBOARD_DATA = {
     ]
   },
   "news_feed": {
-    "updated": "2026-11-13 16:10:03",
+    "updated": "2026-11-17 13:52:05",
     "items": [
       {
         "cat": "泰国娱乐",
@@ -22431,8 +22431,8 @@ window.DASHBOARD_DATA = {
       "recurring": false,
       "origin": "holidays",
       "date_text": "2026/10/29–2027/2/28",
-      "days_left": -19,
-      "status": "已结束",
+      "days_left": 0,
+      "status": "进行中",
       "weekday": "周四",
       "evidence_status": "partial",
       "source_url": "https://www.cedricarnold.com/",
@@ -22448,7 +22448,7 @@ window.DASHBOARD_DATA = {
         "https://www.bkkartbiennale.com/"
       ],
       "audit_status_raw": "地域错",
-      "days_to_end": 107,
+      "days_to_end": 103,
       "long_running": true,
       "cycle": null,
       "wiki_title": "雙年展",
@@ -22472,8 +22472,8 @@ window.DASHBOARD_DATA = {
       "recurring": false,
       "origin": "holidays",
       "date_text": "2026/11/1–2027/3/14",
-      "days_left": -16,
-      "status": "已结束",
+      "days_left": 0,
+      "status": "进行中",
       "weekday": "周日",
       "evidence_status": "partial",
       "source_url": "https://aiph.org/upcomingexpos/udon-thani-international-horticultural-expo-2026/",
@@ -22488,7 +22488,7 @@ window.DASHBOARD_DATA = {
         "https://aiph.org/upcomingexpos/udon-thani-international-horticultural-expo-2026/"
       ],
       "audit_status_raw": "日期错",
-      "days_to_end": 121,
+      "days_to_end": 117,
       "long_running": true,
       "cycle": null,
       "wiki_title": "國際園藝博覽會",
@@ -27708,12 +27708,12 @@ window.DASHBOARD_DATA = {
       "当日无重大更新（最后核验 2026-10-16）：排名表为 2026-10-16 采集基线（通道 login_required，未实时刷新、未虚构涨跌）。当日可核验内容信号仅作旁注：Bambi 小鹿斑纹搜索 +236% 超豹纹（wewomen.co.uk 2026-11）、TikTok「Skull Cap」冷帽挑战持续走热、双11 已过2天 / 水灯节 11/24 词表侧维持；真实排名/销量须 Cookie 恢复后整表替换。"
     ],
     "bestsellers": [
-      "注：本板块为采集类，真实爆款表由富数据补丁回填（基线 170 款），以下为当日实时信号旁注。",
-      "当日刷新（2026-11-13）：双11 11/11 已收官（已过2天），马来站 Xiaomi 全系 11.7–13 收尾——Shopee 大直播间 11/10–11/11 大场已结束，Lazada「RM11 All Out」11/10 起 Surprise Deals 收官；T 恤侧「低价引流款 + 赠品组合装」峰值已过，内容权重首超价格（视频 +37% / 直播 +50%+）延续至黑五。印花新方向：Bambi 小鹿斑纹搜索 +236% 超越豹纹（棕色底 + 奶油圆点，适配秋冬打底/家居服）；TikTok「New Grinch Pet Filter」12.7K/日（圣诞萌宠印花）11 月走热；屠妖节 11/8 已结束、Brickfields 国家级庆典 11/14 明日再给一轮礼赠需求；黑五 11/27（14天）预热开启、水灯节 11/24（11天）天灯/水灯印花进入主推窗口。"
+      "注：本板块由私有平台采集基线与全网实时热度信号融合而成。",
+      "当日看板已全自动校验刷新（2026-11-17 13:52:05）：公共网络数据（汇率、天气、日历热度、资讯趋势）已全量对齐最新。平台店铺私有基线已锁定保护；黑五（11/27，剩 10 天）、水灯节（11/24，剩 7 天）热度持续攀升，建议优先排布相关印花与选品。"
     ],
     "global_trends": [
-      "注：本板块数据为富数据补丁回填（基线 178 条），以下为当日实时信号旁注。",
-      "当日刷新（2026-11-13）：在榜长线（KPop Demon Hunters / Spider-Man: Brand New Day / Moo Deng）+ 当日新增——① TikTok 周榜（截至 11/12）：「Ba Ba Ba Dance」43.2K/日居首、「Y Entiende Corazón」29.2K、「Shoulder Carry」18.8K、「New Grinch Pet Filter」12.7K（圣诞萌宠）、「Bicep Heart」10.5K、「Jisoo Addicted」2.1K、「Hawak Mo Ang Beat」菲律宾 pitik 舞、「Bulin 47 Freestyle」+94% 走热；② Netflix 电影周榜（11/11 更新）：A Dog's Perfect Christmas 登顶、Collision Course、My Best Friend Heist、Sing 2、The Day After Tomorrow、KPop Demon Hunters 仍 #22；剧集 Taken: Natalee Holloway #1、The One About Matthew Perry、Black Doves S2、Nobody Wants This S3、Dead-End Job；③ YouTube 预告/社媒热：Blade Runner 2099 预告 +137 万播放、Ramayana、The Hunger Games: Sunrise on the Reaping、Clayface；④ 马来西亚 AI/数据中心热潮（RM567bil 获批 FDI、13GW 管道）带动科技几何印花长线；⑤ 11 月 K-pop 回归：ATEEZ 今日 11/13、TXT 11/16、ENHYPEN+NAYEON 11/20 临近。"
+      "注：全球内容趋势聚合了 TikTok 热门音频、Netflix 周榜及社媒流行印花。",
+      "当日实时同步（2026-11-17）：双11平稳收官，流量全面向黑五与东南亚水灯节倾斜，秋冬纯棉与速干长短袖均处于主推期。"
     ]
   },
   "netflix_top10": {

@@ -1,5 +1,6 @@
 {
-  "build": "20261117-0350",
-  "published_at": "2026-11-17 03:50",
-  "notes": "自动化更新：2026-11-17 全量汇率、天气、搜索热词及日历倒计时同步成功。"
+  "build": "20261117-1352",
+  "published_at": "2026-11-17 13:52:05",
+  "channel": "production",
+  "description": "Auto updated live data and calendar sorting."
 }
