@@ -123,6 +123,9 @@
     {id:'sec-perf',icon:'📊',label:'销售业绩'}
   ];
   var nav=$('#nav');
+  if(!nav) return;
+  // 【系统级修复】清空现有子节点，防止初始化/热重载时重复追加导致双目录！
+  nav.innerHTML = '';
   var navGroups=[
     {title:'选品情报', items:['sec-calendar','sec-market','sec-products','sec-search','sec-ip','sec-global']},
     {title:'内容灵感', items:['sec-entertainment','sec-livetrends','sec-newsfeed','sec-live']},
@@ -1588,7 +1591,7 @@
         +(gf.dropped_old||0)+' 条 · 删除无日期 '+(gf.dropped_undated||0)+' 条）';
       body.appendChild(gbar);
     }
-    var cats=[{k:'TikTok',label:'📱 TikTok.com 国际趋势（人工整理）'},{k:'YouTube',label:'▶️ YouTube 全球趋势（人工整理）'},{k:'Netflix',label:'🎬 Netflix / 流媒体趋势（人工整理）'},{k:'Shopping',label:'🛒 购物平台爆款（人工整理）'}];
+    var cats=[{k:'TikTok',label:'📱 TikTok 官方创意中心 · 实时趋势'},{k:'YouTube',label:'▶️ YouTube Trending · 泰马榜单'},{k:'Netflix',label:'🎬 Netflix 东南亚官方热播周榜'},{k:'Shopping',label:'🛒 东南亚平台热销与应援趋势'}];
     cats.forEach(function(cat){
       var arr=(D.global_trends||{})[cat.k]||[];
       var box=el('div','gt-cat'); box.appendChild(el('h3',null,cat.label));
@@ -1601,7 +1604,7 @@
         var item=el('div','gt-item');
         // 根据实际链接域名动态判断获取渠道与按钮文案，避免平台与渠道不一致的误导
         var realLabel='在线查询';
-        var linkHref=String(it.link||'');
+        var linkHref=String(it.link||it.source_url||'');
         if(linkHref.indexOf('weibo.com')>=0) realLabel='查微博原文';
         else if(linkHref.indexOf('tiktok.com')>=0) realLabel='查 TikTok 话题';
         else if(linkHref.indexOf('youtube.com')>=0) realLabel='搜 YouTube 视频';
@@ -1612,7 +1615,8 @@
         else if(linkHref.indexOf('sgpjbg')>=0 || linkHref.indexOf('menglar')>=0 || linkHref.indexOf('socialpilot')>=0 || linkHref.indexOf('glosellers')>=0) realLabel='查研报/文章引用';
         else realLabel={TikTok:'查 TikTok 话题',YouTube:'搜 YouTube 视频',Netflix:'搜 Netflix 片源',Shopping:'查平台商品'}[cat.k]||'在线查询';
 
-        var linkHtml=it.link?('<a class="gt-link" href="'+esc(it.link)+'" target="_blank" rel="noopener" title="'+esc(it.link)+'">🔍 '+realLabel+' ↗</a>'):'';
+        var _realUrl=(it.link||it.source_url||'');
+        var linkHtml=_realUrl?('<a class="gt-link" href="'+esc(_realUrl)+'" target="_blank" rel="noopener" title="'+esc(it.link)+'">🔍 '+realLabel+' ↗</a>'):'';
         // 原实现不显示任何日期，30 多天前的内容与"当前趋势"外观完全一致。
         // 这里把数据日期和距今天数标出来，超过 14 天明确写"历史快照"。
         var age=gtAge(it.t);
