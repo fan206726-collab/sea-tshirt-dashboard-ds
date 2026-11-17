@@ -1,6 +1,6 @@
 {
-  "build": "20261117-1448",
-  "published_at": "2026-11-17 14:48:06",
+  "build": "20261117-1600",
+  "published_at": "2026-11-17 16:00:23",
   "channel": "production",
-  "description": "System architecture fully upgraded: multi-category IP matrix, TH/MY local cinema, real TikTok trends, and sidebar bug fixed."
+  "description": "Auto updated live data and calendar sorting."
 }
