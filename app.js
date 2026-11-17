@@ -4,19 +4,21 @@
   function loadData(cb){
     var fired=false;
     function once(){ if(fired) return; fired=true; cb(); }
-    // 数据已内联时不再多请求一次；否则注入脚本，并在加载失败/超时后兜底启动，
-    // 避免整页空白却没有任何报错。
+    // 数据已存在直接启动
     if(window.DASHBOARD_DATA){ once(); return; }
-    var s=document.createElement('script');
-    s.src='data/dashboard_data.js?_='+Date.now();
+    
+    // 优先加载根目录下的 dashboard_data.js
+    var s = document.createElement('script');
+    s.src = 'dashboard_data.js?_=' + Date.now();
+    s.onload = once;
     s.onerror = function(){
-      // 容错：如果 data/ 目录下 404，自动尝试根目录下的 dashboard_data.js
+      // 容错兜底：若根目录失败再尝试 data/ 子目录
       var s2 = document.createElement('script');
-      s2.src = 'dashboard_data.js?_=' + Date.now();
-      s2.onload = once; s2.onerror = once;
+      s2.src = 'data/dashboard_data.js?_=' + Date.now();
+      s2.onload = once;
+      s2.onerror = once;
       document.head.appendChild(s2);
     };
-    s.onload=once; s.onerror=once;
     document.head.appendChild(s);
     setTimeout(once, 5000);
   }
