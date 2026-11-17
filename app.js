@@ -8,7 +8,7 @@
     // 避免整页空白却没有任何报错。
     if(window.DASHBOARD_DATA){ once(); return; }
     var s=document.createElement('script');
-    s.src='data/dashboard_data.js?_='+Date.now();
+    s.src='dashboard_data.js?_='+Date.now();
     s.onload=once; s.onerror=once;
     document.head.appendChild(s);
     setTimeout(once, 5000);
