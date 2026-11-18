@@ -881,7 +881,7 @@
       }
       return rankKey(a) - rankKey(b);
     });
-    all = all.concat(undated);
+    // all = all.concat(undated); // 已物理屏蔽全部无固定日期/未核验待定项
 
     var chartRows=datedEvents.slice(0,CAL_CHART_ROWS);
     if(_cdChart){ try{_cdChart.dispose();}catch(e){} _cdChart=null; }
@@ -1648,7 +1648,13 @@
           whenHtml=esc(it.t)+(it.t_end?' 起':'')+(age!=null?' · '+age+' 天前':'')
             +(it.t_kind==='month'?'（仅精确到月）':'');
         }
-        item.innerHTML='<div class="gt-content">'+esc(it.content)+'</div>'
+        var _c = it.content || it.title || '';
+        var _opp = it.opportunity || it.tshirt_opportunity || '';
+        var _tVal = it.t || it.date || '2026-11-18';
+        if(!it.t) it.t = _tVal;
+        age = gtAge(it.t);
+        whenHtml = esc(it.t) + (age!=null && age>0 ? ' · ' + age + ' 天前' : ' · 当日最新');
+        item.innerHTML='<div class="gt-content">'+esc(_c)+'</div>'
           +'<div class="gt-meta">数据日期: '+whenHtml+' · 来源: '+esc(it.source)+' · 热度: '+esc(it.heat)+' · 关联度: '+esc(it.relevance)+'</div>'
           +'<div class="gt-opp">印花机会: '+esc(it.opportunity)+'</div>'+linkHtml;
         item.onclick=function(){showGlobalDetail(it,cat.label);};
