@@ -1,6 +1,6 @@
 {
-  "build": "20261117-1600",
-  "published_at": "2026-11-17 16:00:23",
+  "build": "20261118-01",
+  "published_at": "2026-11-18 16:30:00",
   "channel": "production",
-  "description": "Auto updated live data and calendar sorting."
+  "description": "Daily automated live update: date advanced to 2026-11-18, eliminated NaN error, unblocked GitHub Pages pipeline."
 }

@@ -641,7 +641,21 @@
 
   // ---------- KPI ----------
   function countSearch(){var n=0;var s=D.search_rankings||{};Object.keys(s).forEach(function(p){Object.keys(s[p]||{}).forEach(function(c){n+= ((s[p][c]||[]).length);});});return n;}
-  function countBest(){var n=0;var s=D.bestsellers||{};Object.keys(s).forEach(function(p){Object.keys(s[p]||{}).forEach(function(c){n+= ((s[p][c]||[]).length);});});return n;}
+  function countBest(){
+    var n = 0;
+    var s = D.bestsellers || {};
+    Object.keys(s).forEach(function(p){
+      if(Array.isArray(s[p])){
+        n += s[p].length;
+      } else if(s[p] && typeof s[p] === 'object'){
+        Object.keys(s[p]).forEach(function(c){
+          if(Array.isArray(s[p][c])) n += s[p][c].length;
+          else if(s[p][c] && typeof s[p][c] === 'object') n += Object.keys(s[p][c]).length;
+        });
+      }
+    });
+    return isNaN(n) ? 0 : n;
+  }
   function countLiveTrends(){var n=0;var t=D.live_trends||{},x=D.x_trends||{};Object.keys(t).forEach(function(k){n+=(t[k]||[]).length;});Object.keys(x).forEach(function(k){n+=(x[k]||[]).length;});return n;}
   function renderKPI(){
     var row=$('#kpi-row'); if(!row) return;
