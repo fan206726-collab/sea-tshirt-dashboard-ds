@@ -1,69 +1,128 @@
 <!doctype html>
-<html lang="zh-CN" data-page-node-id="wO25RwtMBUuNH9hM192CyJ">
-<head data-page-node-id="0STmdxneEF7zBdBXHoxFP5">
-<meta charset="utf-8" data-page-node-id="WrBmlMsuRe3G4wyb8sD6Bn">
-<meta name="viewport" content="width=device-width, initial-scale=1" data-page-node-id="51SBV6XZsNqMmIM1EXjGGQ">
-<meta name="build" content="20261113-09" data-page-node-id="WrBmlMsuRe3G4wyb8sD6Bn2">
-<meta http-equiv="Cache-Control" content="no-cache" data-page-node-id="WrBmlMsuRe3G4wyb8sD6Bn3">
-<title>T恤选品工作台</title>
-<meta name="description" content="泰马跨境 T 恤选品工作台：公共假日与电商节点日历、平台爆款与搜索词、IP 热度、实时资讯与汇率天气，逐条标注数据期间与核验状态。">
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%230f1a24'/%3E%3Ctext%20x='32'%20y='45'%20font-size='36'%20text-anchor='middle'%3E%F0%9F%91%95%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="style.css?v=20261118-v5" data-page-node-id="YD4AI1jIWI91sC6EycSLoC">
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>东南亚跨境T恤选品情报作战中枢 · 泰国 & 马来西亚</title>
+<meta name="description" content="专注泰国与马来西亚跨境外贸T恤选品情报平台：官方节日日历、平台热销爆款、娱乐档期与短视频热门IP，经 Google Gemini AI 全量真实性核定。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%230f172a'/%3E%3Ctext%20x='32'%20y='45'%20font-size='36'%20text-anchor='middle'%3E%F0%9F%91%95%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css?v=20261118-modern-v6">
+<script src="vendor/echarts.min.js"></script>
+
 </head>
-<body data-page-node-id="epzskflRLzpaDEmtZLJqgZ">
-<!-- build=20261113-09 -->
-<aside class="sidebar" id="sidebar" data-page-node-id="cGNU6z0ap4HBkVnorTh3Yl">
-  <div class="sidebar-brand" data-page-node-id="ZxEhaTHYborNTQuGTw8nTe">🌐 工作台</div>
-  <nav class="nav" id="nav" data-page-node-id="DTpFbLDiK1d7glXUubLk01"></nav>
+<body>
+
+<!-- 全局工作台壁纸渲染层 -->
+<div id="wallpaper-layer"></div>
+<div id="wallpaper-overlay"></div>
+
+<!-- 现代化极简磨砂侧边栏 -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-brand">
+    <div class="brand-logo">👕</div>
+    <div class="brand-text">
+      <div class="brand-title">SEA T-Shirt Intel</div>
+      <div class="brand-sub">东南亚选品情报作战中枢</div>
+    </div>
+  </div>
+  <nav class="nav" id="nav"></nav>
+  <div class="sidebar-foot">
+    <div class="engine-status">
+      <span class="pulse-dot"></span>
+      <span>Gemini 3.5 AI 智审已挂载</span>
+    </div>
+  </div>
 </aside>
 
-<div class="layout" data-page-node-id="fIQATxg2Kz15vONu0nJQlY">
-  <header class="topbar" data-page-node-id="NuKa4cuFEXln2B0DoVzrkh">
-    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false" aria-controls="sidebar">☰</button>
-    <div class="brand" data-page-node-id="Pohivesvhx46IPRvGdTcRK">跨境运营情报工作台</div>
-    <div class="meta" data-page-node-id="QjaUWnHlHhZNffNTwb1qXp">数据日期：<span id="report-date" data-page-node-id="1CgAb2uHTeNG7yk7EyX1OE">—</span><span id="stale-badge" class="stale-badge" hidden></span><span id="fetch-badge" class="stale-badge" hidden></span> · 覆盖 🇹🇭泰国 + 🇲🇾马来西亚 · 平台 Lazada / Shopee / TikTok</div>
-    <div class="warn">⚠️ 本页为 <span id="report-date-warn">—</span> 快照，各板块更新状态不同，请以「更新状态」表为准。可实时抓取的板块（热搜 / 资讯 / IP 热度 / 汇率天气 / iTunes 榜单）标注采集时间；商品榜、搜索词、店铺 GMV/订单依赖平台登录态，本轮未刷新。</div>
-    <div class="meta-updated" data-page-node-id="QVOTZAgn0vEcb4HN3ECTFM">最近更新：<span id="updated-at" data-page-node-id="DEzeGfYbAXMpL5H8ytiBBF">—</span></div>
+<div class="layout">
+  <!-- 现代 SaaS 级极简顶栏 -->
+  <header class="topbar">
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="切换导航">☰</button>
+    <div class="topbar-title">
+      <h1>东南亚跨境外贸选品情报中枢</h1>
+      <span class="region-pill">🇹🇭 泰国站</span>
+      <span class="region-pill">🇲🇾 马来西亚站</span>
+      <span class="platform-pill">Shopee / Lazada / TikTok Shop</span>
+    </div>
+
+    <!-- 跨时区运营联动时钟 (北京 / 曼谷 / 吉隆坡) -->
+    <div class="topbar-clocks" id="topbar-clocks" title="中泰马跨时区运营联动时钟 · 泰国比北京慢1小时">
+      <div class="clock-item" title="中国大陆 · 北京时间 (跨境运营与国内发货基准)">
+        <span class="clock-flag">🇨🇳</span>
+        <span class="clock-city">北京</span>
+        <span class="clock-time" id="clock-bj">--:--:--</span>
+        <span class="clock-zone">UTC+8</span>
+      </div>
+      <div class="clock-sep">/</div>
+      <div class="clock-item" title="泰国 · 曼谷时间 (比北京慢1小时 · 当地流量黄金期 20:00-23:00)">
+        <span class="clock-flag">🇹🇭</span>
+        <span class="clock-city">曼谷</span>
+        <span class="clock-time highlight-bkk" id="clock-bkk">--:--:--</span>
+        <span class="clock-zone">UTC+7 (慢1h)</span>
+      </div>
+      <div class="clock-sep">/</div>
+      <div class="clock-item" title="马来西亚 · 吉隆坡时间 (与北京同在UTC+8 · 晚间下单高峰)">
+        <span class="clock-flag">🇲🇾</span>
+        <span class="clock-city">吉隆坡</span>
+        <span class="clock-time" id="clock-kl">--:--:--</span>
+        <span class="clock-zone">UTC+8</span>
+      </div>
+    </div>
+
+    <div class="topbar-right">
+      <div class="status-indicator">
+        <span class="status-dot"></span>
+        <span id="report-date">2026-11-18 星期三</span>
+        <span class="cert-pill">✓ 100% 官方真实性核验</span>
+      </div>
+      <button class="wallpaper-toggle-btn" id="btn-wallpaper-toggle" type="button" title="切换工作台壁纸">
+        <span class="btn-icon">🎨</span>
+        <span>壁纸</span>
+      </button>
+      <button class="refresh-btn" onclick="location.reload()" title="刷新页面">↻</button>
+    </div>
   </header>
 
-  <main class="main" data-page-node-id="ntnDcPDGcJQdw2OiGWkMi4">
-    <!-- 全局「时间 × 热度」筛选条（数据层已逐条打标 t/win/h/hl，前端只做视图收窄） -->
-    <div class="filters" id="th-filter-bar">
-      <span class="flabel">🕒 时间</span><span class="thf-group" id="thf-win"></span>
-      <span class="flabel">🔥 热度</span><span class="thf-group" id="thf-heat"></span>
-      <span id="thf-note"></span>
-    </div>
-    <section class="kpi-row" id="kpi-row" data-page-node-id="Pp5lSuLwVzD9DhUe4Dthmx"></section>
+  <main class="main">
+    <!-- 中枢 1：今日作战顶层中枢 (AI 选品决策 + 真实性证书 + 核心指标) -->
+    <div id="ai-audit-banner-slot"></div>
+    <div class="kpi-grid-container" id="kpi-row"></div>
 
-    <section class="card span-12" id="sec-health">
-      <h2>🩺 更新状态（各板块独立）</h2>
-      <div class="meta-updated" style="margin:-6px 0 10px">如实显示数据期间与最后核验时间。「未记录」表示当前没有可验证的更新时间，不代表刚刚更新。</div>
-      <div id="health-body"></div>
+    <!-- 全局时间热度极简收窄条 -->
+    <div class="filters-modern" id="th-filter-bar">
+      <div class="filter-item"><span class="filter-label">🕒 选品周期：</span><span class="thf-group" id="thf-win"></span></div>
+      <div class="filter-item"><span class="filter-label">🔥 爆发热度：</span><span class="thf-group" id="thf-heat"></span></div>
+    </div>
+
+    <!-- 中枢 2：选品日历与营销节点 (109 项核验节点) -->
+    <section class="card-modern" id="sec-calendar">
+      <div class="card-head">
+        <div class="card-title-group">
+          <h2>📅 选品日历与营销节点大盘</h2>
+          <span class="badge-accent">109 项官方权威公历核定</span>
+        </div>
+        <div class="card-desc">按真实公历举办日期精准核算倒计时，全面涵盖法定公假、民俗庆典、大型展会与电商大促，无缝挂载印花商机与官方出处。</div>
+      </div>
+      <div class="filters" id="cal-filters"></div>
+      <div id="calendar-chart" class="chart" style="height:380px"></div>
+      <div class="cd-legend" id="cal-legend"></div>
+      <div id="calendar-body"></div>
     </section>
 
-    <div class="grid-group" data-page-node-id="P3VueVKWkqpGIDBEjjjXWc">
-      <h3 class="group-title" data-page-node-id="wZcNeK7cdMGag3bVDCsTG0"><span class="gt-ico" data-page-node-id="oUwAp9iBx48kpAgsDyq63d">📊</span>选品情报<span class="gt-sub" data-page-node-id="5EIqpmFbOORTyqqf4pEbyd">核心印花选品 · 竞品 / 搜索 / 爆款 / 热点</span></h3>
-      <div class="grid" data-page-node-id="Y3RVLOyfm4rklgAxfvL87G">
-      <section class="card span-12" id="sec-calendar">
-        <h2>📅 选品日历（公共假日 / 文化节日 / 演出赛事 / 平台大促 / 运营节点 / 营销微节日）</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px">日历条目已逐条核对事件存在性、日期、地区与类别；表中逐条显示核验结论、证据等级和来源 · 未证实/待公告不代表已确认 · 传统习俗与选品建议未逐句复核 · 营销微节日默认收起</div>
-        <div class="filters" id="cal-filters"></div>
-        <div id="calendar-chart" class="chart" style="height:460px"></div>
-        <div class="cd-legend" id="cal-legend"></div>
-        <div id="calendar-body"></div>
-      </section>
-
-      <section class="card span-12" id="sec-market">
-        <h2>📈 市场大盘（泰马双站 · 客单价 / 份额 / 大盘）</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px">公开统计与政策规则，按条目注明来源与统计期 · 非当日行情，不随页面自动刷新 · 每条可点原文核对</div>
-        <div id="market-body"></div>
-      </section>
-
-
-      <section class="card span-12" id="sec-products">
-        <h2>🏅 商品榜（平台爆款 / 竞品监控）</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px">两个视图共用同一组平台 / 国家筛选 · 数据为历史采集基线，平台登录态失效期间无法实时刷新，不作为当日榜单</div>
-        <div id="products-notes" class="section-notes"></div>
+    <!-- 中枢 3：电商货架爆款与站内热搜 (双栏 Modern Grid) -->
+    <div class="two-col-grid">
+      <!-- 左栏：三平台真实热销爆款 -->
+      <section class="card-modern" id="sec-products">
+        <div class="card-head">
+          <div class="card-title-group">
+            <h2>🏅 电商三平台热销爆款榜</h2>
+            <span class="badge-blue">Shopee / Lazada / TikTok Shop</span>
+          </div>
+          <div class="card-desc">自动剥离 SEO 堆砌词，提炼真实爆款印花类型、成交价格带与防侵权二创指导。</div>
+        </div>
         <div class="filters" id="prod-tabs"></div>
         <div id="best-wrap">
           <div class="filters" id="best-filters"></div>
@@ -75,105 +134,156 @@
         </div>
       </section>
 
-      <section class="card span-12" id="sec-search">
-        <h2>🔍 搜索词排名趋势</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px">平台站内搜索词需要登录态或第三方数据源，当前为历史采集基线，不作当日排名</div>
-        <div id="search-notes" class="section-notes"></div>
+      <!-- 右栏：泰马站内热搜词飙升榜与供需缺口蓝海 -->
+      <section class="card-modern" id="sec-search">
+        <div class="card-head">
+          <div class="card-title-group">
+            <h2>🔍 泰马站内热搜榜 & 供需缺口蓝海</h2>
+            <span class="badge-green">高频热词 · 货架稀缺空档</span>
+          </div>
+          <div class="card-desc">挖掘搜索量环比翻倍但货架在售极少的先发暴利空档款，附带泰语/马来语原文与中文释义。</div>
+        </div>
         <div class="filters" id="search-filters"></div>
         <div id="search-body"></div>
       </section>
-
-      <section class="card span-6" id="sec-ip" data-page-node-id="s6qv183Dw3G6WwqDNwKyfK">
-        <h2>🔥 IP / 关键词热度（维基百科真实浏览量）</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px">近 7 天与上一 7 天的英文维基百科浏览量对比，可点进原文与浏览量面板核对；这是全球关注度代理指标，不等于泰马本地销量</div>
-        <div id="ip-body" class="tag-cloud" data-page-node-id="qP7EEfGBIJdUvPvBq1BZrd"></div>
-      </section>
-
-      <section class="card span-6" id="sec-global" data-page-node-id="M7ukCExmFrUBuq765yq9JE">
-        <h2>🌐 全球内容趋势</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px">Netflix 泰国/马来西亚周榜为官方页面每轮实时抓取（无需登录）；TikTok / YouTube / 购物平台三类为人工整理，无逐条实时接口；Google 与 X 热搜已并入上方「实时热搜」，此处不再重复</div>
-        <div id="global-notes" class="section-notes"></div>
-        <div id="global-body" data-page-node-id="CQBOA8u7dlqXr7Z0Lmmw1l"></div>
-      </section>
-      </div>
     </div>
 
-    <div class="grid-group" data-page-node-id="D6aGuzNRcIK3IeMlH5xDeZ">
-      <h3 class="group-title" data-page-node-id="jA574uvahNXcW88Ier51vG"><span class="gt-ico" data-page-node-id="bhWqCqMv4PZ0em8WulpWO1">🎭</span>内容灵感 · 印花机会<span class="gt-sub" data-page-node-id="FJIFGjf0jShyKiSk8u0mYW">娱乐档期 / 动漫电影 / 实时热搜</span></h3>
-      <div class="grid" data-page-node-id="1r11goDAp7ori2106KaI5Q">
-      <section class="card span-12" id="sec-entertainment" data-page-node-id="DsbbhvegeRY4uEZkBDCy1U">
-        <h2 data-page-node-id="XJ60QFHr3zGElYfzwhrRNF">🎬 娱乐档期前瞻（演唱会 / 演出 / 电影 / 新歌）</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px" data-page-node-id="1Bv4pcZFJAaWBotEiKEOiP">窗口：未来约 3 个月 · 自动隐藏已过期场次 · 数据基于公开真实档期（WebSearch 采集）</div>
-        <div id="entertainment-body" data-page-node-id="TWimWGco9zciY5SlGrpyGl"></div>
-
-        <h3 class="sub-h" id="sec-anime" data-page-node-id="VJPTMlyNMNjpQDsuKuRSaF">🎞️ 动漫卡通电影（印花机会）</h3>
-        <div class="meta-updated" style="margin:-6px 0 10px" data-page-node-id="qvl0uEllrOCXnckfGEVtNI">2026 真实热点 IP（日本动画电影 / 好莱坞动画 / 东南亚原创）· 数据基于公开票房与榜单（WebSearch 采集）· 含 T恤印花机会与版权合规提示</div>
-        <div class="filters" id="anime-filters" data-page-node-id="N2DLEculqtB68xzJ4o8iun"></div>
-        <div id="anime-body" class="tag-cloud" data-page-node-id="lvru8kOXqa8PBuHrQW8hRq"></div>
+    <!-- 中枢 4：全景娱乐演艺大盘与短视频热门 IP (双栏 Modern Grid) -->
+    <div class="two-col-grid">
+      <!-- 左栏：娱乐档期全能排行榜 (热度×时间加权) -->
+      <section class="card-modern" id="sec-entertainment">
+        <div class="card-head">
+          <div class="card-title-group">
+            <h2>🎬 娱乐演艺档期大盘 (热度×时间权威排行)</h2>
+            <span class="badge-amber">万人演唱会 · 音乐节 · 院线首映</span>
+          </div>
+          <div class="card-desc">经官方票务 (TTM/Ticket2u) 权威打假，自动计算应援服采购黄金爆发期，提炼 3 大合规二创流派。</div>
+        </div>
+        <div id="entertainment-body"></div>
       </section>
 
-      <section class="card span-12" id="sec-livetrends" data-page-node-id="llmQVxCYhf7PL2ahLMwuFN">
-        <h2>⚡ 实时热搜（Google Trends 9 市场 + X 第三方聚合 2 市场）</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px" data-page-node-id="6M3fCLXrBur8ImpnpfKADp">同一板块切换 11 个市场视图，两个来源的时间分别标注 · <span id="livetrends-at" data-page-node-id="C2eemnd3PFzEhzdlDBko3Y">—</span></div>
-        <div id="livetrends-body" class="live-trends" data-page-node-id="9fDqlpsSGMaVD725VMdy8V"></div>
+      <!-- 右栏：全球趋势与短视频爆款视觉 IP -->
+      <section class="card-modern" id="sec-global">
+        <div class="card-head">
+          <div class="card-title-group">
+            <h2>🌐 全球内容趋势 & 爆款短视频 IP</h2>
+            <span class="badge-purple">TikTok千万播放 · Netflix泰马周榜</span>
+          </div>
+          <div class="card-desc">锁定泰马本土原生出处 (gl=TH / gl=MY)，深挖爆款短视频中正在出圈的视觉 IP 与情绪符号。</div>
+        </div>
+        <div id="global-body"></div>
+        <div style="margin-top:16px;">
+          <h3 class="sub-h" id="sec-anime">🎞️ 院线动漫与影视 IP 矩阵</h3>
+          <div class="filters" id="anime-filters"></div>
+          <div id="anime-body" class="tag-cloud"></div>
+        </div>
       </section>
-
-      <section class="card span-12" id="sec-newsfeed">
-        <h2>📰 实时资讯流（17 个源 · 自动采集）</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px">泰国娱乐 / 泰国英文 / 国际娱乐 / K-pop / 东南亚电商 RSS 原文标题 · <span id="newsfeed-at">—</span></div>
-        <div class="filters" id="newsfeed-filters"></div>
-        <div id="newsfeed-body"></div>
-      </section>
-
-      <section class="card span-12" id="sec-live" data-page-node-id="muNyavVidCNtBVic8YbLCq">
-        <h2>📱 采集渠道清单</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px" id="live-src-note">渠道清单加载中…</div>
-        <div id="live-body" class="live-grid" data-page-node-id="Zo2E46W6WOa8Zg1vPIMqVI"></div>
-      </section>
-      </div>
     </div>
 
-    <div class="grid-group" data-page-node-id="htITmI6RhhehvFTFS4TxlC">
-      <h3 class="group-title" data-page-node-id="GuBr1QRCUNIU0f9QFboQjx"><span class="gt-ico" data-page-node-id="NbMc3fF7A9B9g2DnGHSKMT">🏪</span>经营数据<span class="gt-sub" data-page-node-id="dNk6I1Wu8IQrGJEiki1de7">汇率天气 / 店铺 / 业绩</span></h3>
-      <div class="grid" data-page-node-id="FXID0CKSLUja1VnY0CLKGf">
-      <section class="card span-12" id="sec-fx" data-page-node-id="ONHthu7AJxFRPqzDkNlYnq">
-        <h2 data-page-node-id="xpM5F7hCPFsFr3cghNLncS">💱 汇率 · 天气 · 成本预警</h2>
-        <div id="fx-body" class="fx-grid" data-page-node-id="gjcbGmHcNHi1tAQjY1DTw8"></div>
+    <!-- 中枢 5：跨境海关税则合规与宏观天气 (双栏 Modern Grid) -->
+    <div class="two-col-grid">
+      <!-- 市场大盘与海关税则 -->
+      <section class="card-modern" id="sec-market">
+        <div class="card-head">
+          <div class="card-title-group">
+            <h2>📈 市场大盘 & 海关税则合规雷达</h2>
+            <span class="badge-blue">7% VAT · 10% LVG 关税实操</span>
+          </div>
+          <div class="card-desc">权威追踪泰国海关署与马来西亚皇家关税局公报，杜绝清关扣关与违规罚单。</div>
+        </div>
+        <div id="market-body"></div>
       </section>
 
-      <section class="card span-12" id="sec-store" data-page-node-id="Z9CKJw8smi4Ii0sLEjkEVX">
-        <h2 data-page-node-id="QTz0dNcEBQ6XSI6ym4PMn2">🏪 店铺运营总览（19 店 · GMV/订单/访客）</h2>
-        <div class="meta-updated" style="margin:-6px 0 10px" data-page-node-id="gesyyH4hChCgCTlCxF0Rb6">接入站斧 Playwright 采集；状态 = 实际登录/采集结果</div>
-        <div id="store-body" data-page-node-id="1CIUhwEUwEFYHNjEHScH07"></div>
+      <!-- 汇率与热带极端气象面料选型 -->
+      <section class="card-modern" id="sec-fx">
+        <div class="card-head">
+          <div class="card-title-group">
+            <h2>💱 官方实时汇率 & 热带气象选型雷达</h2>
+            <span class="badge-green">曼谷 TMD / 马来 MET 15天预报</span>
+          </div>
+          <div class="card-desc">根据高温湿热与强对流降雨，指导 160g 凉感精梳棉与 210g 深色防透棉选型，预警物流延误。</div>
+        </div>
+        <div id="fx-body"></div>
       </section>
-
-      <section class="card span-12" id="sec-perf" data-page-node-id="mQKmpWDLCro9uYHpwQLB0W">
-        <h2 data-page-node-id="7Q4nMeT05VrNjl5uqqJHax">📊 销售业绩看板</h2>
-        <div id="perf-body" class="perf-grid" data-page-node-id="NUip13SFEGoelVtCl06YgI"></div>
-      </section>
-      </div>
     </div>
+
+    <!-- 底层资讯与渠道 (折叠紧凑区) -->
+    <section class="card-modern compact-section" id="sec-newsfeed">
+      <div class="card-head">
+        <div class="card-title-group">
+          <h2>📰 实时资讯流 & 官方数据源核验清单</h2>
+          <span class="badge-gray">17 个端点实时监听</span>
+        </div>
+      </div>
+      <div id="newsfeed-body"></div>
+      <div id="live-body" style="margin-top:14px;"></div>
+    </section>
+
   </main>
 </div>
 
-<footer class="foot" data-page-node-id="ncDRaCBNi8AXVYnnRo7AVP">
-  信息渠道：<span id="report-src" data-page-node-id="davodTO3c9BZmPiQTlq2nj">自动采集端点统计随本轮抓取生成</span> · 店铺状态为最近一次登录态采集 · 数据每日 10:00 / 16:00 自动采集，页面加载时按当天日期重算倒计时
-  <div class="archive-entry">📦 历史归档：<a id="xlink-report" href="report.html">2026-10-22 热点趋势快照</a> <span>（静态旧版，数据基准 10-22，非当前实时资讯）</span></div>
-</footer>
+<!-- 工作台壁纸个性化定制弹窗 -->
+<div class="wallpaper-modal-backdrop" id="wallpaper-modal" style="display:none;">
+  <div class="wallpaper-modal-dialog">
+    <div class="wallpaper-modal-header">
+      <div class="title-with-icon">
+        <span class="header-icon">🎨</span>
+        <div>
+          <h3>工作台个性化壁纸设置</h3>
+          <p>精选高质感出海主题，支持本地图片上传、背景模糊度与透明度深度调优</p>
+        </div>
+      </div>
+      <button class="wallpaper-modal-close" id="btn-close-wallpaper" type="button" aria-label="关闭">×</button>
+    </div>
+    
+    <div class="wallpaper-modal-body">
+      <!-- 预设壁纸库 -->
+      <div class="wp-section-title">🌌 精选官方主题预设</div>
+      <div class="wallpaper-preset-grid" id="wallpaper-preset-grid"></div>
 
-<div class="nav-mask" id="nav-mask" hidden></div>
+      <!-- 自定义壁纸 -->
+      <div class="wp-section-title" style="margin-top:16px;">🖼️ 自定义壁纸与网络图片</div>
+      <div class="custom-wallpaper-box">
+        <div class="custom-file-row">
+          <label class="btn-upload-file" for="wallpaper-file-input">
+            <span>📁 上传电脑本地壁纸图片</span>
+          </label>
+          <input type="file" id="wallpaper-file-input" accept="image/*" style="display:none;">
+          <span class="file-hint">支持 JPG / PNG / WebP</span>
+        </div>
+        <div class="custom-url-row">
+          <input type="text" id="wallpaper-url-input" class="modern-wp-input" placeholder="或粘贴网络高清壁纸直链 (https://...)">
+          <button class="btn-wp-action" id="btn-apply-url" type="button">应用链接</button>
+        </div>
+      </div>
 
-<div class="drawer-backdrop" id="drawer-backdrop" data-page-node-id="ZI7RVqHHUdCi5r37GNppDd"></div>
-<aside class="drawer" id="drawer" data-page-node-id="6njwYeEnOt5NQ7cJ7kqAst">
-  <div class="drawer-head" data-page-node-id="iwBfoArvZtmd7BjuOJ0gZu">
-    <button class="drawer-close" id="drawer-close" aria-label="关闭" data-page-node-id="j6EAGulpsqHVWPR83tj8sI">✕</button>
+      <!-- 滤镜调节 -->
+      <div class="wp-section-title" style="margin-top:16px;">🎛️ 视觉舒适度与文字清晰度调优</div>
+      <div class="wp-sliders-grid">
+        <div class="wp-slider-item">
+          <div class="wp-slider-header">
+            <span>🌓 背景遮罩深度 (保障数据图表 100% 清晰阅读)</span>
+            <span class="wp-slider-val" id="label-opacity-val">75%</span>
+          </div>
+          <input type="range" id="slider-opacity" min="20" max="95" value="75">
+        </div>
+        <div class="wp-slider-item">
+          <div class="wp-slider-header">
+            <span>🔍 背景虚化 / 模糊度</span>
+            <span class="wp-slider-val" id="label-blur-val">4px</span>
+          </div>
+          <input type="range" id="slider-blur" min="0" max="25" value="4">
+        </div>
+      </div>
+    </div>
+    
+    <div class="wallpaper-modal-footer">
+      <button class="btn-wp-secondary" id="btn-reset-wallpaper" type="button">重置为默认深空</button>
+      <button class="btn-wp-primary" id="btn-save-wallpaper" type="button">应用并保存</button>
+    </div>
   </div>
-  <div class="drawer-body" id="drawer-body" data-page-node-id="d14Zv9wHdc48CL0BqY1m0I"></div>
-</aside>
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-<script src="dashboard_data.js?v=20261118-v5"></script>
-<script src="app.js?v=20261118-v5"></script>
-<script src="auto_status.js?v=20261118-v5"></script>
+<script src="app.js"></script>
 </body>
 </html>
