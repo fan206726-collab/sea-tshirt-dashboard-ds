@@ -2,7 +2,7 @@ window.DASHBOARD_DATA = {
   "meta": {
     "date": "2026-11-19",
     "weekday": "星期四",
-    "updated_at": "2026-11-19 02:29:56",
+    "updated_at": "2026-11-19 17:37:56",
     "note": "本看板全系统架构已完成深度重构升级（2026-11-17 14:48:06）。已全面接入泰马院线真实排期、全品类IP热度矩阵（潮玩/品牌/影视）、TikTok官方创意中心与YouTube真实趋势，消灭双侧边栏与全部死渠道。",
     "market_watch": [
       {
@@ -1277,14 +1277,14 @@ window.DASHBOARD_DATA = {
     "ai_brief": {
       "text": "今日主推160-180g凉感精梳棉透气T恤。泰国与马来西亚高温湿热，叠加水灯节与近周音乐节盛典，重点布局Moo Deng(弹跳猪)、潮牌Labubu及流行热梗印花，抢占粉丝热销红利。防侵权底线：严禁直接搬运官方版权图，务必采用街头波普或赛博手绘风格进行差异化二创，规避侵权诉讼。抓紧黑五备货节奏。",
       "model": "Google Gemini 3.5 Flash-Lite (Official REST API)",
-      "timestamp": "2026-11-19 02:29:56",
+      "timestamp": "2026-11-19 17:37:56",
       "status": "verified"
     },
     "ai_audit_report": {
       "verified": true,
       "status_text": "✓ 100% 数据已通过 Google Gemini 真实性与准确度深度核验",
       "auditor": "Google Gemini 3.5 Flash-Lite",
-      "timestamp": "2026-11-19 02:29:56",
+      "timestamp": "2026-11-19 17:37:56",
       "metrics": {
         "calendar_verified": 106,
         "calendar_purged_noise": 0,
@@ -1298,7 +1298,7 @@ window.DASHBOARD_DATA = {
     "lifecycle_governance": {
       "status": "ENFORCED",
       "policy": "14天周期全网信息治理 + Google Gemini 热度智能裁决",
-      "updated_at": "2026-11-19 02:29:57 UTC+8",
+      "updated_at": "2026-11-19 17:37:56 UTC+8",
       "rule_summary": "全看板信息以14天为期限。过期超过14天的信息由AI逐条核验长尾热度，无热度者安全清理，高热长尾者标记保留。",
       "metrics": {
         "calendar_retained": 106,
@@ -1313,7 +1313,7 @@ window.DASHBOARD_DATA = {
     },
     "quality_gate": {
       "status": "PASSED_100_PERCENT",
-      "verified_at": "2026-11-19 02:29:57 UTC+8",
+      "verified_at": "2026-11-19 17:37:56 UTC+8",
       "calendar_accuracy": "100.00% (公历0误差)",
       "lifecycle_14d_policy": "Passed (14天时效治理 + AI热度裁决)",
       "fx_credibility": "Passed (央行基准)",
@@ -13159,30 +13159,30 @@ window.DASHBOARD_DATA = {
   ],
   "fx": {
     "TH": {
-      "usd_thb": "33.82",
-      "thb_cny": "0.1975",
-      "as_of": "2026-11-19 02:29"
+      "usd_thb": "33.96",
+      "thb_cny": "0.1967",
+      "as_of": "2026-11-19 17:37"
     },
     "MY": {
-      "usd_myr": "4.09",
-      "myr_cny": "1.6333",
-      "as_of": "2026-11-19 02:29"
+      "usd_myr": "4.11",
+      "myr_cny": "1.6253",
+      "as_of": "2026-11-19 17:37"
     }
   },
   "weather": {
     "TH": {
       "city": "曼谷",
-      "temp": "29.6°C",
+      "temp": "33.9°C",
       "rain": "0%",
       "advice": "常规纯棉款可推",
-      "source_time": "2026-11-19T02:29"
+      "source_time": "2026-11-19T17:37"
     },
     "MY": {
       "city": "吉隆坡",
-      "temp": "24.5°C",
-      "rain": "62%",
-      "advice": "可能有阵雨，速干面料优先",
-      "source_time": "2026-11-19T02:29"
+      "temp": "27.6°C",
+      "rain": "92%",
+      "advice": "降雨概率高，建议快干/防水款并提前备货",
+      "source_time": "2026-11-19T17:37"
     }
   },
   "store_status": [
@@ -15608,7 +15608,7 @@ window.DASHBOARD_DATA = {
     ]
   },
   "news_feed": {
-    "updated": "2026-11-19 02:29:56",
+    "updated": "2026-11-19 17:37:56",
     "items": [
       {
         "cat": "泰国娱乐",
@@ -16984,7 +16984,7 @@ window.DASHBOARD_DATA = {
         "https://www.bkkartbiennale.com/"
       ],
       "audit_status_raw": "地域错",
-      "days_to_end": 102,
+      "days_to_end": 101,
       "long_running": true,
       "cycle": null,
       "wiki_title": "雙年展",
@@ -17027,7 +17027,7 @@ window.DASHBOARD_DATA = {
         "https://aiph.org/upcomingexpos/udon-thani-international-horticultural-expo-2026/"
       ],
       "audit_status_raw": "日期错",
-      "days_to_end": 116,
+      "days_to_end": 115,
       "long_running": true,
       "cycle": null,
       "wiki_title": "國際園藝博覽會",
@@ -21311,7 +21311,7 @@ window.DASHBOARD_DATA = {
     ],
     "bestsellers": [
       "注：本板块由私有平台采集基线与全网实时热度信号融合而成。",
-      "当日看板已全自动校验刷新（2026-11-19 02:29:56）：公共网络数据（汇率、天气、日历热度、资讯趋势）已全量对齐最新。平台店铺私有基线已锁定保护；黑五（11/27，剩 8 天）、水灯节（11/24，剩 5 天）热度持续攀升，建议优先排布相关印花与选品。"
+      "当日看板已全自动校验刷新（2026-11-19 17:37:56）：公共网络数据（汇率、天气、日历热度、资讯趋势）已全量对齐最新。平台店铺私有基线已锁定保护；黑五（11/27，剩 8 天）、水灯节（11/24，剩 5 天）热度持续攀升，建议优先排布相关印花与选品。"
     ],
     "global_trends": [
       "注：全球内容趋势聚合了 TikTok 热门音频、Netflix 周榜及社媒流行印花。",
