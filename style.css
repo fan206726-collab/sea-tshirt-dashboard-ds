@@ -353,12 +353,14 @@ body {
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md); padding: 14px 16px;
   transition: all 0.15s ease;
+  display: flex; flex-direction: column;
+  overflow: hidden; word-break: break-word;
 }
 .ent-card:hover {
   border-color: rgba(56, 189, 248, 0.35);
   transform: translateY(-2px);
 }
-.ent-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.ent-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 6px; }
 .ent-type { background: rgba(56, 189, 248, 0.15); color: #38bdf8; padding: 2px 7px; border-radius: 4px; font-size: 11px; }
 .ent-days { font-weight: 700; font-size: 12px; }
 .ent-urgent { color: var(--accent-rose); }
@@ -679,8 +681,8 @@ body{
 .ent-chip.active{background:rgba(54,194,180,.16); border-color:var(--accent); color:#fff}
 .ent-list{display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:12px}
 .ent-card{
-  display:flex; gap:12px; background:var(--card); border:1px solid var(--line);
-  border-radius:14px; padding:12px 14px; transition:.15s;
+  display:flex; flex-direction:column; gap:8px; background:rgba(15, 23, 42, 0.72); border:1px solid rgba(255, 255, 255, 0.08);
+  border-radius:12px; padding:14px 16px; transition:all .2s ease; overflow:hidden; word-break:break-word;
 }
 .ent-card:hover{border-color:var(--accent); transform:translateY(-2px); box-shadow:var(--shadow)}
 .ent-left-wrap{
@@ -1483,4 +1485,119 @@ body{
   background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
   box-shadow: 0 6px 16px rgba(14, 165, 233, 0.4);
   transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   全球内容趋势 & 娱乐演艺卡片网格排版修复 (Global & Entertainment Grid)
+   ========================================================================== */
+.ent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.g-sec {
+  margin-bottom: 18px;
+}
+.g-sec:last-child {
+  margin-bottom: 0;
+}
+.g-sec-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #38bdf8;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 3px solid #38bdf8;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.g-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 12px;
+}
+.g-card {
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 12px 14px;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.g-card:hover {
+  border-color: rgba(56, 189, 248, 0.45);
+  background: rgba(30, 41, 59, 0.85);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+.g-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.g-tag {
+  font-size: 11px;
+  font-weight: 600;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.g-heat {
+  font-size: 11px;
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.g-title {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #f8fafc;
+  line-height: 1.45;
+}
+.g-opp {
+  font-size: 12px;
+  color: #6ee7b7;
+  background: rgba(16, 185, 129, 0.08);
+  border-left: 2px solid #10b981;
+  padding: 6px 9px;
+  border-radius: 4px;
+  line-height: 1.45;
+  margin-top: auto;
+}
+
+/* ---------- 悬浮 AI 选品小助手按钮 ---------- */
+.ai-fab-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 950;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #0284c7 0%, #4f46e5 100%);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(2, 132, 199, 0.45);
+  transition: all 0.2s ease;
+}
+.ai-fab-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 14px 30px rgba(79, 70, 229, 0.55);
 }

@@ -9,7 +9,7 @@
 <title>东南亚跨境T恤选品情报作战中枢 · 泰国 & 马来西亚</title>
 <meta name="description" content="专注泰国与马来西亚跨境外贸T恤选品情报平台：官方节日日历、平台热销爆款、娱乐档期与短视频热门IP，经 Google Gemini AI 全量真实性核定。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%230f172a'/%3E%3Ctext%20x='32'%20y='45'%20font-size='36'%20text-anchor='middle'%3E%F0%9F%91%95%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="style.css?v=20261118-modern-v6">
+<link rel="stylesheet" href="style.css?v=20261119-v7">
 <script src="vendor/echarts.min.js"></script>
 
 </head>
@@ -78,6 +78,22 @@
         <span id="report-date">2026-11-18 星期三</span>
         <span class="cert-pill">✓ 100% 官方真实性核验</span>
       </div>
+      <button class="wallpaper-toggle-btn" id="btn-ai-assistant-top" type="button" title="AI 选品小助手极速搜索">
+        <span class="btn-icon">🔍</span>
+        <span>AI 速搜</span>
+      </button>
+      <button class="wallpaper-toggle-btn" id="btn-open-calc" type="button" title="T恤跨境定价与利润计算器">
+        <span class="btn-icon">💰</span>
+        <span>算利润</span>
+      </button>
+      <button class="wallpaper-toggle-btn" id="btn-open-ipcheck" type="button" title="上架标题高危侵权词自检">
+        <span class="btn-icon">🛡️</span>
+        <span>查侵权</span>
+      </button>
+      <button class="wallpaper-toggle-btn" id="btn-open-favs" type="button" title="我的选品备忘清单与导出">
+        <span class="btn-icon">⭐</span>
+        <span>选品单 (<span id="fav-count-badge">0</span>)</span>
+      </button>
       <button class="wallpaper-toggle-btn" id="btn-wallpaper-toggle" type="button" title="切换工作台壁纸">
         <span class="btn-icon">🎨</span>
         <span>壁纸</span>
@@ -222,6 +238,16 @@
   </main>
 </div>
 
+<!-- 详情抽屉 (点击日历/爆款/热搜条目弹出详情与AI批注) -->
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <span class="drawer-title" id="drawer-title">详情分析</span>
+    <button class="drawer-close" id="drawer-close" type="button" aria-label="关闭">×</button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</aside>
+
 <!-- 工作台壁纸个性化定制弹窗 -->
 <div class="wallpaper-modal-backdrop" id="wallpaper-modal" style="display:none;">
   <div class="wallpaper-modal-dialog">
@@ -284,6 +310,118 @@
   </div>
 </div>
 
-<script src="app.js"></script>
+<!-- 右下角悬浮 AI 选品小助手快捷按钮 -->
+<button class="ai-fab-btn" id="btn-ai-fab" type="button" title="打开 AI 选品小助手极速搜索">
+  <span>🤖</span>
+  <span>AI 选品小助手</span>
+</button>
+
+<!-- 🤖 AI 选品小助手 & 全站极速搜索弹窗 -->
+<div class="wallpaper-modal-backdrop" id="ai-assistant-modal" style="display:none;">
+  <div class="wallpaper-modal-dialog" style="max-width:760px;">
+    <div class="wallpaper-modal-header">
+      <div class="title-with-icon">
+        <span class="header-icon">🤖</span>
+        <div>
+          <h3>AI 选品小助手 · 全站极速智能检索</h3>
+          <p>秒级穿透 700+ 条日历、爆款T恤、热搜词、电影IP、TikTok/YouTube/X 及选品助手数据</p>
+        </div>
+      </div>
+      <button class="wallpaper-modal-close" id="btn-close-ai-assistant" type="button" aria-label="关闭">×</button>
+    </div>
+    <div class="wallpaper-modal-body">
+      <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;">
+        <input type="text" id="ai-search-input" class="modern-wp-input" style="padding:10px 14px;font-size:13.5px;min-width:240px;" placeholder="输入任意词秒搜或查维基百科：如 泼水节、Songkran、Batik、Wicked、泰国...">
+        <button class="btn-wp-primary" id="btn-ai-search-go" type="button">🔍 站内速搜</button>
+        <button class="btn-wp-secondary" id="btn-wiki-search-go" type="button" style="border-color:rgba(16,185,129,0.45);color:#6ee7b7;background:rgba(16,185,129,0.12);" title="实时联网查询中文/英文维基百科词条">📖 查维基百科</button>
+      </div>
+      <div class="ai-quick-chips" id="ai-quick-chips" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;"></div>
+      <div id="wiki-live-box" style="display:none;background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.35);border-radius:8px;padding:12px 14px;margin-bottom:12px;"></div>
+      <div id="ai-assistant-answer" style="background:rgba(56,189,248,0.08);border:1px solid rgba(56,189,248,0.28);border-radius:8px;padding:10px 14px;margin-bottom:12px;font-size:12.5px;color:#e2e8f0;line-height:1.55;"></div>
+      <div id="ai-assistant-results" style="display:flex;flex-direction:column;gap:8px;max-height:46vh;overflow-y:auto;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- 🛠️ 卖家实战工具箱弹窗 (利润计算器 / 侵权词自检 / 选品收藏导出) -->
+<div class="wallpaper-modal-backdrop" id="seller-toolkit-modal" style="display:none;">
+  <div class="wallpaper-modal-dialog" style="max-width:740px;">
+    <div class="wallpaper-modal-header">
+      <div class="title-with-icon">
+        <span class="header-icon">🛠️</span>
+        <div>
+          <h3>泰马 T 恤跨境卖家实战工具箱</h3>
+          <p>实时汇率利润精算 · 上架标题侵权风控自检 · 选品打版备忘清单一键导出</p>
+        </div>
+      </div>
+      <button class="wallpaper-modal-close" id="btn-close-toolkit" type="button" aria-label="关闭">×</button>
+    </div>
+    <div style="display:flex;gap:8px;padding:12px 22px 0;border-bottom:1px solid rgba(255,255,255,0.08);background:rgba(15,23,42,0.85);">
+      <button class="ent-chip active" id="tk-tab-calc" type="button" style="border-radius:8px 8px 0 0;border-bottom:none;padding:8px 14px;">💰 利润与定价计算器</button>
+      <button class="ent-chip" id="tk-tab-ipcheck" type="button" style="border-radius:8px 8px 0 0;border-bottom:none;padding:8px 14px;">🛡️ 标题侵权词自检</button>
+      <button class="ent-chip" id="tk-tab-favs" type="button" style="border-radius:8px 8px 0 0;border-bottom:none;padding:8px 14px;">⭐ 我的选品清单 (<span id="tk-fav-cnt">0</span>)</button>
+    </div>
+    <div class="wallpaper-modal-body">
+      <!-- Tab 1: 利润计算器 -->
+      <div id="tk-panel-calc">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+          <div style="display:flex;gap:8px;">
+            <button class="ent-chip active" id="calc-site-th" type="button">🇹🇭 泰国站 (THB · 含7% VAT)</button>
+            <button class="ent-chip" id="calc-site-my" type="button">🇲🇾 马来站 (MYR · 含10% LVG)</button>
+          </div>
+          <span id="calc-fx-badge" style="font-size:12px;color:#6ee7b7;background:rgba(16,185,129,0.12);padding:4px 10px;border-radius:6px;border:1px solid rgba(16,185,129,0.3);">实时汇率加载中…</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-bottom:14px;">
+          <div>
+            <label style="font-size:12px;color:#94a3b8;display:block;margin-bottom:4px;">拿货 + 印花总成本 (人民币 ¥)</label>
+            <input type="number" id="calc-cost" class="modern-wp-input" value="22" min="1" step="0.5" style="width:100%;">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#94a3b8;display:block;margin-bottom:4px;">跨境头程/藏价运费 (人民币 ¥)</label>
+            <input type="number" id="calc-ship" class="modern-wp-input" value="8" min="0" step="0.5" style="width:100%;">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#94a3b8;display:block;margin-bottom:4px;">平台佣金 + 交易费 (%)</label>
+            <input type="number" id="calc-comm" class="modern-wp-input" value="10" min="0" max="50" step="0.5" style="width:100%;">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#94a3b8;display:block;margin-bottom:4px;">广告投流 + 退货损耗 (%)</label>
+            <input type="number" id="calc-loss" class="modern-wp-input" value="8" min="0" max="50" step="0.5" style="width:100%;">
+          </div>
+          <div>
+            <label id="calc-price-label" style="font-size:12px;color:#fbbf24;font-weight:600;display:block;margin-bottom:4px;">计划前台售价 (THB ฿)</label>
+            <input type="number" id="calc-price" class="modern-wp-input" value="199" min="1" step="1" style="width:100%;border-color:rgba(251,191,36,0.5);">
+          </div>
+        </div>
+        <div id="calc-result-box" style="background:rgba(15,23,42,0.85);border:1px solid rgba(56,189,248,0.3);border-radius:10px;padding:14px 16px;"></div>
+      </div>
+
+      <!-- Tab 2: 标题侵权词自检器 -->
+      <div id="tk-panel-ipcheck" style="display:none;">
+        <div style="font-size:12.5px;color:#cbd5e1;margin-bottom:8px;">粘贴准备上架 Shopee / Lazada / TikTok 的英文、泰文或中文商品标题，1秒扫描高危版权商标词：</div>
+        <textarea id="ipcheck-input" class="modern-wp-input" rows="3" style="width:100%;resize:vertical;font-size:13px;padding:10px 12px;margin-bottom:10px;" placeholder="例如：Oversized Labubu Disney Marvel Vintage Tee Men Bangkok...">Oversized Labubu Vintage Cotton Tee Men Bangkok</textarea>
+        <div style="display:flex;gap:8px;margin-bottom:12px;">
+          <button class="btn-wp-primary" id="btn-run-ipcheck" type="button">🛡️ 立即扫描侵权风险</button>
+          <button class="btn-wp-secondary" id="btn-clear-ipcheck" type="button">清空</button>
+        </div>
+        <div id="ipcheck-result-box"></div>
+      </div>
+
+      <!-- Tab 3: 我的选品备忘清单 -->
+      <div id="tk-panel-favs" style="display:none;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+          <span style="font-size:12.5px;color:#94a3b8;">在看板任意爆款、热搜词、电影或选品雷达中点击「⭐ 收藏」，即可汇总至此用于打版下单。</span>
+          <div style="display:flex;gap:8px;">
+            <button class="btn-wp-primary" id="btn-export-favs" type="button">📥 导出选品清单 (.csv / Excel)</button>
+            <button class="btn-wp-secondary" id="btn-clear-favs" type="button">🗑️ 清空</button>
+          </div>
+        </div>
+        <div id="favs-list-box" style="display:flex;flex-direction:column;gap:8px;max-height:44vh;overflow-y:auto;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js?v=20261120-v9"></script>
 </body>
 </html>

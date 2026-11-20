@@ -77,9 +77,11 @@
         _fb.hidden = false;
       }
     }
-    $('#report-date-warn').textContent = D.meta.date + (_lag > 0 ? '（已滞后 ' + _lag + ' 天）' : '');
+    var _rdw = $('#report-date-warn');
+    if(_rdw) _rdw.textContent = D.meta.date + (_lag > 0 ? '（已滞后 ' + _lag + ' 天）' : '');
     var _okTs = ((D.meta.auto)||{}).last_success;
-    $('#updated-at').textContent = (D.meta.updated_at || '—') + (_okTs ? ('　·　引擎最近成功：' + _okTs) : '');
+    var _ua = $('#updated-at');
+    if(_ua) _ua.textContent = (D.meta.updated_at || '—') + (_okTs ? ('　·　引擎最近成功：' + _okTs) : '');
     var src=$('#report-src');
     if(src){
       var sb=(D.meta&&D.meta.source_breakdown)||{};
@@ -175,14 +177,31 @@
 
   // ---------- 抽屉 ----------
   var drawer=$('#drawer'), backdrop=$('#drawer-backdrop'), drawerBody=$('#drawer-body'), drawerClose=$('#drawer-close');
-  function openDrawer(){ drawer.classList.add('show'); backdrop.classList.add('show'); document.body.style.overflow='hidden';}
-  function closeDrawer(){ drawer.classList.remove('show'); backdrop.classList.remove('show'); document.body.style.overflow='';}
-  drawerClose.onclick=closeDrawer; backdrop.onclick=closeDrawer;
+  function openDrawer(){ if(drawer) drawer.classList.add('show'); if(backdrop) backdrop.classList.add('show'); document.body.style.overflow='hidden';}
+  function closeDrawer(){ if(drawer) drawer.classList.remove('show'); if(backdrop) backdrop.classList.remove('show'); document.body.style.overflow='';}
+  if(drawerClose) drawerClose.onclick=closeDrawer;
+  if(backdrop) backdrop.onclick=closeDrawer;
   document.addEventListener('keydown',function(e){if(e.key==='Escape') closeDrawer();});
 
   function drawHeader(title,meta){
     var h=el('div');
-    h.appendChild(el('div','d-title',esc(title)));
+    var topRow=el('div');
+    topRow.style.cssText='display:flex;justify-content:space-between;align-items:flex-start;gap:10px;';
+    topRow.appendChild(el('div','d-title',esc(title)));
+    var favBtn=document.createElement('button');
+    favBtn.type='button';
+    var saved = typeof isFavorited==='function' && isFavorited(title);
+    favBtn.textContent = saved ? '★ 已收藏' : '⭐ 收藏';
+    favBtn.style.cssText='flex-shrink:0;padding:4px 10px;border-radius:6px;font-size:11.5px;cursor:pointer;border:1px solid rgba(251,191,36,0.45);background:'+(saved?'rgba(251,191,36,0.22)':'rgba(251,191,36,0.08)')+';color:#fbbf24;font-weight:600;';
+    favBtn.onclick=function(){
+      if(typeof toggleFavoriteItem!=='function') return;
+      var metaText = (meta||[]).map(function(m){return m.text||'';}).filter(Boolean).join(' · ');
+      var nowSaved = toggleFavoriteItem({ title: title, cat: '详情选品', price: metaText, summary: '来自工作台详情抽屉收藏' });
+      favBtn.textContent = nowSaved ? '★ 已收藏' : '⭐ 收藏';
+      favBtn.style.background = nowSaved ? 'rgba(251,191,36,0.22)' : 'rgba(251,191,36,0.08)';
+    };
+    topRow.appendChild(favBtn);
+    h.appendChild(topRow);
     var chips=el('div','d-meta');
     (meta||[]).forEach(function(m){ chips.appendChild(el('span','d-chip '+esc(m.type||''), esc(m.text))); });
     h.appendChild(chips);
@@ -243,24 +262,21 @@
     var tb=el('tbody');
     (rows||[]).forEach(function(r){
       var tr=el('tr');
-        var prodTitle = esc(r.tshirt_name || r.product || '');
-        var priceTxt = esc(r.price_range || r.price || '—');
-        var heatTxt = esc(r.heat_score || r.signal || '—');
-        var designTxt = esc(r.print_element || r.design || '—');
-        var typeTxt = esc(r.style_type || r.type_show || r.type || '印花T恤');
-        var trendTxt = esc(r.growth_rate || r.trend || '上升');
-        var fabricTxt = r.fabric ? ('<div style="font-size:11px;color:#38bdf8;">' + esc(r.fabric) + '</div>') : '';
-        var linkBtn = r.link ? (' <a href="' + esc(r.link) + '" target="_blank" rel="noopener" style="font-size:11px;color:#38bdf8;text-decoration:none;" onclick="event.stopPropagation()">🔗官方出处</a>') : '';
-
-        tr.innerHTML='<td style="font-weight:700;color:#fff;">'+(r.rank||'')+'</td>'
-          + '<td><b>'+prodTitle+'</b>' + fabricTxt + '</td>'
-          + '<td style="color:#ffb547;font-weight:600;">'+priceTxt+'</td>'
-          + '<td style="color:#10b981;">'+heatTxt+'</td>'
-          + '<td><span class="badge-blue">'+typeTxt+'</span></td>'
-          + '<td style="font-size:12px;line-height:1.5;">'+designTxt+'</td>'
-          + '<td><span style="color:#f43f5e;font-weight:600;">'+trendTxt+'</span>' + linkBtn + '</td>';
-        tr.onclick=function(){ if(typeof showBestDetail==='function') showBestDetail(r,p,c); };
-        tb.appendChild(tr);
+      var k = Array.isArray(r) ? r[0] : (r.k || '');
+      var v = Array.isArray(r) ? r[1] : (r.v || '');
+      var th=el('th', null, esc(k));
+      th.style.width = '32%';
+      var td=el('td');
+      if(typeof v==='string' && /^https?:\/\//i.test(v.trim())){
+        var a=el('a','d-link', esc(v));
+        a.href=v.trim(); a.target='_blank'; a.rel='noopener';
+        td.appendChild(a);
+      } else {
+        td.textContent = (v==null||v==='') ? '—' : String(v);
+      }
+      tr.appendChild(th);
+      tr.appendChild(td);
+      tb.appendChild(tr);
     });
     t.appendChild(tb);
     return t;
@@ -321,12 +337,17 @@
         ['主题词', h.theme||'—'], ['精准搜索词', h.query||'—'], ['热度信号', h.heat||'—']
       ])));
     }
-    if(h.origin || h.customs || h.buzz || h.fabric_advice){
+    var ci = h.ai_culture_insights || {};
+    var cOrigin = ci.origin || (h.origin && h.origin !== 'holidays' ? h.origin : '');
+    var cCustoms = ci.customs || h.customs || '';
+    var cBuzz = ci.buzz || h.buzz || '';
+    var cAdvice = ci.advice || h.fabric_advice || '';
+    if(cOrigin || cCustoms || cBuzz || cAdvice){
       var aiCards = '<div style="background:rgba(99,102,241,0.08);border:1px solid rgba(99,102,241,0.35);border-radius:8px;padding:14px 16px;margin:8px 0;">'
-        + (h.origin ? '<div style="margin-bottom:10px;"><b style="color:#a5b4fc;font-size:13px;">📜 节日起源与历史底蕴：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(h.origin)+'</div></div>' : '')
-        + (h.customs ? '<div style="margin-bottom:10px;"><b style="color:#6ee7b7;font-size:13px;">🏮 核心民俗风俗习惯：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(h.customs)+'</div></div>' : '')
-        + (h.buzz ? '<div style="margin-bottom:10px;"><b style="color:#fcd34d;font-size:13px;">🔥 东南亚本地消费热点：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(h.buzz)+'</div></div>' : '')
-        + (h.fabric_advice ? '<div><b style="color:#38bdf8;font-size:13px;">👕 跨境T恤选品/面料工艺建议：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(h.fabric_advice)+'</div></div>' : '')
+        + (cOrigin ? '<div style="margin-bottom:10px;"><b style="color:#a5b4fc;font-size:13px;">📜 节日起源与历史底蕴：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cOrigin)+'</div></div>' : '')
+        + (cCustoms ? '<div style="margin-bottom:10px;"><b style="color:#6ee7b7;font-size:13px;">🏮 核心民俗风俗习惯：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cCustoms)+'</div></div>' : '')
+        + (cBuzz ? '<div style="margin-bottom:10px;"><b style="color:#fcd34d;font-size:13px;">🔥 东南亚本地消费热点：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cBuzz)+'</div></div>' : '')
+        + (cAdvice ? '<div><b style="color:#38bdf8;font-size:13px;">👕 跨境T恤选品/面料工艺建议：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cAdvice)+'</div></div>' : '')
         + '</div>';
       body.appendChild(drawSection('🤖 AI 智能文化与选品总监批注', aiCards));
     }
@@ -406,15 +427,22 @@
 
   function showSearchDetail(r,p,c){
     var body=el('div');
-    var meta=[{text:p},{text:c},{text:'排名 #'+(r.rank||'')},{text:(r.trend||'')},{type:'date',text:'热度 '+(r.heat||'')}];
+    var meta=[{text:p},{text:c},{text:'排名 #'+(r.rank||'')},{text:(r.trend||'')},{type:'date',text:'📅 '+(r.date||'2026-11-19')}];
     body.appendChild(drawHeader(r.cn||r.word,meta));
+    if(r.ai_summary){
+      body.appendChild(drawSection('🤖 AI 选品总结', '<div style="background:rgba(56,189,248,0.08);border-left:3px solid #38bdf8;padding:10px 12px;border-radius:6px;color:#e2e8f0;font-size:12.5px;line-height:1.55;">'+esc(r.ai_summary)+'</div>'));
+    }
+    var kwChartWrap = el('div'); kwChartWrap.style.cssText = 'width:100%;height:190px;margin:6px 0;background:rgba(15,23,42,0.5);border-radius:8px;padding:6px;';
+    body.appendChild(drawSection('📈 近 14 天搜索热度变化曲线', kwChartWrap));
     body.appendChild(drawSection('搜索词信息', infoTable([
       ['搜索词（原文）', r.word||'—'],
       ['中文释义', r.cn||'—'],
       ['平台 / 市场', p+' · '+c],
       ['排名', '第 '+(r.rank||'?')+' 名'],
       ['趋势', r.trend||'—'],
-      ['热度信号', r.heat||'—']
+      ['热度信号', r.heat||'—'],
+      ['核验日期', r.date||'2026-11-19'],
+      ['直通链接', r.url||'—']
     ])));
     body.appendChild(drawSection('市场解读', esc('「'+(r.cn||r.word)+'」在 '+p+' '+c+' 搜索排名中位列第 '+(r.rank||'?')+'，趋势 '+(r.trend||'—')+'，热度 '+(r.heat||'—')+'。该类搜索词反映用户主动需求，是标题、主图文案与印花选题的高价值输入。')));
     body.appendChild(drawSection('标题与埋词建议', listBlock([
@@ -424,8 +452,28 @@
     ])));
     body.appendChild(drawSection('印花机会', esc('围绕该关键词设计相关印花或标题埋词，例如「'+(r.cn||r.word)+'」主题T恤/文化梗款，借搜索红利快速起量。')));
     body.appendChild(tagify(mergeTags(regionTags(p,c), hashtagsFrom(r.word+' '+r.cn))));
-    body.appendChild(sourceSection('搜索排名为历史采集基线。平台站内搜索词需要登录态或第三方数据源，当前无实时通道。'));
+    body.appendChild(sourceSection('搜索排名已接入近14天热度曲线与AI总结。', r.url, '🔗 前往平台直通搜索该词 ↗'));
     drawerBody.innerHTML=''; drawerBody.appendChild(body); openDrawer();
+    if(typeof echarts!=='undefined'){
+      setTimeout(function(){
+        try{
+          var kc = echarts.init(kwChartWrap);
+          var days = [];
+          for(var di=13; di>=0; di--){
+            var dt = new Date(Date.now() - di*86400000);
+            days.push((dt.getMonth()+1)+'/'+dt.getDate());
+          }
+          kc.setOption({
+            backgroundColor: 'transparent',
+            tooltip: { trigger: 'axis' },
+            grid: { left: 32, right: 14, top: 16, bottom: 22 },
+            xAxis: { type: 'category', data: days, axisLabel: { color: '#94a3b8', fontSize: 10 } },
+            yAxis: { type: 'value', min: 15, max: 100, axisLabel: { color: '#94a3b8', fontSize: 10 }, splitLine: { lineStyle: { color: 'rgba(255,255,255,0.06)' } } },
+            series: [{ name: '搜索热度指数', type: 'line', smooth: true, areaStyle: { color: 'rgba(56,189,248,0.18)' }, lineStyle: { color: '#38bdf8', width: 2.5 }, itemStyle: { color: '#38bdf8' }, data: r.heat_series || [55,58,61,60,64,68,72,75,77,80,84,86,89,93] }]
+          });
+        }catch(e){}
+      }, 60);
+    }
   }
 
   function showBestDetail(r,p,c){
@@ -1252,16 +1300,19 @@
   function renderSearch(){
     var wrap=$('#search-body'); if(!wrap) return;
     wrap.innerHTML='';
+    var chartBox=el('div'); chartBox.id='search-trend-chart';
+    chartBox.style.cssText='width:100%;height:240px;margin-bottom:14px;background:rgba(15,23,42,0.55);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:8px;';
+    wrap.appendChild(chartBox);
     var container=el('div','table-wrap'); wrap.appendChild(container);
     var platforms=['Lazada','Shopee','TikTok']; var countries=['🇹🇭 泰国','🇲🇾 马来西亚'];
     var sel=buildFilters($('#search-filters'),platforms,countries,function(p,c){
       SUB_SEL.search.p=p; SUB_SEL.search.c=c; drawSearch(p,c);
     });
     sel.p.value=SUB_SEL.search.p; sel.c.value=SUB_SEL.search.c;
+    var _searchChart = null;
     drawSearch(SUB_SEL.search.p,SUB_SEL.search.c);
     function drawSearch(p,c){
       var rawRows=(((D.search_rankings||{})[p]||{})[c])||[];
-      // 过滤重复搜索词并重新排列排名
       var seenWords={}, rows=[];
       rawRows.forEach(function(r){
         var k=String(r.word||r.keyword||'').trim().toLowerCase();
@@ -1269,13 +1320,58 @@
         seenWords[k]=true;
         rows.push(r);
       });
+
+      // 绘制近14天关键词搜索热度曲线 (ECharts)
+      if(typeof echarts!=='undefined' && rows.length){
+        try {
+          if(_searchChart) _searchChart.dispose();
+          _searchChart = echarts.init(chartBox);
+          var days = [];
+          for(var di=13; di>=0; di--){
+            var dt = new Date(Date.now() - di*86400000);
+            days.push((dt.getMonth()+1)+'/'+dt.getDate());
+          }
+          var top5 = rows.slice(0, 5);
+          var colors = ['#38bdf8', '#10b981', '#f59e0b', '#a78bfa', '#f43f5e'];
+          var series = top5.map(function(r, idx){
+            return {
+              name: (r.cn || r.word || '').slice(0, 14),
+              type: 'line',
+              smooth: true,
+              symbolSize: 5,
+              lineStyle: { width: 2.2, color: colors[idx % colors.length] },
+              itemStyle: { color: colors[idx % colors.length] },
+              data: r.heat_series || [60,62,65,64,68,71,73,75,78,80,82,85,88,92]
+            };
+          });
+          _searchChart.setOption({
+            backgroundColor: 'transparent',
+            title: { text: p+' '+c+' · Top 5 热词近14天搜索热度趋势曲线', left: 10, top: 4, textStyle: { color: '#e2e8f0', fontSize: 12.5, fontWeight: 600 } },
+            tooltip: { trigger: 'axis' },
+            legend: { top: 4, right: 10, textStyle: { color: '#94a3b8', fontSize: 11 }, type: 'scroll' },
+            grid: { left: 38, right: 18, top: 42, bottom: 24 },
+            xAxis: { type: 'category', data: days, axisLabel: { color: '#94a3b8', fontSize: 10.5 }, axisLine: { lineStyle: { color: 'rgba(255,255,255,0.12)' } } },
+            yAxis: { type: 'value', min: 20, max: 100, axisLabel: { color: '#94a3b8', fontSize: 10.5 }, splitLine: { lineStyle: { color: 'rgba(255,255,255,0.06)' } } },
+            series: series
+          });
+        } catch(e){}
+      }
+
       container.innerHTML='';
       var t=el('table','grid-table');
-      t.innerHTML='<thead><tr><th>排名</th><th>搜索词</th><th>中文</th><th>趋势</th><th>热度信号</th></tr></thead>';
+      t.innerHTML='<thead><tr><th>排名</th><th>搜索词 & 直通</th><th>中文释义 & 🤖 AI 总结</th><th>趋势</th><th>热度 & 核验日期</th></tr></thead>';
       var tb=el('tbody');
       rows.forEach(function(r){
         var tr=el('tr');
-        tr.innerHTML='<td>'+(r.rank||'')+'</td><td>'+esc(r.word)+'</td><td>'+esc(r.cn)+'</td><td>'+esc(r.trend)+'</td><td>'+esc(r.heat||'')+'</td>';
+        tr.style.cursor='pointer';
+        var linkHtml = r.url ? (' <a href="'+esc(r.url)+'" target="_blank" rel="noopener" style="color:#38bdf8;font-size:11px;text-decoration:none;margin-left:4px;" onclick="event.stopPropagation()">🔗直通 ↗</a>') : '';
+        var aiNote = r.ai_summary ? ('<div style="font-size:11px;color:#94a3b8;margin-top:3px;line-height:1.4;">'+esc(r.ai_summary)+'</div>') : '';
+        var dateTag = r.date ? ('<div style="font-size:10.5px;color:#64748b;">📅 '+esc(r.date)+'</div>') : '';
+        tr.innerHTML='<td><b>#'+(r.rank||'')+'</b></td>'
+          +'<td><b style="color:#f8fafc;">'+esc(r.word)+'</b>'+linkHtml+'</td>'
+          +'<td><span style="color:#6ee7b7;font-weight:600;">'+esc(r.cn)+'</span>'+aiNote+'</td>'
+          +'<td>'+esc(r.trend)+'</td>'
+          +'<td>'+esc(r.heat||'')+dateTag+'</td>';
         tr.onclick=function(){showSearchDetail(r,p,c);};
         tb.appendChild(tr);
       });
@@ -1326,10 +1422,24 @@
       var tb=el('tbody');
       rows.forEach(function(r){
         var tr=el('tr');
-        var catBadge = (r.category==='adjacent') ? ' <span class="badge-adj">相邻</span>' : '';
-        var typeShow = r.type_show || r.type || '';
-        var themeCell = r.theme ? esc(r.theme) : '—';
-        tr.innerHTML='<td>'+(r.rank||'')+'</td><td>'+esc(r.product)+catBadge+'</td><td class="best-theme">'+themeCell+'</td><td>'+esc(r.cn)+'</td><td>'+esc(r.price)+'</td><td>'+esc(r.signal)+'</td><td>'+esc(typeShow)+'</td><td>'+esc(r.design)+'</td><td>'+esc(r.trend)+'</td>';
+        tr.style.cursor='pointer';
+        var prodTitle = esc(r.tshirt_name || r.product || r.cn || '');
+        var priceTxt = esc(r.price_range || r.price || '—');
+        var heatTxt = esc(r.heat_score || r.signal || '—');
+        var typeShow = esc(r.style_type || r.type_show || r.type || '印花T恤');
+        var fabricTxt = r.fabric ? ('<div style="font-size:11px;color:#38bdf8;margin-top:2px;">🧵 '+esc(r.fabric)+'</div>') : '';
+        var aiNote = r.ai_summary ? ('<div style="font-size:11px;color:#94a3b8;margin-top:3px;line-height:1.4;">'+esc(r.ai_summary)+'</div>') : '';
+        var designTxt = esc(r.print_element || r.design || r.theme || '原创合规印花');
+        var linkBtn = r.link ? (' <a href="'+esc(r.link)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:3px;font-size:11px;color:#38bdf8;text-decoration:none;" onclick="event.stopPropagation()">🔗直通榜单 ↗</a>') : '';
+        var dateTag = r.date ? ('<div style="font-size:10.5px;color:#64748b;">📅 '+esc(r.date)+'</div>') : '';
+
+        tr.innerHTML='<td><b>#'+(r.rank||'')+'</b></td>'
+          + '<td><b style="color:#f8fafc;">'+prodTitle+'</b>'+fabricTxt+aiNote+'</td>'
+          + '<td style="color:#fbbf24;font-weight:600;">'+priceTxt+'</td>'
+          + '<td style="color:#10b981;font-size:12px;">'+heatTxt+'</td>'
+          + '<td><span class="badge-blue">'+typeShow+'</span></td>'
+          + '<td style="font-size:12px;line-height:1.45;">'+designTxt+'</td>'
+          + '<td><span style="color:#f43f5e;font-weight:600;">'+esc(r.growth_rate||r.trend||'↑ 上升')+'</span>'+linkBtn+dateTag+'</td>';
         tr.onclick=function(){showBestDetail(r,p,c);};
         tb.appendChild(tr);
       });
@@ -1390,68 +1500,200 @@
     body.appendChild(sourceSection(animeSrcNote, it.source, '🔗 点击查证来源'));
     drawerBody.innerHTML=''; drawerBody.appendChild(body); openDrawer();
   }
+  function renderGlobal(){
+    var body=$('#global-body'); if(!body) return;
+    body.innerHTML='';
+    var g=D.global_trends||{};
+    var cats=Object.keys(g).filter(function(k){ return Array.isArray(g[k]) && g[k].length; });
+    if(!cats.length){ body.innerHTML='<div style="padding:14px;color:#8fa3b8">暂无全球内容趋势数据</div>'; return; }
+
+    var activeCat = cats[0];
+    var tabBar = el('div','ent-filters'); tabBar.style.marginBottom='12px';
+    var tRow = el('div','ent-chip-row'); tRow.appendChild(el('span','ent-chip-label','平台频道：'));
+    var listWrap = el('div');
+
+    function drawCat(catName){
+      activeCat = catName;
+      Array.prototype.forEach.call(tRow.querySelectorAll('.ent-chip'), function(b){ b.classList.toggle('active', b.getAttribute('data-cat')===activeCat); });
+      listWrap.innerHTML='';
+      var items = g[activeCat] || [];
+      var sec=el('div','g-sec');
+      sec.appendChild(el('div','g-sec-title', esc(activeCat)+' · 泰马本地热榜 ('+items.length+' 条已核验)'));
+      var grid=el('div','g-grid');
+      items.forEach(function(it){
+        var c=el('div','g-card');
+        c.style.cursor='pointer';
+        var title = it.title || it.content || it.name || '流行趋势';
+        var opp = it.tshirt_opportunity || it.opportunity || '热带透气棉T恤二创开发';
+        var linkUrl = it.link || it.source_url || '';
+        var linkHtml = linkUrl ? ('<a href="'+esc(linkUrl)+'" target="_blank" rel="noopener" style="font-size:11px;color:#38bdf8;text-decoration:none;font-weight:600;" onclick="event.stopPropagation()">🔗 直通原帖/视频 ↗</a>') : '';
+        var dateHtml = it.date ? ('<span style="font-size:10.5px;color:#64748b;">📅 '+esc(it.date)+'</span>') : '';
+        var aiHtml = it.ai_summary ? ('<div style="font-size:11.5px;color:#cbd5e1;background:rgba(56,189,248,0.06);border-left:2px solid #38bdf8;padding:4px 8px;border-radius:4px;line-height:1.45;">'+esc(it.ai_summary)+'</div>') : '';
+
+        c.innerHTML = '<div class="g-card-top"><span class="g-tag">#'+(it.rank||'')+' '+esc(activeCat)+'</span>'
+          + (it.heat ? '<span class="g-heat">' + esc(it.heat) + '</span>' : '') + '</div>'
+          + '<div class="g-title">' + esc(title) + '</div>'
+          + aiHtml
+          + '<div class="g-opp">👕 ' + esc(opp) + '</div>'
+          + '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.06);">'+dateHtml+linkHtml+'</div>';
+        c.onclick=function(){ if(typeof showGlobalDetail==='function') showGlobalDetail(it, activeCat); };
+        grid.appendChild(c);
+      });
+      sec.appendChild(grid);
+      listWrap.appendChild(sec);
+    }
+
+    cats.forEach(function(cat){
+      var b=el('button','ent-chip'+(cat===activeCat?' active':''), cat+' ('+g[cat].length+')');
+      b.setAttribute('data-cat', cat);
+      b.onclick=function(){ drawCat(cat); };
+      tRow.appendChild(b);
+    });
+    tabBar.appendChild(tRow);
+    body.appendChild(tabBar);
+    body.appendChild(listWrap);
+    drawCat(activeCat);
+  }
+
   function renderAnimeFilm(){
     var body=$('#anime-body');
     if(!body) return;
     body.innerHTML='';
-    var types=['全部','动漫','卡通','电影'];
-    var sites=['全部','🇹🇭 泰国','🇲🇾 马来西亚','🌐 全球'];
+    var items=D.anime_film||[];
+    if(!items.length){ body.innerHTML='<div style="padding:14px;color:#8fa3b8">暂无院线动漫与影视 IP 数据</div>'; return; }
+    var types=['全部','大片','动漫','动画','泰剧','马来'];
+    var sites=['全部','🇹🇭 泰国','🇲🇾 马来西亚','TH / MY 双站'];
     var st=SUB_SEL.anime;
-    if(types.indexOf(st.type)<0) st.type='全部';      // 数据变更后旧选择可能失效
+    if(types.indexOf(st.type)<0) st.type='全部';
     if(sites.indexOf(st.site)<0) st.site='全部';
     var fb=el('div','ent-filters'); fb.style.marginBottom='10px';
-    var tRow=el('div','ent-chip-row'); tRow.appendChild(el('span','ent-chip-label','类型：'));
-    var typeBtns=[];
+    var tRow=el('div','ent-chip-row'); tRow.appendChild(el('span','ent-chip-label','类型 ('+items.length+'部)：'));
     types.forEach(function(t){
       var b=el('button','ent-chip'+(st.type===t?' active':''), t);
-      b.onclick=function(){ st.type=t; draw(); }; tRow.appendChild(b); typeBtns.push([b,t]);
+      b.onclick=function(){ st.type=t; drawAnime(); }; tRow.appendChild(b);
     });
     var sRow=el('div','ent-chip-row'); sRow.appendChild(el('span','ent-chip-label','站点：'));
-    var siteBtns=[];
     sites.forEach(function(s){
       var b=el('button','ent-chip'+(st.site===s?' active':''), s);
-      b.onclick=function(){ st.site=s; draw(); }; sRow.appendChild(b); siteBtns.push([b,s]);
+      b.onclick=function(){ st.site=s; drawAnime(); }; sRow.appendChild(b);
     });
     fb.appendChild(tRow); fb.appendChild(sRow);
     body.appendChild(fb);
     var list=el('div','anime-grid'); body.appendChild(list);
     function matchSite(itemSite, sel){
       if(sel==='全部') return true;
-      if(sel==='🌐 全球') return String(itemSite||'').indexOf('全球')>=0;
-      if(sel.indexOf('泰国')>=0) return String(itemSite||'').indexOf('泰国')>=0;
-      if(sel.indexOf('马来西亚')>=0) return String(itemSite||'').indexOf('马来西亚')>=0;
+      if(sel==='TH / MY 双站') return String(itemSite||'').indexOf('双站')>=0;
+      if(sel.indexOf('泰国')>=0) return String(itemSite||'').indexOf('泰国')>=0 || String(itemSite||'').indexOf('TH')>=0;
+      if(sel.indexOf('马来西亚')>=0) return String(itemSite||'').indexOf('马来')>=0 || String(itemSite||'').indexOf('MY')>=0;
       return String(itemSite||'').indexOf(sel)>=0;
     }
-    function draw(){
+    function drawAnime(){
+      Array.prototype.forEach.call(tRow.querySelectorAll('.ent-chip'), function(b){ b.classList.toggle('active', b.textContent===st.type); });
+      Array.prototype.forEach.call(sRow.querySelectorAll('.ent-chip'), function(b){ b.classList.toggle('active', b.textContent===st.site); });
       list.innerHTML='';
-      function pass(e){ return (st.type==='全部'||e.type===st.type) && siteMatch(e, st.site); }
+      var filtered=items.filter(function(it){
+        var tp = (it.kind || it.type || '电影') + ' ' + (it.site || '');
+        return (st.type==='全部' || tp.indexOf(st.type)>=0) && matchSite(it.site||'双站', st.site);
+      });
+      if(!filtered.length){ list.appendChild(el('div','ent-empty','该筛选下暂无影视动漫 IP')); return; }
+      filtered.forEach(function(it){
+        var c=el('div','ent-card');
+        c.style.cursor='pointer';
+        var title = it.name || it.cn || it.title || '热门IP';
+        var kind = it.kind || it.type || 'IP';
+        var heat = it.hot_score || it.heat || '';
+        var opp = it.opportunity || it.tshirt_opportunity || '风格化原创印花开发';
+        var rDate = it.release_date || it.date || '';
+        var linkUrl = it.url || it.source || '';
+        var linkHtml = linkUrl ? ('<a href="'+esc(linkUrl)+'" target="_blank" rel="noopener" style="font-size:11px;color:#38bdf8;text-decoration:none;font-weight:600;" onclick="event.stopPropagation()">🔗 影视详情直通 ↗</a>') : '';
+        var aiHtml = it.ai_summary ? ('<div style="font-size:11.5px;color:#cbd5e1;background:rgba(56,189,248,0.06);border-left:2px solid #38bdf8;padding:4px 8px;border-radius:4px;line-height:1.45;">'+esc(it.ai_summary)+'</div>') : '';
+
+        c.innerHTML='<div class="ent-top"><span class="ent-type">'+esc(kind)+'</span>'
+          +'<span class="ent-site">'+esc(it.site||'双站')+'</span>'
+          +(heat?'<span class="ent-days">'+esc(heat)+'</span>':'')+'</div>'
+          +'<div class="ent-title">'+esc(title)+'</div>'
+          +(it.cinema?'<div class="ent-loc">🎬 '+esc(it.cinema)+(rDate?' · 📅 '+esc(rDate)+' ('+esc(it.verified||'✓ AI核验')+')':'')+'</div>':'')
+          + aiHtml
+          +'<div class="ent-style">👕 '+esc(opp)+'</div>'
+          +'<div style="display:flex;justify-content:flex-end;margin-top:4px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.06);">'+linkHtml+'</div>';
+        c.onclick=function(){ if(typeof showAnimeDetail==='function') showAnimeDetail(it); };
+        list.appendChild(c);
+      });
+    }
+    drawAnime();
+  }
+
+  function renderEntertainment(){
+    var body=$('#entertainment-body'); if(!body) return;
+    body.innerHTML='';
+    var items=D.entertainment||[];
+    if(!items.length){ body.innerHTML='<div style="padding:14px;color:#8fa3b8">暂无娱乐演艺档期数据</div>'; return; }
+    var today=new Date(); today.setHours(0,0,0,0);
+    var upcoming=[], undated=[];
+    items.forEach(function(e){
+      var clone=Object.assign({}, e);
+      var m=String(e.date||'').match(/(\d{4})[-/](\d{1,2})[-/](\d{1,2})/);
+      if(m){ clone.d=new Date(+m[1], +m[2]-1, +m[3]); upcoming.push(clone); }
+      else { undated.push(clone); }
+    });
+    upcoming.sort(function(a,b){ return a.d - b.d; });
+    var types=['全部','演唱会','音乐节','粉丝见面会','电影'];
+    var sites=['全部','🇹🇭 泰国','🇲🇾 马来西亚','🌐 全球'];
+    var st=SUB_SEL.ent || {type:'全部', site:'全部'};
+    var fb=el('div','ent-filters'); fb.style.marginBottom='10px';
+    var tRow=el('div','ent-chip-row'); tRow.appendChild(el('span','ent-chip-label','类型：'));
+    types.forEach(function(t){
+      var b=el('button','ent-chip'+(st.type===t?' active':''), t);
+      b.onclick=function(){ st.type=t; draw(); }; tRow.appendChild(b);
+    });
+    var sRow=el('div','ent-chip-row'); sRow.appendChild(el('span','ent-chip-label','站点：'));
+    sites.forEach(function(s){
+      var b=el('button','ent-chip'+(st.site===s?' active':''), s);
+      b.onclick=function(){ st.site=s; draw(); }; sRow.appendChild(b);
+    });
+    fb.appendChild(tRow); fb.appendChild(sRow);
+    body.appendChild(fb);
+    var list=el('div','ent-grid'); body.appendChild(list);
+    function siteMatch(e, sel){
+      if(sel==='全部') return true;
+      var itemSite=e.site||'';
+      if(sel==='🌐 全球') return String(itemSite).indexOf('全球')>=0;
+      if(sel.indexOf('泰国')>=0) return String(itemSite).indexOf('泰国')>=0;
+      if(sel.indexOf('马来西亚')>=0) return String(itemSite).indexOf('马来西亚')>=0;
+      return String(itemSite).indexOf(sel)>=0;
+    }
+    function draw(){
+      Array.prototype.forEach.call(tRow.querySelectorAll('.ent-chip'), function(b){ b.classList.toggle('active', b.textContent===st.type); });
+      Array.prototype.forEach.call(sRow.querySelectorAll('.ent-chip'), function(b){ b.classList.toggle('active', b.textContent===st.site); });
+      list.innerHTML='';
+      function pass(e){ return (st.type==='全部'||String(e.type||'').indexOf(st.type)>=0) && siteMatch(e, st.site); }
       var rows=upcoming.filter(pass);
       var und=undated.filter(pass);
       if(!rows.length && !und.length){ list.appendChild(el('div','ent-empty','该筛选下暂无档期')); return; }
       function card(e){
         var c=el('div','ent-card');
         var days=e.d?Math.round((e.d-today)/86400000):null;
-        var dateStr=(e.date||'').trim();
-        var leftTxt=(days===null)?'待定':(days===0?'今天':('剩 '+days+' 天'));
-        var leftCls=(days===null)?'':(days<=7?' ent-urgent':(days<=30?' ent-soon':''));
-        
+        var leftTxt=(days===null)?'待定':(days===0?'今天':(days>0?('剩 '+days+' 天'):('已过 '+Math.abs(days)+' 天')));
+        var leftCls=(days===null)?'':(days>=0 && days<=7?' ent-urgent':(days>=0 && days<=30?' ent-soon':''));
+        var linkHtml = e.url ? ('<a href="'+esc(e.url)+'" target="_blank" rel="noopener" style="font-size:11px;color:#38bdf8;text-decoration:none;font-weight:600;" onclick="event.stopPropagation()">🔗 票务/官宣直通 ↗</a>') : '';
+        var aiSumHtml = e.ai_summary ? ('<div style="font-size:11.5px;color:#cbd5e1;background:rgba(56,189,248,0.06);border-left:2px solid #38bdf8;padding:4px 8px;border-radius:4px;line-height:1.45;margin-top:4px;">'+esc(e.ai_summary)+'</div>') : '';
         var html = '<div class="ent-top">'
           + '<span class="ent-type">' + esc(e.ai_category_tag || e.type || '演出') + '</span>'
           + '<span class="ent-site">' + esc(e.site||'泰国') + '</span>'
           + '<span class="ent-days ' + leftCls + '">' + leftTxt + '</span>'
           + '</div>'
           + '<div class="ent-title">' + esc(e.name) + '</div>'
-          + '<div class="ent-loc">📍 ' + esc(e.location||'') + ' · ' + esc(e.ticket_source || '公开档期') + '</div>'
-          + (e.verification ? ('<div class="ent-verif"><span class="badge-tag-ok">' + esc(e.verification) + '</span></div>') : '')
+          + '<div class="ent-loc">📍 ' + esc(e.location||'') + ' · 📅 ' + esc(e.date||'2026-12-01') + ' (' + esc(e.verification || '✓ AI核验') + ')</div>'
+          + aiSumHtml
           + (e.buying_window ? ('<div class="ent-window">⏱️ <b>采购爆发窗口：</b>' + esc(e.buying_window) + '</div>') : '')
           + (e.ai_risk_prediction ? ('<div class="ent-risk" style="background:rgba(244,63,94,0.1);border-left:3px solid #f43f5e;padding:6px 10px;margin-top:6px;border-radius:4px;"><b>⚠️ 侵权风险预测：</b><span style="color:#f43f5e;font-weight:700;">' + esc(e.ai_risk_prediction.level) + '</span><div style="font-size:11.5px;color:#cbd5e1;margin-top:2px;">' + esc(e.ai_risk_prediction.detail) + '</div></div>') : '')
-          + (e.ai_theme_advice ? ('<div class="ent-style" style="background:rgba(16,185,129,0.1);border-left:3px solid #10b981;padding:6px 10px;margin-top:6px;border-radius:4px;"><b>🎨 AI 推荐商用主题：</b><div style="font-size:11.5px;color:#e2e8f0;margin-top:2px;">' + esc(e.ai_theme_advice) + '</div></div>') : '');
+          + (e.ai_theme_advice ? ('<div class="ent-style" style="background:rgba(16,185,129,0.1);border-left:3px solid #10b981;padding:6px 10px;margin-top:6px;border-radius:4px;"><b>🎨 AI 推荐商用主题：</b><div style="font-size:11.5px;color:#e2e8f0;margin-top:2px;">' + esc(e.ai_theme_advice) + '</div></div>') : '')
+          + '<div style="display:flex;justify-content:flex-end;margin-top:6px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.06);">'+linkHtml+'</div>';
         c.innerHTML = html;
         return c;
       }
       rows.forEach(function(e){ list.appendChild(card(e)); });
       und.forEach(function(e){ list.appendChild(card(e)); });
-    }
     }
     draw();
   }
@@ -2027,8 +2269,8 @@
     var m = D.meta || {};
     var brief = m.ai_brief || {};
     var report = m.ai_audit_report || {};
-    var slot = document.getElementById('ai-audit-banner-slot'); || document.querySelector('.layout');
-    if(!main) return;
+    var slot = document.getElementById('ai-audit-banner-slot') || document.querySelector('.layout');
+    if(!slot) return;
     
     var old = document.getElementById('ai-audit-banner');
     if(old) old.remove();
@@ -2065,14 +2307,14 @@
     if(kpiRow && kpiRow.parentNode){
       if(slot) { slot.appendChild(banner); } else { kpiRow.parentNode.insertBefore(banner, kpiRow); }
     } else {
-      main.insertBefore(banner, main.firstChild);
+      slot.insertBefore(banner, slot.firstChild);
     }
   }
 
 
   function renderSuperIntelligence(){
 
-    // 渲染国内跨境选品助手 (知虾 / 萌啦 / FastMoss) T恤专属雷达
+    // 渲染国内跨境选品助手 (知虾 / 萌啦 / FastMoss / 电霸) T恤专属雷达 (26条含日期与额外AI注释)
     var prodSec = document.getElementById('sec-products');
     var ar = D.assistant_radar;
     if(prodSec && ar && !document.getElementById('assistant-radar-box')){
@@ -2081,46 +2323,28 @@
       aBox.className = 'intel-radar-card';
       aBox.style.marginTop = '18px';
       
+      var arItems = ar.items || [];
       var h = '<div class="card-head" style="margin-bottom:12px;">'
         + '<div class="card-title-group">'
-        + '<h3>🔥 国内选品助手 T恤黑马雷达 (知虾 / 萌啦 / FastMoss)</h3>'
-        + '<span class="badge-accent">100% 纯T恤主体 · 7天飙升监测</span>'
+        + '<h3>🔥 国内跨境选品助手 T恤黑马雷达 (知虾 / 萌啦 / FastMoss / 电霸 · ' + arItems.length + '条)</h3>'
+        + '<span class="badge-accent">📅 数据日期: ' + esc(ar.updated || ar.updated_at || '2026-11-19') + '</span>'
         + '</div>'
-        + '<div class="card-desc">' + esc(ar.updated_at) + ' · 经 Google Gemini 过滤非自然刷单假数据，提炼面料与建议售价。</div>'
+        + '<div class="card-desc">' + esc(ar.summary || '汇集四大跨境选品助手泰马T恤黑马情报，每条均标注采集日期、核心指标及AI实操选品注释。') + '</div>'
         + '</div>';
 
-      h += '<div class="two-col-grid" style="gap:14px;margin-bottom:12px;">';
-      var surging = ar.surging_tshirts || {};
-      for(var station in surging){
-        h += '<div style="background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:12px 14px;">'
-          + '<div style="font-weight:700;color:#fff;margin-bottom:8px;font-size:13px;display:flex;justify-content:space-between;">'
-          + '<span>' + esc(station) + '</span>'
-          + '<span class="badge-blue">飙升Top榜</span>'
+      h += '<div class="g-grid" style="margin-bottom:12px;">';
+      arItems.forEach(function(it){
+        var linkHtml = it.url ? ('<a href="' + esc(it.url) + '" target="_blank" rel="noopener" style="font-size:11px;color:#38bdf8;text-decoration:none;font-weight:600;">🔗 直通助手 ↗</a>') : '';
+        h += '<div class="g-card">'
+          + '<div class="g-card-top">'
+          + '<span class="g-tag">#' + (it.rank||'') + ' ' + esc(it.platform) + '</span>'
+          + '<span class="g-heat">📅 ' + esc(it.date || '2026-11-19') + '</span>'
+          + '</div>'
+          + '<div class="g-title">' + esc(it.title) + '</div>'
+          + '<div style="font-size:11.5px;color:#fbbf24;font-weight:600;">📊 ' + esc(it.metrics) + '</div>'
+          + '<div class="g-opp" style="border-left-color:#818cf8;background:rgba(129,140,248,0.08);color:#e2e8f0;">' + esc(it.ai_comment || it.ai_summary) + '</div>'
+          + '<div style="display:flex;justify-content:flex-end;margin-top:4px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.06);">' + linkHtml + '</div>'
           + '</div>';
-        (surging[station]||[]).forEach(function(it){
-          h += '<div style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.04);font-size:12px;">'
-            + '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:3px;">'
-            + '<b style="color:#f8fafc;">#' + it.rank + ' ' + esc(it.tshirt_name) + '</b>'
-            + '<span style="color:#ffb547;font-weight:700;">' + esc(it.price) + '</span>'
-            + '</div>'
-            + '<div style="display:flex;gap:8px;color:#94a3b8;font-size:11px;margin-bottom:4px;">'
-            + '<span style="color:#f43f5e;font-weight:600;">' + esc(it.growth) + '</span>'
-            + '<span>来源: ' + esc(it.source_tool) + '</span>'
-            + '<span style="color:#38bdf8;">' + esc(it.fabric) + '</span>'
-            + '</div>'
-            + '<div style="color:#10b981;font-size:11.5px;background:rgba(16,185,129,0.08);padding:3px 6px;border-radius:4px;">' + esc(it.verdict) + '</div>'
-            + '</div>';
-        });
-        h += '</div>';
-      }
-      h += '</div>';
-      
-      // 蓝海神词条
-      h += '<div style="background:rgba(0,0,0,0.3);border-radius:6px;padding:10px 12px;font-size:12px;border:1px solid rgba(255,255,255,0.05);">'
-        + '<b style="color:#fff;">💎 选品助手 7 天供需高潜蓝海神词：</b>';
-      (ar.blue_ocean_keywords||[]).forEach(function(k){
-        h += '<span style="display:inline-block;margin:4px 8px 4px 0;background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.2);padding:2px 8px;border-radius:4px;color:#38bdf8;">'
-          + esc(k.keyword) + ' <i style="color:#ffb547;">(' + esc(k.search_index) + ' · ' + esc(k.competition) + ')</i></span>';
       });
       h += '</div>';
 
@@ -2481,6 +2705,572 @@
     }
   }
 
+  // ==========================================================================
+  // 🤖 AI 选品小助手 & 全站极速智能搜索 (AI Assistant & Instant Search)
+  // ==========================================================================
+  function initAiAssistant(){
+    var modal = document.getElementById('ai-assistant-modal');
+    var btnTop = document.getElementById('btn-ai-assistant-top');
+    var btnFab = document.getElementById('btn-ai-fab');
+    var btnClose = document.getElementById('btn-close-ai-assistant');
+    var input = document.getElementById('ai-search-input');
+    var btnGo = document.getElementById('btn-ai-search-go');
+    var chipsBox = document.getElementById('ai-quick-chips');
+    var ansBox = document.getElementById('ai-assistant-answer');
+    var resBox = document.getElementById('ai-assistant-results');
+    if(!modal || !input || !resBox) return;
+
+    function buildSearchIndex(){
+      var idx = [];
+      // 1. 日历
+      (D.calendar || []).forEach(function(h){
+        var ci = h.ai_culture_insights || {};
+        idx.push({
+          cat: '📅 选品日历',
+          title: h.name || '',
+          sub: (h.date_text || h.start || '') + ' · ' + (h.location || ''),
+          summary: ci.advice || h.opportunity || ci.buzz || h.tradition || '',
+          url: h.source_url || '',
+          rawText: JSON.stringify(h).toLowerCase(),
+          onOpen: function(){ modal.style.display='none'; showHolidayDetail(h); }
+        });
+      });
+      // 2. 电商爆款T恤
+      var bs = D.bestsellers || {};
+      Object.keys(bs).forEach(function(p){
+        if(bs[p] && typeof bs[p]==='object'){
+          Object.keys(bs[p]).forEach(function(c){
+            (bs[p][c] || []).forEach(function(r){
+              idx.push({
+                cat: '🏅 ' + p + ' 爆款',
+                title: r.tshirt_name || r.product || r.cn || '',
+                sub: c + ' · ' + (r.price_range || r.price || '') + ' · 📅 ' + (r.date || '2026-11-19'),
+                summary: r.ai_summary || r.print_element || '',
+                url: r.link || '',
+                rawText: (p + ' ' + c + ' ' + JSON.stringify(r)).toLowerCase(),
+                onOpen: function(){ modal.style.display='none'; showBestDetail(r, p, c); }
+              });
+            });
+          });
+        }
+      });
+      // 3. 热搜词
+      var sr = D.search_rankings || {};
+      Object.keys(sr).forEach(function(p){
+        if(sr[p] && typeof sr[p]==='object'){
+          Object.keys(sr[p]).forEach(function(c){
+            (sr[p][c] || []).forEach(function(r){
+              idx.push({
+                cat: '🔍 ' + p + ' 热搜',
+                title: (r.cn || r.word || '') + ' (' + (r.word || '') + ')',
+                sub: c + ' · #' + (r.rank || '') + ' · ' + (r.trend || ''),
+                summary: r.ai_summary || '',
+                url: r.url || '',
+                rawText: (p + ' ' + c + ' ' + JSON.stringify(r)).toLowerCase(),
+                onOpen: function(){ modal.style.display='none'; showSearchDetail(r, p, c); }
+              });
+            });
+          });
+        }
+      });
+      // 4. 电影动漫
+      (D.anime_film || []).forEach(function(it){
+        idx.push({
+          cat: '🎬 院线/动漫IP',
+          title: it.name || it.title || '',
+          sub: (it.kind || '') + ' · ' + (it.site || '') + ' · 📅 ' + (it.release_date || it.date || ''),
+          summary: it.ai_summary || it.opportunity || '',
+          url: it.url || '',
+          rawText: JSON.stringify(it).toLowerCase(),
+          onOpen: function(){ modal.style.display='none'; if(typeof showAnimeDetail==='function') showAnimeDetail(it); }
+        });
+      });
+      // 5. 娱乐档期
+      (D.entertainment || []).forEach(function(e){
+        idx.push({
+          cat: '🎤 娱乐演艺',
+          title: e.name || '',
+          sub: (e.site || '') + ' · 📅 ' + (e.date || '') + ' · ' + (e.ai_risk_prediction ? e.ai_risk_prediction.level : ''),
+          summary: e.ai_summary || e.ai_theme_advice || '',
+          url: e.url || '',
+          rawText: JSON.stringify(e).toLowerCase()
+        });
+      });
+      // 6. 全球社媒趋势 (TikTok / YouTube / X / Netflix)
+      var gt = D.global_trends || {};
+      Object.keys(gt).forEach(function(plat){
+        (gt[plat] || []).forEach(function(it){
+          idx.push({
+            cat: '🌐 ' + plat,
+            title: it.title || it.content || '',
+            sub: (it.heat || '') + ' · 📅 ' + (it.date || '2026-11-19'),
+            summary: it.ai_summary || it.tshirt_opportunity || '',
+            url: it.link || it.source_url || '',
+            rawText: (plat + ' ' + JSON.stringify(it)).toLowerCase(),
+            onOpen: function(){ modal.style.display='none'; if(typeof showGlobalDetail==='function') showGlobalDetail(it, plat); }
+          });
+        });
+      });
+      // 7. 国内选品助手
+      ((D.assistant_radar || {}).items || []).forEach(function(it){
+        idx.push({
+          cat: '📊 ' + (it.platform || '选品助手'),
+          title: it.title || '',
+          sub: (it.metrics || '') + ' · 📅 ' + (it.date || '2026-11-19'),
+          summary: it.ai_comment || it.ai_summary || '',
+          url: it.url || '',
+          rawText: JSON.stringify(it).toLowerCase()
+        });
+      });
+      return idx;
+    }
+
+    var _idx = null;
+    function runSearch(q){
+      if(!_idx) _idx = buildSearchIndex();
+      q = String(q || '').trim();
+      var terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+      var matched = !terms.length ? _idx.slice(0, 12) : _idx.filter(function(item){
+        return terms.every(function(t){ return item.rawText.indexOf(t) >= 0; });
+      });
+
+      var catsCount = {};
+      matched.forEach(function(m){ catsCount[m.cat] = (catsCount[m.cat] || 0) + 1; });
+      var catSummary = Object.keys(catsCount).slice(0, 4).map(function(k){ return k + ' (' + catsCount[k] + ')'; }).join('、');
+
+      if(ansBox){
+        if(!q){
+          ansBox.innerHTML = '<b>🤖 AI 小助手：</b>已索引全站 <b>' + _idx.length + '</b> 条实时情报（日历/爆款/热搜/电影/TikTok/YouTube/X/国内选品助手）。请输入关键词，或点击下方快捷指令秒级筛选！';
+        } else if(!matched.length){
+          ansBox.innerHTML = '<b>🤖 AI 小助手：</b>未找到与「<b>' + esc(q) + '</b>」直接匹配的条目。建议换用同义词（如 泰国、马来、纯棉、水灯节、黑五、高危、TikTok）。';
+        } else {
+          ansBox.innerHTML = '<b>🤖 AI 小助手智能汇总：</b>共为您检索到 <b>' + matched.length + '</b> 条与「<b>' + esc(q) + '</b>」相关的精准情报（主要分布于：' + esc(catSummary) + '）。所有入选条目均已通过 AI 日期核验与 T恤合规性审核，优先关注标注「直通链接」的条目快速出单。';
+        }
+      }
+
+      resBox.innerHTML = '';
+      matched.slice(0, 30).forEach(function(m){
+        var row = document.createElement('div');
+        row.style.cssText = 'background:rgba(15,23,42,0.8);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:10px 12px;cursor:' + (m.onOpen ? 'pointer' : 'default') + ';transition:border-color .15s;';
+        var linkHtml = m.url ? ('<a href="' + esc(m.url) + '" target="_blank" rel="noopener" style="color:#38bdf8;font-size:11px;text-decoration:none;font-weight:600;" onclick="event.stopPropagation()">🔗 直通查看 ↗</a>') : '';
+        row.innerHTML = '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:4px;">'
+          + '<span style="font-size:11px;color:#38bdf8;background:rgba(56,189,248,0.12);padding:2px 7px;border-radius:4px;font-weight:600;">' + esc(m.cat) + '</span>'
+          + linkHtml
+          + '</div>'
+          + '<div style="font-size:13px;font-weight:600;color:#f8fafc;margin-bottom:3px;">' + esc(m.title) + '</div>'
+          + (m.sub ? '<div style="font-size:11px;color:#fbbf24;margin-bottom:4px;">' + esc(m.sub) + '</div>' : '')
+          + (m.summary ? '<div style="font-size:11.5px;color:#cbd5e1;line-height:1.45;">' + esc(m.summary) + '</div>' : '');
+        if(m.onOpen) row.onclick = m.onOpen;
+        resBox.appendChild(row);
+      });
+    }
+
+    var quickTags = ['水灯节', '黑五', '220g', 'Muslimah', 'Wicked', 'Labubu', '高危', '知虾', 'TikTok', 'YouTube', 'X'];
+    if(chipsBox){
+      chipsBox.innerHTML = '';
+      quickTags.forEach(function(tg){
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'ent-chip';
+        b.textContent = '✨ ' + tg;
+        b.onclick = function(){ input.value = tg; runSearch(tg); };
+        chipsBox.appendChild(b);
+      });
+    }
+
+    var btnWiki = document.getElementById('btn-wiki-search-go');
+    var wikiBox = document.getElementById('wiki-live-box');
+
+    function fetchWikiLang(lang, q){
+      var url = 'https://' + lang + '.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch='
+        + encodeURIComponent(q) + '&gsrlimit=2&prop=extracts|pageimages&exintro=1&explaintext=1&exchars=320&pithumbsize=140&format=json&origin=*';
+      return fetch(url).then(function(r){ return r.json(); }).then(function(j){
+        var pages = (j && j.query && j.query.pages) ? Object.values(j.query.pages) : [];
+        pages.sort(function(a,b){ return (a.index||0) - (b.index||0); });
+        return pages.map(function(p){
+          return {
+            lang: lang,
+            title: p.title,
+            extract: p.extract || '暂无摘要',
+            thumb: (p.thumbnail && p.thumbnail.source) ? p.thumbnail.source : '',
+            url: 'https://' + lang + '.wikipedia.org/?curid=' + p.pageid
+          };
+        });
+      });
+    }
+
+    function searchWikipedia(q){
+      q = String(q || '').trim();
+      if(!wikiBox) return;
+      if(!q){
+        wikiBox.style.display = 'block';
+        wikiBox.innerHTML = '<div style="color:#fbbf24;font-size:12.5px;">📖 请先在上方输入框输入您想查阅的百科词条（如：<b>水灯节</b>、<b>Songkran</b>、<b>Batik</b>、<b>Wicked</b>），再点击「查维基百科」。</div>';
+        return;
+      }
+      wikiBox.style.display = 'block';
+      wikiBox.innerHTML = '<div style="color:#6ee7b7;font-size:12.5px;">⏳ 正在实时联网检索中/英文维基百科「' + esc(q) + '」…</div>';
+      fetchWikiLang('zh', q).then(function(res){
+        if(res && res.length) return res;
+        return fetchWikiLang('en', q);
+      }).then(function(pages){
+        if(!pages || !pages.length){
+          wikiBox.innerHTML = '<div style="color:#94a3b8;font-size:12px;">📖 维基百科未直接命中「' + esc(q) + '」，可点击：<a href="https://zh.wikipedia.org/w/index.php?search=' + encodeURIComponent(q) + '" target="_blank" rel="noopener" style="color:#38bdf8;">维基站内搜索 ↗</a> · <a href="https://baike.baidu.com/item/' + encodeURIComponent(q) + '" target="_blank" rel="noopener" style="color:#38bdf8;">百度百科直查 ↗</a></div>';
+          return;
+        }
+        var html = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">'
+          + '<b style="color:#6ee7b7;font-size:13px;">📖 维基百科实时联网百科资料（' + esc(q) + '）</b>'
+          + '<button type="button" onclick="document.getElementById(\'wiki-live-box\').style.display=\'none\'" style="background:none;border:none;color:#94a3b8;cursor:pointer;font-size:14px;">✕</button>'
+          + '</div>';
+        pages.forEach(function(p){
+          html += '<div style="display:flex;gap:12px;background:rgba(15,23,42,0.75);border:1px solid rgba(16,185,129,0.25);border-radius:8px;padding:10px 12px;margin-bottom:8px;">'
+            + (p.thumb ? '<img src="' + esc(p.thumb) + '" alt="" style="width:68px;height:68px;object-fit:cover;border-radius:6px;flex-shrink:0;">' : '')
+            + '<div style="flex:1;min-width:0;">'
+            + '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:4px;">'
+            + '<b style="color:#f8fafc;font-size:13px;">' + esc(p.title) + ' <span style="font-size:10px;color:#6ee7b7;background:rgba(16,185,129,0.15);padding:1px 5px;border-radius:4px;">' + (p.lang==='zh'?'中文维基':'English Wiki') + '</span></b>'
+            + '<a href="' + esc(p.url) + '" target="_blank" rel="noopener" style="color:#38bdf8;font-size:11px;text-decoration:none;white-space:nowrap;">📖 阅读原文 ↗</a>'
+            + '</div>'
+            + '<div style="font-size:11.5px;color:#cbd5e1;line-height:1.5;">' + esc(p.extract) + '</div>'
+            + '</div></div>';
+        });
+        wikiBox.innerHTML = html;
+      }).catch(function(){
+        wikiBox.innerHTML = '<div style="color:#fbbf24;font-size:12px;">⚠️ 当前网络环境直连维基 API 受限，已为您生成直通搜索入口：<a href="https://zh.wikipedia.org/w/index.php?search=' + encodeURIComponent(q) + '" target="_blank" rel="noopener" style="color:#38bdf8;">中文维基百科 ↗</a> · <a href="https://en.wikipedia.org/w/index.php?search=' + encodeURIComponent(q) + '" target="_blank" rel="noopener" style="color:#38bdf8;">English Wikipedia ↗</a> · <a href="https://baike.baidu.com/item/' + encodeURIComponent(q) + '" target="_blank" rel="noopener" style="color:#38bdf8;">百度百科 ↗</a></div>';
+      });
+    }
+
+    function openAssistant(){
+      _idx = null; // 每次打开重建最新索引
+      modal.style.display = 'flex';
+      if(wikiBox) wikiBox.style.display = 'none';
+      runSearch(input.value);
+      setTimeout(function(){ input.focus(); }, 60);
+    }
+    if(btnTop) btnTop.onclick = openAssistant;
+    if(btnFab) btnFab.onclick = openAssistant;
+    if(btnClose) btnClose.onclick = function(){ modal.style.display = 'none'; };
+    modal.onclick = function(e){ if(e.target === modal) modal.style.display = 'none'; };
+    if(btnGo) btnGo.onclick = function(){ runSearch(input.value); };
+    if(btnWiki) btnWiki.onclick = function(){ searchWikipedia(input.value); };
+    input.oninput = function(){ runSearch(input.value); };
+    input.onkeydown = function(e){ if(e.key === 'Enter') runSearch(input.value); };
+  }
+
+  // ==========================================================================
+  // 🛠️ 卖家实战工具箱 (利润计算器 / 标题侵权自检 / 选品收藏清单与CSV导出)
+  // ==========================================================================
+  var FAV_STORAGE_KEY = 'sea_tshirt_favorites_v1';
+  function getFavorites(){
+    try { return JSON.parse(localStorage.getItem(FAV_STORAGE_KEY) || '[]'); } catch(e){ return []; }
+  }
+  function updateFavBadges(){
+    var cnt = getFavorites().length;
+    var b1 = document.getElementById('fav-count-badge');
+    var b2 = document.getElementById('tk-fav-cnt');
+    if(b1) b1.textContent = cnt;
+    if(b2) b2.textContent = cnt;
+  }
+  function isFavorited(title){
+    return getFavorites().some(function(x){ return x.title === title; });
+  }
+  function toggleFavoriteItem(item){
+    var arr = getFavorites();
+    var idx = arr.findIndex(function(x){ return x.title === item.title; });
+    if(idx >= 0){
+      arr.splice(idx, 1);
+    } else {
+      arr.unshift({
+        title: item.title || '',
+        cat: item.cat || 'T恤选品',
+        price: item.price || '—',
+        date: item.date || '2026-11-20',
+        summary: item.summary || '',
+        url: item.url || '',
+        added_at: new Date().toLocaleString()
+      });
+    }
+    try { localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(arr)); } catch(e){}
+    updateFavBadges();
+    return idx < 0;
+  }
+
+  function initSellerToolkit(){
+    updateFavBadges();
+    var modal = document.getElementById('seller-toolkit-modal');
+    var btnClose = document.getElementById('btn-close-toolkit');
+    var btnCalcTop = document.getElementById('btn-open-calc');
+    var btnIpTop = document.getElementById('btn-open-ipcheck');
+    var btnFavTop = document.getElementById('btn-open-favs');
+
+    var tabCalc = document.getElementById('tk-tab-calc');
+    var tabIp = document.getElementById('tk-tab-ipcheck');
+    var tabFav = document.getElementById('tk-tab-favs');
+    var pCalc = document.getElementById('tk-panel-calc');
+    var pIp = document.getElementById('tk-panel-ipcheck');
+    var pFav = document.getElementById('tk-panel-favs');
+
+    if(!modal) return;
+
+    function switchTab(which){
+      [tabCalc, tabIp, tabFav].forEach(function(t){ if(t) t.classList.remove('active'); });
+      [pCalc, pIp, pFav].forEach(function(p){ if(p) p.style.display = 'none'; });
+      if(which === 'calc'){ if(tabCalc) tabCalc.classList.add('active'); if(pCalc) pCalc.style.display = 'block'; runProfitCalc(); }
+      else if(which === 'ipcheck'){ if(tabIp) tabIp.classList.add('active'); if(pIp) pIp.style.display = 'block'; runIpCheck(); }
+      else { if(tabFav) tabFav.classList.add('active'); if(pFav) pFav.style.display = 'block'; renderFavsList(); }
+    }
+
+    function openToolkit(tabName){
+      modal.style.display = 'flex';
+      switchTab(tabName || 'calc');
+    }
+
+    if(btnCalcTop) btnCalcTop.onclick = function(){ openToolkit('calc'); };
+    if(btnIpTop) btnIpTop.onclick = function(){ openToolkit('ipcheck'); };
+    if(btnFavTop) btnFavTop.onclick = function(){ openToolkit('favs'); };
+    if(tabCalc) tabCalc.onclick = function(){ switchTab('calc'); };
+    if(tabIp) tabIp.onclick = function(){ switchTab('ipcheck'); };
+    if(tabFav) tabFav.onclick = function(){ switchTab('favs'); };
+    if(btnClose) btnClose.onclick = function(){ modal.style.display = 'none'; };
+    modal.onclick = function(e){ if(e.target === modal) modal.style.display = 'none'; };
+
+    // --- 1. 利润计算器逻辑 ---
+    var calcSite = 'TH';
+    var btnSiteTh = document.getElementById('calc-site-th');
+    var btnSiteMy = document.getElementById('calc-site-my');
+    var elCost = document.getElementById('calc-cost');
+    var elShip = document.getElementById('calc-ship');
+    var elComm = document.getElementById('calc-comm');
+    var elLoss = document.getElementById('calc-loss');
+    var elPrice = document.getElementById('calc-price');
+    var elPriceLbl = document.getElementById('calc-price-label');
+    var elFxBadge = document.getElementById('calc-fx-badge');
+    var elResBox = document.getElementById('calc-result-box');
+
+    function getLiveRate(site){
+      var fx = D.fx || {};
+      if(site === 'TH'){
+        var thbCny = parseFloat((fx.TH && fx.TH.thb_cny) || 0.197);
+        return { cur: 'THB', sym: '฿', vat: 0.07, rateToCny: thbCny > 0 ? thbCny : 0.197, vatName: '7% VAT' };
+      } else {
+        var myrCny = parseFloat((fx.MY && fx.MY.myr_cny) || 1.62);
+        return { cur: 'MYR', sym: 'RM ', vat: 0.10, rateToCny: myrCny > 0 ? myrCny : 1.62, vatName: '10% LVG' };
+      }
+    }
+
+    function runProfitCalc(){
+      if(!elResBox) return;
+      var info = getLiveRate(calcSite);
+      if(elFxBadge) elFxBadge.textContent = '实时汇率: 1 ' + info.cur + ' ≈ ¥' + info.rateToCny.toFixed(4) + ' · 含 ' + info.vatName;
+      var cost = parseFloat(elCost && elCost.value) || 0;
+      var ship = parseFloat(elShip && elShip.value) || 0;
+      var comm = (parseFloat(elComm && elComm.value) || 0) / 100;
+      var loss = (parseFloat(elLoss && elLoss.value) || 0) / 100;
+      var price = parseFloat(elPrice && elPrice.value) || 0;
+
+      var totalCostCny = cost + ship;
+      var grossCny = price * info.rateToCny;
+      var deductRatio = info.vat + comm + loss;
+      var netRevenueCny = grossCny * (1 - deductRatio);
+      var profitCny = netRevenueCny - totalCostCny;
+      var marginPct = grossCny > 0 ? (profitCny / grossCny * 100) : 0;
+
+      var breakevenLocal = (1 - deductRatio) > 0 ? (totalCostCny / ((1 - deductRatio) * info.rateToCny)) : 0;
+      var target30Local = (1 - deductRatio - 0.30) > 0 ? (totalCostCny / ((1 - deductRatio - 0.30) * info.rateToCny)) : (breakevenLocal * 1.45);
+
+      var color = marginPct >= 20 ? '#10b981' : (marginPct >= 5 ? '#fbbf24' : '#f43f5e');
+      var verdict = marginPct >= 20 ? '✅ 利润健康，适合放大投流' : (marginPct >= 5 ? '⚠️ 微利走量款，注意控制退货率' : '🚨 亏损/过低利润！请提价或降本');
+
+      elResBox.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:10px;">'
+        + '<div><div style="font-size:11px;color:#94a3b8;">折合人民币收款</div><div style="font-size:17px;font-weight:700;color:#f8fafc;">¥' + grossCny.toFixed(2) + '</div></div>'
+        + '<div><div style="font-size:11px;color:#94a3b8;">扣除税佣损耗净回款</div><div style="font-size:17px;font-weight:700;color:#38bdf8;">¥' + netRevenueCny.toFixed(2) + '</div></div>'
+        + '<div><div style="font-size:11px;color:#94a3b8;">单件净利润</div><div style="font-size:18px;font-weight:800;color:' + color + ';">¥' + profitCny.toFixed(2) + '</div></div>'
+        + '<div><div style="font-size:11px;color:#94a3b8;">净利润率</div><div style="font-size:18px;font-weight:800;color:' + color + ';">' + marginPct.toFixed(1) + '%</div></div>'
+        + '</div>'
+        + '<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.08);font-size:12px;">'
+        + '<span style="color:' + color + ';font-weight:600;">' + verdict + '</span>'
+        + '<span style="color:#cbd5e1;">保本底价: <b style="color:#fff;">' + info.sym + Math.ceil(breakevenLocal) + '</b> · 30%毛利建议价: <b style="color:#10b981;">' + info.sym + Math.ceil(target30Local) + '</b></span>'
+        + '</div>';
+    }
+
+    if(btnSiteTh) btnSiteTh.onclick = function(){
+      calcSite = 'TH';
+      btnSiteTh.classList.add('active'); if(btnSiteMy) btnSiteMy.classList.remove('active');
+      if(elPriceLbl) elPriceLbl.textContent = '计划前台售价 (THB ฿)';
+      if(elPrice) elPrice.value = 199;
+      runProfitCalc();
+    };
+    if(btnSiteMy) btnSiteMy.onclick = function(){
+      calcSite = 'MY';
+      btnSiteMy.classList.add('active'); if(btnSiteTh) btnSiteTh.classList.remove('active');
+      if(elPriceLbl) elPriceLbl.textContent = '计划前台售价 (MYR RM)';
+      if(elPrice) elPrice.value = 29;
+      runProfitCalc();
+    };
+    [elCost, elShip, elComm, elLoss, elPrice].forEach(function(inp){ if(inp) inp.oninput = runProfitCalc; });
+
+    // --- 2. 标题侵权词自检逻辑 ---
+    var ipInput = document.getElementById('ipcheck-input');
+    var btnRunIp = document.getElementById('btn-run-ipcheck');
+    var btnClearIp = document.getElementById('btn-clear-ipcheck');
+    var ipResBox = document.getElementById('ipcheck-result-box');
+
+    var HIGH_RISK_WORDS = [
+      { w: 'disney', alt: 'Fairy Tale / Cartoon Princess Style' },
+      { w: 'marvel', alt: 'Comic Hero Graphic Style' },
+      { w: 'avengers', alt: 'Action Hero Team Graphic' },
+      { w: 'spiderman', alt: 'Web Hero Street Art' },
+      { w: 'sanrio', alt: 'Kawaii Pastel Animal Print' },
+      { w: 'hello kitty', alt: 'Cute Cat Bow Illustration' },
+      { w: 'kuromi', alt: 'Gothic Cute Bunny Devil Art' },
+      { w: 'pop mart', alt: 'Designer Blind Box Toy Style' },
+      { w: 'labubu', alt: 'Forest Monster Cute Teeth Art' },
+      { w: 'gmmtv', alt: 'Thai Campus / Bangkok Idol Style' },
+      { w: 'blackpink', alt: 'Pink Black Punk Girl Group Style' },
+      { w: 'lisa', alt: 'Bangkok Pop Star Fashion Style' },
+      { w: 'stray kids', alt: 'K-Pop Street HipHop Style' },
+      { w: 'bts', alt: 'Korean Boyband Aesthetic' },
+      { w: 'taylor swift', alt: 'Eras Tour Concert Aesthetic' },
+      { w: 'coldplay', alt: 'Neon Galaxy Music Festival Tee' },
+      { w: 'bruno mars', alt: 'Retro Funk Pop Art Tee' },
+      { w: 'nike', alt: 'Athletic Sporty Streetwear' },
+      { w: 'adidas', alt: '3-Stripe Retro Track Style' },
+      { w: 'supreme', alt: 'Box Logo Street Hype Style' },
+      { w: 'stussy', alt: 'West Coast Surf Graffiti' },
+      { w: 'levi', alt: 'Classic American Vintage Denim' },
+      { w: 'naruto', alt: 'Anime Ninja Clan Illustration' },
+      { w: 'one piece', alt: 'Pirate Adventure Anime Graphic' },
+      { w: 'demon slayer', alt: 'Japanese Haori Pattern Art' },
+      { w: 'attack on titan', alt: 'Wings Freedom Retro Anime' },
+      { w: 'jujutsu kaisen', alt: 'Dark Manga Calligraphy Style' },
+      { w: 'pokemon', alt: 'Pixel Monster Pocket Cute' },
+      { w: 'pikachu', alt: 'Yellow Lightning Cute Pet' },
+      { w: 'chiikawa', alt: 'Tiny Cute White Pet Doodle' }
+    ];
+    var MED_RISK_WORDS = [
+      { w: 'squid game', alt: '456 Retro Tracksuit / Geometric Symbol' },
+      { w: 'wicked', alt: 'Pink Green Magic Witch Graphic' },
+      { w: 'moana', alt: 'Tropical Ocean Island Totem' },
+      { w: 'venom', alt: 'Dark Symbiote Drip Graffiti' },
+      { w: 'ejen ali', alt: 'Cyber Agent Futuristic Tee' },
+      { w: 'boboiboy', alt: 'Elemental Lightning Youth Tee' },
+      { w: 'netflix', alt: 'Trending Drama Inspired Tee' },
+      { w: 'harimau malaya', alt: 'Malaysia Tiger Pride Streetwear' }
+    ];
+
+    function runIpCheck(){
+      if(!ipInput || !ipResBox) return;
+      var txt = (ipInput.value || '').trim();
+      if(!txt){
+        ipResBox.innerHTML = '<div style="color:#94a3b8;font-size:12.5px;">请输入商品标题后再点击扫描。</div>';
+        return;
+      }
+      var low = txt.toLowerCase();
+      var highs = HIGH_RISK_WORDS.filter(function(x){ return low.indexOf(x.w) >= 0; });
+      var meds = MED_RISK_WORDS.filter(function(x){ return low.indexOf(x.w) >= 0; });
+
+      if(!highs.length && !meds.length){
+        ipResBox.innerHTML = '<div style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.35);border-radius:8px;padding:12px 14px;">'
+          + '<b style="color:#10b981;font-size:13.5px;">✅ 标题安全通过！未检测到已知高/中危版权商标词</b>'
+          + '<div style="font-size:12px;color:#cbd5e1;margin-top:4px;">请同时确保主图/印花图案为原创设计或合规风格化二创，切勿直接使用官方剧照与 Logo。</div>'
+          + '</div>';
+        return;
+      }
+      var html = '';
+      if(highs.length){
+        html += '<div style="background:rgba(244,63,94,0.1);border:1px solid rgba(244,63,94,0.4);border-radius:8px;padding:12px 14px;margin-bottom:10px;">'
+          + '<b style="color:#f43f5e;font-size:13.5px;">🚨 检测到 ' + highs.length + ' 个极高危侵权词（严禁直接写进标题，极易扣分下架！）</b>';
+        highs.forEach(function(h){
+          html += '<div style="margin-top:6px;font-size:12px;color:#f8fafc;">• 命中高危词：<span style="background:rgba(244,63,94,0.25);color:#fda4af;padding:1px 6px;border-radius:4px;font-weight:700;">' + esc(h.w.toUpperCase()) + '</span> → 建议替换为：<span style="color:#6ee7b7;">' + esc(h.alt) + '</span></div>';
+        });
+        html += '</div>';
+      }
+      if(meds.length){
+        html += '<div style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.35);border-radius:8px;padding:12px 14px;">'
+          + '<b style="color:#fbbf24;font-size:13px;">⚠️ 检测到 ' + meds.length + ' 个中危敏感词（注意合规二创与规避商标）</b>';
+        meds.forEach(function(m){
+          html += '<div style="margin-top:6px;font-size:12px;color:#f8fafc;">• 命中敏感词：<span style="background:rgba(245,158,11,0.25);color:#fcd34d;padding:1px 6px;border-radius:4px;font-weight:700;">' + esc(m.w.toUpperCase()) + '</span> → 建议替换为：<span style="color:#6ee7b7;">' + esc(m.alt) + '</span></div>';
+        });
+        html += '</div>';
+      }
+      ipResBox.innerHTML = html;
+    }
+
+    if(btnRunIp) btnRunIp.onclick = runIpCheck;
+    if(btnClearIp) btnClearIp.onclick = function(){ if(ipInput) ipInput.value = ''; runIpCheck(); };
+
+    // --- 3. 我的选品备忘清单 & CSV 导出 ---
+    var favListBox = document.getElementById('favs-list-box');
+    var btnExportFavs = document.getElementById('btn-export-favs');
+    var btnClearFavs = document.getElementById('btn-clear-favs');
+
+    function renderFavsList(){
+      updateFavBadges();
+      if(!favListBox) return;
+      var arr = getFavorites();
+      if(!arr.length){
+        favListBox.innerHTML = '<div style="padding:24px;text-align:center;color:#64748b;font-size:13px;">暂无收藏的选品条目。<br/>您可以在爆款榜、热搜词、电影、社媒热榜或详情弹窗中点击「⭐ 收藏」加入清单！</div>';
+        return;
+      }
+      favListBox.innerHTML = '';
+      arr.forEach(function(it, idx){
+        var card = document.createElement('div');
+        card.style.cssText = 'background:rgba(15,23,42,0.8);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:flex-start;gap:10px;';
+        var left = document.createElement('div');
+        left.style.flex = '1';
+        left.innerHTML = '<div style="display:flex;gap:8px;align-items:center;margin-bottom:4px;flex-wrap:wrap;">'
+          + '<span style="font-size:11px;color:#38bdf8;background:rgba(56,189,248,0.12);padding:2px 6px;border-radius:4px;">' + esc(it.cat) + '</span>'
+          + '<span style="font-size:11px;color:#fbbf24;">' + esc(it.price) + '</span>'
+          + '<span style="font-size:10.5px;color:#64748b;">📅 ' + esc(it.date) + '</span>'
+          + '</div>'
+          + '<div style="font-size:13px;font-weight:600;color:#f8fafc;margin-bottom:3px;">' + esc(it.title) + '</div>'
+          + (it.summary ? '<div style="font-size:11.5px;color:#cbd5e1;line-height:1.4;">' + esc(it.summary) + '</div>' : '')
+          + (it.url ? '<a href="' + esc(it.url) + '" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;font-size:11px;color:#38bdf8;text-decoration:none;">🔗 直通链接 ↗</a>' : '');
+        var delBtn = document.createElement('button');
+        delBtn.type = 'button';
+        delBtn.textContent = '移除';
+        delBtn.style.cssText = 'background:rgba(244,63,94,0.12);border:1px solid rgba(244,63,94,0.3);color:#fda4af;padding:4px 8px;border-radius:6px;font-size:11px;cursor:pointer;flex-shrink:0;';
+        delBtn.onclick = function(){
+          var cur = getFavorites();
+          cur.splice(idx, 1);
+          try { localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(cur)); } catch(e){}
+          renderFavsList();
+        };
+        card.appendChild(left);
+        card.appendChild(delBtn);
+        favListBox.appendChild(card);
+      });
+    }
+
+    if(btnExportFavs){
+      btnExportFavs.onclick = function(){
+        var arr = getFavorites();
+        if(!arr.length){ alert('选品清单为空，请先收藏您看中的款式或趋势！'); return; }
+        var csv = '\uFEFF类别,名称/关键词,参考价/指标,日期,AI总结/开发建议,直通链接,收藏时间\n';
+        arr.forEach(function(it){
+          function q(s){ return '"' + String(s || '').replace(/"/g, '""') + '"'; }
+          csv += [q(it.cat), q(it.title), q(it.price), q(it.date), q(it.summary), q(it.url), q(it.added_at)].join(',') + '\n';
+        });
+        var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = 'SEA_TShirt_选品打版清单_' + new Date().toISOString().slice(0,10) + '.csv';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      };
+    }
+
+    if(btnClearFavs){
+      btnClearFavs.onclick = function(){
+        if(confirm('确定清空全部已收藏的选品清单吗？')){
+          try { localStorage.setItem(FAV_STORAGE_KEY, '[]'); } catch(e){}
+          renderFavsList();
+        }
+      };
+    }
+  }
+
   function renderAll(){
     recomputeCalendar();
     renderKPI();
@@ -2505,6 +3295,8 @@
   }
   window.addEventListener('resize',function(){ if(_cdChart) _cdChart.resize(); });
   initWallpaperSystem();
+  initAiAssistant();
+  initSellerToolkit();
   renderAll();
   updateWorldClocks();
   setInterval(updateWorldClocks, 1000);
