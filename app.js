@@ -989,45 +989,50 @@
         return h.days_left<0?'#5b6b7e':(CAL_KIND_COLOR[h.kind]||'#5b9bff');
       });
       // 图高上限 = 一屏内可读完；超过的节点由下方表格承载，不再让一张图高过整张表
-      box.style.height=Math.max(320, Math.min(CAL_CHART_MAX_H, chartRows.length*28+64))+'px';
-      _cdChart=echarts.init(box);
-      _cdChart.setOption({
-        backgroundColor:'transparent',
-        grid:{left:244,right:128,top:26,bottom:26},
-        tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:function(pp){
-          var h=chartRows[pp[0].dataIndex]; if(!h) return '';
-          var t='<b>'+esc(h.name||'')+'</b><br/>'+esc(CAL_KIND_CN[h.kind]||'');
-          if(h.location) t+=' · '+esc(h.location);
-          t+='<br/>⏳ '+esc(countdownText(h));
-          if(h.date_text) t+='<br/>📆 '+esc(h.date_text)+(h.weekday?'（'+esc(h.weekday)+'）':'');
-          if(h.opportunity) t+='<br/>👕 '+esc(String(h.opportunity).slice(0,60));
-          t+='<br/><span style="opacity:.65">点击查看详情</span>';
-          return t;}},
-        // 轴名放右上会被容器右边界裁掉（实测只露出「满格 = 30」半句），
-        // 封顶规则改写在图例行里说明，横轴只留刻度。
-        xAxis:{type:'value',max:CAL_BAR_CAP,
-          axisLabel:{color:'#8fa3b8',formatter:'{value}'},splitLine:{lineStyle:{color:'rgba(36,55,72,.6)'}}},
-        yAxis:{type:'category',data:names,inverse:true,axisTick:{show:false},
-          axisLabel:{color:'#cdd9e5',fontSize:11,width:236,overflow:'truncate',align:'right'},
-          axisLine:{lineStyle:{color:'#243748'}}},
-        series:[{type:'bar',barWidth:'58%',
-          data:vals.map(function(v,i){return {value:v,itemStyle:{color:colors[i],
-            // 被截断的柱子右端做成直角并降低不透明度，一眼能看出「其实更长」
-            borderRadius:capped[i]?[0,0,0,0]:[0,4,4,0],
-            opacity:capped[i]?0.72:1}};}),
-          label:{show:true,position:'right',color:'#cdd9e5',fontSize:11,
-            formatter:function(pp){
-              var h=chartRows[pp.dataIndex]; if(!h) return '';
-              if(h.status==='进行中'){
-                return (h.days_to_end>0)?('进行中 · 剩 '+h.days_to_end+' 天'):'进行中 · 今天结束';
-              }
-              if(h.days_left===0) return '今天';
-              if(h.days_left==null) return '待定';
-              // 超过封顶的必须标真实天数，否则读者会以为真的只有 30 天
-              return capped[pp.dataIndex] ? (h.days_left+' 天 ›') : (h.days_left+' 天');
-            }}}]
-      });
-      _cdChart.on('click',function(pp){ var h=chartRows[pp.dataIndex]; if(h) showHolidayDetail(h); });
+      if(typeof echarts !== 'undefined'){
+        box.style.height=Math.max(320, Math.min(CAL_CHART_MAX_H, chartRows.length*28+64))+'px';
+        _cdChart=echarts.init(box);
+        _cdChart.setOption({
+          backgroundColor:'transparent',
+          grid:{left:244,right:128,top:26,bottom:26},
+          tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:function(pp){
+            var h=chartRows[pp[0].dataIndex]; if(!h) return '';
+            var t='<b>'+esc(h.name||'')+'</b><br/>'+esc(CAL_KIND_CN[h.kind]||'');
+            if(h.location) t+=' · '+esc(h.location);
+            t+='<br/>⏳ '+esc(countdownText(h));
+            if(h.date_text) t+='<br/>📆 '+esc(h.date_text)+(h.weekday?'（'+esc(h.weekday)+'）':'');
+            if(h.opportunity) t+='<br/>👕 '+esc(String(h.opportunity).slice(0,60));
+            t+='<br/><span style="opacity:.65">点击查看详情</span>';
+            return t;}},
+          // 轴名放右上会被容器右边界裁掉（实测只露出「满格 = 30」半句），
+          // 封顶规则改写在图例行里说明，横轴只留刻度。
+          xAxis:{type:'value',max:CAL_BAR_CAP,
+            axisLabel:{color:'#8fa3b8',formatter:'{value}'},splitLine:{lineStyle:{color:'rgba(36,55,72,.6)'}}},
+          yAxis:{type:'category',data:names,inverse:true,axisTick:{show:false},
+            axisLabel:{color:'#cdd9e5',fontSize:11,width:236,overflow:'truncate',align:'right'},
+            axisLine:{lineStyle:{color:'#243748'}}},
+          series:[{type:'bar',barWidth:'58%',
+            data:vals.map(function(v,i){return {value:v,itemStyle:{color:colors[i],
+              // 被截断的柱子右端做成直角并降低不透明度，一眼能看出「其实更长」
+              borderRadius:capped[i]?[0,0,0,0]:[0,4,4,0],
+              opacity:capped[i]?0.72:1}};}),
+            label:{show:true,position:'right',color:'#cdd9e5',fontSize:11,
+              formatter:function(pp){
+                var h=chartRows[pp.dataIndex]; if(!h) return '';
+                if(h.status==='进行中'){
+                  return (h.days_to_end>0)?('进行中 · 剩 '+h.days_to_end+' 天'):'进行中 · 今天结束';
+                }
+                if(h.days_left===0) return '今天';
+                if(h.days_left==null) return '待定';
+                // 超过封顶的必须标真实天数，否则读者会以为真的只有 30 天
+                return capped[pp.dataIndex] ? (h.days_left+' 天 ›') : (h.days_left+' 天');
+              }}}]
+        });
+        _cdChart.on('click',function(pp){ var h=chartRows[pp.dataIndex]; if(h) showHolidayDetail(h); });
+      } else {
+        box.style.height='auto';
+        box.innerHTML='<div style="padding:10px 14px;color:#94a3b8;font-size:12px;">📊 倒计时柱状图未加载，请直接查阅下方完整节点数据表。</div>';
+      }
     }
 
     var lbox=$('#cal-legend');
