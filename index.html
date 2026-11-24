@@ -9,7 +9,7 @@
 <title>东南亚跨境T恤选品情报作战中枢 · 泰国 & 马来西亚</title>
 <meta name="description" content="专注泰国与马来西亚跨境外贸T恤选品情报平台：官方节日日历、平台热销爆款、娱乐档期与短视频热门IP，经 Google Gemini AI 全量真实性核定。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%230f172a'/%3E%3Ctext%20x='32'%20y='45'%20font-size='36'%20text-anchor='middle'%3E%F0%9F%91%95%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="style.css?v=20261119-v7">
+<link rel="stylesheet" href="style.css?v=20261121-v9">
 <script src="vendor/echarts.min.js"></script>
 <script>if(typeof echarts==='undefined'){document.write('<scr'+'ipt src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></scr'+'ipt>');}</script>
 
@@ -104,22 +104,34 @@
   </header>
 
   <main class="main">
+    <!-- 工作区频道分类切换栏 (告别超长页面杂乱，1屏1主题) -->
+    <div class="hub-nav-bar" id="hub-nav-bar">
+      <button class="hub-tab active" data-hub="overview" type="button">🎯 今日作战总览</button>
+      <button class="hub-tab" data-hub="calendar" type="button">📅 选品日历与文化</button>
+      <button class="hub-tab" data-hub="commerce" type="button">🏅 T恤爆款与热搜</button>
+      <button class="hub-tab" data-hub="trends" type="button">🎬 影视娱乐与社媒</button>
+      <button class="hub-tab" data-hub="ops" type="button">🛡️ 海关气象与资讯</button>
+      <button class="hub-tab" data-hub="all" type="button" style="margin-left:auto;">📋 全部平铺</button>
+    </div>
+
     <!-- 中枢 1：今日作战顶层中枢 (AI 选品决策 + 真实性证书 + 核心指标) -->
-    <div id="ai-audit-banner-slot"></div>
-    <div class="kpi-grid-container" id="kpi-row"></div>
+    <div class="hub-panel" data-hub-group="overview all">
+      <div id="ai-audit-banner-slot"></div>
+      <div class="kpi-grid-container" id="kpi-row"></div>
+    </div>
 
     <!-- 全局时间热度极简收窄条 -->
-    <div class="filters-modern" id="th-filter-bar">
+    <div class="filters-modern hub-panel" id="th-filter-bar" data-hub-group="calendar commerce trends all">
       <div class="filter-item"><span class="filter-label">🕒 选品周期：</span><span class="thf-group" id="thf-win"></span></div>
       <div class="filter-item"><span class="filter-label">🔥 爆发热度：</span><span class="thf-group" id="thf-heat"></span></div>
     </div>
 
-    <!-- 中枢 2：选品日历与营销节点 (109 项核验节点) -->
-    <section class="card-modern" id="sec-calendar">
+    <!-- 中枢 2：选品日历与营销节点 (106 项核验节点) -->
+    <section class="card-modern hub-panel" id="sec-calendar" data-hub-group="overview calendar all">
       <div class="card-head">
         <div class="card-title-group">
           <h2>📅 选品日历与营销节点大盘</h2>
-          <span class="badge-accent">109 项官方权威公历核定</span>
+          <span class="badge-accent">106 项官方权威公历核定</span>
         </div>
         <div class="card-desc">按真实公历举办日期精准核算倒计时，全面涵盖法定公假、民俗庆典、大型展会与电商大促，无缝挂载印花商机与官方出处。</div>
       </div>
@@ -129,16 +141,37 @@
       <div id="calendar-body"></div>
     </section>
 
-    <!-- 中枢 3：电商货架爆款与站内热搜 (双栏 Modern Grid) -->
-    <div class="two-col-grid">
-      <!-- 左栏：三平台真实热销爆款 -->
+    <!-- 中枢 3：电商货架爆款与站内热搜 (全宽清爽排版) -->
+    <div class="hub-panel hub-stack" data-hub-group="commerce all">
+      <!-- 独立专属板块：生意参谋 / 知虾 / FastMoss 本地导出实时榜单 -->
+      <section class="card-modern" id="sec-local-import" style="border-color:rgba(56,189,248,0.28);">
+        <div class="card-head">
+          <div class="card-title-group">
+            <h2>📂 卖家后台导出实时榜单（生意参谋 / 知虾 / FastMoss 专属同步区）</h2>
+            <span class="badge-accent" id="local-import-meta">等待本地同步或拖拽导入</span>
+          </div>
+          <div class="card-desc">专为突破平台登录墙打造：电脑本地自动监听「Downloads (下载)」文件夹最新导出的 .csv / .xlsx 榜单（或直接拖拽到下方），100% 过滤纯 T 恤并挂载 AI 侵权预警。</div>
+        </div>
+        <div id="csv-dropzone" style="margin-bottom:14px;padding:10px 14px;border:1px dashed rgba(56,189,248,0.45);border-radius:10px;background:rgba(56,189,248,0.06);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+          <div style="font-size:12px;color:#cbd5e1;">
+            <b style="color:#38bdf8;">⚡ 两种同步方式：</b>① 运行电脑上的 <code>一键同步下载榜单.bat</code> 自动同步 Downloads 最新文件；② 或直接把 <code>.csv</code> 拖入此处！
+          </div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <label for="csv-import-input" class="btn-upload-file" style="padding:4px 12px;font-size:12px;margin:0;cursor:pointer;">📁 手动选 .csv 导入</label>
+            <input type="file" id="csv-import-input" accept=".csv,.txt" style="display:none;">
+            <span id="csv-import-status" style="font-size:11.5px;color:#10b981;"></span>
+          </div>
+        </div>
+        <div id="local-import-body"></div>
+      </section>
+
       <section class="card-modern" id="sec-products">
         <div class="card-head">
           <div class="card-title-group">
-            <h2>🏅 电商三平台热销爆款榜</h2>
+            <h2>🏅 电商三平台热销爆款榜 (100% 纯T恤)</h2>
             <span class="badge-blue">Shopee / Lazada / TikTok Shop</span>
           </div>
-          <div class="card-desc">自动剥离 SEO 堆砌词，提炼真实爆款印花类型、成交价格带与防侵权二创指导。</div>
+          <div class="card-desc">已剔除全部非T恤杂质与过季商品，每款附带AI总结与直通榜单链接，下方挂载国内选品助手黑马雷达。</div>
         </div>
         <div class="filters" id="prod-tabs"></div>
         <div id="best-wrap">
@@ -151,85 +184,82 @@
         </div>
       </section>
 
-      <!-- 右栏：泰马站内热搜词飙升榜与供需缺口蓝海 -->
       <section class="card-modern" id="sec-search">
         <div class="card-head">
           <div class="card-title-group">
-            <h2>🔍 泰马站内热搜榜 & 供需缺口蓝海</h2>
+            <h2>🔍 泰马站内热搜榜 & 14天热度趋势曲线</h2>
             <span class="badge-green">高频热词 · 货架稀缺空档</span>
           </div>
-          <div class="card-desc">挖掘搜索量环比翻倍但货架在售极少的先发暴利空档款，附带泰语/马来语原文与中文释义。</div>
+          <div class="card-desc">挖掘搜索量环比翻倍的先发暴利空档款，顶部展示 Top 5 热词近14天走势，附带泰/马原文、AI总结与直通链接。</div>
         </div>
         <div class="filters" id="search-filters"></div>
         <div id="search-body"></div>
       </section>
     </div>
 
-    <!-- 中枢 4：全景娱乐演艺大盘与短视频热门 IP (双栏 Modern Grid) -->
-    <div class="two-col-grid">
-      <!-- 左栏：娱乐档期全能排行榜 (热度×时间加权) -->
-      <section class="card-modern" id="sec-entertainment">
-        <div class="card-head">
-          <div class="card-title-group">
-            <h2>🎬 娱乐演艺档期大盘 (热度×时间权威排行)</h2>
-            <span class="badge-amber">万人演唱会 · 音乐节 · 院线首映</span>
-          </div>
-          <div class="card-desc">经官方票务 (TTM/Ticket2u) 权威打假，自动计算应援服采购黄金爆发期，提炼 3 大合规二创流派。</div>
-        </div>
-        <div id="entertainment-body"></div>
-      </section>
-
-      <!-- 右栏：全球趋势与短视频爆款视觉 IP -->
+    <!-- 中枢 4：全景娱乐演艺大盘与短视频热门 IP (全宽清爽排版) -->
+    <div class="hub-panel hub-stack" data-hub-group="trends all">
       <section class="card-modern" id="sec-global">
         <div class="card-head">
           <div class="card-title-group">
-            <h2>🌐 全球内容趋势 & 爆款短视频 IP</h2>
-            <span class="badge-purple">TikTok千万播放 · Netflix泰马周榜</span>
+            <h2>🌐 全球内容趋势 & 爆款短视频 IP (TikTok / YouTube / X / Netflix)</h2>
+            <span class="badge-purple">每平台 26 条 · 附直通链接与 AI 总结</span>
           </div>
-          <div class="card-desc">锁定泰马本土原生出处 (gl=TH / gl=MY)，深挖爆款短视频中正在出圈的视觉 IP 与情绪符号。</div>
+          <div class="card-desc">锁定泰马本土原生出处，深挖爆款短视频与热搜帖中正在出圈的视觉 IP 与情绪符号。</div>
         </div>
         <div id="global-body"></div>
-        <div style="margin-top:16px;">
-          <h3 class="sub-h" id="sec-anime">🎞️ 院线动漫与影视 IP 矩阵</h3>
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.08);">
+          <h3 class="sub-h" id="sec-anime" style="margin-bottom:10px;">🎞️ 院线动漫与影视 IP 矩阵 (26部已核验档期)</h3>
           <div class="filters" id="anime-filters"></div>
           <div id="anime-body" class="tag-cloud"></div>
         </div>
       </section>
-    </div>
 
-    <!-- 中枢 5：跨境海关税则合规与宏观天气 (双栏 Modern Grid) -->
-    <div class="two-col-grid">
-      <!-- 市场大盘与海关税则 -->
-      <section class="card-modern" id="sec-market">
+      <section class="card-modern" id="sec-entertainment">
         <div class="card-head">
           <div class="card-title-group">
-            <h2>📈 市场大盘 & 海关税则合规雷达</h2>
-            <span class="badge-blue">7% VAT · 10% LVG 关税实操</span>
+            <h2>🎬 娱乐演艺档期大盘 (已核验精准日期 · 0待定)</h2>
+            <span class="badge-amber">万人演唱会 · 音乐节 · 粉丝见面会</span>
           </div>
-          <div class="card-desc">权威追踪泰国海关署与马来西亚皇家关税局公报，杜绝清关扣关与违规罚单。</div>
+          <div class="card-desc">经官方票务核验日期与 AI 侵权风险评级，自动计算应援服采购黄金爆发期。</div>
         </div>
-        <div id="market-body"></div>
-      </section>
-
-      <!-- 汇率与热带极端气象面料选型 -->
-      <section class="card-modern" id="sec-fx">
-        <div class="card-head">
-          <div class="card-title-group">
-            <h2>💱 官方实时汇率 & 热带气象选型雷达</h2>
-            <span class="badge-green">曼谷 TMD / 马来 MET 15天预报</span>
-          </div>
-          <div class="card-desc">根据高温湿热与强对流降雨，指导 160g 凉感精梳棉与 210g 深色防透棉选型，预警物流延误。</div>
-        </div>
-        <div id="fx-body"></div>
+        <div id="entertainment-body"></div>
       </section>
     </div>
 
-    <!-- 底层资讯与渠道 (折叠紧凑区) -->
-    <section class="card-modern compact-section" id="sec-newsfeed">
+    <!-- 中枢 5：跨境海关税则合规与宏观天气与最新资讯 -->
+    <div class="hub-panel hub-stack" data-hub-group="overview ops all">
+      <div class="two-col-grid">
+        <section class="card-modern" id="sec-fx">
+          <div class="card-head">
+            <div class="card-title-group">
+              <h2>💱 官方实时汇率 · 气象选型 & 三地作战时钟</h2>
+              <span class="badge-green">曼谷 TMD / 马来 MET 实时更新</span>
+            </div>
+            <div class="card-desc">根据高温湿热与降雨概率指导面料选型，联动中泰马三地实时时差。</div>
+          </div>
+          <div id="fx-body"></div>
+        </section>
+
+        <section class="card-modern" id="sec-market">
+          <div class="card-head">
+            <div class="card-title-group">
+              <h2>📈 市场大盘 & 海关税则合规雷达</h2>
+              <span class="badge-blue">7% VAT · 10% LVG 关税实操</span>
+            </div>
+            <div class="card-desc">权威追踪泰国海关署与马来西亚皇家关税局公报，杜绝清关扣关与违规罚单。</div>
+          </div>
+          <div id="market-body"></div>
+        </section>
+      </div>
+    </div>
+
+    <!-- 底层资讯与渠道 -->
+    <section class="card-modern compact-section hub-panel" id="sec-newsfeed" data-hub-group="ops all">
       <div class="card-head">
         <div class="card-title-group">
-          <h2>📰 实时资讯流 & 官方数据源核验清单</h2>
-          <span class="badge-gray">17 个端点实时监听</span>
+          <h2>📰 今日实时 RSS 资讯流 & 官方数据源清单</h2>
+          <span class="badge-gray">2026-11-20 实时抓取</span>
         </div>
       </div>
       <div id="newsfeed-body"></div>
@@ -423,6 +453,6 @@
   </div>
 </div>
 
-<script src="app.js?v=20261120-v10"></script>
+<script src="app.js?v=20261121-v15"></script>
 </body>
 </html>

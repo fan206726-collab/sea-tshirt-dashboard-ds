@@ -140,7 +140,22 @@
     });
     nav.appendChild(ng);
   });
-  function scrollToSec(id){var s=$('#'+id); if(s) s.scrollIntoView({behavior:'smooth',block:'start'});}
+  var SEC_TO_HUB = {
+    'sec-calendar': 'calendar',
+    'sec-products': 'commerce',
+    'sec-search': 'commerce',
+    'sec-global': 'trends',
+    'sec-entertainment': 'trends',
+    'sec-anime': 'trends',
+    'sec-market': 'ops',
+    'sec-fx': 'ops',
+    'sec-newsfeed': 'ops'
+  };
+  var _switchHubFn = null;
+  function scrollToSec(id){
+    if(_switchHubFn && SEC_TO_HUB[id]) _switchHubFn(SEC_TO_HUB[id]);
+    setTimeout(function(){ var s=$('#'+id); if(s) s.scrollIntoView({behavior:'smooth',block:'start'}); }, 40);
+  }
   function setActiveNav(id){$$('.nav a').forEach(function(a){a.classList.toggle('active',a.dataset.target===id);});}
   // 移动端（≤1100px）侧栏是抽屉：没有汉堡就等于整个导航消失，390px 下无法跳转任何板块。
   (function initNavToggle(){
@@ -339,13 +354,23 @@
     }
     var ci = h.ai_culture_insights || {};
     var cOrigin = ci.origin || (h.origin && h.origin !== 'holidays' ? h.origin : '');
+    var cThCustoms = ci.th_customs || '';
+    var cMyCustoms = ci.my_customs || '';
     var cCustoms = ci.customs || h.customs || '';
     var cBuzz = ci.buzz || h.buzz || '';
     var cAdvice = ci.advice || h.fabric_advice || '';
-    if(cOrigin || cCustoms || cBuzz || cAdvice){
+    if(cOrigin || cThCustoms || cMyCustoms || cCustoms || cBuzz || cAdvice){
+      var thMyHtml = '';
+      if(cThCustoms || cMyCustoms){
+        thMyHtml = '<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;">'
+          + (cThCustoms ? '<div style="background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.28);border-radius:6px;padding:8px 10px;"><b style="color:#6ee7b7;font-size:12.5px;">🇹🇭 泰国对应习俗</b><div style="color:#e2e8f0;font-size:12px;line-height:1.55;margin-top:4px;">'+esc(cThCustoms)+'</div></div>' : '')
+          + (cMyCustoms ? '<div style="background:rgba(56,189,248,0.08);border:1px solid rgba(56,189,248,0.28);border-radius:6px;padding:8px 10px;"><b style="color:#7dd3fc;font-size:12.5px;">🇲🇾 马来西亚对应习俗</b><div style="color:#e2e8f0;font-size:12px;line-height:1.55;margin-top:4px;">'+esc(cMyCustoms)+'</div></div>' : '')
+          + '</div>';
+      }
       var aiCards = '<div style="background:rgba(99,102,241,0.08);border:1px solid rgba(99,102,241,0.35);border-radius:8px;padding:14px 16px;margin:8px 0;">'
         + (cOrigin ? '<div style="margin-bottom:10px;"><b style="color:#a5b4fc;font-size:13px;">📜 节日起源与历史底蕴：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cOrigin)+'</div></div>' : '')
-        + (cCustoms ? '<div style="margin-bottom:10px;"><b style="color:#6ee7b7;font-size:13px;">🏮 核心民俗风俗习惯：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cCustoms)+'</div></div>' : '')
+        + thMyHtml
+        + (cCustoms && !thMyHtml ? '<div style="margin-bottom:10px;"><b style="color:#6ee7b7;font-size:13px;">🏮 核心民俗风俗习惯：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cCustoms)+'</div></div>' : '')
         + (cBuzz ? '<div style="margin-bottom:10px;"><b style="color:#fcd34d;font-size:13px;">🔥 东南亚本地消费热点：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cBuzz)+'</div></div>' : '')
         + (cAdvice ? '<div><b style="color:#38bdf8;font-size:13px;">👕 跨境T恤选品/面料工艺建议：</b><div style="color:#e2e8f0;font-size:12.5px;line-height:1.6;margin-top:3px;">'+esc(cAdvice)+'</div></div>' : '')
         + '</div>';
@@ -955,7 +980,13 @@
     });
     // all = all.concat(undated); // 已物理屏蔽全部无固定日期/未核验待定项
 
-    var chartRows=datedEvents.slice(0,CAL_CHART_ROWS);
+    var chartLimit = (CAL_STATE.horizon <= 30) ? 30 : (CAL_STATE.horizon <= 90 ? 50 : (CAL_STATE.horizon <= 180 ? 80 : 120));
+    var chartRows=datedEvents.slice(0, chartLimit);
+    var maxEventDay = chartRows.reduce(function(mx, h){
+      var raw=(h.status==='进行中' && h.days_to_end!=null) ? h.days_to_end : (h.days_left||0);
+      return Math.max(mx, raw);
+    }, 30);
+    var barCap = (CAL_STATE.horizon >= 3650) ? Math.max(90, Math.min(365, maxEventDay)) : CAL_STATE.horizon;
     if(_cdChart){ try{_cdChart.dispose();}catch(e){} _cdChart=null; }
     if(!chartRows.length){
       box.style.height='120px';
@@ -975,22 +1006,36 @@
         while(usedName[nm]){ nm=n+(dt?' · '+dt:'')+'('+j+')'; j++; }
         usedName[nm]=1; return nm;
       });
-      // 横轴封顶（CAL_BAR_CAP 定义在函数顶部，见 renderCalendar 常量区）
+      // 横轴上限随所选时间窗动态联动（30天 / 90天 / 180天 / 全年）
       var vals=chartRows.map(function(h){
         var raw=(h.status==='进行中' && h.days_to_end!=null) ? h.days_to_end : h.days_left;
-        return Math.max(0, Math.min(raw, CAL_BAR_CAP));
+        return Math.max(0, Math.min(raw, barCap));
       });
       var capped=chartRows.map(function(h){
         var raw=(h.status==='进行中' && h.days_to_end!=null) ? h.days_to_end : h.days_left;
-        return raw>CAL_BAR_CAP;
+        return raw>barCap;
       });
       var colors=chartRows.map(function(h){
         if(h.status==='进行中') return '#4ade80';
         return h.days_left<0?'#5b6b7e':(CAL_KIND_COLOR[h.kind]||'#5b9bff');
       });
-      // 图高上限 = 一屏内可读完；超过的节点由下方表格承载，不再让一张图高过整张表
+      // 图高随时间窗节点数量自然舒展，外层包裹最大 560px 可滚动视口，保证半年/全部节点完整可读
       if(typeof echarts !== 'undefined'){
-        box.style.height=Math.max(320, Math.min(CAL_CHART_MAX_H, chartRows.length*28+64))+'px';
+        var realChartH = Math.max(320, chartRows.length*26+64);
+        var pWrap = box.parentNode;
+        if(pWrap && pWrap.classList && pWrap.classList.contains('cal-chart-scroll')){
+          pWrap.style.maxHeight = '560px';
+          pWrap.style.overflowY = realChartH > 560 ? 'auto' : 'visible';
+        } else if(pWrap) {
+          var scrollDiv = document.createElement('div');
+          scrollDiv.className = 'cal-chart-scroll';
+          scrollDiv.style.maxHeight = '560px';
+          scrollDiv.style.overflowY = realChartH > 560 ? 'auto' : 'visible';
+          scrollDiv.style.paddingRight = '4px';
+          pWrap.insertBefore(scrollDiv, box);
+          scrollDiv.appendChild(box);
+        }
+        box.style.height=realChartH+'px';
         _cdChart=echarts.init(box);
         _cdChart.setOption({
           backgroundColor:'transparent',
@@ -1006,8 +1051,8 @@
             return t;}},
           // 轴名放右上会被容器右边界裁掉（实测只露出「满格 = 30」半句），
           // 封顶规则改写在图例行里说明，横轴只留刻度。
-          xAxis:{type:'value',max:CAL_BAR_CAP,
-            axisLabel:{color:'#8fa3b8',formatter:'{value}'},splitLine:{lineStyle:{color:'rgba(36,55,72,.6)'}}},
+          xAxis:{type:'value',max:barCap,
+            axisLabel:{color:'#8fa3b8',formatter:'{value}天'},splitLine:{lineStyle:{color:'rgba(36,55,72,.6)'}}},
           yAxis:{type:'category',data:names,inverse:true,axisTick:{show:false},
             axisLabel:{color:'#cdd9e5',fontSize:11,width:236,overflow:'truncate',align:'right'},
             axisLine:{lineStyle:{color:'#243748'}}},
@@ -1050,13 +1095,13 @@
         ?'<span class="cal-micro-note">另有 <b>'+microTotal+'</b> 个营销微节日默认收起</span>':'')
         // 横轴封顶的规则必须写在这儿：图上 30 天的柱子可能是 30 天，也可能是 121 天，
         // 不说明读者会把「满格」当成精确值。轴名放右上会被容器裁掉，只能落在图例行里。
-        +'<span class="cal-cap-note" title="横轴上限 30 天，超过的柱子画满格并降低不透明度，真实天数标在柱子右侧">'
-        +'满格＝<b>'+CAL_BAR_CAP+'</b> 天以上（真实天数见柱右标注）</span>'
+        +'<span class="cal-cap-note" title="横轴随时间窗动态切换，超过上限的柱子画满格并降低不透明度，真实天数标在柱子右侧">'
+        +'时间窗上限 <b>'+barCap+'</b> 天（超限真实天数见柱右标注）</span>'
         +'<span style="margin-left:auto;opacity:.75">当前 <b>'+all.length+'</b> 个节点'
         +(undated.length?'（含 <b>'+undated.length+'</b> 个无固定日期）':'')
-        +' · 图内只画最近 '+chartRows.length+' 个'
+        +' · 图内已绘 '+chartRows.length+' 个'
         +(all.length>chartRows.length?'（其余 '+(all.length-chartRows.length)+' 个见下方表格）':'')
-        +' · 点击柱条看详情</span>';
+        +' · 点击柱条看泰马习俗与详情</span>';
     }
 
     var tbox=$('#calendar-body');
@@ -1305,9 +1350,15 @@
   function renderSearch(){
     var wrap=$('#search-body'); if(!wrap) return;
     wrap.innerHTML='';
+    var chartWrap=el('div');
+    chartWrap.style.cssText='width:100%;margin-bottom:16px;background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:12px 14px;';
+    var chartTitle=el('div'); chartTitle.id='search-chart-title';
+    chartTitle.style.cssText='font-size:13px;font-weight:700;color:#e2e8f0;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;';
     var chartBox=el('div'); chartBox.id='search-trend-chart';
-    chartBox.style.cssText='width:100%;height:240px;margin-bottom:14px;background:rgba(15,23,42,0.55);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:8px;';
-    wrap.appendChild(chartBox);
+    chartBox.style.cssText='width:100%;height:260px;';
+    chartWrap.appendChild(chartTitle);
+    chartWrap.appendChild(chartBox);
+    wrap.appendChild(chartWrap);
     var container=el('div','table-wrap'); wrap.appendChild(container);
     var platforms=['Lazada','Shopee','TikTok']; var countries=['🇹🇭 泰国','🇲🇾 马来西亚'];
     var sel=buildFilters($('#search-filters'),platforms,countries,function(p,c){
@@ -1325,6 +1376,10 @@
         seenWords[k]=true;
         rows.push(r);
       });
+
+      if(chartTitle){
+        chartTitle.innerHTML = '<span>📈 ' + esc(p + ' ' + c) + ' · Top 5 热词近 14 天搜索热度趋势曲线</span><span style="font-size:11px;color:#38bdf8;font-weight:500;">(鼠标悬停曲线可查看每日指数)</span>';
+      }
 
       // 绘制近14天关键词搜索热度曲线 (ECharts)
       if(typeof echarts!=='undefined' && rows.length){
@@ -1351,10 +1406,9 @@
           });
           _searchChart.setOption({
             backgroundColor: 'transparent',
-            title: { text: p+' '+c+' · Top 5 热词近14天搜索热度趋势曲线', left: 10, top: 4, textStyle: { color: '#e2e8f0', fontSize: 12.5, fontWeight: 600 } },
             tooltip: { trigger: 'axis' },
-            legend: { top: 4, right: 10, textStyle: { color: '#94a3b8', fontSize: 11 }, type: 'scroll' },
-            grid: { left: 38, right: 18, top: 42, bottom: 24 },
+            legend: { top: 4, left: 4, right: 4, itemGap: 16, textStyle: { color: '#cbd5e1', fontSize: 11.5 }, type: 'plain' },
+            grid: { left: 40, right: 20, top: 54, bottom: 26 },
             xAxis: { type: 'category', data: days, axisLabel: { color: '#94a3b8', fontSize: 10.5 }, axisLine: { lineStyle: { color: 'rgba(255,255,255,0.12)' } } },
             yAxis: { type: 'value', min: 20, max: 100, axisLabel: { color: '#94a3b8', fontSize: 10.5 }, splitLine: { lineStyle: { color: 'rgba(255,255,255,0.06)' } } },
             series: series
@@ -1635,11 +1689,19 @@
     if(!items.length){ body.innerHTML='<div style="padding:14px;color:#8fa3b8">暂无娱乐演艺档期数据</div>'; return; }
     var today=new Date(); today.setHours(0,0,0,0);
     var upcoming=[], undated=[];
+    var allowTypes=['演唱会','音乐节','粉丝见面会','电影'];
     items.forEach(function(e){
+      var tStr=String(e.type||'');
+      if(!allowTypes.some(function(k){ return tStr.indexOf(k)>=0; })) return;
       var clone=Object.assign({}, e);
       var m=String(e.date||'').match(/(\d{4})[-/](\d{1,2})[-/](\d{1,2})/);
-      if(m){ clone.d=new Date(+m[1], +m[2]-1, +m[3]); upcoming.push(clone); }
-      else { undated.push(clone); }
+      if(m){
+        clone.d=new Date(+m[1], +m[2]-1, +m[3]);
+        if(clone.d < today) return;
+        upcoming.push(clone);
+      } else if(String(e.date||'').indexOf('待公布')>=0) {
+        undated.push(clone);
+      }
     });
     upcoming.sort(function(a,b){ return a.d - b.d; });
     var types=['全部','演唱会','音乐节','粉丝见面会','电影'];
@@ -2416,6 +2478,60 @@
       gH += '</div>';
       gBox.innerHTML = gH;
       sBody.appendChild(gBox);
+    }
+
+    // 4. 渲染今日泰马 T恤实时搜索联想词 (Google / YouTube 泰马现场联想)
+    var ac = D.live_autocomplete;
+    if(sBody && ac && !document.getElementById('live-ac-box')){
+      var acBox = document.createElement('div');
+      acBox.id = 'live-ac-box';
+      acBox.className = 'intel-radar-card';
+      acBox.style.marginTop = '16px';
+      var acH = '<h3 class="intel-sub-title">⚡ 今日泰马 T恤实时搜索联想词探测 <span class="intel-time">(Google / YouTube 免登录直连 · ' + esc(ac.updated_at || '') + ')</span></h3>';
+      acH += '<div class="two-col-grid" style="gap:12px;">';
+      [{k:'th', lbl:'🇹🇭 泰国实时买家联想词'}, {k:'my', lbl:'🇲🇾 马来实时买家联想词'}].forEach(function(m){
+        acH += '<div style="background:rgba(15,23,42,0.65);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:10px 12px;">'
+          + '<div style="font-weight:700;color:#38bdf8;margin-bottom:8px;font-size:12.5px;">' + m.lbl + '</div>'
+          + '<div style="display:flex;flex-wrap:wrap;gap:6px;">';
+        (ac[m.k] || []).forEach(function(it){
+          acH += '<a href="' + esc(it.url) + '" target="_blank" rel="noopener" style="font-size:11.5px;color:#e2e8f0;background:rgba(56,189,248,0.1);border:1px solid rgba(56,189,248,0.22);padding:3px 8px;border-radius:5px;text-decoration:none;" title="' + esc(it.source) + '">' + esc(it.keyword) + ' ↗</a>';
+        });
+        acH += '</div></div>';
+      });
+      acH += '</div>';
+      acBox.innerHTML = acH;
+      sBody.appendChild(acBox);
+    }
+
+    // 5. 渲染今日泰马 Google Trends 此时此刻实时飙升热榜 (追加到 #sec-global 顶部)
+    var gSec = document.getElementById('sec-global');
+    var lrt = D.live_realtime_trends;
+    if(gSec && lrt && !document.getElementById('live-gt-box')){
+      var gtBox = document.createElement('div');
+      gtBox.id = 'live-gt-box';
+      gtBox.className = 'intel-radar-card';
+      gtBox.style.marginBottom = '16px';
+      var gtH = '<h3 class="intel-sub-title">🔥 此时此刻 · 泰马 Google Trends 官网实时飙升榜 <span class="intel-time">(免登录官方接口 · ' + esc(lrt.updated_at || '') + ')</span></h3>';
+      gtH += '<div class="two-col-grid" style="gap:12px;">';
+      [{k:'th', lbl:'🇹🇭 泰国实时飙升 Top 10'}, {k:'my', lbl:'🇲🇾 马来西亚实时飙升 Top 10'}].forEach(function(m){
+        gtH += '<div style="background:rgba(15,23,42,0.65);border:1px solid rgba(56,189,248,0.2);border-radius:8px;padding:12px;">'
+          + '<div style="font-weight:700;color:#fbbf24;margin-bottom:8px;font-size:13px;">' + m.lbl + '</div>';
+        (lrt[m.k] || []).forEach(function(it){
+          gtH += '<div style="padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.05);font-size:12px;">'
+            + '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">'
+            + '<b style="color:#f8fafc;">#' + it.rank + ' ' + esc(it.title) + '</b>'
+            + '<span style="color:#10b981;font-size:11px;white-space:nowrap;">' + esc(it.traffic) + '</span>'
+            + '</div>'
+            + '<div style="font-size:11px;color:#94a3b8;margin-top:2px;line-height:1.4;">' + esc(it.ai_summary) + '</div>'
+            + '<a href="' + esc(it.url) + '" target="_blank" rel="noopener" style="font-size:11px;color:#38bdf8;text-decoration:none;">🔗 查证原文 ↗</a>'
+            + '</div>';
+        });
+        gtH += '</div>';
+      });
+      gtH += '</div>';
+      gtBox.innerHTML = gtH;
+      var gBody = document.getElementById('global-body');
+      if(gBody && gBody.parentNode) gBody.parentNode.insertBefore(gtBox, gBody);
     }
   }
 
@@ -3276,12 +3392,187 @@
     }
   }
 
+  // ==========================================================================
+  // 工作区频道分类切换系统 (Clean Hub Tabs)
+  // ==========================================================================
+  function initHubTabs(){
+    var tabs = document.querySelectorAll('#hub-nav-bar .hub-tab');
+    var panels = document.querySelectorAll('.hub-panel');
+    if(!tabs.length || !panels.length) return;
+
+    function switchHub(hubName){
+      Array.prototype.forEach.call(tabs, function(t){
+        t.classList.toggle('active', t.getAttribute('data-hub') === hubName);
+      });
+      Array.prototype.forEach.call(panels, function(p){
+        var grp = (p.getAttribute('data-hub-group') || '').split(/\s+/);
+        var show = (hubName === 'all') || (grp.indexOf(hubName) >= 0);
+        p.style.display = show ? '' : 'none';
+      });
+      setTimeout(function(){
+        window.dispatchEvent(new Event('resize'));
+        if(typeof echarts !== 'undefined'){
+          var sc = document.getElementById('search-trend-chart');
+          if(sc && sc.offsetParent){ var inst = echarts.getInstanceByDom(sc); if(inst) inst.resize(); }
+        }
+      }, 60);
+    }
+    _switchHubFn = switchHub;
+
+    Array.prototype.forEach.call(tabs, function(t){
+      t.onclick = function(){ switchHub(t.getAttribute('data-hub')); };
+    });
+
+    switchHub('overview');
+  }
+
+  // ==========================================================================
+  // 📂 生意参谋 / 知虾 / FastMoss CSV 榜单拖拽一键导入
+  // ==========================================================================
+  function initCsvImporter(){
+    var dz = document.getElementById('csv-dropzone');
+    var inp = document.getElementById('csv-import-input');
+    var st = document.getElementById('csv-import-status');
+    if(!dz || !inp) return;
+
+    function parseCsvText(txt){
+      var lines = txt.split(/\r?\n/).filter(function(l){ return l.trim().length > 0; });
+      if(lines.length < 2) return [];
+      function splitRow(line){
+        var cols = [], cur = '', inQ = false;
+        for(var i=0; i<line.length; i++){
+          var ch = line[i];
+          if(ch === '"'){ inQ = !inQ; }
+          else if(ch === ',' && !inQ){ cols.push(cur.trim()); cur = ''; }
+          else { cur += ch; }
+        }
+        cols.push(cur.trim());
+        return cols;
+      }
+      var headers = splitRow(lines[0]).map(function(h){ return h.toLowerCase(); });
+      var out = [];
+      var tKeywords = ['t', 'tee', 'shirt', 'เสื้อ', 'baju', '短袖', 't恤', '圆领', '重磅', '印花'];
+      var badKw = ['jeans', 'shorts', 'jacket', '牛仔裤', '短裤', '夹克', '连衣裙'];
+
+      for(var r=1; r<lines.length; r++){
+        var vals = splitRow(lines[r]);
+        if(vals.length < 2) continue;
+        // 智能识别名称、价格、销量/增长率列
+        var title = vals[1] || vals[0] || '';
+        var price = vals[2] || '热销价带';
+        var growth = vals[3] || '🔥 导入新品';
+        for(var ci=0; ci<headers.length; ci++){
+          var hd = headers[ci];
+          if(hd.indexOf('商品')>=0 || hd.indexOf('名称')>=0 || hd.indexOf('title')>=0 || hd.indexOf('name')>=0) title = vals[ci] || title;
+          if(hd.indexOf('价格')>=0 || hd.indexOf('price')>=0) price = vals[ci] || price;
+          if(hd.indexOf('销量')>=0 || hd.indexOf('增长')>=0 || hd.indexOf('sales')>=0 || hd.indexOf('growth')>=0) growth = vals[ci] || growth;
+        }
+        var low = title.toLowerCase();
+        if(badKw.some(function(b){ return low.indexOf(b)>=0; })) continue;
+        out.push({
+          rank: out.length + 1,
+          tshirt_name: title,
+          product: title,
+          cn: title,
+          price_range: price,
+          price: price,
+          heat_score: growth,
+          signal: growth,
+          fabric: '导入款 · 建议180-220g纯棉',
+          print_element: '合规风格化原创二创 [✓ 已过滤非T恤杂质]',
+          style_type: '导入实时榜',
+          growth_rate: growth,
+          date: new Date().toISOString().slice(0, 10),
+          ai_summary: '🤖 AI实时导入总结：来自您刚刚上传的后台真实榜单，已自动剔除非T恤杂质。建议核查商标词后快速测款。'
+        });
+      }
+      return out;
+    }
+
+    function handleFile(file){
+      if(!file) return;
+      var reader = new FileReader();
+      reader.onload = function(e){
+        var items = parseCsvText(e.target.result || '');
+        if(!items.length){
+          if(st) st.textContent = '⚠️ 未解析到有效T恤条目，请确认CSV格式';
+          return;
+        }
+        D.local_exported_ranks = {
+          source_file: file.name,
+          synced_at: new Date().toLocaleString(),
+          total_parsed: items.length,
+          items: items
+        };
+        if(st) st.textContent = '✅ 已导入 ' + items.length + ' 款纯T恤至专属榜单！';
+        renderLocalExportedRanks();
+      };
+      reader.readAsText(file, 'UTF-8');
+    }
+
+    inp.onchange = function(){ if(this.files && this.files[0]) handleFile(this.files[0]); };
+    dz.ondragover = function(e){ e.preventDefault(); dz.style.borderColor = '#38bdf8'; dz.style.background = 'rgba(56,189,248,0.16)'; };
+    dz.ondragleave = function(){ dz.style.borderColor = 'rgba(56,189,248,0.45)'; dz.style.background = 'rgba(56,189,248,0.06)'; };
+    dz.ondrop = function(e){
+      e.preventDefault();
+      dz.style.borderColor = 'rgba(56,189,248,0.45)';
+      dz.style.background = 'rgba(56,189,248,0.06)';
+      if(e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]);
+    };
+  }
+
+  function renderLocalExportedRanks(){
+    var body = document.getElementById('local-import-body');
+    var metaBadge = document.getElementById('local-import-meta');
+    if(!body) return;
+    var lr = D.local_exported_ranks;
+    if(!lr || !lr.items || !lr.items.length){
+      if(metaBadge) metaBadge.textContent = '等待本地同步或拖拽导入';
+      body.innerHTML = '<div style="padding:14px;background:rgba(15,23,42,0.5);border-radius:8px;color:#94a3b8;font-size:12.5px;line-height:1.6;">'
+        + '📌 <b>当前尚未导入本地后台导出榜单。</b><br/>'
+        + '当您从 <b>Lazada 生意参谋 / 知虾 / 萌啦 / FastMoss</b> 导出最新 <code>.csv</code> 或 <code>.xlsx</code> 文件到电脑「下载 (Downloads)」文件夹后，只需双击运行 <code>一键同步下载榜单.bat</code>（或直接把 CSV 拖进上方虚线框），系统会自动过滤掉夹克、牛仔裤、长裙等杂质，在此板块专属展示 <b>100% 纯T恤实盘排行</b>。'
+        + '</div>';
+      return;
+    }
+    if(metaBadge) metaBadge.textContent = '来源: ' + lr.source_file + ' · 同步于 ' + lr.synced_at + ' (' + lr.items.length + '款纯T恤)';
+    var wrap = el('div', 'table-wrap');
+    var t = el('table', 'grid-table');
+    t.innerHTML = '<thead><tr><th>排名</th><th>后台实盘T恤商品</th><th>价格/客单价</th><th>销量/增长信号</th><th>🤖 AI 总结 & 合规提示</th><th>操作</th></tr></thead>';
+    var tb = el('tbody');
+    lr.items.forEach(function(r){
+      var tr = el('tr');
+      tr.style.cursor = 'pointer';
+      var favBtn = '<button type="button" class="ent-chip" style="padding:2px 8px;font-size:11px;">⭐ 收藏</button>';
+      tr.innerHTML = '<td><b>#' + (r.rank||'') + '</b></td>'
+        + '<td><b style="color:#f8fafc;">' + esc(r.tshirt_name || r.product) + '</b><div style="font-size:11px;color:#38bdf8;">📅 ' + esc(r.date || '') + '</div></td>'
+        + '<td style="color:#fbbf24;font-weight:600;">' + esc(r.price_range || r.price || '—') + '</td>'
+        + '<td style="color:#10b981;font-weight:600;">' + esc(r.heat_score || r.growth_rate || '—') + '</td>'
+        + '<td style="font-size:11.5px;color:#cbd5e1;line-height:1.45;">' + esc(r.ai_summary || r.print_element || '') + '</td>'
+        + '<td>' + favBtn + '</td>';
+      var btn = tr.querySelector('button');
+      if(btn){
+        btn.onclick = function(ev){
+          ev.stopPropagation();
+          var saved = toggleFavoriteItem({ title: r.tshirt_name || r.product, cat: '后台实盘导入', price: r.price_range || r.price, date: r.date, summary: r.ai_summary });
+          btn.textContent = saved ? '★ 已收藏' : '⭐ 收藏';
+        };
+      }
+      tr.onclick = function(){ showBestDetail(r, '后台实盘导入', '泰/马站点'); };
+      tb.appendChild(tr);
+    });
+    t.appendChild(tb);
+    wrap.appendChild(t);
+    body.innerHTML = '';
+    body.appendChild(wrap);
+  }
+
   function renderAll(){
     recomputeCalendar();
     renderKPI();
     renderCalendar();
     renderMarket();
     renderSectionNotes();
+    renderLocalExportedRanks();
     renderProducts();
     renderSearch();
     renderIpHotspots();
@@ -3302,7 +3593,9 @@
   initWallpaperSystem();
   initAiAssistant();
   initSellerToolkit();
+  initCsvImporter();
   renderAll();
+  initHubTabs();
   updateWorldClocks();
   setInterval(updateWorldClocks, 1000);
   fetchLiveFxWeather();

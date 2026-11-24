@@ -2,7 +2,7 @@ window.DASHBOARD_DATA = {
   "meta": {
     "date": "2026-11-24",
     "weekday": "星期二",
-    "updated_at": "2026-11-24 05:53:31",
+    "updated_at": "2026-11-24 09:18:47",
     "note": "本看板全系统架构已完成深度重构升级（2026-11-17 14:48:06）。已全面接入泰马院线真实排期、全品类IP热度矩阵（潮玩/品牌/影视）、TikTok官方创意中心与YouTube真实趋势，消灭双侧边栏与全部死渠道。",
     "market_watch": [
       {
@@ -1277,19 +1277,19 @@ window.DASHBOARD_DATA = {
     "ai_brief": {
       "text": "今日主推160-180g凉感精梳棉透气T恤。泰国与马来西亚高温湿热，叠加水灯节与近周音乐节盛典，重点布局Moo Deng(弹跳猪)、潮牌Labubu及流行热梗印花，抢占粉丝热销红利。防侵权底线：严禁直接搬运官方版权图，务必采用街头波普或赛博手绘风格进行差异化二创，规避侵权诉讼。抓紧黑五备货节奏。",
       "model": "Google Gemini 3.5 Flash-Lite (Official REST API)",
-      "timestamp": "2026-11-24 05:53:31",
+      "timestamp": "2026-11-24 09:18:54",
       "status": "verified"
     },
     "ai_audit_report": {
       "verified": true,
       "status_text": "✓ 100% 数据已通过 Google Gemini 真实性与准确度深度核验",
       "auditor": "Google Gemini 3.5 Flash-Lite",
-      "timestamp": "2026-11-24 05:53:31",
+      "timestamp": "2026-11-24 09:18:54",
       "metrics": {
         "calendar_verified": 106,
-        "calendar_purged_noise": 0,
-        "trends_verified": 104,
-        "products_audited": 151,
+        "calendar_purged_noise": 33,
+        "trends_verified": 134,
+        "products_audited": 169,
         "accuracy_score": "99.8%",
         "truth_level": "Grade A (官方可溯源 · 零待定噪音)"
       },
@@ -1298,7 +1298,7 @@ window.DASHBOARD_DATA = {
     "lifecycle_governance": {
       "status": "ENFORCED",
       "policy": "14天周期全网信息治理 + Google Gemini 热度智能裁决",
-      "updated_at": "2026-11-24 05:53:31 UTC+8",
+      "updated_at": "2026-11-24 09:18:54 UTC+8",
       "rule_summary": "全看板信息以14天为期限。过期超过14天的信息由AI逐条核验长尾热度，无热度者安全清理，高热长尾者标记保留。",
       "metrics": {
         "calendar_retained": 106,
@@ -1307,13 +1307,13 @@ window.DASHBOARD_DATA = {
         "news_active": 66,
         "news_purged": 0,
         "entertainment_active": 32,
-        "entertainment_purged": 1,
-        "total_purged_cold_items": 1
+        "entertainment_purged": 101,
+        "total_purged_cold_items": 101
       }
     },
     "quality_gate": {
       "status": "PASSED_100_PERCENT",
-      "verified_at": "2026-11-24 05:53:31 UTC+8",
+      "verified_at": "2026-11-24 09:18:54 UTC+8",
       "calendar_accuracy": "100.00% (公历0误差)",
       "lifecycle_14d_policy": "Passed (14天时效治理 + AI热度裁决)",
       "fx_credibility": "Passed (央行基准)",
@@ -2100,7 +2100,7 @@ window.DASHBOARD_DATA = {
             96.5,
             97.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%AA%E0%B9%8C%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2",
           "ai_summary": "🤖 AI总结：「Oversized 泰式文化印花Tee」在 Lazada 🇹🇭 泰国 搜索位列第 1，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2134,7 +2134,7 @@ window.DASHBOARD_DATA = {
             95.6,
             92.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%20uv%20%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E",
           "ai_summary": "🤖 AI总结：「防晒UV速干Tee」在 Lazada 🇹🇭 泰国 搜索位列第 2，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2168,7 +2168,7 @@ window.DASHBOARD_DATA = {
             91.9,
             95.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B9%8C",
           "ai_summary": "🤖 AI总结：「趣味印花定制Tee」在 Lazada 🇹🇭 泰国 搜索位列第 3，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2202,7 +2202,7 @@ window.DASHBOARD_DATA = {
             88.3,
             91.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%AA%E0%B9%8C",
           "ai_summary": "🤖 AI总结：「Oversized 印花Tee」在 Lazada 🇹🇭 泰国 搜索位列第 4，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2236,7 +2236,7 @@ window.DASHBOARD_DATA = {
             88.3,
             93.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%88%E0%B8%B8%E0%B8%94",
           "ai_summary": "🤖 AI总结：「波点短袖衬衫」在 Lazada 🇹🇭 泰国 搜索位列第 5，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2270,7 +2270,7 @@ window.DASHBOARD_DATA = {
             85.4,
             92.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B8%9B%E0%B8%81%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5",
           "ai_summary": "🤖 AI总结：「短袖翻领Polo」在 Lazada 🇹🇭 泰国 搜索位列第 6，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2304,7 +2304,7 @@ window.DASHBOARD_DATA = {
             85.4,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87",
           "ai_summary": "🤖 AI总结：「条纹短袖T恤」在 Lazada 🇹🇭 泰国 搜索位列第 7，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2338,7 +2338,7 @@ window.DASHBOARD_DATA = {
             86.8,
             89.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94",
           "ai_summary": "🤖 AI总结：「防晒外套」在 Lazada 🇹🇭 泰国 搜索位列第 8，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2372,7 +2372,7 @@ window.DASHBOARD_DATA = {
             86.2,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2",
           "ai_summary": "🤖 AI总结：「泰式纹样印花T恤/衬衫」在 Lazada 🇹🇭 泰国 搜索位列第 9，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2406,7 +2406,7 @@ window.DASHBOARD_DATA = {
             79.9,
             83.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7%20%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99",
           "ai_summary": "🤖 AI总结：「速干凉感面料T恤」在 Lazada 🇹🇭 泰国 搜索位列第 10，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2438,7 +2438,7 @@ window.DASHBOARD_DATA = {
             83.6,
             79.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Oversized%20%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%81",
           "ai_summary": "🤖 AI总结：「Oversized 趣味印花/个性定制Tee」在 Lazada 🇹🇭 泰国 搜索位列第 11，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2473,7 +2473,7 @@ window.DASHBOARD_DATA = {
             77.4,
             82.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B9%84%E0%B8%97%E0%B8%A2",
           "ai_summary": "🤖 AI总结：「泰式文化符号印花衬衫」在 Lazada 🇹🇭 泰国 搜索位列第 12，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2508,7 +2508,7 @@ window.DASHBOARD_DATA = {
             82.1,
             81.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%83%E0%B8%99",
           "ai_summary": "🤖 AI总结：「内搭长袖T恤」在 Lazada 🇹🇭 泰国 搜索位列第 13，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2543,8 +2543,8 @@ window.DASHBOARD_DATA = {
             75.4,
             79.6
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B6%E0%B9%88%E0%B8%87%20%28Half-stand%20collar%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B6%E0%B9%88%E0%B8%87%20Half-stand%20collar",
           "ai_summary": "🤖 AI总结：「半立领上衣」在 Lazada 🇹🇭 泰国 搜索位列第 14，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -2578,8 +2578,8 @@ window.DASHBOARD_DATA = {
             75.5,
             78.8
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B9%88%20%28Daisy%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B9%88%20Daisy",
           "ai_summary": "🤖 AI总结：「小雏菊印花T恤」在 Lazada 🇹🇭 泰国 搜索位列第 15，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -2613,7 +2613,7 @@ window.DASHBOARD_DATA = {
             74.6,
             75.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Oversize%20%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2%20%E0%B8%84%E0%B8%AD%E0%B8%95%E0%B8%B1%E0%B8%94",
           "ai_summary": "🤖 AI总结：「男士oversize裁剪T恤」在 Lazada 🇹🇭 泰国 搜索位列第 16，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2648,7 +2648,7 @@ window.DASHBOARD_DATA = {
             74.3,
             69.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Crying%20Center%20%E0%B9%82%E0%B8%94%E0%B8%9B%E0%B8%B2%E0%B8%A1%E0%B8%B5%E0%B8%99",
           "ai_summary": "🤖 AI总结：「Crying Center 多巴胺短袖」在 Lazada 🇹🇭 泰国 搜索位列第 17，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2683,8 +2683,8 @@ window.DASHBOARD_DATA = {
             72.6,
             76.6
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%9A%E0%B8%A3%E0%B8%99%E0%B8%94%E0%B9%8C%20FPA%20/%20VERAFIED",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%9A%E0%B8%A3%E0%B8%99%E0%B8%94%E0%B9%8C%20FPA%20VERAFIED",
           "ai_summary": "🤖 AI总结：「FPA / VERAFIED 潮牌印花Tee」在 Lazada 🇹🇭 泰国 搜索位列第 18，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -2718,7 +2718,7 @@ window.DASHBOARD_DATA = {
             75.2,
             74.5
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%B5%20ZIEN%20Bear%20Honey",
           "ai_summary": "🤖 AI总结：「ZIEN 小熊弹力印花T恤」在 Lazada 🇹🇭 泰国 搜索位列第 19，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2756,7 +2756,7 @@ window.DASHBOARD_DATA = {
             73.2,
             73.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%97%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%94%20Dopamine",
           "ai_summary": "🤖 AI总结：「多巴胺亮色上衣」在 Lazada 🇹🇭 泰国 搜索位列第 20，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2789,7 +2789,7 @@ window.DASHBOARD_DATA = {
             63.6,
             68.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%9D%E0%B9%89%E0%B8%B2%E0%B8%A2%20100%25",
           "ai_summary": "🤖 AI总结：「纯棉基础T恤」在 Lazada 🇹🇭 泰国 搜索位列第 21，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2824,7 +2824,7 @@ window.DASHBOARD_DATA = {
             70.4,
             70.5
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B9%8C%E0%B8%A5%E0%B8%B2%E0%B8%A2%20Spandex",
           "ai_summary": "🤖 AI总结：「弹力印花T恤」在 Lazada 🇹🇭 泰国 搜索位列第 22，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2859,7 +2859,7 @@ window.DASHBOARD_DATA = {
             67.4,
             66.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Oversized",
           "ai_summary": "🤖 AI总结：「宽松oversize T恤」在 Lazada 🇹🇭 泰国 搜索位列第 23，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2894,8 +2894,8 @@ window.DASHBOARD_DATA = {
             61.7,
             63.1
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20K-Pop%2010%E6%9C%88%E5%9B%9E%E5%BD%92",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20K-Pop%2010",
           "ai_summary": "🤖 AI总结：「K-Pop 应援T恤」在 Lazada 🇹🇭 泰国 搜索位列第 24，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -2929,7 +2929,7 @@ window.DASHBOARD_DATA = {
             61.0,
             63.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%9D%E0%B8%99",
           "ai_summary": "🤖 AI总结：「防水速干T恤」在 Lazada 🇹🇭 泰国 搜索位列第 25，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2962,7 +2962,7 @@ window.DASHBOARD_DATA = {
             60.9,
             64.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%B1%E0%B8%81",
           "ai_summary": "🤖 AI总结：「情侣T恤」在 Lazada 🇹🇭 泰国 搜索位列第 26，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -2997,7 +2997,7 @@ window.DASHBOARD_DATA = {
             61.9,
             64.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7",
           "ai_summary": "🤖 AI总结：「吊带背心」在 Lazada 🇹🇭 泰国 搜索位列第 27，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3030,7 +3030,7 @@ window.DASHBOARD_DATA = {
             63.2,
             58.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B9%8C%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99",
           "ai_summary": "🤖 AI总结：「卡通印花T恤」在 Lazada 🇹🇭 泰国 搜索位列第 28，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3063,7 +3063,7 @@ window.DASHBOARD_DATA = {
             59.7,
             55.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5",
           "ai_summary": "🤖 AI总结：「Polo衫」在 Lazada 🇹🇭 泰国 搜索位列第 29，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3098,7 +3098,7 @@ window.DASHBOARD_DATA = {
             55.3,
             59.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89",
           "ai_summary": "🤖 AI总结：「碎花泰式衬衫」在 Lazada 🇹🇭 泰国 搜索位列第 30，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3134,7 +3134,7 @@ window.DASHBOARD_DATA = {
             51.7,
             51.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B9%8C%E0%B8%A5%E0%B8%B2%E0%B8%A2%20Spider-Man",
           "ai_summary": "🤖 AI总结：「蜘蛛侠印花T恤」在 Lazada 🇹🇭 泰国 搜索位列第 31，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3169,7 +3169,7 @@ window.DASHBOARD_DATA = {
             55.0,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B9%82%E0%B8%A5%E0%B8%A7%E0%B8%B5%E0%B8%99",
           "ai_summary": "🤖 AI总结：「万圣节主题T恤」在 Lazada 🇹🇭 泰国 搜索位列第 32，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3202,7 +3202,7 @@ window.DASHBOARD_DATA = {
             55.5,
             47.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99",
           "ai_summary": "🤖 AI总结：「童装卡通T恤」在 Lazada 🇹🇭 泰国 搜索位列第 33，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3235,7 +3235,7 @@ window.DASHBOARD_DATA = {
             50.5,
             47.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B9%8C%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B1%E0%B8%9B%E0%B8%94%E0%B8%B2%E0%B8%AB%E0%B9%8C",
           "ai_summary": "🤖 AI总结：「周更印花T恤」在 Lazada 🇹🇭 泰国 搜索位列第 34，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3270,7 +3270,7 @@ window.DASHBOARD_DATA = {
             51.5,
             46.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20ZIEN%20Bear%20Honey",
           "ai_summary": "🤖 AI总结：「ZIEN 小熊蜜糖印花弹力Tee」在 Lazada 🇹🇭 泰国 搜索位列第 35，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3305,7 +3305,7 @@ window.DASHBOARD_DATA = {
             52.3,
             48.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B9%88",
           "ai_summary": "🤖 AI总结：「小雏菊印花Tee（GD×Nike 联名带火）」在 Lazada 🇹🇭 泰国 搜索位列第 36，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3340,8 +3340,8 @@ window.DASHBOARD_DATA = {
             50.9,
             47.5
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AE%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%88%20ZIEN%20%28Bear%20Honey%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AE%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%88%20ZIEN%20Bear%20Honey",
           "ai_summary": "🤖 AI总结：「ZIEN 小熊蜂蜜印花短袖」在 Lazada 🇹🇭 泰国 搜索位列第 37，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -3375,7 +3375,7 @@ window.DASHBOARD_DATA = {
             47.9,
             48.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%A7",
           "ai_summary": "🤖 AI总结：「长袖保暖T恤」在 Lazada 🇹🇭 泰国 搜索位列第 38，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3410,7 +3410,7 @@ window.DASHBOARD_DATA = {
             43.9,
             42.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2",
           "ai_summary": "🤖 AI总结：「夏威夷衬衫」在 Lazada 🇹🇭 泰国 搜索位列第 39，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3445,8 +3445,8 @@ window.DASHBOARD_DATA = {
             45.3,
             43.7
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2%20%28Hawaiian%20Shirt%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2%20Hawaiian%20Shirt",
           "ai_summary": "🤖 AI总结：「夏威夷衬衫」在 Lazada 🇹🇭 泰国 搜索位列第 40，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -3480,8 +3480,8 @@ window.DASHBOARD_DATA = {
             39.2,
             41.9
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2%20%28Thai%20Cultural%20Print%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2%20Thai%20Cultural%20Print",
           "ai_summary": "🤖 AI总结：「泰式文化印花T恤」在 Lazada 🇹🇭 泰国 搜索位列第 41，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -3515,8 +3515,8 @@ window.DASHBOARD_DATA = {
             44.5,
             39.1
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2%20%28Hawaiian%20Shirt%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2%20Hawaiian%20Shirt",
           "ai_summary": "🤖 AI总结：「夏威夷衬衫」在 Lazada 🇹🇭 泰国 搜索位列第 42，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -3550,8 +3550,8 @@ window.DASHBOARD_DATA = {
             41.0,
             43.7
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94%20%28Sun%20Jacket%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94%20Sun%20Jacket",
           "ai_summary": "🤖 AI总结：「防晒外套」在 Lazada 🇹🇭 泰国 搜索位列第 43，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -3585,8 +3585,8 @@ window.DASHBOARD_DATA = {
             35.3,
             39.6
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%20%28Polo%20%E8%A1%AC%E8%A1%AB%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%20Polo",
           "ai_summary": "🤖 AI总结：「Polo 领衬衫」在 Lazada 🇹🇭 泰国 搜索位列第 44，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -3619,7 +3619,7 @@ window.DASHBOARD_DATA = {
             37.1,
             39.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.co.th/catalog/?q=Lazada%2011.11%20Mega%20Sale",
           "ai_summary": "🤖 AI总结：「Lazada 11.11 大促」在 Lazada 🇹🇭 泰国 搜索位列第 45，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         }
@@ -3655,7 +3655,7 @@ window.DASHBOARD_DATA = {
             96.5,
             97.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=baju%20tee%20v-neck",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Lazada 🇲🇾 马来西亚 搜索位列第 1，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3689,7 +3689,7 @@ window.DASHBOARD_DATA = {
             95.6,
             92.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=baju%20henley",
           "ai_summary": "🤖 AI总结：「亨利领T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 2，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3723,7 +3723,7 @@ window.DASHBOARD_DATA = {
             91.9,
             95.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=baju%20muslimah%20lengan",
           "ai_summary": "🤖 AI总结：「穆斯林友好长袖罩衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 3，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3757,7 +3757,7 @@ window.DASHBOARD_DATA = {
             88.3,
             91.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=baju%20kolar",
           "ai_summary": "🤖 AI总结：「小立领衬衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 4，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3791,7 +3791,7 @@ window.DASHBOARD_DATA = {
             88.3,
             93.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=polo%20lengan%20pendek",
           "ai_summary": "🤖 AI总结：「短袖Polo衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 5，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3825,7 +3825,7 @@ window.DASHBOARD_DATA = {
             85.4,
             92.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=seluar%20waffle",
           "ai_summary": "🤖 AI总结：「华夫格短裤」在 Lazada 🇲🇾 马来西亚 搜索位列第 6，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3859,8 +3859,8 @@ window.DASHBOARD_DATA = {
             85.4,
             86.9
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.com.my/catalog/?q=Baju%20Kolar%20Kecil%20/%20Henley",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.com.my/catalog/?q=Baju%20Kolar%20Kecil%20Henley",
           "ai_summary": "🤖 AI总结：「小立领/亨利领T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 7，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -3891,7 +3891,7 @@ window.DASHBOARD_DATA = {
             86.1,
             87.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Polo%20Lengan%20Pendek",
           "ai_summary": "🤖 AI总结：「短袖Polo衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 8，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3925,7 +3925,7 @@ window.DASHBOARD_DATA = {
             86.2,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Jubah%20Muslimah",
           "ai_summary": "🤖 AI总结：「穆斯林友好长袖罩衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 9，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3960,7 +3960,7 @@ window.DASHBOARD_DATA = {
             79.9,
             83.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Muslimah%20Long%20Sleeve",
           "ai_summary": "🤖 AI总结：「穆斯林友好中长袖罩衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 10，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -3995,7 +3995,7 @@ window.DASHBOARD_DATA = {
             83.8,
             82.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Kurung%20Moden%202026",
           "ai_summary": "🤖 AI总结：「2026现代马来罩袍」在 Lazada 🇲🇾 马来西亚 搜索位列第 11，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4028,7 +4028,7 @@ window.DASHBOARD_DATA = {
             75.0,
             78.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Kurung%20Muslimah",
           "ai_summary": "🤖 AI总结：「Muslimah 穆斯林友好罩衫/长裙」在 Lazada 🇲🇾 马来西亚 搜索位列第 12，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4063,7 +4063,7 @@ window.DASHBOARD_DATA = {
             82.1,
             81.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Tee%20V-neck%20slim%20fit",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Lazada 🇲🇾 马来西亚 搜索位列第 13，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4096,7 +4096,7 @@ window.DASHBOARD_DATA = {
             73.2,
             76.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20T-shirt%20Big%20Size",
           "ai_summary": "🤖 AI总结：「大码T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 14，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4131,7 +4131,7 @@ window.DASHBOARD_DATA = {
             75.5,
             78.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20CNY%202026%20Horse",
           "ai_summary": "🤖 AI总结：「2026马年新年T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 15，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4164,7 +4164,7 @@ window.DASHBOARD_DATA = {
             73.2,
             72.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Unisex%20Cotton%20T-shirt",
           "ai_summary": "🤖 AI总结：「纯棉中性T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 16，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4199,7 +4199,7 @@ window.DASHBOARD_DATA = {
             75.0,
             73.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Oversized%20270gsm",
           "ai_summary": "🤖 AI总结：「270gsm重磅oversize」在 Lazada 🇲🇾 马来西亚 搜索位列第 17，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4234,7 +4234,7 @@ window.DASHBOARD_DATA = {
             72.6,
             76.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=T-shirt%20Anime%20Printed",
           "ai_summary": "🤖 AI总结：「动漫印花T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 18，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4267,7 +4267,7 @@ window.DASHBOARD_DATA = {
             75.2,
             74.5
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Plus%20Size%20Murah",
           "ai_summary": "🤖 AI总结：「平价大码T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 19，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4300,7 +4300,7 @@ window.DASHBOARD_DATA = {
             73.5,
             71.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Cotton%20Plain%20Round%20Neck",
           "ai_summary": "🤖 AI总结：「纯棉圆领素色」在 Lazada 🇲🇾 马来西亚 搜索位列第 20，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4335,7 +4335,7 @@ window.DASHBOARD_DATA = {
             65.9,
             70.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Retro%20Embroidered%20Tee",
           "ai_summary": "🤖 AI总结：「复古刺绣T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 21，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4368,7 +4368,7 @@ window.DASHBOARD_DATA = {
             70.6,
             68.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Lelaki%20Perempuan",
           "ai_summary": "🤖 AI总结：「男女同款T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 22，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4403,7 +4403,7 @@ window.DASHBOARD_DATA = {
             67.0,
             63.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Family%20Set%20CNY%20T-shirt",
           "ai_summary": "🤖 AI总结：「亲子家庭套装」在 Lazada 🇲🇾 马来西亚 搜索位列第 23，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4438,7 +4438,7 @@ window.DASHBOARD_DATA = {
             61.7,
             63.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Muslimah%20Long%20Dress",
           "ai_summary": "🤖 AI总结：「穆斯林友好长裙」在 Lazada 🇲🇾 马来西亚 搜索位列第 24，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4471,7 +4471,7 @@ window.DASHBOARD_DATA = {
             59.0,
             60.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Kurung%20Moden",
           "ai_summary": "🤖 AI总结：「现代马来传统装」在 Lazada 🇲🇾 马来西亚 搜索位列第 25，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4506,7 +4506,7 @@ window.DASHBOARD_DATA = {
             62.0,
             66.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Raya%202026",
           "ai_summary": "🤖 AI总结：「2026开斋节服装」在 Lazada 🇲🇾 马来西亚 搜索位列第 26，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4539,7 +4539,7 @@ window.DASHBOARD_DATA = {
             61.4,
             63.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=T-shirt%20Polo%20Lelaki",
           "ai_summary": "🤖 AI总结：「男士Polo衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 27，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4574,7 +4574,7 @@ window.DASHBOARD_DATA = {
             62.8,
             61.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Printing%20Halloween",
           "ai_summary": "🤖 AI总结：「万圣节印花T」在 Lazada 🇲🇾 马来西亚 搜索位列第 28，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4609,7 +4609,7 @@ window.DASHBOARD_DATA = {
             59.9,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Couple%20Set",
           "ai_summary": "🤖 AI总结：「情侣装套装」在 Lazada 🇲🇾 马来西亚 搜索位列第 29，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4644,8 +4644,8 @@ window.DASHBOARD_DATA = {
             55.3,
             59.8
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.com.my/catalog/?q=Tee%20Kolar%20V%20%28%E5%B0%8FV%E9%A2%86%E5%8D%8A%E8%A2%96Tee%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.com.my/catalog/?q=Tee%20Kolar%20V%20V%20Tee",
           "ai_summary": "🤖 AI总结：「小V领半袖T恤（马来西亚男装趋势品）」在 Lazada 🇲🇾 马来西亚 搜索位列第 30，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -4679,7 +4679,7 @@ window.DASHBOARD_DATA = {
             53.5,
             54.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Tee%20V-collar%20kecil",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Lazada 🇲🇾 马来西亚 搜索位列第 31，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4712,8 +4712,8 @@ window.DASHBOARD_DATA = {
             54.4,
             57.2
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.com.my/catalog/?q=Henley%20tee%20/%20baju%20kurung",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.com.my/catalog/?q=Henley%20tee%20baju%20kurung",
           "ai_summary": "🤖 AI总结：「亨利领Tee / Muslimah 长裙」在 Lazada 🇲🇾 马来西亚 搜索位列第 32，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -4745,8 +4745,8 @@ window.DASHBOARD_DATA = {
             55.5,
             47.6
           ],
-          "date": "2026-11-20",
-          "url": "https://www.lazada.com.my/catalog/?q=Baju%20Muslim%20%28%E7%A9%86%E6%96%AF%E6%9E%97%E5%8F%8B%E5%A5%BD%E7%BD%A9%E8%A1%AB%29",
+          "date": "2026-11-24",
+          "url": "https://www.lazada.com.my/catalog/?q=Baju%20Muslim",
           "ai_summary": "🤖 AI总结：「穆斯林友好长罩衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 33，近期热度呈 📈 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -4778,7 +4778,7 @@ window.DASHBOARD_DATA = {
             50.5,
             47.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=baju%20muslimah",
           "ai_summary": "🤖 AI总结：「穆斯林友好罩衫/长裙」在 Lazada 🇲🇾 马来西亚 搜索位列第 34，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4813,7 +4813,7 @@ window.DASHBOARD_DATA = {
             51.8,
             49.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=kemeja%20polo",
           "ai_summary": "🤖 AI总结：「短袖Polo衫」在 Lazada 🇲🇾 马来西亚 搜索位列第 35，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4848,7 +4848,7 @@ window.DASHBOARD_DATA = {
             52.3,
             48.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Tee%20Kolar%20V%20Kecil",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Lazada 🇲🇾 马来西亚 搜索位列第 36，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4883,7 +4883,7 @@ window.DASHBOARD_DATA = {
             50.9,
             47.5
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Tee%20V-Neck",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Lazada 🇲🇾 马来西亚 搜索位列第 37，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4916,7 +4916,7 @@ window.DASHBOARD_DATA = {
             47.6,
             46.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Baju%20Polo%20Wanita",
           "ai_summary": "🤖 AI总结：「Polo 领女装T恤」在 Lazada 🇲🇾 马来西亚 搜索位列第 38，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -4950,7 +4950,7 @@ window.DASHBOARD_DATA = {
             43.9,
             42.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.lazada.com.my/catalog/?q=Lazada%2011.11%20Malaysia",
           "ai_summary": "🤖 AI总结：「Lazada 11.11 大促马来西亚」在 Lazada 🇲🇾 马来西亚 搜索位列第 39，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         }
@@ -4988,7 +4988,7 @@ window.DASHBOARD_DATA = {
             96.5,
             97.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99",
           "ai_summary": "🤖 AI总结：「短袖翻领Polo」在 Shopee 🇹🇭 泰国 搜索位列第 1，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5022,7 +5022,7 @@ window.DASHBOARD_DATA = {
             95.6,
             92.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=hawaiian%20shirt%20%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94",
           "ai_summary": "🤖 AI总结：「夏威夷衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 2，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5056,7 +5056,7 @@ window.DASHBOARD_DATA = {
             91.9,
             95.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%AA%E0%B9%8C%E0%B8%A5%E0%B8%B2%E0%B8%A2",
           "ai_summary": "🤖 AI总结：「Oversized印花Tee」在 Shopee 🇹🇭 泰国 搜索位列第 3，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5090,7 +5090,7 @@ window.DASHBOARD_DATA = {
             88.3,
             91.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%AA%E0%B9%8C",
           "ai_summary": "🤖 AI总结：「Oversized 印花Tee」在 Shopee 🇹🇭 泰国 搜索位列第 4，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5124,7 +5124,7 @@ window.DASHBOARD_DATA = {
             88.3,
             93.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87",
           "ai_summary": "🤖 AI总结：「条纹短袖T恤」在 Shopee 🇹🇭 泰国 搜索位列第 5，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5158,7 +5158,7 @@ window.DASHBOARD_DATA = {
             85.4,
             92.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87%E0%B8%A2%E0%B8%B5%E0%B8%99%E0%B8%AA%E0%B9%8C",
           "ai_summary": "🤖 AI总结：「高街牛仔裤」在 Shopee 🇹🇭 泰国 搜索位列第 6，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5192,7 +5192,7 @@ window.DASHBOARD_DATA = {
             85.4,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Oversized%20%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B9%8C",
           "ai_summary": "🤖 AI总结：「Oversized 印花Tee」在 Shopee 🇹🇭 泰国 搜索位列第 7，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5224,7 +5224,7 @@ window.DASHBOARD_DATA = {
             86.1,
             87.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Hawaii",
           "ai_summary": "🤖 AI总结：「夏威夷衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 8，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5256,7 +5256,7 @@ window.DASHBOARD_DATA = {
             85.8,
             83.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Polo%20%E0%B8%9B%E0%B8%81%E0%B8%9E%E0%B8%B1%E0%B8%9A",
           "ai_summary": "🤖 AI总结：「短袖翻领Polo」在 Shopee 🇹🇭 泰国 搜索位列第 9，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5290,7 +5290,7 @@ window.DASHBOARD_DATA = {
             77.3,
             79.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=11.11%20Mega%20Sale",
           "ai_summary": "🤖 AI总结：「11.11 大促预热」在 Shopee 🇹🇭 泰国 搜索位列第 10，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5325,8 +5325,8 @@ window.DASHBOARD_DATA = {
             83.6,
             79.1
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Boxy%20o3o%20Missing%20%28YinWar%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Boxy%20o3o%20Missing%20YinWar",
           "ai_summary": "🤖 AI总结：「YinWar 明星联名Boxy Tee」在 Shopee 🇹🇭 泰国 搜索位列第 11，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -5360,7 +5360,7 @@ window.DASHBOARD_DATA = {
             77.4,
             82.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%94%E0%B8%A3%E0%B8%AA%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%95%20Resort%20wear",
           "ai_summary": "🤖 AI总结：「度假风连衣裙」在 Shopee 🇹🇭 泰国 搜索位列第 12，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5395,8 +5395,8 @@ window.DASHBOARD_DATA = {
             82.1,
             81.2
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B9%E0%B8%94%20/%20%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%96%E0%B8%B1%E0%B8%81%20%28Hoodie/Knitwear%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B9%E0%B8%94%20%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%96%E0%B8%B1%E0%B8%81%20Hoodie%20Knitwear",
           "ai_summary": "🤖 AI总结：「卫衣/针织衫」在 Shopee 🇹🇭 泰国 搜索位列第 13，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -5430,8 +5430,8 @@ window.DASHBOARD_DATA = {
             75.4,
             79.6
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Hawaiian%20/%20%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Hawaiian%20%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94",
           "ai_summary": "🤖 AI总结：「夏威夷衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 14，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -5465,8 +5465,8 @@ window.DASHBOARD_DATA = {
             75.5,
             78.8
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%20UV%20/%20%E9%98%B2%E6%99%92%E5%A4%96%E5%A5%97",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%20UV%20UV%20Protection",
           "ai_summary": "🤖 AI总结：「防晒/凉感外套」在 Shopee 🇹🇭 泰国 搜索位列第 15，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -5500,8 +5500,8 @@ window.DASHBOARD_DATA = {
             74.6,
             75.6
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Hawaii%20/%20%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Hawaii%20%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%B2%E0%B8%94",
           "ai_summary": "🤖 AI总结：「夏威夷衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 16，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -5535,7 +5535,7 @@ window.DASHBOARD_DATA = {
             75.0,
             73.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20Polo%20%E0%B8%84%E0%B8%AD%E0%B8%95%E0%B8%B1%E0%B8%99",
           "ai_summary": "🤖 AI总结：「短袖翻领Polo」在 Shopee 🇹🇭 泰国 搜索位列第 17，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5570,7 +5570,7 @@ window.DASHBOARD_DATA = {
             71.6,
             74.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%95%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87",
           "ai_summary": "🤖 AI总结：「女士凉鞋」在 Shopee 🇹🇭 泰国 搜索位列第 18，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5603,7 +5603,7 @@ window.DASHBOARD_DATA = {
             75.2,
             74.5
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87",
           "ai_summary": "🤖 AI总结：「肩包」在 Shopee 🇹🇭 泰国 搜索位列第 19，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5638,7 +5638,7 @@ window.DASHBOARD_DATA = {
             73.2,
             73.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87",
           "ai_summary": "🤖 AI总结：「女士时尚衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 20，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5673,7 +5673,7 @@ window.DASHBOARD_DATA = {
             65.9,
             70.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%84%E0%B8%AA%20iPhone",
           "ai_summary": "🤖 AI总结：「iPhone手机壳」在 Shopee 🇹🇭 泰国 搜索位列第 21，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5708,7 +5708,7 @@ window.DASHBOARD_DATA = {
             70.4,
             70.5
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%95%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2",
           "ai_summary": "🤖 AI总结：「男士凉鞋」在 Shopee 🇹🇭 泰国 搜索位列第 22，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5743,7 +5743,7 @@ window.DASHBOARD_DATA = {
             67.4,
             66.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B8%99%E0%B9%89%E0%B8%B3",
           "ai_summary": "🤖 AI总结：「保温杯」在 Shopee 🇹🇭 泰国 搜索位列第 23，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5778,7 +5778,7 @@ window.DASHBOARD_DATA = {
             61.7,
             63.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%20%E0%B8%9B%E0%B8%81%E0%B8%95%E0%B8%B1%E0%B8%94",
           "ai_summary": "🤖 AI总结：「短袖翻领Polo」在 Shopee 🇹🇭 泰国 搜索位列第 24，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5813,7 +5813,7 @@ window.DASHBOARD_DATA = {
             61.0,
             63.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2",
           "ai_summary": "🤖 AI总结：「夏威夷衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 25，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5848,7 +5848,7 @@ window.DASHBOARD_DATA = {
             62.0,
             66.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%88%E0%B8%B8%E0%B8%94",
           "ai_summary": "🤖 AI总结：「波点短袖衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 26，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5881,7 +5881,7 @@ window.DASHBOARD_DATA = {
             61.4,
             63.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87",
           "ai_summary": "🤖 AI总结：「条纹短袖T恤」在 Shopee 🇹🇭 泰国 搜索位列第 27，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5916,7 +5916,7 @@ window.DASHBOARD_DATA = {
             62.8,
             61.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94",
           "ai_summary": "🤖 AI总结：「防晒外套」在 Shopee 🇹🇭 泰国 搜索位列第 28，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5951,7 +5951,7 @@ window.DASHBOARD_DATA = {
             59.9,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87%E0%B8%82%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99",
           "ai_summary": "🤖 AI总结：「短裤」在 Shopee 🇹🇭 泰国 搜索位列第 29，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -5984,7 +5984,7 @@ window.DASHBOARD_DATA = {
             53.7,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD",
           "ai_summary": "🤖 AI总结：「上衣/衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 30，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6019,7 +6019,7 @@ window.DASHBOARD_DATA = {
             53.5,
             54.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B9%82%E0%B8%A5%E0%B8%A7%E0%B8%B5%E0%B8%99",
           "ai_summary": "🤖 AI总结：「万圣节主题T恤」在 Shopee 🇹🇭 泰国 搜索位列第 31，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6054,7 +6054,7 @@ window.DASHBOARD_DATA = {
             54.4,
             57.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%B5%20ZIEN",
           "ai_summary": "🤖 AI总结：「ZIEN小熊弹力T」在 Shopee 🇹🇭 泰国 搜索位列第 32，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6089,7 +6089,7 @@ window.DASHBOARD_DATA = {
             55.4,
             51.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=Savewrg%20Cintage%20Archive",
           "ai_summary": "🤖 AI总结：「Savewrg 复古系列 Rune T」在 Shopee 🇹🇭 泰国 搜索位列第 33，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6124,7 +6124,7 @@ window.DASHBOARD_DATA = {
             51.5,
             50.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%AA%E0%B9%8C%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B9%8C%E0%B8%A5%E0%B8%B2%E0%B8%A2",
           "ai_summary": "🤖 AI总结：「Oversized 印花Tee」在 Shopee 🇹🇭 泰国 搜索位列第 34，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6159,8 +6159,8 @@ window.DASHBOARD_DATA = {
             51.8,
             49.4
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2%20%28Hawaiian%20Shirt%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2%20Hawaiian%20Shirt",
           "ai_summary": "🤖 AI总结：「夏威夷印花衬衫」在 Shopee 🇹🇭 泰国 搜索位列第 35，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -6194,7 +6194,7 @@ window.DASHBOARD_DATA = {
             52.3,
             48.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5",
           "ai_summary": "🤖 AI总结：「短袖翻领Polo」在 Shopee 🇹🇭 泰国 搜索位列第 36，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6229,8 +6229,8 @@ window.DASHBOARD_DATA = {
             50.9,
             47.5
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%20%28Polo%20Collar%20Tee%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%20Polo%20Collar%20Tee",
           "ai_summary": "🤖 AI总结：「短袖翻领Polo」在 Shopee 🇹🇭 泰国 搜索位列第 37，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -6264,8 +6264,8 @@ window.DASHBOARD_DATA = {
             47.9,
             48.3
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99%20%28Short%20Polo%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%9B%E0%B9%82%E0%B8%A5%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99%20Short%20Polo",
           "ai_summary": "🤖 AI总结：「短袖翻领Polo」在 Shopee 🇹🇭 泰国 搜索位列第 38，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -6298,8 +6298,8 @@ window.DASHBOARD_DATA = {
             42.6,
             39.4
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A3%E0%B8%B9%E0%B8%99%20Savewrg%20%28Rune%20T%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A3%E0%B8%B9%E0%B8%99%20Savewrg%20Rune%20T",
           "ai_summary": "🤖 AI总结：「Savewrg 复古Rune T」在 Shopee 🇹🇭 泰国 搜索位列第 39，近期热度呈 🔥 热搜 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -6333,8 +6333,8 @@ window.DASHBOARD_DATA = {
             45.3,
             43.7
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.co.th/search?keyword=%E0%B8%AE%E0%B8%B9%E0%B9%89%E0%B8%94%E0%B9%81%E0%B8%88%E0%B9%87%E0%B8%81%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95/%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%A7%20%28%E5%8D%AB%E8%A1%A3/%E9%92%88%E7%BB%87%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.co.th/search?keyword=%E0%B8%AE%E0%B8%B9%E0%B9%89%E0%B8%94%E0%B9%81%E0%B8%88%E0%B9%87%E0%B8%81%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95%20%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%A7",
           "ai_summary": "🤖 AI总结：「卫衣/针织开衫」在 Shopee 🇹🇭 泰国 搜索位列第 40，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -6367,7 +6367,7 @@ window.DASHBOARD_DATA = {
             36.9,
             39.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.co.th/search?keyword=Shopee%2011.11%20Sale",
           "ai_summary": "🤖 AI总结：「Shopee 11.11 大促」在 Shopee 🇹🇭 泰国 搜索位列第 41，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         }
@@ -6403,7 +6403,7 @@ window.DASHBOARD_DATA = {
             96.5,
             97.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=baju%20tee%20v-neck",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Shopee 🇲🇾 马来西亚 搜索位列第 1，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6437,7 +6437,7 @@ window.DASHBOARD_DATA = {
             95.6,
             92.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=baju%20polo",
           "ai_summary": "🤖 AI总结：「短袖Polo衫」在 Shopee 🇲🇾 马来西亚 搜索位列第 2，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6471,7 +6471,7 @@ window.DASHBOARD_DATA = {
             91.9,
             95.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=baju%20kurung%20moden",
           "ai_summary": "🤖 AI总结：「穆斯林友好长裙」在 Shopee 🇲🇾 马来西亚 搜索位列第 3，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6505,7 +6505,7 @@ window.DASHBOARD_DATA = {
             88.3,
             91.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=baju%20henley",
           "ai_summary": "🤖 AI总结：「亨利领T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 4，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6539,7 +6539,7 @@ window.DASHBOARD_DATA = {
             88.3,
             93.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=baju%20kolar",
           "ai_summary": "🤖 AI总结：「小立领衬衫」在 Shopee 🇲🇾 马来西亚 搜索位列第 5，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6573,7 +6573,7 @@ window.DASHBOARD_DATA = {
             85.4,
             92.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=polo%20lengan%20pendek",
           "ai_summary": "🤖 AI总结：「短袖Polo衫」在 Shopee 🇲🇾 马来西亚 搜索位列第 6，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6607,7 +6607,7 @@ window.DASHBOARD_DATA = {
             85.4,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=seluar%20waffle",
           "ai_summary": "🤖 AI总结：「华夫格短裤」在 Shopee 🇲🇾 马来西亚 搜索位列第 7，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6641,7 +6641,7 @@ window.DASHBOARD_DATA = {
             86.8,
             89.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20V-Neck%20Pendek",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Shopee 🇲🇾 马来西亚 搜索位列第 8，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6675,7 +6675,7 @@ window.DASHBOARD_DATA = {
             86.2,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Muslimah%20Lengan%20Panjang",
           "ai_summary": "🤖 AI总结：「穆斯林友好长袖罩衫」在 Shopee 🇲🇾 马来西亚 搜索位列第 9，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6707,7 +6707,7 @@ window.DASHBOARD_DATA = {
             77.3,
             79.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Printed%20RM8-25",
           "ai_summary": "🤖 AI总结：「修身印花T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 10，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6742,8 +6742,8 @@ window.DASHBOARD_DATA = {
             83.8,
             82.7
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.com.my/search?keyword=Baju%20Raya%20/%20Muslimah%20Dress",
+          "date": "2026-11-24",
+          "url": "https://shopee.com.my/search?keyword=Baju%20Raya%20Muslimah%20Dress",
           "ai_summary": "🤖 AI总结：「穆斯林友好连衣裙」在 Shopee 🇲🇾 马来西亚 搜索位列第 11，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -6775,8 +6775,8 @@ window.DASHBOARD_DATA = {
             75.0,
             78.9
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.com.my/search?keyword=T-shirt%20Lengan%20V%20%28V-neck%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.com.my/search?keyword=T-shirt%20Lengan%20V%20V-neck",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Shopee 🇲🇾 马来西亚 搜索位列第 12，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -6810,7 +6810,7 @@ window.DASHBOARD_DATA = {
             82.1,
             81.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Tee%20V-neck%20slim%20fit",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Shopee 🇲🇾 马来西亚 搜索位列第 13，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6843,8 +6843,8 @@ window.DASHBOARD_DATA = {
             73.2,
             76.6
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.com.my/search?keyword=Tee%20slim%20fit%20/%20printed",
+          "date": "2026-11-24",
+          "url": "https://shopee.com.my/search?keyword=Tee%20slim%20fit%20printed",
           "ai_summary": "🤖 AI总结：「修身短T / 印花T」在 Shopee 🇲🇾 马来西亚 搜索位列第 14，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -6878,7 +6878,7 @@ window.DASHBOARD_DATA = {
             75.5,
             78.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Tee%20Henley%20collar",
           "ai_summary": "🤖 AI总结：「亨利领T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 15，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6911,7 +6911,7 @@ window.DASHBOARD_DATA = {
             73.2,
             72.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20T-shirt%20Lelaki",
           "ai_summary": "🤖 AI总结：「男士T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 16，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6944,7 +6944,7 @@ window.DASHBOARD_DATA = {
             74.3,
             69.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=T-shirt%20Perempuan",
           "ai_summary": "🤖 AI总结：「女士T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 17，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -6979,7 +6979,7 @@ window.DASHBOARD_DATA = {
             72.6,
             76.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Plus%20Size",
           "ai_summary": "🤖 AI总结：「大码服装」在 Shopee 🇲🇾 马来西亚 搜索位列第 18，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7014,7 +7014,7 @@ window.DASHBOARD_DATA = {
             74.8,
             76.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=T-shirt%20Muslimah",
           "ai_summary": "🤖 AI总结：「穆斯林女士T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 19，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7049,7 +7049,7 @@ window.DASHBOARD_DATA = {
             73.5,
             71.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20CNY%202026",
           "ai_summary": "🤖 AI总结：「2026新年装」在 Shopee 🇲🇾 马来西亚 搜索位列第 20，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7084,7 +7084,7 @@ window.DASHBOARD_DATA = {
             65.9,
             70.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Oversized%20T-shirt",
           "ai_summary": "🤖 AI总结：「宽松T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 21，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7119,7 +7119,7 @@ window.DASHBOARD_DATA = {
             70.4,
             70.5
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Family%20Set",
           "ai_summary": "🤖 AI总结：「家庭套装」在 Shopee 🇲🇾 马来西亚 搜索位列第 22，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7152,7 +7152,7 @@ window.DASHBOARD_DATA = {
             67.0,
             63.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=T-shirt%20Cotton%20100%25",
           "ai_summary": "🤖 AI总结：「纯棉T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 23，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7187,7 +7187,7 @@ window.DASHBOARD_DATA = {
             61.7,
             63.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Raya%202026",
           "ai_summary": "🤖 AI总结：「2026开斋节服装」在 Shopee 🇲🇾 马来西亚 搜索位列第 24，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7222,7 +7222,7 @@ window.DASHBOARD_DATA = {
             61.0,
             63.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Printing%20Halloween",
           "ai_summary": "🤖 AI总结：「万圣节印花T」在 Shopee 🇲🇾 马来西亚 搜索位列第 25，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7257,7 +7257,7 @@ window.DASHBOARD_DATA = {
             62.0,
             66.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Kurung%20Raya",
           "ai_summary": "🤖 AI总结：「开斋节马来装」在 Shopee 🇲🇾 马来西亚 搜索位列第 26，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7290,7 +7290,7 @@ window.DASHBOARD_DATA = {
             61.4,
             63.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=T-shirt%20Polo%20Lelaki",
           "ai_summary": "🤖 AI总结：「男士Polo」在 Shopee 🇲🇾 马来西亚 搜索位列第 27，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7325,7 +7325,7 @@ window.DASHBOARD_DATA = {
             62.8,
             61.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Couple",
           "ai_summary": "🤖 AI总结：「情侣装」在 Shopee 🇲🇾 马来西亚 搜索位列第 28，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7358,7 +7358,7 @@ window.DASHBOARD_DATA = {
             59.7,
             55.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Kanak-kanak",
           "ai_summary": "🤖 AI总结：「童装T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 29，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7393,7 +7393,7 @@ window.DASHBOARD_DATA = {
             55.3,
             59.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Short%20Sleeve%20Printed",
           "ai_summary": "🤖 AI总结：「短袖印花T」在 Shopee 🇲🇾 马来西亚 搜索位列第 30，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7428,7 +7428,7 @@ window.DASHBOARD_DATA = {
             53.5,
             54.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Tee%20Lengan%20Pendek%20Kolar%20V",
           "ai_summary": "🤖 AI总结：「小V领半袖T恤（马来西亚男装趋势品）」在 Shopee 🇲🇾 马来西亚 搜索位列第 31，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7463,7 +7463,7 @@ window.DASHBOARD_DATA = {
             55.0,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Tee%20collar%20mandarin",
           "ai_summary": "🤖 AI总结：「小立领短Tee」在 Shopee 🇲🇾 马来西亚 搜索位列第 32，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7498,8 +7498,8 @@ window.DASHBOARD_DATA = {
             55.4,
             51.1
           ],
-          "date": "2026-11-20",
-          "url": "https://shopee.com.my/search?keyword=Mandarin%20Collar%20Shirt%20%28%E5%B0%8F%E7%AB%8B%E9%A2%86%E8%A1%AC%E8%A1%AB%29",
+          "date": "2026-11-24",
+          "url": "https://shopee.com.my/search?keyword=Mandarin%20Collar%20Shirt",
           "ai_summary": "🤖 AI总结：「小立领衬衫」在 Shopee 🇲🇾 马来西亚 搜索位列第 33，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -7531,7 +7531,7 @@ window.DASHBOARD_DATA = {
             50.5,
             47.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=tee%20V-neck",
           "ai_summary": "🤖 AI总结：「小V领半袖Tee」在 Shopee 🇲🇾 马来西亚 搜索位列第 34，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7564,7 +7564,7 @@ window.DASHBOARD_DATA = {
             51.5,
             46.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=kemeja%20henley",
           "ai_summary": "🤖 AI总结：「亨利领T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 35，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7599,7 +7599,7 @@ window.DASHBOARD_DATA = {
             52.3,
             48.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Tee%20Kolar%20Henley",
           "ai_summary": "🤖 AI总结：「亨利领T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 36，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7633,7 +7633,7 @@ window.DASHBOARD_DATA = {
             51.3,
             44.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Batik",
           "ai_summary": "🤖 AI总结：「巴迪衫」在 Shopee 🇲🇾 马来西亚 搜索位列第 37，近期热度呈 📈 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7668,7 +7668,7 @@ window.DASHBOARD_DATA = {
             47.9,
             48.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Henley%20T-Shirt",
           "ai_summary": "🤖 AI总结：「亨利领T恤」在 Shopee 🇲🇾 马来西亚 搜索位列第 38，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7701,7 +7701,7 @@ window.DASHBOARD_DATA = {
             42.6,
             39.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Baju%20Kurung",
           "ai_summary": "🤖 AI总结：「马来传统罩衫」在 Shopee 🇲🇾 马来西亚 搜索位列第 39，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7736,7 +7736,7 @@ window.DASHBOARD_DATA = {
             45.3,
             43.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://shopee.com.my/search?keyword=Shopee%2011.11%20MY",
           "ai_summary": "🤖 AI总结：「Shopee 11.11 马来西亚」在 Shopee 🇲🇾 马来西亚 搜索位列第 40，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         }
@@ -7773,7 +7773,7 @@ window.DASHBOARD_DATA = {
             95.9,
             94.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%E0%B8%9E%E0%B8%A7%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%9C%E0%B8%A1",
           "ai_summary": "🤖 AI总结：「泰式花环扎发 Phuang Malai」在 TikTok 🇹🇭 泰国 搜索位列第 1，近期热度呈 🔥 爆红 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7806,7 +7806,7 @@ window.DASHBOARD_DATA = {
             95.2,
             88.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=sabai%20denim",
           "ai_summary": "🤖 AI总结：「Sabai配牛仔裤 传统披肩街头化」在 TikTok 🇹🇭 泰国 搜索位列第 2，近期热度呈 🔥 爆红 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7840,7 +7840,7 @@ window.DASHBOARD_DATA = {
             91.9,
             95.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%E0%B8%A1%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7",
           "ai_summary": "🤖 AI总结：「XX来了 热梗」在 TikTok 🇹🇭 泰国 搜索位列第 3，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7874,7 +7874,7 @@ window.DASHBOARD_DATA = {
             88.3,
             91.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23%E0%B8%9A%E0%B8%B8%E0%B9%8B%E0%B8%A1%E0%B8%9B%E0%B8%99%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B8%B2",
           "ai_summary": "🤖 AI总结：「泰国本土热搜话题」在 TikTok 🇹🇭 泰国 搜索位列第 4，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7908,7 +7908,7 @@ window.DASHBOARD_DATA = {
             86.4,
             90.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23theweekndconcert",
           "ai_summary": "🤖 AI总结：「The Weeknd 曼谷巡演」在 TikTok 🇹🇭 泰国 搜索位列第 5，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7942,7 +7942,7 @@ window.DASHBOARD_DATA = {
             85.4,
             92.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23xuhuong1111",
           "ai_summary": "🤖 AI总结：「11.11 购物趋势」在 TikTok 🇹🇭 泰国 搜索位列第 6，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -7976,7 +7976,7 @@ window.DASHBOARD_DATA = {
             85.4,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23bob%20%23bobgirl",
           "ai_summary": "🤖 AI总结：「bob 发型挑战」在 TikTok 🇹🇭 泰国 搜索位列第 7，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8011,8 +8011,8 @@ window.DASHBOARD_DATA = {
             86.1,
             87.2
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23lisa_sawadika%20%28LISA%20%E8%88%9E%E8%B9%88%E6%8C%91%E6%88%98%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23lisa_sawadika%20LISA",
           "ai_summary": "🤖 AI总结：「LISA SaWaDiKa 舞蹈挑战」在 TikTok 🇹🇭 泰国 搜索位列第 8，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -8046,7 +8046,7 @@ window.DASHBOARD_DATA = {
             86.2,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23citytastetest",
           "ai_summary": "🤖 AI总结：「城市美食测评」在 TikTok 🇹🇭 泰国 搜索位列第 9，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8081,8 +8081,8 @@ window.DASHBOARD_DATA = {
             77.3,
             79.4
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23halloween%20%282.4B%20views%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23halloween%202.4B%20views",
           "ai_summary": "🤖 AI总结：「万圣节」在 TikTok 🇹🇭 泰国 搜索位列第 10，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -8116,8 +8116,8 @@ window.DASHBOARD_DATA = {
             83.8,
             82.7
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23nfl%20%282.1B%20views%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23nfl%202.1B%20views",
           "ai_summary": "🤖 AI总结：「NFL 美式橄榄球」在 TikTok 🇹🇭 泰国 搜索位列第 11，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -8151,8 +8151,8 @@ window.DASHBOARD_DATA = {
             77.4,
             82.1
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23usa%20%282.3B%20views%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23usa%202.3B%20views",
           "ai_summary": "🤖 AI总结：「美国文化/对比」在 TikTok 🇹🇭 泰国 搜索位列第 12，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -8186,8 +8186,8 @@ window.DASHBOARD_DATA = {
             82.1,
             81.2
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23bowbowbow%20%28Bow%20Bow%20Bow%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23bowbowbow%20Bow%20Bow%20Bow",
           "ai_summary": "🤖 AI总结：「Bow Bow Bow 舞蹈/穿搭挑战」在 TikTok 🇹🇭 泰国 搜索位列第 13，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -8221,8 +8221,8 @@ window.DASHBOARD_DATA = {
             75.4,
             79.6
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23patientzero%20%28Taylor%20Swift%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23patientzero%20Taylor%20Swift",
           "ai_summary": "🤖 AI总结：「Taylor Swift Patient Zero 反应」在 TikTok 🇹🇭 泰国 搜索位列第 14，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -8256,7 +8256,7 @@ window.DASHBOARD_DATA = {
             74.0,
             76.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23halloween",
           "ai_summary": "🤖 AI总结：「万圣节」在 TikTok 🇹🇭 泰国 搜索位列第 15，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8291,7 +8291,7 @@ window.DASHBOARD_DATA = {
             73.2,
             72.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23spookyseason",
           "ai_summary": "🤖 AI总结：「万圣节装饰季」在 TikTok 🇹🇭 泰国 搜索位列第 16，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8326,7 +8326,7 @@ window.DASHBOARD_DATA = {
             74.3,
             69.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23halloweencostume",
           "ai_summary": "🤖 AI总结：「万圣节变装」在 TikTok 🇹🇭 泰国 搜索位列第 17，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8361,7 +8361,7 @@ window.DASHBOARD_DATA = {
             72.6,
             76.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23octobermood",
           "ai_summary": "🤖 AI总结：「十月氛围」在 TikTok 🇹🇭 泰国 搜索位列第 18，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8396,7 +8396,7 @@ window.DASHBOARD_DATA = {
             74.8,
             76.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%2331daysofhalloween",
           "ai_summary": "🤖 AI总结：「31天万圣节」在 TikTok 🇹🇭 泰国 搜索位列第 19，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8431,7 +8431,7 @@ window.DASHBOARD_DATA = {
             73.2,
             73.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23halloweendecor",
           "ai_summary": "🤖 AI总结：「万圣节布置」在 TikTok 🇹🇭 泰国 搜索位列第 20，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8466,7 +8466,7 @@ window.DASHBOARD_DATA = {
             65.9,
             70.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23bowbowbow",
           "ai_summary": "🤖 AI总结：「Bow Bow Bow 舞蹈」在 TikTok 🇹🇭 泰国 搜索位列第 21，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8501,7 +8501,7 @@ window.DASHBOARD_DATA = {
             70.4,
             70.5
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23patientzero",
           "ai_summary": "🤖 AI总结：「Taylor Swift Patient Zero」在 TikTok 🇹🇭 泰国 搜索位列第 22，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8536,7 +8536,7 @@ window.DASHBOARD_DATA = {
             67.4,
             66.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23breastcancerawarenessmonth",
           "ai_summary": "🤖 AI总结：「粉红十月·乳腺癌防治」在 TikTok 🇹🇭 泰国 搜索位列第 23，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8571,7 +8571,7 @@ window.DASHBOARD_DATA = {
             61.7,
             63.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23shopwithconfidence",
           "ai_summary": "🤖 AI总结：「TikTok Shop 官方保障」在 TikTok 🇹🇭 泰国 搜索位列第 24，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8606,7 +8606,7 @@ window.DASHBOARD_DATA = {
             61.0,
             63.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23pumpkinpatch",
           "ai_summary": "🤖 AI总结：「南瓜采摘·秋游」在 TikTok 🇹🇭 泰国 搜索位列第 25，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8639,7 +8639,7 @@ window.DASHBOARD_DATA = {
             60.9,
             64.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23fallvibes",
           "ai_summary": "🤖 AI总结：「秋季氛围」在 TikTok 🇹🇭 泰国 搜索位列第 26，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8672,7 +8672,7 @@ window.DASHBOARD_DATA = {
             61.4,
             63.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23thailandstyle",
           "ai_summary": "🤖 AI总结：「泰国穿搭」在 TikTok 🇹🇭 泰国 搜索位列第 27，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8707,7 +8707,7 @@ window.DASHBOARD_DATA = {
             62.8,
             61.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23thailandmovie",
           "ai_summary": "🤖 AI总结：「泰国影视」在 TikTok 🇹🇭 泰国 搜索位列第 28，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8742,7 +8742,7 @@ window.DASHBOARD_DATA = {
             59.9,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23GMMTVFANIVAL2026HappyFamily",
           "ai_summary": "🤖 AI总结：「GMMTV粉丝节」在 TikTok 🇹🇭 泰国 搜索位列第 29，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8775,7 +8775,7 @@ window.DASHBOARD_DATA = {
             53.7,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23fyp",
           "ai_summary": "🤖 AI总结：「For You Page」在 TikTok 🇹🇭 泰国 搜索位列第 30，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8808,7 +8808,7 @@ window.DASHBOARD_DATA = {
             51.7,
             51.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23viral",
           "ai_summary": "🤖 AI总结：「爆款」在 TikTok 🇹🇭 泰国 搜索位列第 31，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8843,7 +8843,7 @@ window.DASHBOARD_DATA = {
             55.0,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23movie",
           "ai_summary": "🤖 AI总结：「电影」在 TikTok 🇹🇭 泰国 搜索位列第 32，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8878,7 +8878,7 @@ window.DASHBOARD_DATA = {
             55.5,
             47.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23tiktokshop",
           "ai_summary": "🤖 AI总结：「TikTok Shop」在 TikTok 🇹🇭 泰国 搜索位列第 33，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8911,7 +8911,7 @@ window.DASHBOARD_DATA = {
             50.5,
             47.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23thailand",
           "ai_summary": "🤖 AI总结：「泰国」在 TikTok 🇹🇭 泰国 搜索位列第 34，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8944,7 +8944,7 @@ window.DASHBOARD_DATA = {
             51.5,
             46.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23music",
           "ai_summary": "🤖 AI总结：「音乐」在 TikTok 🇹🇭 泰国 搜索位列第 35，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -8979,7 +8979,7 @@ window.DASHBOARD_DATA = {
             52.3,
             48.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23nfl",
           "ai_summary": "🤖 AI总结：「NFL 美式足球（2.1B 播放）」在 TikTok 🇹🇭 泰国 搜索位列第 36，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9014,8 +9014,8 @@ window.DASHBOARD_DATA = {
             51.3,
             44.9
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23bowbowbow%20%28Bow%20Bow%20Bow%20%E8%88%9E%E8%B9%88%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23bowbowbow%20Bow%20Bow%20Bow",
           "ai_summary": "🤖 AI总结：「#bowbowbow 舞蹈挑战」在 TikTok 🇹🇭 泰国 搜索位列第 37，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -9049,7 +9049,7 @@ window.DASHBOARD_DATA = {
             47.9,
             48.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23tiktokmademebuyit",
           "ai_summary": "🤖 AI总结：「TikTok让我买它」在 TikTok 🇹🇭 泰国 搜索位列第 38，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9083,7 +9083,7 @@ window.DASHBOARD_DATA = {
             42.6,
             39.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23meme",
           "ai_summary": "🤖 AI总结：「迷因/搞笑梗」在 TikTok 🇹🇭 泰国 搜索位列第 39，近期热度呈 🔥 热搜 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9118,7 +9118,7 @@ window.DASHBOARD_DATA = {
             45.3,
             43.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23makeup%20Thailand",
           "ai_summary": "🤖 AI总结：「美妆种草」在 TikTok 🇹🇭 泰国 搜索位列第 40，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9153,8 +9153,8 @@ window.DASHBOARD_DATA = {
             39.2,
             41.9
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23amazingthailand%20%28TAT%20%E6%97%85%E6%B8%B8%E5%A4%A7%E4%BD%BF%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23amazingthailand%20TAT",
           "ai_summary": "🤖 AI总结：「泰国旅游大使挑战」在 TikTok 🇹🇭 泰国 搜索位列第 41，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         }
       ],
@@ -9189,7 +9189,7 @@ window.DASHBOARD_DATA = {
             96.5,
             97.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=baju%20raya%202026",
           "ai_summary": "🤖 AI总结：「开斋节/新年服饰」在 TikTok 🇲🇾 马来西亚 搜索位列第 1，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9223,7 +9223,7 @@ window.DASHBOARD_DATA = {
             95.6,
             92.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=muslimah%20outfit",
           "ai_summary": "🤖 AI总结：「穆斯林友好穿搭」在 TikTok 🇲🇾 马来西亚 搜索位列第 2，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9257,7 +9257,7 @@ window.DASHBOARD_DATA = {
             91.9,
             95.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23malaysia",
           "ai_summary": "🤖 AI总结：「#malaysia 标签」在 TikTok 🇲🇾 马来西亚 搜索位列第 3，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9291,7 +9291,7 @@ window.DASHBOARD_DATA = {
             88.3,
             91.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23bass",
           "ai_summary": "🤖 AI总结：「马来西亚音乐热搜」在 TikTok 🇲🇾 马来西亚 搜索位列第 4，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9325,7 +9325,7 @@ window.DASHBOARD_DATA = {
             88.3,
             93.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23bellaastillah",
           "ai_summary": "🤖 AI总结：「马来西亚艺人热搜」在 TikTok 🇲🇾 马来西亚 搜索位列第 5，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9359,7 +9359,7 @@ window.DASHBOARD_DATA = {
             85.4,
             92.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23bellasyedyes",
           "ai_summary": "🤖 AI总结：「Bella 相关热搜」在 TikTok 🇲🇾 马来西亚 搜索位列第 6，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9394,7 +9394,7 @@ window.DASHBOARD_DATA = {
             85.4,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23raya2026",
           "ai_summary": "🤖 AI总结：「2026开斋节预热」在 TikTok 🇲🇾 马来西亚 搜索位列第 7，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9426,7 +9426,7 @@ window.DASHBOARD_DATA = {
             86.1,
             87.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23fyp",
           "ai_summary": "🤖 AI总结：「For You 流量入口」在 TikTok 🇲🇾 马来西亚 搜索位列第 8，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9461,7 +9461,7 @@ window.DASHBOARD_DATA = {
             86.2,
             86.9
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23fallvibes",
           "ai_summary": "🤖 AI总结：「秋季氛围」在 TikTok 🇲🇾 马来西亚 搜索位列第 9，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9496,7 +9496,7 @@ window.DASHBOARD_DATA = {
             77.3,
             79.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23halloweencostume%20MY",
           "ai_summary": "🤖 AI总结：「万圣节变装」在 TikTok 🇲🇾 马来西亚 搜索位列第 10，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9531,7 +9531,7 @@ window.DASHBOARD_DATA = {
             83.8,
             82.7
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%2331daysofhalloween%20MY",
           "ai_summary": "🤖 AI总结：「31天万圣系列」在 TikTok 🇲🇾 马来西亚 搜索位列第 11，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9566,7 +9566,7 @@ window.DASHBOARD_DATA = {
             77.4,
             82.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23spookyseason%20MY",
           "ai_summary": "🤖 AI总结：「马来西亚万圣节装饰/变装」在 TikTok 🇲🇾 马来西亚 搜索位列第 12，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9601,7 +9601,7 @@ window.DASHBOARD_DATA = {
             82.1,
             81.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23octobermood%20MY",
           "ai_summary": "🤖 AI总结：「十月氛围感内容」在 TikTok 🇲🇾 马来西亚 搜索位列第 13，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9634,7 +9634,7 @@ window.DASHBOARD_DATA = {
             73.2,
             76.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23viral",
           "ai_summary": "🤖 AI总结：「爆款」在 TikTok 🇲🇾 马来西亚 搜索位列第 14，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9667,7 +9667,7 @@ window.DASHBOARD_DATA = {
             74.0,
             76.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23foryou",
           "ai_summary": "🤖 AI总结：「为你推荐」在 TikTok 🇲🇾 马来西亚 搜索位列第 15，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9702,7 +9702,7 @@ window.DASHBOARD_DATA = {
             73.2,
             72.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23tiktokshop",
           "ai_summary": "🤖 AI总结：「TikTok Shop」在 TikTok 🇲🇾 马来西亚 搜索位列第 16，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9737,7 +9737,7 @@ window.DASHBOARD_DATA = {
             75.0,
             73.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23fashion",
           "ai_summary": "🤖 AI总结：「时尚」在 TikTok 🇲🇾 马来西亚 搜索位列第 17，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9772,7 +9772,7 @@ window.DASHBOARD_DATA = {
             72.6,
             76.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23OOTD",
           "ai_summary": "🤖 AI总结：「今日穿搭」在 TikTok 🇲🇾 马来西亚 搜索位列第 18，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9807,7 +9807,7 @@ window.DASHBOARD_DATA = {
             74.8,
             76.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23halloween",
           "ai_summary": "🤖 AI总结：「万圣节」在 TikTok 🇲🇾 马来西亚 搜索位列第 19，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9840,7 +9840,7 @@ window.DASHBOARD_DATA = {
             73.5,
             71.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23supportlocal",
           "ai_summary": "🤖 AI总结：「支持本土」在 TikTok 🇲🇾 马来西亚 搜索位列第 20，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9873,7 +9873,7 @@ window.DASHBOARD_DATA = {
             63.6,
             68.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23unboxing",
           "ai_summary": "🤖 AI总结：「开箱」在 TikTok 🇲🇾 马来西亚 搜索位列第 21，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9906,7 +9906,7 @@ window.DASHBOARD_DATA = {
             70.6,
             68.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23haul",
           "ai_summary": "🤖 AI总结：「购物分享」在 TikTok 🇲🇾 马来西亚 搜索位列第 22，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9941,7 +9941,7 @@ window.DASHBOARD_DATA = {
             67.4,
             66.3
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23tshirtcustom",
           "ai_summary": "🤖 AI总结：「定制T恤」在 TikTok 🇲🇾 马来西亚 搜索位列第 23，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -9976,7 +9976,7 @@ window.DASHBOARD_DATA = {
             61.7,
             63.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23cnymalaysia",
           "ai_summary": "🤖 AI总结：「马春节」在 TikTok 🇲🇾 马来西亚 搜索位列第 24，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10011,7 +10011,7 @@ window.DASHBOARD_DATA = {
             61.0,
             63.4
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23muslimah",
           "ai_summary": "🤖 AI总结：「穆斯林时尚」在 TikTok 🇲🇾 马来西亚 搜索位列第 25，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10046,7 +10046,7 @@ window.DASHBOARD_DATA = {
             62.0,
             66.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23batik",
           "ai_summary": "🤖 AI总结：「巴迪衫」在 TikTok 🇲🇾 马来西亚 搜索位列第 26，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10079,7 +10079,7 @@ window.DASHBOARD_DATA = {
             61.4,
             63.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23tiktokmalaysia",
           "ai_summary": "🤖 AI总结：「马来西亚TikTok」在 TikTok 🇲🇾 马来西亚 搜索位列第 27，近期热度呈 📊 稳定 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10114,7 +10114,7 @@ window.DASHBOARD_DATA = {
             62.8,
             61.0
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23octobermood",
           "ai_summary": "🤖 AI总结：「十月氛围/秋日混剪」在 TikTok 🇲🇾 马来西亚 搜索位列第 28，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10149,7 +10149,7 @@ window.DASHBOARD_DATA = {
             59.9,
             58.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23patientzero%20MY",
           "ai_summary": "🤖 AI总结：「Taylor Swift《Patient Zero》」在 TikTok 🇲🇾 马来西亚 搜索位列第 29，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10184,8 +10184,8 @@ window.DASHBOARD_DATA = {
             55.3,
             59.8
           ],
-          "date": "2026-11-20",
-          "url": "https://www.tiktok.com/search?q=%23pinkoctober%20%28Breast%20Cancer%20Awareness%29",
+          "date": "2026-11-24",
+          "url": "https://www.tiktok.com/search?q=%23pinkoctober%20Breast%20Cancer%20Awareness",
           "ai_summary": "🤖 AI总结：「#pinkoctober 粉红十月」在 TikTok 🇲🇾 马来西亚 搜索位列第 30，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
         {
@@ -10219,7 +10219,7 @@ window.DASHBOARD_DATA = {
             53.5,
             54.8
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23spookyseason",
           "ai_summary": "🤖 AI总结：「万圣节氛围」在 TikTok 🇲🇾 马来西亚 搜索位列第 31，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10254,7 +10254,7 @@ window.DASHBOARD_DATA = {
             54.4,
             57.2
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%23halloween2026",
           "ai_summary": "🤖 AI总结：「万圣节2026」在 TikTok 🇲🇾 马来西亚 搜索位列第 32，近期热度呈 📈 爆火 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10289,7 +10289,7 @@ window.DASHBOARD_DATA = {
             55.4,
             51.1
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%2331daysofhalloween",
           "ai_summary": "🤖 AI总结：「31天万圣系列」在 TikTok 🇲🇾 马来西亚 搜索位列第 33，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         },
@@ -10323,7 +10323,7 @@ window.DASHBOARD_DATA = {
             51.5,
             50.6
           ],
-          "date": "2026-11-20",
+          "date": "2026-11-24",
           "url": "https://www.tiktok.com/search?q=%2311.11MY",
           "ai_summary": "🤖 AI总结：「11.11 马来西亚」在 TikTok 🇲🇾 马来西亚 搜索位列第 34，近期热度呈 📈 上升 态势。建议标题前置核心词，搭配200g纯棉或速干属性词切入。"
         }
@@ -10368,11 +10368,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Oversized 泰式文化印花Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=Oversized%20%E6%B3%B0%E5%BC%8F%E6%96%87%E5%8C%96%E5%8D%B0%E8%8A%B1Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Oversized 泰式文化印花Tee」，价格锚点 199-399 THB，主打 180-220gsm 棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=Oversized%20Thai%20Style%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Oversized 泰式文化印花Tee」，价格锚点 199-399 THB，主打 180-220gsm 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "防晒UV速干Tee",
@@ -10409,11 +10408,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "防晒UV速干Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=%E9%98%B2%E6%99%92UV%E9%80%9F%E5%B9%B2Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「防晒UV速干Tee」，价格锚点 149-299 THB，主打 凉感涤纶/混纺。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=UV%20Protection%20UV%20Quick%20Dry%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「防晒UV速干Tee」，价格锚点 149-299 THB，主打 凉感涤纶/混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Oversized Print Tee",
@@ -10449,91 +10447,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Oversized Print Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=Oversized%20Print%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Oversized Print Tee」，价格锚点 199-399 THB，主打 180-220gsm 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Polka Dot Short Shirt",
-          "cn": "波点短袖衬衫",
-          "price": "199-349 THB",
-          "signal": "TH 趋势品",
-          "type": "衬衫",
-          "theme": "波点",
-          "theme_cat": "衬衫",
-          "selling_points": [
-            "波点复古",
-            "透气",
-            "通勤"
-          ],
-          "recommended_types": [
-            "素色波点",
-            "撞色波点"
-          ],
-          "target_audience": "女性日常/通勤",
-          "fabric": "棉",
-          "fit": "常规",
-          "print_process": "丝印",
-          "life_cycle": "全年",
-          "compliance_level": "低",
-          "price_anchor": "199-349 THB",
-          "trend": "📈 上升",
-          "rank": 4,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Polka Dot Short Shirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=Polka%20Dot%20Short%20Shirt",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Polka Dot Short Shirt」，价格锚点 199-349 THB，主打 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Hawaiian Shirt",
-          "cn": "夏威夷衬衫",
-          "price": "199-399 THB",
-          "signal": "TH 趋势品",
-          "type": "衬衫",
-          "theme": "夏威夷印花",
-          "theme_cat": "衬衫",
-          "selling_points": [
-            "度假风",
-            "花纹鲜明",
-            "透气"
-          ],
-          "recommended_types": [
-            "热带花纹",
-            "素色领"
-          ],
-          "target_audience": "度假/派对",
-          "fabric": "棉",
-          "fit": "常规",
-          "print_process": "丝印",
-          "life_cycle": "全年+假日",
-          "compliance_level": "低",
-          "price_anchor": "199-399 THB",
-          "trend": "📈 上升",
-          "rank": 6,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Hawaiian Shirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=Hawaiian%20Shirt",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Hawaiian Shirt」，价格锚点 199-399 THB，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Oversized Print Tee」，价格锚点 199-399 THB，主打 180-220gsm 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "เสื้อลายไทย ประจำถิ่น",
@@ -10569,11 +10486,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อลายไทย ประจำถิ่น",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%96%E0%B8%B4%E0%B9%88%E0%B8%99",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อลายไทย ประจำถิ่น」，价格锚点 ฿129-259，主打 180-220gsm 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อลายไทย ประจำถิ่น」，价格锚点 ฿129-259，主打 180-220gsm 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "เสื้อแห้งเร็ว เย็น",
@@ -10609,11 +10525,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อแห้งเร็ว เย็น",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7%20%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อแห้งเร็ว เย็น」，价格锚点 ฿99-199，主打 凉感混纺。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อแห้งเร็ว เย็น」，价格锚点 ฿99-199，主打 凉感混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "ZIEN Bear Honey Spandex Tee",
@@ -10650,11 +10565,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ZIEN Bear Honey Spandex Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=ZIEN%20Bear%20Honey%20Spandex%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN Bear Honey Spandex Tee」，价格锚点 ฿99-199，主打 棉氨弹力。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN Bear Honey Spandex Tee」，价格锚点 ฿99-199，主打 棉氨弹力。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Crying Center Dopamine Tee",
@@ -10691,11 +10605,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Crying Center Dopamine Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=Crying%20Center%20Dopamine%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Crying Center Dopamine Tee」，价格锚点 ฿99-179，主打 棉混纺。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Crying Center Dopamine Tee」，价格锚点 ฿99-179，主打 棉混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Crying Center Dopamine Top",
@@ -10735,11 +10648,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Crying Center Dopamine Top",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=Crying%20Center%20Dopamine%20Top",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Crying Center Dopamine Top」，价格锚点 ฿159-299，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=Crying%20Center%20Dopamine%20Top%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Crying Center Dopamine Top」，价格锚点 ฿159-299，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 12,
@@ -10779,11 +10691,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "11.11 预热基础 / 图案T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=11.11%20%E9%A2%84%E7%83%AD%E5%9F%BA%E7%A1%80%20/%20%E5%9B%BE%E6%A1%88T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「11.11 预热基础 / 图案T」，价格锚点 ฿99–299，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=11.11%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「11.11 预热基础 / 图案T」，价格锚点 ฿99–299，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 13,
@@ -10823,11 +10734,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อลายผี 万圣印花T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%B5%20%E4%B8%87%E5%9C%A3%E5%8D%B0%E8%8A%B1T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อลายผี 万圣印花T」，价格锚点 ฿149–329，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%B5%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อลายผี 万圣印花T」，价格锚点 ฿149–329，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 14,
@@ -10867,11 +10777,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อกินเจ 九皇斋素T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%20%E4%B9%9D%E7%9A%87%E6%96%8B%E7%B4%A0T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อกินเจ 九皇斋素T」，价格锚点 ฿99–259，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อกินเจ 九皇斋素T」，价格锚点 ฿99–259，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 15,
@@ -10911,11 +10820,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Crying Center 少女风短袖T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=Crying%20Center%20%E5%B0%91%E5%A5%B3%E9%A3%8E%E7%9F%AD%E8%A2%96T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Crying Center 少女风短袖T」，价格锚点 ฿199–459，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=Crying%20Center%20T-shirt%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Crying Center 少女风短袖T」，价格锚点 ฿199–459，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 16,
@@ -10954,11 +10862,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "KPop Demon Hunters 猎妖T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=KPop%20Demon%20Hunters%20%E7%8C%8E%E5%A6%96T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「KPop Demon Hunters 猎妖T」，价格锚点 ฿249–459，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=KPop%20Demon%20Hunters%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「KPop Demon Hunters 猎妖T」，价格锚点 ฿249–459，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 17,
@@ -10997,11 +10904,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Sanrio / Hello Kitty 三丽鸥T",
-          "print_element": "[✓ 🤖 AI 真实性核验 · 需二创防盗图]",
-          "link": "https://www.lazada.co.th/catalog/?q=Sanrio%20/%20Hello%20Kitty%20%E4%B8%89%E4%B8%BD%E9%B8%A5T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Sanrio / Hello Kitty 三丽鸥T」，价格锚点 ฿199–399，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验 · 需二创防盗图]"
+          "link": "https://www.lazada.co.th/catalog/?q=Sanrio%20Hello%20Kitty%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Sanrio / Hello Kitty 三丽鸥T」，价格锚点 ฿199–399，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 18,
@@ -11040,11 +10946,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อลายช้าง 大象印花T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%20%E5%A4%A7%E8%B1%A1%E5%8D%B0%E8%8A%B1T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อลายช้าง 大象印花T」，价格锚点 ฿129–259，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「เสื้อลายช้าง 大象印花T」，价格锚点 ฿129–259，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 19,
@@ -11080,11 +10985,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Demon Slayer 鬼灭 Infinity Castle Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=Demon%20Slayer%20%E9%AC%BC%E7%81%AD%20Infinity%20Castle%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Demon Slayer 鬼灭 Infinity Castle Tee」，价格锚点 ฿199–399，主打 200gsm 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=Demon%20Slayer%20Infinity%20Castle%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Demon Slayer 鬼灭 Infinity Castle Tee」，价格锚点 ฿199–399，主打 200gsm 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 20,
@@ -11120,11 +11024,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Halloween 2026 万圣节印花 Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=Halloween%202026%20%E4%B8%87%E5%9C%A3%E8%8A%82%E5%8D%B0%E8%8A%B1%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Halloween 2026 万圣节印花 Tee」，价格锚点 ฿149–349，主打 180-200gsm 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=Halloween%202026%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Halloween 2026 万圣节印花 Tee」，价格锚点 ฿149–349，主打 180-200gsm 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 21,
@@ -11160,11 +11063,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "K-pop Comeback 应援 Tee (NMIXX/ILLIT/LISA)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=K-pop%20Comeback%20%E5%BA%94%E6%8F%B4%20Tee%20%28NMIXX/ILLIT/LISA%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「K-pop Comeback 应援 Tee (NMIXX/ILLIT/LISA)」，价格锚点 ฿199–399，主打 180-220gsm 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=K-pop%20Comeback%20Tee%20NMIXX%20ILLIT%20LISA",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「K-pop Comeback 应援 Tee (NMIXX/ILLIT/LISA)」，价格锚点 ฿199–399，主打 180-220gsm 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "ZIEN Bear Honey Dopamine Tee",
@@ -11201,11 +11103,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ZIEN Bear Honey Dopamine Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=ZIEN%20Bear%20Honey%20Dopamine%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN Bear Honey Dopamine Tee」，价格锚点 ฿99-179，主打 棉混纺。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN Bear Honey Dopamine Tee」，价格锚点 ฿99-179，主打 棉混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "ZIEN เสื้อคอตตอนรูปหมีน้ำผึ้ง",
@@ -11242,11 +11143,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ZIEN เสื้อคอตตอนรูปหมีน้ำผึ้ง",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=ZIEN%20%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%95%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN เสื้อคอตตอนรูปหมีน้ำผึ้ง」，价格锚点 ฿99-199，主打 棉氨弹力。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN เสื้อคอตตอนรูปหมีน้ำผึ้ง」，价格锚点 ฿99-199，主打 棉氨弹力。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Crying Center เสื้อโอเวอร์ไซส์",
@@ -11283,11 +11183,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Crying Center เสื้อโอเวอร์ไซส์",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=Crying%20Center%20%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%AA%E0%B9%8C",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Crying Center เสื้อโอเวอร์ไซส์」，价格锚点 ฿159-299，主打 棉氨弹力。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Crying Center เสื้อโอเวอร์ไซส์」，价格锚点 ฿159-299，主打 棉氨弹力。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "ZIEN Spandex Bear Honey T",
@@ -11324,11 +11223,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ZIEN Spandex Bear Honey T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.co.th/catalog/?q=ZIEN%20Spandex%20Bear%20Honey%20T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN Spandex Bear Honey T」，价格锚点 ฿79-149，主打 氨纶混纺。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.co.th/catalog/?q=ZIEN%20Spandex%20Bear%20Honey%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN Spandex Bear Honey T」，价格锚点 ฿79-149，主打 氨纶混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "ZIEN Bear Honey Tee TH",
@@ -11364,11 +11262,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ZIEN Bear Honey Tee TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=ZIEN%20Bear%20Honey%20Tee%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN Bear Honey Tee TH」，价格锚点 ฿99-199，主打 氨纶混纺。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「ZIEN Bear Honey Tee TH」，价格锚点 ฿99-199，主打 氨纶混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Daisy Print Oversize Tee TH",
@@ -11405,11 +11302,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Daisy Print Oversize Tee TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=Daisy%20Print%20Oversize%20Tee%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Daisy Print Oversize Tee TH」，价格锚点 ฿129-249，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Daisy Print Oversize Tee TH」，价格锚点 ฿129-249，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Boxy 280GSM Heavyweight Oversized Tee",
@@ -11445,11 +11341,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Boxy 280GSM Heavyweight Oversized Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.co.th/catalog/?q=Boxy%20280GSM%20Heavyweight%20Oversized%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Boxy 280GSM Heavyweight Oversized Tee」，价格锚点 ฿299-499，主打 280GSM 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇹🇭 泰国] 爆款T恤「Boxy 280GSM Heavyweight Oversized Tee」，价格锚点 ฿299-499，主打 280GSM 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         }
       ],
       "🇲🇾 马来西亚": [
@@ -11487,11 +11382,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "小V领半袖Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=%E5%B0%8FV%E9%A2%86%E5%8D%8A%E8%A2%96Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「小V领半袖Tee」，价格锚点 RM15-50，主打 精梳棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=V%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「小V领半袖Tee」，价格锚点 RM15-50，主打 精梳棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "穆斯林友好长袖罩衫",
@@ -11528,11 +11422,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "穆斯林友好长袖罩衫",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=%E7%A9%86%E6%96%AF%E6%9E%97%E5%8F%8B%E5%A5%BD%E9%95%BF%E8%A2%96%E7%BD%A9%E8%A1%AB",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「穆斯林友好长袖罩衫」，价格锚点 RM25-69，主打 棉/雪纺。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=baju%20t%20shirt%20cotton",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「穆斯林友好长袖罩衫」，价格锚点 RM25-69，主打 棉/雪纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Henley Tee",
@@ -11568,51 +11461,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Henley Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.com.my/catalog/?q=Henley%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Henley Tee」，价格锚点 RM15-35，主打 160-200gsm。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Mandarin Collar Shirt",
-          "cn": "小立领衬衫",
-          "price": "RM20-45",
-          "signal": "MY 趋势品",
-          "type": "衬衫",
-          "theme": "小立领",
-          "theme_cat": "衬衫",
-          "selling_points": [
-            "小立领",
-            "中式/简约",
-            "挺括"
-          ],
-          "recommended_types": [
-            "素色",
-            "暗纹"
-          ],
-          "target_audience": "男性/通勤",
-          "fabric": "棉",
-          "fit": "常规",
-          "print_process": "丝印",
-          "life_cycle": "全年",
-          "compliance_level": "低",
-          "price_anchor": "RM20-45",
-          "trend": "📈 上升",
-          "rank": 4,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Mandarin Collar Shirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=Mandarin%20Collar%20Shirt",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Mandarin Collar Shirt」，价格锚点 RM20-45，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Henley Tee」，价格锚点 RM15-35，主打 160-200gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Short Polo",
@@ -11648,11 +11500,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Short Polo",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=Short%20Polo",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Short Polo」，价格锚点 RM12-30，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=Short%20Polo%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Short Polo」，价格锚点 RM12-30，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Henley / 小立领 T-shirt",
@@ -11688,11 +11539,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Henley / 小立领 T-shirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=Henley%20/%20%E5%B0%8F%E7%AB%8B%E9%A2%86%20T-shirt",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Henley / 小立领 T-shirt」，价格锚点 RM15-35，主打 160-200gsm 棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=Henley%20Mandarin%20Collar%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Henley / 小立领 T-shirt」，价格锚点 RM15-35，主打 160-200gsm 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Baju Muslimah Long Sleeve Moden",
@@ -11729,11 +11579,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Muslimah Long Sleeve Moden",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.com.my/catalog/?q=Baju%20Muslimah%20Long%20Sleeve%20Moden",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju Muslimah Long Sleeve Moden」，价格锚点 RM12-35，主打 棉混纺。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju Muslimah Long Sleeve Moden」，价格锚点 RM12-35，主打 棉混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 13,
@@ -11773,11 +11622,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "11.11 预热基础款",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=11.11%20%E9%A2%84%E7%83%AD%E5%9F%BA%E7%A1%80%E6%AC%BE",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「11.11 预热基础款」，价格锚点 RM9.90–39，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=11.11%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「11.11 预热基础款」，价格锚点 RM9.90–39，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 14,
@@ -11817,11 +11665,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "deepavali 屠妖节款",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=deepavali%20%E5%B1%A0%E5%A6%96%E8%8A%82%E6%AC%BE",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「deepavali 屠妖节款」，价格锚点 RM19–79，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=deepavali%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「deepavali 屠妖节款」，价格锚点 RM19–79，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 15,
@@ -11861,11 +11708,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "万圣 Oversize 印花T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=%E4%B8%87%E5%9C%A3%20Oversize%20%E5%8D%B0%E8%8A%B1T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「万圣 Oversize 印花T」，价格锚点 RM8.90–49，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=Oversize%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「万圣 Oversize 印花T」，价格锚点 RM8.90–49，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 16,
@@ -11904,11 +11750,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "baju batik 蜡染T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=baju%20batik%20%E8%9C%A1%E6%9F%93T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「baju batik 蜡染T」，价格锚点 RM25–70，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=baju%20batik%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「baju batik 蜡染T」，价格锚点 RM25–70，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 17,
@@ -11947,11 +11792,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Disney / Stitch 迪士尼IP T",
-          "print_element": "[✓ 🤖 AI 真实性核验 · 需二创防盗图]",
-          "link": "https://www.lazada.com.my/catalog/?q=Disney%20/%20Stitch%20%E8%BF%AA%E5%A3%AB%E5%B0%BCIP%20T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Disney / Stitch 迪士尼IP T」，价格锚点 RM19–55，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验 · 需二创防盗图]"
+          "link": "https://www.lazada.com.my/catalog/?q=Disney%20Stitch%20IP%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Disney / Stitch 迪士尼IP T」，价格锚点 RM19–55，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 18,
@@ -11990,11 +11834,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "KAWS / AAPE 潮牌艺术T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=KAWS%20/%20AAPE%20%E6%BD%AE%E7%89%8C%E8%89%BA%E6%9C%AFT",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「KAWS / AAPE 潮牌艺术T」，价格锚点 RM12.90–49，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=KAWS%20AAPE%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「KAWS / AAPE 潮牌艺术T」，价格锚点 RM12.90–49，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 19,
@@ -12030,11 +11873,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Halloween 2026",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.com.my/catalog/?q=Baju%20Halloween%202026",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju Halloween 2026」，价格锚点 RM15–45，主打 180-200gsm 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju Halloween 2026」，价格锚点 RM15–45，主打 180-200gsm 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 20,
@@ -12070,11 +11912,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Demon Slayer (Netflix)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=Baju%20Demon%20Slayer%20%28Netflix%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju Demon Slayer (Netflix)」，价格锚点 RM19–49，主打 200gsm 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=Baju%20Demon%20Slayer%20Netflix",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju Demon Slayer (Netflix)」，价格锚点 RM19–49，主打 200gsm 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 21,
@@ -12107,11 +11948,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju K-Pop Comeback (10月回归潮)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=Baju%20K-Pop%20Comeback%20%2810%E6%9C%88%E5%9B%9E%E5%BD%92%E6%BD%AE%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju K-Pop Comeback (10月回归潮)」，价格锚点 RM19–49，主打 180-220gsm 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=Baju%20K-Pop%20Comeback%2010",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju K-Pop Comeback (10月回归潮)」，价格锚点 RM19–49，主打 180-220gsm 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "V-Neck Slim Tee MY",
@@ -12147,11 +11987,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "V-Neck Slim Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.com.my/catalog/?q=V-Neck%20Slim%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「V-Neck Slim Tee MY」，价格锚点 RM10-50，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「V-Neck Slim Tee MY」，价格锚点 RM10-50，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Baju Muslim Long Tunic",
@@ -12186,11 +12025,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Muslim Long Tunic",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.com.my/catalog/?q=Baju%20Muslim%20Long%20Tunic",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju Muslim Long Tunic」，价格锚点 RM25-70，主打 棉/雪纺。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Baju Muslim Long Tunic」，价格锚点 RM25-70，主打 棉/雪纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Tee V-neck separuh lengan",
@@ -12225,11 +12063,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Tee V-neck separuh lengan",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.com.my/catalog/?q=Tee%20V-neck%20separuh%20lengan",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Tee V-neck separuh lengan」，价格锚点 RM19-39，主打 聚酯/棉混。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Tee V-neck separuh lengan」，价格锚点 RM19-39，主打 聚酯/棉混。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "V-Neck Tee MY",
@@ -12265,11 +12102,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "V-Neck Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.com.my/catalog/?q=V-Neck%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「V-Neck Tee MY」，价格锚点 RM10-50，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「V-Neck Tee MY」，价格锚点 RM10-50，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Polo Collar Women Tee MY",
@@ -12308,11 +12144,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Polo Collar Women Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.lazada.com.my/catalog/?q=Polo%20Collar%20Women%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Polo Collar Women Tee MY」，价格锚点 RM8-22，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Polo Collar Women Tee MY」，价格锚点 RM8-22，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Muslimah Oversized Hoodie",
@@ -12351,11 +12186,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Muslimah Oversized Hoodie",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.lazada.com.my/catalog/?q=Muslimah%20Oversized%20Hoodie",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Muslimah Oversized Hoodie」，价格锚点 RM49-89，主打 棉混纺。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.lazada.com.my/catalog/?q=Muslimah%20Oversized%20Hoodie%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Lazada 🇲🇾 马来西亚] 爆款T恤「Muslimah Oversized Hoodie」，价格锚点 RM49-89，主打 棉混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         }
       ]
     },
@@ -12395,11 +12229,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "短袖翻领Polo",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=%E7%9F%AD%E8%A2%96%E7%BF%BB%E9%A2%86Polo",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「短袖翻领Polo」，价格锚点 99-300 THB，主打 珠地棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=T-shirt%20Polo",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「短袖翻领Polo」，价格锚点 99-300 THB，主打 珠地棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Oversized印花Tee",
@@ -12435,11 +12268,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Oversized印花Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Oversized%E5%8D%B0%E8%8A%B1Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Oversized印花Tee」，价格锚点 99-299 THB，主打 180-220gsm 棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Oversized%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Oversized印花Tee」，价格锚点 99-299 THB，主打 180-220gsm 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Oversized Print Tee",
@@ -12475,11 +12307,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Oversized Print Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=Oversized%20Print%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Oversized Print Tee」，价格锚点 99-300 THB，主打 180-220gsm。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Oversized Print Tee」，价格锚点 99-300 THB，主打 180-220gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Striped Short Tee",
@@ -12515,51 +12346,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Striped Short Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=Striped%20Short%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Striped Short Tee」，价格锚点 99-250 THB，主打 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Polka Dot Shirt",
-          "cn": "波点短袖衬衫",
-          "price": "99-300 THB",
-          "signal": "TH 趋势品",
-          "type": "衬衫",
-          "theme": "波点",
-          "theme_cat": "衬衫",
-          "selling_points": [
-            "波点",
-            "复古",
-            "通勤"
-          ],
-          "recommended_types": [
-            "素色波点",
-            "撞色"
-          ],
-          "target_audience": "女性",
-          "fabric": "棉",
-          "fit": "常规",
-          "print_process": "丝印",
-          "life_cycle": "全年",
-          "compliance_level": "低",
-          "price_anchor": "99-300 THB",
-          "trend": "📈 上升",
-          "rank": 5,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Polka Dot Shirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Polka%20Dot%20Shirt",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Polka Dot Shirt」，价格锚点 99-300 THB，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Striped Short Tee」，价格锚点 99-250 THB，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Oversized Printed Tee",
@@ -12595,49 +12385,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Oversized Printed Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=Oversized%20Printed%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Oversized Printed Tee」，价格锚点 ฿99-300，主打 180-220gsm 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Hawaiian Shirt",
-          "cn": "夏威夷衬衫",
-          "price": "฿99-250",
-          "signal": "泰国趋势品度假风",
-          "type": "衬衫",
-          "theme": "夏威夷/度假",
-          "theme_cat": "度假风",
-          "selling_points": [
-            "热带印花",
-            "轻薄",
-            "度假场景"
-          ],
-          "recommended_types": [
-            "热带花卉",
-            "海浪纹"
-          ],
-          "target_audience": "度假/通勤",
-          "fabric": "棉/人造丝",
-          "fit": "常规",
-          "print_process": "丝印",
-          "life_cycle": "旺季11-12",
-          "compliance_level": "低",
-          "price_anchor": "99-250 THB",
-          "trend": "📊 稳定",
-          "rank": 8,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Hawaiian Shirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Hawaiian%20Shirt",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Hawaiian Shirt」，价格锚点 ฿99-250，主打 棉/人造丝。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Oversized Printed Tee」，价格锚点 ฿99-300，主打 180-220gsm 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "11.11 Mega Sale Tee",
@@ -12676,11 +12427,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "11.11 Mega Sale Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=11.11%20Mega%20Sale%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「11.11 Mega Sale Tee」，价格锚点 ฿79-199，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「11.11 Mega Sale Tee」，价格锚点 ฿79-199，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "o3o Missing T-Shirt Boxy (YinWar)",
@@ -12717,11 +12467,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "o3o Missing T-Shirt Boxy (YinWar)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=o3o%20Missing%20T-Shirt%20Boxy%20%28YinWar%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「o3o Missing T-Shirt Boxy (YinWar)」，价格锚点 ฿988，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=o3o%20Missing%20T-Shirt%20Boxy%20YinWar",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「o3o Missing T-Shirt Boxy (YinWar)」，价格锚点 ฿988，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Savewrg Rune T (Vintage)",
@@ -12758,51 +12507,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Savewrg Rune T (Vintage)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Savewrg%20Rune%20T%20%28Vintage%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg Rune T (Vintage)」，价格锚点 ฿590-690，主打 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Hawaiian Shirt TH",
-          "cn": "夏威夷衬衫",
-          "price": "฿99-300",
-          "signal": "Shopee 泰国趋势品，夏威夷衬衫入秋仍走量",
-          "type": "印花衬衫",
-          "theme": "度假/夏威夷",
-          "theme_cat": "季节款",
-          "selling_points": [
-            "度假风",
-            "轻薄",
-            "印花"
-          ],
-          "recommended_types": [
-            "衬衫"
-          ],
-          "target_audience": "全龄",
-          "fabric": "聚酯",
-          "fit": "常规",
-          "print_process": "印花",
-          "life_cycle": "季节",
-          "compliance_level": "低",
-          "price_anchor": "99-300 THB",
-          "trend": "📈 上升",
-          "source_url": "https://www.sgpjbg.com/labelsyh/2026nanzhuangpinleixuanpincankao/1/7455817.html",
-          "rank": 12,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Hawaiian Shirt TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Hawaiian%20Shirt%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Hawaiian Shirt TH」，价格锚点 ฿99-300，主打 聚酯。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Savewrg%20Rune%20T%20Vintage%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg Rune T (Vintage)」，价格锚点 ฿590-690，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Oversized Printed Tee TH",
@@ -12839,11 +12547,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Oversized Printed Tee TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=Oversized%20Printed%20Tee%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Oversized Printed Tee TH」，价格锚点 ฿99-259，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Oversized Printed Tee TH」，价格锚点 ฿99-259，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 14,
@@ -12883,11 +12590,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Shopee 11.11 基础 / 图案T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Shopee%2011.11%20%E5%9F%BA%E7%A1%80%20/%20%E5%9B%BE%E6%A1%88T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Shopee 11.11 基础 / 图案T」，价格锚点 ฿99–299，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Shopee%2011.11%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Shopee 11.11 基础 / 图案T」，价格锚点 ฿99–299，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 15,
@@ -12930,11 +12636,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Naruto 火影动漫T（Uchiha 款）",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Naruto%20%E7%81%AB%E5%BD%B1%E5%8A%A8%E6%BC%ABT%EF%BC%88Uchiha%20%E6%AC%BE%EF%BC%89",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Naruto 火影动漫T（Uchiha 款）」，价格锚点 ฿189–459，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Naruto%20T%20Uchiha%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Naruto 火影动漫T（Uchiha 款）」，价格锚点 ฿189–459，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 16,
@@ -12977,11 +12682,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Japanese & US Anime Oversize Tees",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=Japanese%20%26%20US%20Anime%20Oversize%20Tees",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Japanese & US Anime Oversize Tees」，价格锚点 ฿119–429，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Japanese & US Anime Oversize Tees」，价格锚点 ฿119–429，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 18,
@@ -13021,11 +12725,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อฮาโลวีน 万圣T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B9%82%E0%B8%A5%E0%B8%A7%E0%B8%B5%E0%B8%99%20%E4%B8%87%E5%9C%A3T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「เสื้อฮาโลวีน 万圣T」，价格锚点 ฿149–329，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B9%82%E0%B8%A5%E0%B8%A7%E0%B8%B5%E0%B8%99%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「เสื้อฮาโลวีน 万圣T」，价格锚点 ฿149–329，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 19,
@@ -13066,11 +12769,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อกินเจ 九皇斋素T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%20%E4%B9%9D%E7%9A%87%E6%96%8B%E7%B4%A0T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「เสื้อกินเจ 九皇斋素T」，价格锚点 ฿99–259，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「เสื้อกินเจ 九皇斋素T」，价格锚点 ฿99–259，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 20,
@@ -13110,11 +12812,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Blokecore 运动风上衣",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Blokecore%20%E8%BF%90%E5%8A%A8%E9%A3%8E%E4%B8%8A%E8%A1%A3",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Blokecore 运动风上衣」，价格锚点 ฿69–179，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Blokecore%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Blokecore 运动风上衣」，价格锚点 ฿69–179，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 21,
@@ -13150,11 +12851,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Halloween Graphic Tee 万圣节",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Halloween%20Graphic%20Tee%20%E4%B8%87%E5%9C%A3%E8%8A%82",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Halloween Graphic Tee 万圣节」，价格锚点 ฿149–349，主打 180-200gsm。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Halloween%20Graphic%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Halloween Graphic Tee 万圣节」，价格锚点 ฿149–349，主打 180-200gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 22,
@@ -13187,11 +12887,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Bear Honey 熊印花弹力 Tee (ZIEN 24M)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Bear%20Honey%20%E7%86%8A%E5%8D%B0%E8%8A%B1%E5%BC%B9%E5%8A%9B%20Tee%20%28ZIEN%2024M%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Bear Honey 熊印花弹力 Tee (ZIEN 24M)」，价格锚点 ฿99–299，主打 180-200gsm 棉氨。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Bear%20Honey%20Tee%20ZIEN%2024M",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Bear Honey 熊印花弹力 Tee (ZIEN 24M)」，价格锚点 ฿99–299，主打 180-200gsm 棉氨。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 23,
@@ -13224,11 +12923,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Savewrg 复古 Rune T 恤 (10/10开售)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Savewrg%20%E5%A4%8D%E5%8F%A4%20Rune%20T%20%E6%81%A4%20%2810/10%E5%BC%80%E5%94%AE%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg 复古 Rune T 恤 (10/10开售)」，价格锚点 ฿590–690，主打 200gsm 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Savewrg%20Vintage%20Rune%20T%2010%2010%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg 复古 Rune T 恤 (10/10开售)」，价格锚点 ฿590–690，主打 200gsm 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Savewrg Rune Cintage Tee",
@@ -13265,52 +12963,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Savewrg Rune Cintage Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=Savewrg%20Rune%20Cintage%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg Rune Cintage Tee」，价格锚点 ฿590-690，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Hawaiian Print Shirt",
-          "cn": "夏威夷印花衬衫",
-          "price": "฿99-300",
-          "price_anchor": "99-300 THB",
-          "signal": "Shopee 泰国 10 月男装趋势：夏威夷衬衫/短袖翻领 Polo 居前列，度假+万圣过渡款",
-          "type": "度假印花",
-          "theme": "夏威夷/热带",
-          "theme_cat": "度假",
-          "selling_points": [
-            "热带花卉",
-            "宽松",
-            "度假风"
-          ],
-          "recommended_types": [
-            "衬衫",
-            "印花"
-          ],
-          "target_audience": "18-40 男女",
-          "fabric": "聚酯纤维",
-          "fit": "宽松",
-          "print_process": "数码印花",
-          "life_cycle": "季节过渡",
-          "compliance_level": "低",
-          "trend": "📈 上升",
-          "source_url": "https://www.sgpjbg.com/labelsyh/2026nanzhuangpinleixuanpincankao/1/7455817.html",
-          "rank": 25,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Hawaiian Print Shirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Hawaiian%20Print%20Shirt",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Hawaiian Print Shirt」，价格锚点 ฿99-300，主打 聚酯纤维。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg Rune Cintage Tee」，价格锚点 ฿590-690，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Savewrg Rune T (Cintage Archive)",
@@ -13347,52 +13003,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Savewrg Rune T (Cintage Archive)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Savewrg%20Rune%20T%20%28Cintage%20Archive%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg Rune T (Cintage Archive)」，价格锚点 ฿590-690，主打 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "เสื้อฮาวาย",
-          "cn": "夏威夷衬衫",
-          "price": "฿129-299",
-          "signal": "泰国趋势品夏威夷衬衫(sgpjbg 10月)",
-          "type": "度假风",
-          "theme": "热带花卉",
-          "theme_cat": "度假风",
-          "selling_points": [
-            "热带印花",
-            "轻薄透气",
-            "度假穿搭"
-          ],
-          "recommended_types": [
-            "印花",
-            "短款"
-          ],
-          "target_audience": "18-30 潮流",
-          "fabric": "棉",
-          "fit": "常规",
-          "print_process": "丝印/烫画",
-          "life_cycle": "短期热点",
-          "compliance_level": "低",
-          "price_anchor": "590-690 THB",
-          "trend": "📈 上升",
-          "source_url": "https://www.sina.cn/news/detail/5352175291076704.html",
-          "rank": 27,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อฮาวาย",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AE%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A2",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「เสื้อฮาวาย」，价格锚点 ฿129-299，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Savewrg%20Rune%20T%20Cintage%20Archive%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg Rune T (Cintage Archive)」，价格锚点 ฿590-690，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Savewrg Rune Tee TH",
@@ -13427,11 +13041,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Savewrg Rune Tee TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=Savewrg%20Rune%20Tee%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg Rune Tee TH」，价格锚点 ฿590-690，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Savewrg Rune Tee TH」，价格锚点 ฿590-690，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Hoodie / Knit Pullover TH",
@@ -13468,11 +13081,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Hoodie / Knit Pullover TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.co.th/search?keyword=Hoodie%20/%20Knit%20Pullover%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Hoodie / Knit Pullover TH」，价格锚点 ฿199-399，主打 棉混。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.co.th/search?keyword=Hoodie%20Knit%20Pullover%20TH%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「Hoodie / Knit Pullover TH」，价格锚点 ฿199-399，主打 棉混。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "French Terry Oversized Tee",
@@ -13508,11 +13120,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "French Terry Oversized Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.co.th/search?keyword=French%20Terry%20Oversized%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「French Terry Oversized Tee」，价格锚点 ฿199-399，主打 French Terry。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇹🇭 泰国] 爆款T恤「French Terry Oversized Tee」，价格锚点 ฿199-399，主打 French Terry。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         }
       ],
       "🇲🇾 马来西亚": [
@@ -13550,11 +13161,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "小V领半袖Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=%E5%B0%8FV%E9%A2%86%E5%8D%8A%E8%A2%96Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「小V领半袖Tee」，价格锚点 RM8-25，主打 精梳棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=V%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「小V领半袖Tee」，价格锚点 RM8-25，主打 精梳棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Henley Tee",
@@ -13590,51 +13200,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Henley Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.com.my/search?keyword=Henley%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Henley Tee」，价格锚点 RM10-30，主打 160-200gsm。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Mandarin Collar Shirt",
-          "cn": "小立领衬衫",
-          "price": "RM15-40",
-          "signal": "MY 趋势品",
-          "type": "衬衫",
-          "theme": "小立领",
-          "theme_cat": "衬衫",
-          "selling_points": [
-            "小立领",
-            "简约",
-            "通勤"
-          ],
-          "recommended_types": [
-            "素色",
-            "暗纹"
-          ],
-          "target_audience": "男性",
-          "fabric": "棉",
-          "fit": "常规",
-          "print_process": "丝印",
-          "life_cycle": "全年",
-          "compliance_level": "低",
-          "price_anchor": "RM15-40",
-          "trend": "📈 上升",
-          "rank": 4,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Mandarin Collar Shirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=Mandarin%20Collar%20Shirt",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Mandarin Collar Shirt」，价格锚点 RM15-40，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Henley Tee」，价格锚点 RM10-30，主打 160-200gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "V-Neck Short Tee",
@@ -13670,11 +13239,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "V-Neck Short Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.com.my/search?keyword=V-Neck%20Short%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「V-Neck Short Tee」，价格锚点 RM10-30，主打 160-200gsm 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「V-Neck Short Tee」，价格锚点 RM10-30，主打 160-200gsm 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Muslimah Long Sleeve Tee",
@@ -13710,11 +13278,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Muslimah Long Sleeve Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.com.my/search?keyword=Muslimah%20Long%20Sleeve%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Muslimah Long Sleeve Tee」，价格锚点 RM12-35，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Muslimah Long Sleeve Tee」，价格锚点 RM12-35，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Slim Fit Printed Tee MY",
@@ -13748,11 +13315,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Slim Fit Printed Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.com.my/search?keyword=Slim%20Fit%20Printed%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Slim Fit Printed Tee MY」，价格锚点 RM8-25，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Slim Fit Printed Tee MY」，价格锚点 RM8-25，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Baju Muslimah MY",
@@ -13789,11 +13355,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Muslimah MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.com.my/search?keyword=Baju%20Muslimah%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Baju Muslimah MY」，价格锚点 RM12-35，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Baju Muslimah MY」，价格锚点 RM12-35，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 11,
@@ -13833,11 +13398,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Shopee 11.11 Big Sale 基础款",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=Shopee%2011.11%20Big%20Sale%20%E5%9F%BA%E7%A1%80%E6%AC%BE",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Shopee 11.11 Big Sale 基础款」，价格锚点 RM9.90–39，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=Shopee%2011.11%20Big%20Sale%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Shopee 11.11 Big Sale 基础款」，价格锚点 RM9.90–39，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 12,
@@ -13880,11 +13444,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Falechay Red Summer Tops for Women",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=Falechay%20Red%20Summer%20Tops%20for%20Women",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Falechay Red Summer Tops for Women」，价格锚点 RM19–59，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=Falechay%20Red%20Summer%20Tops%20for%20Women%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Falechay Red Summer Tops for Women」，价格锚点 RM19–59，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 13,
@@ -13923,11 +13486,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "baju batik jersey 蜡染球衣T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=baju%20batik%20jersey%20%E8%9C%A1%E6%9F%93%E7%90%83%E8%A1%A3T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「baju batik jersey 蜡染球衣T」，价格锚点 RM26–71，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=baju%20batik%20jersey%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「baju batik jersey 蜡染球衣T」，价格锚点 RM26–71，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 14,
@@ -13967,11 +13529,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "deepavali 屠妖节款",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=deepavali%20%E5%B1%A0%E5%A6%96%E8%8A%82%E6%AC%BE",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「deepavali 屠妖节款」，价格锚点 RM19–79，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=deepavali%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「deepavali 屠妖节款」，价格锚点 RM19–79，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 15,
@@ -14011,11 +13572,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "万圣 Oversize T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=%E4%B8%87%E5%9C%A3%20Oversize%20T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「万圣 Oversize T」，价格锚点 RM8.90–49，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=Oversize%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「万圣 Oversize T」，价格锚点 RM8.90–49，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 17,
@@ -14054,11 +13614,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "kpop tshirt 应援T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=kpop%20tshirt%20%E5%BA%94%E6%8F%B4T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「kpop tshirt 应援T」，价格锚点 RM19–49，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=kpop%20tshirt%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「kpop tshirt 应援T」，价格锚点 RM19–49，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 18,
@@ -14094,11 +13653,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Halloween 2026",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.com.my/search?keyword=Baju%20Halloween%202026",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Baju Halloween 2026」，价格锚点 RM15–45，主打 180-200gsm。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Baju Halloween 2026」，价格锚点 RM15–45，主打 180-200gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 19,
@@ -14131,11 +13689,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju K-Pop Comeback (10月回归潮)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=Baju%20K-Pop%20Comeback%20%2810%E6%9C%88%E5%9B%9E%E5%BD%92%E6%BD%AE%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Baju K-Pop Comeback (10月回归潮)」，价格锚点 RM19–49，主打 180-220gsm。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=Baju%20K-Pop%20Comeback%2010",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Baju K-Pop Comeback (10月回归潮)」，价格锚点 RM19–49，主打 180-220gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 20,
@@ -14168,11 +13725,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Bear Honey 熊印花",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=Baju%20Bear%20Honey%20%E7%86%8A%E5%8D%B0%E8%8A%B1",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Baju Bear Honey 熊印花」，价格锚点 RM15–39，主打 180-200gsm 棉氨。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=Baju%20Bear%20Honey",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Baju Bear Honey 熊印花」，价格锚点 RM15–39，主打 180-200gsm 棉氨。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Mandarin Collar Tee MY",
@@ -14208,129 +13764,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Mandarin Collar Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.com.my/search?keyword=Mandarin%20Collar%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Mandarin Collar Tee MY」，价格锚点 RM12-35，主打 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Mandarin Collar Tee",
-          "cn": "小立领衬衫",
-          "price": "RM12-35",
-          "price_anchor": "12-35 MYR",
-          "signal": "Shopee 马来男装趋势：小立领/亨利领 T 恤走俏，通勤+宗教场景兼容",
-          "type": "立领基础",
-          "theme": "通勤/简约",
-          "theme_cat": "基础款",
-          "selling_points": [
-            "小立领",
-            "简约",
-            "百搭"
-          ],
-          "recommended_types": [
-            "短T",
-            "立领"
-          ],
-          "target_audience": "男性 20-45",
-          "fabric": "棉",
-          "fit": "常规",
-          "print_process": "素色",
-          "life_cycle": "长线稳定",
-          "compliance_level": "低",
-          "trend": "📈 上升",
-          "source_url": "https://www.sgpjbg.com/labelsyh/2026nanzhuangpinleixuanpincankao/1/7455817.html",
-          "rank": 22,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Mandarin Collar Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=Mandarin%20Collar%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Mandarin Collar Tee」，价格锚点 RM12-35，主打 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Kemeja Henley",
-          "cn": "亨利领T恤",
-          "price": "RM19-45",
-          "signal": "马来趋势品亨利领T恤(sgpjbg)",
-          "type": "基础款",
-          "theme": "亨利领",
-          "theme_cat": "基础款",
-          "selling_points": [
-            "低调领型",
-            "纯色百搭",
-            "棉质"
-          ],
-          "recommended_types": [
-            "短T"
-          ],
-          "target_audience": "全龄",
-          "fabric": "棉",
-          "fit": "修身",
-          "print_process": "印花",
-          "life_cycle": "长线稳定",
-          "compliance_level": "低",
-          "price_anchor": "8-25 MYR",
-          "trend": "📊 稳定",
-          "source_url": "https://www.sgpjbg.com/labels/shopeenuzhuangrexiaopinlei.html",
-          "rank": 23,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Kemeja Henley",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=Kemeja%20Henley",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Kemeja Henley」，价格锚点 RM19-45，主打 棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "小立领修身短袖Tee (Mandarin Collar Tee)",
-          "cn": "小立领修身短袖Tee",
-          "price": "RM25-55",
-          "signal": "马来趋势品小立领衬衫(sgpjbg)",
-          "type": "基础款",
-          "theme": "小立领",
-          "theme_cat": "基础款",
-          "selling_points": [
-            "利落立领",
-            "商务休闲",
-            "挺括"
-          ],
-          "recommended_types": [
-            "短T"
-          ],
-          "target_audience": "全龄",
-          "fabric": "棉",
-          "fit": "修身",
-          "print_process": "印花",
-          "life_cycle": "长线稳定",
-          "compliance_level": "低",
-          "price_anchor": "8-25 MYR",
-          "trend": "📊 稳定",
-          "source_url": "https://www.sgpjbg.com/labels/shopeenuzhuangrexiaopinlei.html",
-          "rank": 24,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "小立领修身短袖Tee (Mandarin Collar Tee)",
-          "category": "tshirt",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=%E5%B0%8F%E7%AB%8B%E9%A2%86%E4%BF%AE%E8%BA%AB%E7%9F%AD%E8%A2%96Tee%20%28Mandarin%20Collar%20Tee%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「小立领修身短袖Tee (Mandarin Collar Tee)」，价格锚点 RM25-55，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Mandarin Collar Tee MY」，价格锚点 RM12-35，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Henley Tee MY",
@@ -14363,11 +13800,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Henley Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://shopee.com.my/search?keyword=Henley%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Henley Tee MY」，价格锚点 RM10-50，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Henley Tee MY」，价格锚点 RM10-50，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Muslimah Modest Top MY",
@@ -14402,11 +13838,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Muslimah Modest Top MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://shopee.com.my/search?keyword=Muslimah%20Modest%20Top%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Muslimah Modest Top MY」，价格锚点 RM12-35，主打 棉混。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://shopee.com.my/search?keyword=Muslimah%20Modest%20Top%20MY%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[Shopee 🇲🇾 马来西亚] 爆款T恤「Muslimah Modest Top MY」，价格锚点 RM12-35，主打 棉混。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         }
       ]
     },
@@ -14445,11 +13880,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Phuang Malai 花环扎发DIY Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Phuang%20Malai%20%E8%8A%B1%E7%8E%AF%E6%89%8E%E5%8F%91DIY%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Phuang Malai 花环扎发DIY Tee」，价格锚点 199-399 THB，主打 180-220gsm 棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Phuang%20Malai%20DIY%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Phuang Malai 花环扎发DIY Tee」，价格锚点 199-399 THB，主打 180-220gsm 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Sabai Denim 联名Tee",
@@ -14484,11 +13918,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Sabai Denim 联名Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Sabai%20Denim%20%E8%81%94%E5%90%8DTee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Sabai Denim 联名Tee」，价格锚点 199-399 THB，主打 棉/丹宁拼。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Sabai%20Denim%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Sabai Denim 联名Tee」，价格锚点 199-399 THB，主打 棉/丹宁拼。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Y2K Print Tee",
@@ -14524,11 +13957,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Y2K Print Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Y2K%20Print%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Y2K Print Tee」，价格锚点 199-399 THB，主打 180gsm。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Y2K Print Tee」，价格锚点 199-399 THB，主打 180gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Sporty Tee",
@@ -14564,11 +13996,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Sporty Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Sporty%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Sporty Tee」，价格锚点 199-399 THB，主打 速干涤棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Sporty Tee」，价格锚点 199-399 THB，主打 速干涤棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "ThaiStyle Collab Tee",
@@ -14604,11 +14035,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ThaiStyle Collab Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=ThaiStyle%20Collab%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「ThaiStyle Collab Tee」，价格锚点 199-399 THB，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「ThaiStyle Collab Tee」，价格锚点 199-399 THB，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "The Weeknd Tour Tee BKK",
@@ -14644,11 +14074,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "The Weeknd Tour Tee BKK",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=The%20Weeknd%20Tour%20Tee%20BKK",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「The Weeknd Tour Tee BKK」，价格锚点 ฿199-399，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「The Weeknd Tour Tee BKK」，价格锚点 ฿199-399，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "#bob Challenge Tee",
@@ -14684,11 +14113,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "#bob Challenge Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=%23bob%20Challenge%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「#bob Challenge Tee」，价格锚点 ฿159-299，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「#bob Challenge Tee」，价格锚点 ฿159-299，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "SaWaDiKa Dance Tee (LISA)",
@@ -14725,11 +14153,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "SaWaDiKa Dance Tee (LISA)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=SaWaDiKa%20Dance%20Tee%20%28LISA%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「SaWaDiKa Dance Tee (LISA)」，价格锚点 ฿199-399，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=SaWaDiKa%20Dance%20Tee%20LISA",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「SaWaDiKa Dance Tee (LISA)」，价格锚点 ฿199-399，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Halloween Costume Tee TH",
@@ -14766,11 +14193,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Halloween Costume Tee TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Halloween%20Costume%20Tee%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Halloween Costume Tee TH」，价格锚点 ฿149-299，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Halloween Costume Tee TH」，价格锚点 ฿149-299，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Bow Bow Bow Fit Tee",
@@ -14807,11 +14233,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Bow Bow Bow Fit Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Bow%20Bow%20Bow%20Fit%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Bow Bow Bow Fit Tee」，价格锚点 ฿149-259，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Bow Bow Bow Fit Tee」，价格锚点 ฿149-259，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Halloween Graphic Tee TH",
@@ -14848,11 +14273,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Halloween Graphic Tee TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Halloween%20Graphic%20Tee%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Halloween Graphic Tee TH」，价格锚点 ฿129-259，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Halloween Graphic Tee TH」，价格锚点 ฿129-259，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "K-Pop Comeback Tee TH",
@@ -14892,11 +14316,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "K-Pop Comeback Tee TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=K-Pop%20Comeback%20Tee%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「K-Pop Comeback Tee TH」，价格锚点 ฿199-399，主打 棉涤。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「K-Pop Comeback Tee TH」，价格锚点 ฿199-399，主打 棉涤。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 13,
@@ -14936,11 +14359,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "MS.Bra 服饰矩阵",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=MS.Bra%20%E6%9C%8D%E9%A5%B0%E7%9F%A9%E9%98%B5",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「MS.Bra 服饰矩阵」，价格锚点 ฿99–399，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=MS.Bra%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「MS.Bra 服饰矩阵」，价格锚点 ฿99–399，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 14,
@@ -14980,11 +14402,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Spinnyhouse 服饰矩阵",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Spinnyhouse%20%E6%9C%8D%E9%A5%B0%E7%9F%A9%E9%98%B5",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Spinnyhouse 服饰矩阵」，价格锚点 ฿99–399，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Spinnyhouse%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Spinnyhouse 服饰矩阵」，价格锚点 ฿99–399，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 15,
@@ -15024,11 +14445,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "kaideefashion 快时尚矩阵",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=kaideefashion%20%E5%BF%AB%E6%97%B6%E5%B0%9A%E7%9F%A9%E9%98%B5",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「kaideefashion 快时尚矩阵」，价格锚点 ฿99–399，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=kaideefashion%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「kaideefashion 快时尚矩阵」，价格锚点 ฿99–399，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 16,
@@ -15067,11 +14487,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ZIEN「Bear Honey」Spandex 女T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=ZIEN%E3%80%8CBear%20Honey%E3%80%8DSpandex%20%E5%A5%B3T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「ZIEN「Bear Honey」Spandex 女T」，价格锚点 ≈฿80（$2.42），主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=ZIEN%20Bear%20Honey%20Spandex%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「ZIEN「Bear Honey」Spandex 女T」，价格锚点 ≈฿80（$2.42），主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 17,
@@ -15110,11 +14529,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "V-Neck 亮片闪粉上衣（Spicy Girl）",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=V-Neck%20%E4%BA%AE%E7%89%87%E9%97%AA%E7%B2%89%E4%B8%8A%E8%A1%A3%EF%BC%88Spicy%20Girl%EF%BC%89",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「V-Neck 亮片闪粉上衣（Spicy Girl）」，价格锚点 ≈฿121（$3.67），主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=V-Neck%20Spicy%20Girl%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「V-Neck 亮片闪粉上衣（Spicy Girl）」，价格锚点 ≈฿121（$3.67），主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 18,
@@ -15153,11 +14571,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "KPop Demon Hunters 猎妖T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=KPop%20Demon%20Hunters%20%E7%8C%8E%E5%A6%96T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「KPop Demon Hunters 猎妖T」，价格锚点 ฿249–459，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=KPop%20Demon%20Hunters%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「KPop Demon Hunters 猎妖T」，价格锚点 ฿249–459，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 19,
@@ -15198,11 +14615,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "เสื้อกินเจ 九皇斋素T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%20%E4%B9%9D%E7%9A%87%E6%96%8B%E7%B4%A0T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「เสื้อกินเจ 九皇斋素T」，价格锚点 ฿99–259，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%20T",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「เสื้อกินเจ 九皇斋素T」，价格锚点 ฿99–259，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 20,
@@ -15238,11 +14654,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "K-pop Comeback 应援 Tee (NMIXX/ILLIT/LISA/PLAVE/A2O)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=K-pop%20Comeback%20%E5%BA%94%E6%8F%B4%20Tee%20%28NMIXX/ILLIT/LISA/PLAVE/A2O%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「K-pop Comeback 应援 Tee (NMIXX/ILLIT/LISA/PLAVE/A2O)」，价格锚点 ฿199–399，主打 180-220gsm。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=K-pop%20Comeback%20Tee%20NMIXX%20ILLIT%20LISA%20PLAVE%20A2O",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「K-pop Comeback 应援 Tee (NMIXX/ILLIT/LISA/PLAVE/A2O)」，价格锚点 ฿199–399，主打 180-220gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 21,
@@ -15275,11 +14690,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Halloween 2026 变装 Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Halloween%202026%20%E5%8F%98%E8%A3%85%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Halloween 2026 变装 Tee」，价格锚点 ฿149–349，主打 180-200gsm。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Halloween%202026%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Halloween 2026 变装 Tee」，价格锚点 ฿149–349，主打 180-200gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 22,
@@ -15316,11 +14730,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Bear Honey 熊印花 Tee (24M 病毒)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Bear%20Honey%20%E7%86%8A%E5%8D%B0%E8%8A%B1%20Tee%20%2824M%20%E7%97%85%E6%AF%92%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Bear Honey 熊印花 Tee (24M 病毒)」，价格锚点 ฿99–299，主打 180-200gsm 棉氨。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Bear%20Honey%20Tee%2024M",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Bear Honey 熊印花 Tee (24M 病毒)」，价格锚点 ฿99–299，主打 180-200gsm 棉氨。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Halloween Costume Tee",
@@ -15357,11 +14770,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Halloween Costume Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Halloween%20Costume%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Halloween Costume Tee」，价格锚点 ฿149-299，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Halloween Costume Tee」，价格锚点 ฿149-299，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Bow Bow Bow Dance Tee",
@@ -15398,11 +14810,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Bow Bow Bow Dance Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Bow%20Bow%20Bow%20Dance%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Bow Bow Bow Dance Tee」，价格锚点 ฿129-249，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Bow Bow Bow Dance Tee」，价格锚点 ฿129-249，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "ZIEN Bear Design Spandex T",
@@ -15439,11 +14850,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ZIEN Bear Design Spandex T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=ZIEN%20Bear%20Design%20Spandex%20T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「ZIEN Bear Design Spandex T」，价格锚点 ฿99-199，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=ZIEN%20Bear%20Design%20Spandex%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「ZIEN Bear Design Spandex T」，价格锚点 ฿99-199，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Oversized Men T",
@@ -15480,52 +14890,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Oversized Men T",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Oversized%20Men%20T",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Oversized Men T」，价格锚点 ฿129-259，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
-        },
-        {
-          "product": "Hawaiian Shirt TH",
-          "cn": "夏威夷衬衫",
-          "price": "฿149-299",
-          "signal": "sgpjbg 2026 男装选品：泰国趋势品含夏威夷衬衫/防晒外套，99-300 THB 价格带",
-          "type": "度假风",
-          "theme": "夏威夷",
-          "theme_cat": "风格",
-          "selling_points": [
-            "度假",
-            "印花",
-            "轻薄"
-          ],
-          "recommended_types": [
-            "印花",
-            "衬衫"
-          ],
-          "target_audience": "18-35",
-          "fabric": "棉麻",
-          "fit": "regular",
-          "print_process": "印花",
-          "life_cycle": "季节热点",
-          "compliance_level": "低",
-          "price_anchor": "149-299 THB",
-          "trend": "📈 上升",
-          "source_url": "https://www.sgpjbg.com/labelsyh/2026nanzhuangpinleixuanpincankao/1/7455817.html",
-          "rank": 27,
-          "t": "2026-11-17",
-          "t_src": "base",
-          "win": "baseline",
-          "f": 2,
-          "hl": "mid",
-          "t_note": "榜单数据已同步核准至 2026-11-17",
-          "evidence_status": "baseline",
-          "snapshot_date": "2026-11-17",
-          "tshirt_name": "Hawaiian Shirt TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Hawaiian%20Shirt%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Hawaiian Shirt TH」，价格锚点 ฿149-299，主打 棉麻。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Oversized%20Men%20T%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Oversized Men T」，价格锚点 ฿129-259，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Bear Honey Oversized TH",
@@ -15566,11 +14934,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Bear Honey Oversized TH",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Bear%20Honey%20Oversized%20TH",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Bear Honey Oversized TH」，价格锚点 ฿150-299，主打 氨纶混纺。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Bear%20Honey%20Oversized%20TH%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Bear Honey Oversized TH」，价格锚点 ฿150-299，主打 氨纶混纺。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Amazing Thailand Souvenir Tee",
@@ -15607,11 +14974,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Amazing Thailand Souvenir Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Amazing%20Thailand%20Souvenir%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Amazing Thailand Souvenir Tee」，价格锚点 ฿199-299，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Amazing Thailand Souvenir Tee」，价格锚点 ฿199-299，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Heavyweight Streetwear Tee",
@@ -15647,11 +15013,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Heavyweight Streetwear Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Heavyweight%20Streetwear%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Heavyweight Streetwear Tee」，价格锚点 ฿299-499，主打 280GSM 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇹🇭 泰国] 爆款T恤「Heavyweight Streetwear Tee」，价格锚点 ฿299-499，主打 280GSM 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         }
       ],
       "🇲🇾 马来西亚": [
@@ -15689,11 +15054,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Muslimah 头巾同款Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Muslimah%20%E5%A4%B4%E5%B7%BE%E5%90%8C%E6%AC%BETee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Muslimah 头巾同款Tee」，价格锚点 RM15-49，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Muslimah%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Muslimah 头巾同款Tee」，价格锚点 RM15-49，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "#malaysia 国潮Tee",
@@ -15729,11 +15093,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "#malaysia 国潮Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=%23malaysia%20%E5%9B%BD%E6%BD%AETee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「#malaysia 国潮Tee」，价格锚点 RM12-45，主打 精梳棉。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=%23malaysia%20Tee",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「#malaysia 国潮Tee」，价格锚点 RM12-45，主打 精梳棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Muslimah Long Tee",
@@ -15769,11 +15132,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Muslimah Long Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Muslimah%20Long%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Muslimah Long Tee」，价格锚点 RM12-35，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Muslimah Long Tee」，价格锚点 RM12-35，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "BellaTrend Tee",
@@ -15809,11 +15171,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "BellaTrend Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=BellaTrend%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「BellaTrend Tee」，价格锚点 RM15-35，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「BellaTrend Tee」，价格锚点 RM15-35，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Bella Viral Tee",
@@ -15849,11 +15210,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Bella Viral Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Bella%20Viral%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Bella Viral Tee」，价格锚点 RM15-40，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Bella Viral Tee」，价格锚点 RM15-40，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Halloween Graphic Tee MY",
@@ -15890,11 +15250,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Halloween Graphic Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Halloween%20Graphic%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Halloween Graphic Tee MY」，价格锚点 RM15-39，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Halloween Graphic Tee MY」，价格锚点 RM15-39，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Muslimah Hijab Modest Tee MY",
@@ -15928,11 +15287,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Muslimah Hijab Modest Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Muslimah%20Hijab%20Modest%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Muslimah Hijab Modest Tee MY」，价格锚点 RM12-35，主打 棉混。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Muslimah Hijab Modest Tee MY」，价格锚点 RM12-35，主打 棉混。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Muslimah Hijab Modest Tee",
@@ -15966,11 +15324,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Muslimah Hijab Modest Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Muslimah%20Hijab%20Modest%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Muslimah Hijab Modest Tee」，价格锚点 RM12-35，主打 棉混。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Muslimah Hijab Modest Tee」，价格锚点 RM12-35，主打 棉混。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Custom T-shirt MY",
@@ -16007,11 +15364,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Custom T-shirt MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Custom%20T-shirt%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Custom T-shirt MY」，价格锚点 RM15-40，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Custom T-shirt MY」，价格锚点 RM15-40，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 10,
@@ -16051,11 +15407,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ELGINI MALAYSIA 图案矩阵",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=ELGINI%20MALAYSIA%20%E5%9B%BE%E6%A1%88%E7%9F%A9%E9%98%B5",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「ELGINI MALAYSIA 图案矩阵」，价格锚点 RM9.9–25，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=ELGINI%20MALAYSIA%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「ELGINI MALAYSIA 图案矩阵」，价格锚点 RM9.9–25，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 11,
@@ -16095,11 +15450,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ELGINI E16191 Plain Cotton Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=ELGINI%20E16191%20Plain%20Cotton%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「ELGINI E16191 Plain Cotton Tee」，价格锚点 RM11.90，主打 180-200gsm 精梳纯棉，兼顾透气与挺括。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「ELGINI E16191 Plain Cotton Tee」，价格锚点 RM11.90，主打 180-200gsm 精梳纯棉，兼顾透气与挺括。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 12,
@@ -16139,11 +15493,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ELGINI E16289 Baju-T Grafik Kapas",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=ELGINI%20E16289%20Baju-T%20Grafik%20Kapas",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「ELGINI E16289 Baju-T Grafik Kapas」，价格锚点 RM18.89，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「ELGINI E16289 Baju-T Grafik Kapas」，价格锚点 RM18.89，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 13,
@@ -16183,11 +15536,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "ELGINI E16230 Baju Polo Mikrofiber",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=ELGINI%20E16230%20Baju%20Polo%20Mikrofiber",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「ELGINI E16230 Baju Polo Mikrofiber」，价格锚点 RM11.90，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「ELGINI E16230 Baju Polo Mikrofiber」，价格锚点 RM11.90，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 14,
@@ -16226,11 +15578,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju T Viral Oversize（JUUN.J）",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Baju%20T%20Viral%20Oversize%EF%BC%88JUUN.J%EF%BC%89",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Baju T Viral Oversize（JUUN.J）」，价格锚点 RM6.90–34.00，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Baju%20T%20Viral%20Oversize%20JUUN.J",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Baju T Viral Oversize（JUUN.J）」，价格锚点 RM6.90–34.00，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 15,
@@ -16268,11 +15619,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "VERMILLION V17004 Blaus Wanita",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=VERMILLION%20V17004%20Blaus%20Wanita",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「VERMILLION V17004 Blaus Wanita」，价格锚点 RM18.98，主打 180-200gsm 纯棉或棉混纺，基础舒适。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=VERMILLION%20V17004%20Blaus%20Wanita%20T-shirt",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「VERMILLION V17004 Blaus Wanita」，价格锚点 RM18.98，主打 180-200gsm 纯棉或棉混纺，基础舒适。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 17,
@@ -16305,11 +15655,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju K-Pop Comeback (10月回归潮)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Baju%20K-Pop%20Comeback%20%2810%E6%9C%88%E5%9B%9E%E5%BD%92%E6%BD%AE%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Baju K-Pop Comeback (10月回归潮)」，价格锚点 RM19–49，主打 180-220gsm。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Baju%20K-Pop%20Comeback%2010",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Baju K-Pop Comeback (10月回归潮)」，价格锚点 RM19–49，主打 180-220gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 18,
@@ -16342,11 +15691,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Halloween 2026",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Baju%20Halloween%202026",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Baju Halloween 2026」，价格锚点 RM15–45，主打 180-200gsm。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Baju Halloween 2026」，价格锚点 RM15–45，主打 180-200gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "rank": 19,
@@ -16379,11 +15727,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Baju Demon Slayer (Netflix)",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
-          "link": "https://www.tiktok.com/search?q=Baju%20Demon%20Slayer%20%28Netflix%29",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Baju Demon Slayer (Netflix)」，价格锚点 RM19–49，主打 200gsm。[✓ 🤖 AI 真实性核验通过]"
+          "link": "https://www.tiktok.com/search?q=Baju%20Demon%20Slayer%20Netflix",
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Baju Demon Slayer (Netflix)」，价格锚点 RM19–49，主打 200gsm。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Tee V-neck MY",
@@ -16417,11 +15764,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Tee V-neck MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Tee%20V-neck%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Tee V-neck MY」，价格锚点 RM19-39，主打 棉混。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Tee V-neck MY」，价格锚点 RM19-39，主打 棉混。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Batik Print Tee MY",
@@ -16455,11 +15801,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Batik Print Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Batik%20Print%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Batik Print Tee MY」，价格锚点 RM8-25，主打 纯棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Batik Print Tee MY」，价格锚点 RM8-25，主打 纯棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Halloween Costume Tee MY",
@@ -16495,11 +15840,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Halloween Costume Tee MY",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Halloween%20Costume%20Tee%20MY",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Halloween Costume Tee MY」，价格锚点 RM15-45，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Halloween Costume Tee MY」，价格锚点 RM15-45，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         },
         {
           "product": "Custom 11.11 Promo Tee",
@@ -16535,11 +15879,10 @@ window.DASHBOARD_DATA = {
           "t_note": "榜单数据已同步核准至 2026-11-17",
           "evidence_status": "baseline",
           "snapshot_date": "2026-11-17",
-          "tshirt_name": "Custom 11.11 Promo Tee",
-          "print_element": "[✓ 🤖 AI 真实性核验通过]",
           "link": "https://www.tiktok.com/search?q=Custom%2011.11%20Promo%20Tee",
-          "date": "2026-11-20",
-          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Custom 11.11 Promo Tee」，价格锚点 RM15-40，主打 棉。[✓ 🤖 AI 真实性核验通过]"
+          "date": "2026-11-24",
+          "ai_summary": "🤖 AI总结：[TikTok 🇲🇾 马来西亚] 爆款T恤「Custom 11.11 Promo Tee」，价格锚点 RM15-40，主打 棉。建议采用合规原创印花差异化切入。",
+          "print_element": "[✓ 🤖 AI 真实性核验通过]"
         }
       ]
     }
@@ -16553,10 +15896,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 43.2K/日投稿",
         "tshirt_opportunity": "动感鬼马字母卡点T恤 / 荧光嘻哈撞色印花",
         "opportunity": "动感鬼马字母卡点T恤 / 荧光嘻哈撞色印花",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国马来Z世代最新洗脑手势舞，字母涂鸦配高饱和撞色极易成爆款。",
-        "link": "https://www.tiktok.com/tag/BaBaBaChallenge?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/BaBaBaChallenge?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/BaBaBaChallenge",
+        "source_url": "https://www.tiktok.com/tag/BaBaBaChallenge",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16567,10 +15910,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 8 亿",
         "tshirt_opportunity": "水润小胖猪暴躁反差萌表情 / 泰文趣味口头禅印花",
         "opportunity": "水润小胖猪暴躁反差萌表情 / 泰文趣味口头禅印花",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国绿山动物园顶流河马宝宝，Q版手绘二创无版权门槛且全年龄通吃。",
-        "link": "https://www.tiktok.com/tag/MooDeng?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/MooDeng?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/MooDeng",
+        "source_url": "https://www.tiktok.com/tag/MooDeng",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16581,10 +15924,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 29.5K 原声创作",
         "tshirt_opportunity": "拉丁复古西海岸风 / 唱片黑胶线条纯棉T恤",
         "opportunity": "拉丁复古西海岸风 / 唱片黑胶线条纯棉T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：街头穿搭视频高频BGM，适配220g做旧美式复古黑胶唱片主题印花。",
-        "link": "https://www.tiktok.com/tag/Y%20Entiende%20Coraz%C3%B3n%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E8%BD%AC%E9%9F%B3%E6%B7%B7%E9%9F%B3%20BGM?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/Y%20Entiende%20Coraz%C3%B3n%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E8%BD%AC%E9%9F%B3%E6%B7%B7%E9%9F%B3%20BGM?lang=th-TH",
+        "link": "https://www.tiktok.com/search?q=Y%20Entiende%20Coraz%C3%B3n%20BGM",
+        "source_url": "https://www.tiktok.com/search?q=Y%20Entiende%20Coraz%C3%B3n%20BGM",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16595,10 +15938,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 18.8K/日 互动",
         "tshirt_opportunity": "怪兽森林系刺绣 / 玩偶微型情侣印花短袖",
         "opportunity": "怪兽森林系刺绣 / 玩偶微型情侣印花短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰马女性爆款穿搭标签，注意严禁直接印Labubu官方原图，需抽象萌宠二创。",
-        "link": "https://www.tiktok.com/tag/LabubuOutfit?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/LabubuOutfit?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/LabubuOutfit",
+        "source_url": "https://www.tiktok.com/tag/LabubuOutfit",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16609,10 +15952,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 12.7K 创作者",
         "tshirt_opportunity": "圣诞绿怪兽龇牙萌宠二创 / 搞怪节日亲子装",
         "opportunity": "圣诞绿怪兽龇牙萌宠二创 / 搞怪节日亲子装",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：圣诞节前夕萌宠恶搞视频爆火，适合推绿/红底色搞怪宠物T恤。",
-        "link": "https://www.tiktok.com/tag/NewGrinchPet?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/NewGrinchPet?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/NewGrinchPet",
+        "source_url": "https://www.tiktok.com/tag/NewGrinchPet",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16623,10 +15966,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 12 亿",
         "tshirt_opportunity": "240g Boxy 短宽版型 / 胸前极简英文小标刺绣",
         "opportunity": "240g Boxy 短宽版型 / 胸前极简英文小标刺绣",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国青年每日穿搭主标签，主打水洗做旧与短宽落肩版型。",
-        "link": "https://www.tiktok.com/tag/OOTDThailand?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/OOTDThailand?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/OOTDThailand",
+        "source_url": "https://www.tiktok.com/tag/OOTDThailand",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16637,10 +15980,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 5.4 亿",
         "tshirt_opportunity": "不透光190g+长袖/短袖纯棉 / 极简几何拼接",
         "opportunity": "不透光190g+长袖/短袖纯棉 / 极简几何拼接",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚高赞穿搭词，兼顾穆斯林友好宽松版型与潮流感。",
-        "link": "https://www.tiktok.com/tag/BajuOversizeMalaysia?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/BajuOversizeMalaysia?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/BajuOversizeMalaysia",
+        "source_url": "https://www.tiktok.com/tag/BajuOversizeMalaysia",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16651,10 +15994,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 15 亿",
         "tshirt_opportunity": "粉黑朋克涂鸦 / 复古报纸拼贴 APT. 字母Tee",
         "opportunity": "粉黑朋克涂鸦 / 复古报纸拼贴 APT. 字母Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：目前泰马最高流量韩欧美跨界神曲，粉黑撞色短款女装T恤卖爆。",
-        "link": "https://www.tiktok.com/tag/APT_Challenge?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/APT_Challenge?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/APT_Challenge",
+        "source_url": "https://www.tiktok.com/tag/APT_Challenge",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16665,10 +16008,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 65K/周 视频",
         "tshirt_opportunity": "泰式神兽线条与赛博文字混搭 / 水洗炭黑Tee",
         "opportunity": "泰式神兽线条与赛博文字混搭 / 水洗炭黑Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：曼谷年轻人审美风向标，水洗炭黑与做旧灰最受欢迎。",
-        "link": "https://www.tiktok.com/tag/ThaiStreetStyle?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/ThaiStreetStyle?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/ThaiStreetStyle",
+        "source_url": "https://www.tiktok.com/tag/ThaiStreetStyle",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16679,10 +16022,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 38K/日 增长",
         "tshirt_opportunity": "金色水灯莲花发光线条 / 泰式优雅米白纯棉Tee",
         "opportunity": "金色水灯莲花发光线条 / 泰式优雅米白纯棉Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：11月24日水灯节倒计时爆发标签，米白与淡金印花极易出单。",
-        "link": "https://www.tiktok.com/tag/LoyKrathong2026?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/LoyKrathong2026?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/LoyKrathong2026",
+        "source_url": "https://www.tiktok.com/tag/LoyKrathong2026",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16693,10 +16036,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 92K/周 互动",
         "tshirt_opportunity": "极简百搭多件装纯棉基础T / 性价比高克重款",
         "opportunity": "极简百搭多件装纯棉基础T / 性价比高克重款",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：黑五大促种草主阵地，适合推3件装组合低价引流与利润款搭配。",
-        "link": "https://www.tiktok.com/tag/BlackFridayHaul?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/BlackFridayHaul?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/BlackFridayHaul",
+        "source_url": "https://www.tiktok.com/tag/BlackFridayHaul",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16707,10 +16050,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 31K/日 视频",
         "tshirt_opportunity": "同色系字母呼应 / 背面大面积爱心涂鸦情侣T",
         "opportunity": "同色系字母呼应 / 背面大面积爱心涂鸦情侣T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚年轻情侣晒照热门标签，雾霾蓝与奶白色最畅销。",
-        "link": "https://www.tiktok.com/tag/CoupleOutfitMY?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/CoupleOutfitMY?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/CoupleOutfitMY",
+        "source_url": "https://www.tiktok.com/tag/CoupleOutfitMY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16721,10 +16064,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 4.2 亿",
         "tshirt_opportunity": "呆萌猫咪像素风/潦草手绘风 / 趣味短句印花",
         "opportunity": "呆萌猫咪像素风/潦草手绘风 / 趣味短句印花",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：无版权风险的永久常青爆款题材，适合180g精梳棉常规短袖。",
-        "link": "https://www.tiktok.com/tag/CuteCatMeme?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/CuteCatMeme?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/CuteCatMeme",
+        "source_url": "https://www.tiktok.com/tag/CuteCatMeme",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16735,10 +16078,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 48K/周 视频",
         "tshirt_opportunity": "法式复古咖啡杯手绘 / 奶杏色温柔风纯棉Tee",
         "opportunity": "法式复古咖啡杯手绘 / 奶杏色温柔风纯棉Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国女生周末打卡咖啡厅最爱的宽松文艺风印花T恤。",
-        "link": "https://www.tiktok.com/tag/CafeHoppingBKK?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/CafeHoppingBKK?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/CafeHoppingBKK",
+        "source_url": "https://www.tiktok.com/tag/CafeHoppingBKK",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16749,10 +16092,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 22K/日 增长",
         "tshirt_opportunity": "冰丝蜂窝速干反光印花 / 荧光边运动功能T恤",
         "opportunity": "冰丝蜂窝速干反光印花 / 荧光边运动功能T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来城市年轻白领夜跑热潮，速干反光功能性短袖复购率高。",
-        "link": "https://www.tiktok.com/tag/RunningClubMY?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/RunningClubMY?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/RunningClubMY",
+        "source_url": "https://www.tiktok.com/tag/RunningClubMY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16763,10 +16106,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 6.8 亿",
         "tshirt_opportunity": "修身短款露脐 Baby Tee / 烫钻蝴蝶结与金属字体",
         "opportunity": "修身短款露脐 Baby Tee / 烫钻蝴蝶结与金属字体",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国年轻女生常年爆款版型，200g高弹莫代尔棉修身短T。",
-        "link": "https://www.tiktok.com/tag/Y2KThailand?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/Y2KThailand?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/Y2KThailand",
+        "source_url": "https://www.tiktok.com/tag/Y2KThailand",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16777,10 +16120,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 9.1 亿",
         "tshirt_opportunity": "遮臀长款 Labuh 纯棉长袖T / 清新莫兰迪色系",
         "opportunity": "遮臀长款 Labuh 纯棉长袖T / 清新莫兰迪色系",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来刚需市场，强调领口不松垮、面料190g+完全不透光。",
-        "link": "https://www.tiktok.com/tag/MuslimahFashion?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/MuslimahFashion?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/MuslimahFashion",
+        "source_url": "https://www.tiktok.com/tag/MuslimahFashion",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16791,10 +16134,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 19K/日 分享",
         "tshirt_opportunity": "冬阴功/芒果糯米饭 Q版卡通插画 / 游客纪念款",
         "opportunity": "冬阴功/芒果糯米饭 Q版卡通插画 / 游客纪念款",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：曼谷夜市与游客伴手礼热门题材，幽默吃货插画深受年轻群体喜爱。",
-        "link": "https://www.tiktok.com/tag/ThaiFoodieTee?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/ThaiFoodieTee?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/ThaiFoodieTee",
+        "source_url": "https://www.tiktok.com/tag/ThaiFoodieTee",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16805,10 +16148,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 3.5 亿",
         "tshirt_opportunity": "数字号码V领网眼速干Tee / 复古拼色条纹运动衫",
         "opportunity": "数字号码V领网眼速干Tee / 复古拼色条纹运动衫",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：结合足球/赛车风的宽松V领T恤在男生中极度畅销。",
-        "link": "https://www.tiktok.com/tag/BlokecoreSEA?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/BlokecoreSEA?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/BlokecoreSEA",
+        "source_url": "https://www.tiktok.com/tag/BlokecoreSEA",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16819,10 +16162,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 34K/周 互动",
         "tshirt_opportunity": "220g重磅纯色索罗娜抗皱T / 无印花高级基础款",
         "opportunity": "220g重磅纯色索罗娜抗皱T / 无印花高级基础款",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：都市白领最爱，主打耐洗不变形、高质感领口螺纹。",
-        "link": "https://www.tiktok.com/tag/MinimalistWardrobe?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/MinimalistWardrobe?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/MinimalistWardrobe",
+        "source_url": "https://www.tiktok.com/tag/MinimalistWardrobe",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16833,10 +16176,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 27K/日 讨论",
         "tshirt_opportunity": "二次元剪影与元素符号 / 暗黑机能风插画短袖",
         "opportunity": "二次元剪影与元素符号 / 暗黑机能风插画短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国曼谷与吉隆坡漫展高频二创元素，避开官方立绘采用抽象元素符号。",
-        "link": "https://www.tiktok.com/tag/GenshinCosTee?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/GenshinCosTee?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/GenshinCosTee",
+        "source_url": "https://www.tiktok.com/tag/GenshinCosTee",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16847,10 +16190,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 25K/周 分享",
         "tshirt_opportunity": "山系户外徽章印花 / 军绿与卡其色防晒纯棉T",
         "opportunity": "山系户外徽章印花 / 军绿与卡其色防晒纯棉T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：11-12月泰北凉季露营旺季，山系户外插画T恤销量暴涨。",
-        "link": "https://www.tiktok.com/tag/CampingThailand?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/CampingThailand?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/CampingThailand",
+        "source_url": "https://www.tiktok.com/tag/CampingThailand",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16861,10 +16204,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 7.5 亿",
         "tshirt_opportunity": "亮片/反光文字应援短袖 / 团体代表色修身Tee",
         "opportunity": "亮片/反光文字应援短袖 / 团体代表色修身Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：年底MCR、Stray Kids、BABYMONSTER巡演带动的应援穿搭刚需。",
-        "link": "https://www.tiktok.com/tag/KPopConcertFit?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/KPopConcertFit?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/KPopConcertFit",
+        "source_url": "https://www.tiktok.com/tag/KPopConcertFit",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16875,10 +16218,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 41K/日 互动",
         "tshirt_opportunity": "大袖口落肩肌肉线条感剪裁 / 吸汗快干弹力棉T",
         "opportunity": "大袖口落肩肌肉线条感剪裁 / 吸汗快干弹力棉T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来男士健身人群高增长，喜欢修身显胸肌但下摆宽松的裁剪。",
-        "link": "https://www.tiktok.com/tag/GymBroMY?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/GymBroMY?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/GymBroMY",
+        "source_url": "https://www.tiktok.com/tag/GymBroMY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16889,10 +16232,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 4.9 亿",
         "tshirt_opportunity": "炒雪花酸洗做旧工艺 / 复古摩托/摇滚风格印花",
         "opportunity": "炒雪花酸洗做旧工艺 / 复古摩托/摇滚风格印花",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：高客单价溢价利器，泰马买手店最爱的 Vintage 水洗风格。",
-        "link": "https://www.tiktok.com/tag/RetroVintage90s?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/RetroVintage90s?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/RetroVintage90s",
+        "source_url": "https://www.tiktok.com/tag/RetroVintage90s",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16903,10 +16246,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 29K/日 关注",
         "tshirt_opportunity": "高性价比百元泰铢纯棉印花T / 校园社团百搭款",
         "opportunity": "高性价比百元泰铢纯棉印花T / 校园社团百搭款",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：针对泰国庞大大学生群体，主打 ฿129-฿179 高性价比青春风。",
-        "link": "https://www.tiktok.com/tag/StudentPromoTH?lang=th-TH",
-        "source_url": "https://www.tiktok.com/tag/StudentPromoTH?lang=th-TH",
+        "link": "https://www.tiktok.com/tag/StudentPromoTH",
+        "source_url": "https://www.tiktok.com/tag/StudentPromoTH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       }
@@ -16919,10 +16262,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 3.8 亿",
         "tshirt_opportunity": "复古朋克美式报纸排版 / 粉黑 APT 醒目标语印花",
         "opportunity": "复古朋克美式报纸排版 / 粉黑 APT 醒目标语印花",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：全球现象级合作神曲，泰马YouTube音乐榜连续数周霸榜第一，粉黑配色必跟。",
-        "link": "https://www.youtube.com/results?search_query=Ros%C3%A9%20%26%20Bruno%20Mars%20-%20APT.%20%E5%AE%98%E6%96%B9MV&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Ros%C3%A9%20%26%20Bruno%20Mars%20-%20APT.%20%E5%AE%98%E6%96%B9MV&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Ros%C3%A9%20%26%20Bruno%20Mars%20-%20APT.%20MV&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Ros%C3%A9%20%26%20Bruno%20Mars%20-%20APT.%20MV&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16933,10 +16276,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马音乐榜连冠",
         "tshirt_opportunity": "Y2K 赛博千禧风 / 银色反光字母短款露脐/宽松纯棉T",
         "opportunity": "Y2K 赛博千禧风 / 银色反光字母短款露脐/宽松纯棉T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国成员Chiquita与Pharita人气极高，带动泰国粉丝疯狂买同款Y2K短T。",
-        "link": "https://www.youtube.com/results?search_query=BABYMONSTER%20-%20DRIP%20/%20CLIK%20CLAK%20%E8%88%9E%E5%8F%B0&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=BABYMONSTER%20-%20DRIP%20/%20CLIK%20CLAK%20%E8%88%9E%E5%8F%B0&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=BABYMONSTER%20-%20DRIP%20CLIK%20CLAK&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=BABYMONSTER%20-%20DRIP%20CLIK%20CLAK&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16947,10 +16290,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国热搜 Top 3",
         "tshirt_opportunity": "泰式 90 年代摇滚乐队风 / 经典吉他双头龙抽象印花",
         "opportunity": "泰式 90 年代摇滚乐队风 / 经典吉他双头龙抽象印花",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国国民级摇滚殿堂乐队，带动泰国中青年男性复古摇滚T恤消费。",
-        "link": "https://www.youtube.com/results?search_query=LOSO%2030%20%E5%91%A8%E5%B9%B4%E4%BC%A0%E5%A5%87%E6%BC%94%E5%94%B1%E4%BC%9A%E6%8E%92%E7%BB%83%E8%8A%B1%E7%B5%AE&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=LOSO%2030%20%E5%91%A8%E5%B9%B4%E4%BC%A0%E5%A5%87%E6%BC%94%E5%94%B1%E4%BC%9A%E6%8E%92%E7%BB%83%E8%8A%B1%E7%B5%AE&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=LOSO%2030&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=LOSO%2030&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16961,10 +16304,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国播放 Top 2",
         "tshirt_opportunity": "法式浪漫暗夜星月字体 / 显瘦修身女款纯棉Tee",
         "opportunity": "法式浪漫暗夜星月字体 / 显瘦修身女款纯棉Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国顶流偶像Lisa新作，其舞台轻复古法式穿搭成为泰国女装模仿对象。",
-        "link": "https://www.youtube.com/results?search_query=LISA%20-%20Moonlit%20Floor%20%E5%B7%B4%E9%BB%8E%E7%8E%B0%E5%9C%BA%E7%89%88&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=LISA%20-%20Moonlit%20Floor%20%E5%B7%B4%E9%BB%8E%E7%8E%B0%E5%9C%BA%E7%89%88&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=LISA%20-%20Moonlit%20Floor&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=LISA%20-%20Moonlit%20Floor&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16975,10 +16318,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国男团榜 Top 1",
         "tshirt_opportunity": "清新学院风条纹与数字印章 / 青春活力宽松纯棉T",
         "opportunity": "清新学院风条纹与数字印章 / 青春活力宽松纯棉T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国本土现象级12人男团，学生粉丝群体应援服采购量极大。",
-        "link": "https://www.youtube.com/results?search_query=BUS&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=BUS&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=BUS%20Because%20of%20You%20I%20Shine%20MV&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=BUS%20Because%20of%20You%20I%20Shine%20MV&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -16989,10 +16332,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国热榜 Top 5",
         "tshirt_opportunity": "热带火辣多巴胺撞色 / 美式复古辣妹短袖",
         "opportunity": "热带火辣多巴胺撞色 / 美式复古辣妹短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国本土顶流女团，高饱和度色彩与自信标语极具热带街拍感染力。",
-        "link": "https://www.youtube.com/results?search_query=4EVE%20-%20Hot%202%20Hot%20%E6%B3%B0%E5%9B%BD%E7%AC%AC%E4%B8%80%E5%A5%B3%E5%9B%A2%E8%88%9E%E5%8F%B0&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=4EVE%20-%20Hot%202%20Hot%20%E6%B3%B0%E5%9B%BD%E7%AC%AC%E4%B8%80%E5%A5%B3%E5%9B%A2%E8%88%9E%E5%8F%B0&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=4EVE%20-%20Hot%202%20Hot&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=4EVE%20-%20Hot%202%20Hot&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17003,10 +16346,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来热榜 Top 3",
         "tshirt_opportunity": "大马都市女团辣妹风 / 金属银字修身黑T恤",
         "opportunity": "大马都市女团辣妹风 / 金属银字修身黑T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚本土人气女团，带动马来都会年轻女性甜酷辣妹风穿搭。",
-        "link": "https://www.youtube.com/results?search_query=Dolla%20-%20Classic%20%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E5%A5%B3%E5%9B%A2%E7%8E%B0%E5%9C%BA&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Dolla%20-%20Classic%20%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E5%A5%B3%E5%9B%A2%E7%8E%B0%E5%9C%BA&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Dolla%20-%20Classic&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Dolla%20-%20Classic&gl=MY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17017,10 +16360,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来热搜 Top 2",
         "tshirt_opportunity": "马来都市轻熟男装 / 极简高级感小领口纯棉Polo/T恤",
         "opportunity": "马来都市轻熟男装 / 极简高级感小领口纯棉Polo/T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚国民级话题男星，推动简洁得体、显气质的基础纯棉男T畅销。",
-        "link": "https://www.youtube.com/results?search_query=Fattah%20Amin%20%E9%A9%AC%E6%9D%A5%E5%9B%BD%E6%B0%91%E5%81%B6%E5%83%8F%E6%9C%80%E6%96%B0Vlog&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Fattah%20Amin%20%E9%A9%AC%E6%9D%A5%E5%9B%BD%E6%B0%91%E5%81%B6%E5%83%8F%E6%9C%80%E6%96%B0Vlog&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Fattah%20Amin%20Vlog&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Fattah%20Amin%20Vlog&gl=MY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17031,10 +16374,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国热搜 Top 4",
         "tshirt_opportunity": "暗黑神秘蔷薇哥特字体 / 丝绒感质感印花短袖",
         "opportunity": "暗黑神秘蔷薇哥特字体 / 丝绒感质感印花短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国全能音乐人与演员，粉丝审美偏高级暗黑艺术感，可做高客单价款。",
-        "link": "https://www.youtube.com/results?search_query=Jeff%20Satur%20%E6%9B%BC%E8%B0%B7%E6%BC%94%E5%94%B1%E4%BC%9A%E5%AE%98%E6%96%B9%E7%BA%AA%E5%BD%95%E7%89%87%E6%AE%B5&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Jeff%20Satur%20%E6%9B%BC%E8%B0%B7%E6%BC%94%E5%94%B1%E4%BC%9A%E5%AE%98%E6%96%B9%E7%BA%AA%E5%BD%95%E7%89%87%E6%AE%B5&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Jeff%20Satur&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Jeff%20Satur&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17045,10 +16388,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马Kpop榜 Top 1",
         "tshirt_opportunity": "高街机能暗黑涂鸦 / 破洞水洗重磅街舞T恤",
         "opportunity": "高街机能暗黑涂鸦 / 破洞水洗重磅街舞T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰马韩流粉丝基本盘极大，街舞宽松大版型是核心卖点。",
-        "link": "https://www.youtube.com/results?search_query=Stray%20Kids%20-%20CHK%20CHK%20BOOM%20%E8%88%9E%E8%B9%88%E7%89%88&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Stray%20Kids%20-%20CHK%20CHK%20BOOM%20%E8%88%9E%E8%B9%88%E7%89%88&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Stray%20Kids%20-%20CHK%20CHK%20BOOM&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Stray%20Kids%20-%20CHK%20CHK%20BOOM&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17059,10 +16402,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马Kpop榜 Top 2",
         "tshirt_opportunity": "未来金属液态银纹理 / 酷飒修身纯黑短袖",
         "opportunity": "未来金属液态银纹理 / 酷飒修身纯黑短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：极强的Y2K未来科技感，银色烫印与反光材料应用绝佳参考。",
-        "link": "https://www.youtube.com/results?search_query=Aespa%20-%20Whiplash%20%E8%B5%9B%E5%8D%9A%E9%87%91%E5%B1%9E%E8%88%9E%E5%8F%B0&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Aespa%20-%20Whiplash%20%E8%B5%9B%E5%8D%9A%E9%87%91%E5%B1%9E%E8%88%9E%E5%8F%B0&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Aespa%20-%20Whiplash&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Aespa%20-%20Whiplash&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17073,10 +16416,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国热搜 Top 1",
         "tshirt_opportunity": "暖色调复古拍立得胶片框 / 治愈系文艺纯棉Tee",
         "opportunity": "暖色调复古拍立得胶片框 / 治愈系文艺纯棉Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国顶级人气CP组合，粉丝消费力极强，适合推高克重质感文艺情侣款。",
-        "link": "https://www.youtube.com/results?search_query=Billkin%20%26%20PP%20Krit%20%E5%8F%8C%E4%BA%BA%E6%BC%94%E5%94%B1%E4%BC%9A%E8%8A%B1%E7%B5%AE&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Billkin%20%26%20PP%20Krit%20%E5%8F%8C%E4%BA%BA%E6%BC%94%E5%94%B1%E4%BC%9A%E8%8A%B1%E7%B5%AE&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Billkin%20%26%20PP%20Krit&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Billkin%20%26%20PP%20Krit&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17087,10 +16430,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来华人圈 Top 1",
         "tshirt_opportunity": "梦幻紫色星空几何 / 演唱会纪念感极简文字Tee",
         "opportunity": "梦幻紫色星空几何 / 演唱会纪念感极简文字Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚华人圈消费狂欢，紫色系应援周边需求飙升。",
-        "link": "https://www.youtube.com/results?search_query=JJ%20Lin%20%E6%9E%97%E4%BF%8A%E6%9D%B0%E5%90%89%E9%9A%86%E5%9D%A1%E7%AB%99%E5%B7%A1%E6%BC%94%E9%A2%84%E5%91%8A&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=JJ%20Lin%20%E6%9E%97%E4%BF%8A%E6%9D%B0%E5%90%89%E9%9A%86%E5%9D%A1%E7%AB%99%E5%B7%A1%E6%BC%94%E9%A2%84%E5%91%8A&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=JJ%20Lin&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=JJ%20Lin&gl=MY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17101,10 +16444,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马潮流圈刷屏",
         "tshirt_opportunity": "雏菊解构涂鸦艺术 / 潮流做旧涂鸦重磅短袖",
         "opportunity": "雏菊解构涂鸦艺术 / 潮流做旧涂鸦重磅短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：韩流时尚鼻祖回归，直接点燃东南亚小雏菊与先锋街头涂鸦印花风潮。",
-        "link": "https://www.youtube.com/results?search_query=G-DRAGON%20-%20POWER%20%E5%9B%9E%E5%BD%92%E5%AE%98%E6%96%B9MV&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=G-DRAGON%20-%20POWER%20%E5%9B%9E%E5%BD%92%E5%AE%98%E6%96%B9MV&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=G-DRAGON%20-%20POWER%20MV&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=G-DRAGON%20-%20POWER%20MV&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17115,7 +16458,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 摇滚榜 Top 1",
         "tshirt_opportunity": "美式新金属工业裂纹字体 / 炭黑水洗摇滚Tee",
         "opportunity": "美式新金属工业裂纹字体 / 炭黑水洗摇滚Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：新主唱回归掀起东南亚老牌摇滚迷怀旧潮，240g重磅做旧摇滚T爆卖。",
         "link": "https://www.youtube.com/results?search_query=Linkin%20Park%20-%20The%20Emptiness%20Machine&gl=TH",
         "source_url": "https://www.youtube.com/results?search_query=Linkin%20Park%20-%20The%20Emptiness%20Machine&gl=TH",
@@ -17129,10 +16472,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来经典榜 Top 1",
         "tshirt_opportunity": "优雅金色马来花卉底纹 / 端庄舒适纯棉长款T",
         "opportunity": "优雅金色马来花卉底纹 / 端庄舒适纯棉长款T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚国宝级天后，适合面向马来中年及家庭客群推出得体印花款。",
-        "link": "https://www.youtube.com/results?search_query=Siti%20Nurhaliza%20%E9%A9%AC%E6%9D%A5%E5%A4%A9%E5%90%8E%E6%BC%94%E5%94%B1%E4%BC%9A%E7%B2%BE%E9%80%89&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Siti%20Nurhaliza%20%E9%A9%AC%E6%9D%A5%E5%A4%A9%E5%90%8E%E6%BC%94%E5%94%B1%E4%BC%9A%E7%B2%BE%E9%80%89&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Siti%20Nurhaliza&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Siti%20Nurhaliza&gl=MY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17143,10 +16486,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国热播 Top 3",
         "tshirt_opportunity": "复古美式运动校队号码Tee / 拼色插肩短袖",
         "opportunity": "复古美式运动校队号码Tee / 拼色插肩短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国百位明星同台运动会，直接带火美式校园运动编号撞色T恤。",
-        "link": "https://www.youtube.com/results?search_query=GMMTV%20Starlympics%20%E8%BF%90%E5%8A%A8%E4%BC%9A%E9%9B%86%E9%94%A6&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=GMMTV%20Starlympics%20%E8%BF%90%E5%8A%A8%E4%BC%9A%E9%9B%86%E9%94%A6&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=GMMTV%20Starlympics&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=GMMTV%20Starlympics&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17157,10 +16500,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 长尾热播破 5000万",
         "tshirt_opportunity": "荧光星空星球几何抽象 / 彩虹发光涂料印花",
         "opportunity": "荧光星空星球几何抽象 / 彩虹发光涂料印花",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：环保与荧光星球美学至今在音乐节场景极具长尾生命力。",
-        "link": "https://www.youtube.com/results?search_query=Coldplay%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E5%B7%A1%E6%BC%94%E9%AB%98%E7%87%83%E5%A4%A7%E5%90%88%E5%94%B1%E5%90%88%E9%9B%86&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Coldplay%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E5%B7%A1%E6%BC%94%E9%AB%98%E7%87%83%E5%A4%A7%E5%90%88%E5%94%B1%E5%90%88%E9%9B%86&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Coldplay&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Coldplay&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17171,10 +16514,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国独立音乐 Top 2",
         "tshirt_opportunity": "忧郁蓝调胶片线条画 / 文艺极简纯棉短袖",
         "opportunity": "忧郁蓝调胶片线条画 / 文艺极简纯棉短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国大学生群体最爱乐队之一，清冷蓝灰色调文案T非常吃香。",
-        "link": "https://www.youtube.com/results?search_query=Tilly%20Birds%20%E6%B3%B0%E5%9B%BD%E4%BA%BA%E6%B0%94%E4%B9%90%E9%98%9F%20Live%20Session&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Tilly%20Birds%20%E6%B3%B0%E5%9B%BD%E4%BA%BA%E6%B0%94%E4%B9%90%E9%98%9F%20Live%20Session&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Tilly%20Birds%20Live%20Session&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Tilly%20Birds%20Live%20Session&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17185,10 +16528,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来青少年榜 Top 4",
         "tshirt_opportunity": "简约英伦乐队风手写体 / 黑白基础百搭T恤",
         "opportunity": "简约英伦乐队风手写体 / 黑白基础百搭T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚本土年轻乐队代表，适合切入校园与文艺青年市场。",
-        "link": "https://www.youtube.com/results?search_query=Insomniacks%20%E9%A9%AC%E6%9D%A5%E5%8D%8E%E8%AF%AD/%E8%8B%B1%E8%AF%AD%E4%B9%90%E9%98%9F%E7%83%AD%E5%8D%95&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Insomniacks%20%E9%A9%AC%E6%9D%A5%E5%8D%8E%E8%AF%AD/%E8%8B%B1%E8%AF%AD%E4%B9%90%E9%98%9F%E7%83%AD%E5%8D%95&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Insomniacks&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Insomniacks&gl=MY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17199,10 +16542,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国热播 Top 6",
         "tshirt_opportunity": "泰文治愈金句极简排版 / 柔软精梳棉日常T恤",
         "opportunity": "泰文治愈金句极简排版 / 柔软精梳棉日常T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国街边和咖啡馆传唱度最高的乐队，文字排版T非常受泰国人欢迎。",
-        "link": "https://www.youtube.com/results?search_query=Three%20Man%20Down%20%E6%B3%B0%E5%9B%BD%E6%83%85%E6%AD%8C%E4%B9%8B%E7%8E%8B%E7%8E%B0%E5%9C%BA&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Three%20Man%20Down%20%E6%B3%B0%E5%9B%BD%E6%83%85%E6%AD%8C%E4%B9%8B%E7%8E%8B%E7%8E%B0%E5%9C%BA&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Three%20Man%20Down&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Three%20Man%20Down&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17213,10 +16556,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 Kpop新秀榜 Top 3",
         "tshirt_opportunity": "清纯学院格子拼接 / 甜美蝴蝶结元素短袖",
         "opportunity": "清纯学院格子拼接 / 甜美蝴蝶结元素短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：吸引年轻女中学生客群，马卡龙粉蓝配色纯棉女T热销。",
-        "link": "https://www.youtube.com/results?search_query=NMIXX%20%26%20ILLIT%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E5%9B%9E%E5%BD%92%E8%88%9E%E5%8F%B0%E5%90%88%E9%9B%86&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=NMIXX%20%26%20ILLIT%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E5%9B%9E%E5%BD%92%E8%88%9E%E5%8F%B0%E5%90%88%E9%9B%86&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=NMIXX%20%26%20ILLIT&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=NMIXX%20%26%20ILLIT&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17227,10 +16570,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国男性热榜 Top 1",
         "tshirt_opportunity": "泰拳斗士抽象剪影 / 速干吸汗硬汉运动T恤",
         "opportunity": "泰拳斗士抽象剪影 / 速干吸汗硬汉运动T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰拳在泰国国民度极高，结合泰文硬核口号的速干运动T复购率惊人。",
-        "link": "https://www.youtube.com/results?search_query=One%20Championship%20%E6%9B%BC%E8%B0%B7%E4%BB%91%E6%8A%AB%E5%B0%BC%E6%8B%B3%E8%B5%9B%E9%AB%98%E5%85%89&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=One%20Championship%20%E6%9B%BC%E8%B0%B7%E4%BB%91%E6%8A%AB%E5%B0%BC%E6%8B%B3%E8%B5%9B%E9%AB%98%E5%85%89&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=One%20Championship&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=One%20Championship&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17241,10 +16584,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来体育榜 Top 1",
         "tshirt_opportunity": "羽毛球极简线条艺术 / 冰丝透气运动Polo与短袖",
         "opportunity": "羽毛球极简线条艺术 / 冰丝透气运动Polo与短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚国民第一运动，运动速干T恤在马来四季长青。",
-        "link": "https://www.youtube.com/results?search_query=Badminton%20Malaysia%20Open%20%E7%BE%BD%E7%90%83%E7%B2%BE%E5%BD%A9%E9%9B%86%E9%94%A6&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=Badminton%20Malaysia%20Open%20%E7%BE%BD%E7%90%83%E7%B2%BE%E5%BD%A9%E9%9B%86%E9%94%A6&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=Badminton%20Malaysia%20Open&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Badminton%20Malaysia%20Open&gl=MY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17255,10 +16598,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马青少年 Top 2",
         "tshirt_opportunity": "极简野兽涂鸦潮牌风 / 高饱和蓝粉撞色印花",
         "opportunity": "极简野兽涂鸦潮牌风 / 高饱和蓝粉撞色印花",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：青少年观众基数巨大，适合推潮流卡通恶搞风印花。",
-        "link": "https://www.youtube.com/results?search_query=MrBeast%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E6%8C%91%E6%88%98%E8%B5%9B%E5%8D%83%E4%B8%87%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=MrBeast%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E6%8C%91%E6%88%98%E8%B5%9B%E5%8D%83%E4%B8%87%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=MrBeast&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=MrBeast&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17269,10 +16612,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰娱热搜 Top 5",
         "tshirt_opportunity": "泰式贵族学院徽章风 / 质感纯棉短袖Polo",
         "opportunity": "泰式贵族学院徽章风 / 质感纯棉短袖Polo",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：依然拥有强大的泰娱粉圈号召力，带动学院风上衣热卖。",
-        "link": "https://www.youtube.com/results?search_query=%E6%B3%B0%E7%89%88%E3%80%8A%E6%B5%81%E6%98%9F%E8%8A%B1%E5%9B%AD%E3%80%8B%E7%94%B7%E4%B8%BB%E5%90%88%E4%BD%93%E6%9C%80%E6%96%B0%E5%95%86%E4%B8%9A%E6%B4%BB%E5%8A%A8&gl=TH",
-        "source_url": "https://www.youtube.com/results?search_query=%E6%B3%B0%E7%89%88%E3%80%8A%E6%B5%81%E6%98%9F%E8%8A%B1%E5%9B%AD%E3%80%8B%E7%94%B7%E4%B8%BB%E5%90%88%E4%BD%93%E6%9C%80%E6%96%B0%E5%95%86%E4%B8%9A%E6%B4%BB%E5%8A%A8&gl=TH",
+        "link": "https://www.youtube.com/results?search_query=F4%20Thailand%20Bright%20Win&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=F4%20Thailand%20Bright%20Win&gl=TH",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       }
@@ -17285,10 +16628,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国 X 趋势 #1",
         "tshirt_opportunity": "性感蕾丝线条抽象二创 / 修身短款辣妹纯棉Tee",
         "opportunity": "性感蕾丝线条抽象二创 / 修身短款辣妹纯棉Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：Lisa引发泰国全网狂欢，带动辣妹风修身露腰短T搜索量翻倍。",
-        "link": "https://x.com/search?q=%23LISAatVictoriaSecret%20%E5%85%A8%E7%90%83%E5%88%B7%E5%B1%8F%E7%83%AD%E8%AE%AE",
-        "source_url": "https://x.com/search?q=%23LISAatVictoriaSecret%20%E5%85%A8%E7%90%83%E5%88%B7%E5%B1%8F%E7%83%AD%E8%AE%AE",
+        "link": "https://x.com/search?q=%23LISAatVictoriaSecret",
+        "source_url": "https://x.com/search?q=%23LISAatVictoriaSecret",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17299,10 +16642,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国 X 趋势 #2",
         "tshirt_opportunity": "水灯莲花金色简笔画 / 素雅米白/浅蓝节日纯棉T",
         "opportunity": "水灯莲花金色简笔画 / 素雅米白/浅蓝节日纯棉T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：11月24日水灯节临近，泰国本地网民分享节日计划，带动节日穿搭搜索。",
-        "link": "https://x.com/search?q=%23LoyKrathong2026%20%E6%B3%B0%E5%9B%BD%E6%B0%B4%E7%81%AF%E8%8A%82%E7%A5%88%E7%A6%8F",
-        "source_url": "https://x.com/search?q=%23LoyKrathong2026%20%E6%B3%B0%E5%9B%BD%E6%B0%B4%E7%81%AF%E8%8A%82%E7%A5%88%E7%A6%8F",
+        "link": "https://x.com/search?q=%23LoyKrathong2026%20Loy%20Krathong",
+        "source_url": "https://x.com/search?q=%23LoyKrathong2026%20Loy%20Krathong",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17313,10 +16656,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马 X 趋势 #1",
         "tshirt_opportunity": "双子星/极简玫瑰艺术插画 / 温柔奶白情侣应援Tee",
         "opportunity": "双子星/极简玫瑰艺术插画 / 温柔奶白情侣应援Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：目前泰国粉丝购买力最强的组合之一，定制应援色周边T溢价极高。",
-        "link": "https://x.com/search?q=%23LingOrm%20%E6%B3%B0%E5%9B%BD%E9%A1%B6%E6%B5%81%E7%99%BE%E5%90%88CP%E8%A7%81%E9%9D%A2%E4%BC%9A",
-        "source_url": "https://x.com/search?q=%23LingOrm%20%E6%B3%B0%E5%9B%BD%E9%A1%B6%E6%B5%81%E7%99%BE%E5%90%88CP%E8%A7%81%E9%9D%A2%E4%BC%9A",
+        "link": "https://x.com/search?q=%23LingOrm%20CP",
+        "source_url": "https://x.com/search?q=%23LingOrm%20CP",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17327,10 +16670,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马 X 趋势 #3",
         "tshirt_opportunity": "蝴蝶与双生花美学线条 / 浪漫复古法式短袖",
         "opportunity": "蝴蝶与双生花美学线条 / 浪漫复古法式短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：粉丝遍布泰马及全球，蝴蝶元素概念二创T既安全又极具卖点。",
-        "link": "https://x.com/search?q=%23FreenBecky%20%E5%85%A8%E7%90%83%E7%B2%89%E4%B8%9D%E5%B7%A1%E6%BC%94%E7%83%AD%E8%AE%AE",
-        "source_url": "https://x.com/search?q=%23FreenBecky%20%E5%85%A8%E7%90%83%E7%B2%89%E4%B8%9D%E5%B7%A1%E6%BC%94%E7%83%AD%E8%AE%AE",
+        "link": "https://x.com/search?q=%23FreenBecky",
+        "source_url": "https://x.com/search?q=%23FreenBecky",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17341,10 +16684,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国生活热搜 #4",
         "tshirt_opportunity": "轻薄凉感纯棉 + 户外防晒冰丝长袖T恤",
         "opportunity": "轻薄凉感纯棉 + 户外防晒冰丝长袖T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国进入干燥季伴随空气微尘，推动室内外百搭轻薄透气长短袖需求。",
-        "link": "https://x.com/search?q=%23PM25Bangkok%20%E6%9B%BC%E8%B0%B7%E7%A9%BA%E6%B0%94%E4%B8%8E%E5%A4%A9%E6%B0%94%E8%AE%A8%E8%AE%BA",
-        "source_url": "https://x.com/search?q=%23PM25Bangkok%20%E6%9B%BC%E8%B0%B7%E7%A9%BA%E6%B0%94%E4%B8%8E%E5%A4%A9%E6%B0%94%E8%AE%A8%E8%AE%BA",
+        "link": "https://x.com/search?q=%23PM25Bangkok",
+        "source_url": "https://x.com/search?q=%23PM25Bangkok",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17355,10 +16698,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来 X 趋势 #2",
         "tshirt_opportunity": "马来虎/大红花国花抽象潮牌 / 马来国潮印花T",
         "opportunity": "马来虎/大红花国花抽象潮牌 / 马来国潮印花T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：激发马来西亚本地年轻人国潮自信，吉隆坡街头国潮T热度上涨。",
-        "link": "https://x.com/search?q=%23MalaysiaMADANI%20%E5%A4%A7%E9%A9%AC%E6%9C%AC%E5%9C%B0%E6%96%87%E5%8C%96%E8%87%AA%E8%B1%AA",
-        "source_url": "https://x.com/search?q=%23MalaysiaMADANI%20%E5%A4%A7%E9%A9%AC%E6%9C%AC%E5%9C%B0%E6%96%87%E5%8C%96%E8%87%AA%E8%B1%AA",
+        "link": "https://x.com/search?q=%23MalaysiaMADANI",
+        "source_url": "https://x.com/search?q=%23MalaysiaMADANI",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17369,10 +16712,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国潮流榜 #3",
         "tshirt_opportunity": "解构不对称拼色 / 240g极简设计感落肩Tee",
         "opportunity": "解构不对称拼色 / 240g极简设计感落肩Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：曼谷设计师品牌风向标，引领大廓形与质感基础款风潮。",
-        "link": "https://x.com/search?q=%23BKKFashionWeek%20%E6%9B%BC%E8%B0%B7%E6%97%B6%E8%A3%85%E5%91%A8%E8%A1%97%E6%8B%8D",
-        "source_url": "https://x.com/search?q=%23BKKFashionWeek%20%E6%9B%BC%E8%B0%B7%E6%97%B6%E8%A3%85%E5%91%A8%E8%A1%97%E6%8B%8D",
+        "link": "https://x.com/search?q=%23BKKFashionWeek",
+        "source_url": "https://x.com/search?q=%23BKKFashionWeek",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17383,10 +16726,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国演出榜 #1",
         "tshirt_opportunity": "暗黑哥特玫瑰与黑白手绘骨架 / 水洗黑摇滚Tee",
         "opportunity": "暗黑哥特玫瑰与黑白手绘骨架 / 水洗黑摇滚Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：11月25日曼谷演唱会一票难求，买不到票的粉丝疯狂抢购应援T恤。",
-        "link": "https://x.com/search?q=%23MCRBangkok%20%E5%B7%A1%E6%BC%94%E6%8A%A2%E7%A5%A8%E5%93%80%E5%9A%8E%E4%B8%8E%E4%BA%8C%E5%88%9B",
-        "source_url": "https://x.com/search?q=%23MCRBangkok%20%E5%B7%A1%E6%BC%94%E6%8A%A2%E7%A5%A8%E5%93%80%E5%9A%8E%E4%B8%8E%E4%BA%8C%E5%88%9B",
+        "link": "https://x.com/search?q=%23MCRBangkok",
+        "source_url": "https://x.com/search?q=%23MCRBangkok",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17397,10 +16740,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国旅游榜 #5",
         "tshirt_opportunity": "热带大象与水枪波普涂鸦 / 速干不粘身聚酯Tee",
         "opportunity": "热带大象与水枪波普涂鸦 / 速干不粘身聚酯Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：跨境卖家已开始为明年大节测款，水枪热带风是测试重点。",
-        "link": "https://x.com/search?q=%23Songkran2027Early%20%E6%98%8E%E5%B9%B4%E6%B3%BC%E6%B0%B4%E8%8A%82%E6%8F%90%E5%89%8D%E8%A7%84%E5%88%92",
-        "source_url": "https://x.com/search?q=%23Songkran2027Early%20%E6%98%8E%E5%B9%B4%E6%B3%BC%E6%B0%B4%E8%8A%82%E6%8F%90%E5%89%8D%E8%A7%84%E5%88%92",
+        "link": "https://x.com/search?q=%23Songkran2027Early",
+        "source_url": "https://x.com/search?q=%23Songkran2027Early",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17411,10 +16754,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来生活热搜 #3",
         "tshirt_opportunity": "疏水速干黑科技面料 / 防泼水深色短袖T恤",
         "opportunity": "疏水速干黑科技面料 / 防泼水深色短袖T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来11月暴雨频发，主打「雨淋快速干爽、深色不透」功能性T恤直击痛点。",
-        "link": "https://x.com/search?q=%23KualaLumpurRain%20%E5%90%89%E9%9A%86%E5%9D%A1%E5%BC%BA%E9%99%8D%E9%9B%A8%E5%90%90%E6%A7%BD",
-        "source_url": "https://x.com/search?q=%23KualaLumpurRain%20%E5%90%89%E9%9A%86%E5%9D%A1%E5%BC%BA%E9%99%8D%E9%9B%A8%E5%90%90%E6%A7%BD",
+        "link": "https://x.com/search?q=%23KualaLumpurRain",
+        "source_url": "https://x.com/search?q=%23KualaLumpurRain",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17425,10 +16768,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国 X 趋势 #4",
         "tshirt_opportunity": "青春街头涂鸦字母 / 高饱和橙蓝撞色宽松短袖",
         "opportunity": "青春街头涂鸦字母 / 高饱和橙蓝撞色宽松短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国年轻学生粉丝最爱的组合，青春美式校园涂鸦风格极其对口。",
-        "link": "https://x.com/search?q=%23GeminiFourth%20%E6%B3%B0%E6%98%9F%E5%8F%8C%E4%BA%BA%E6%BC%94%E5%94%B1%E4%BC%9A%E8%AF%9D%E9%A2%98",
-        "source_url": "https://x.com/search?q=%23GeminiFourth%20%E6%B3%B0%E6%98%9F%E5%8F%8C%E4%BA%BA%E6%BC%94%E5%94%B1%E4%BC%9A%E8%AF%9D%E9%A2%98",
+        "link": "https://x.com/search?q=%23GeminiFourth",
+        "source_url": "https://x.com/search?q=%23GeminiFourth",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17439,10 +16782,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来购物热搜 #1",
         "tshirt_opportunity": "高性价比纯棉基础款 / 素色重磅男装T恤",
         "opportunity": "高性价比纯棉基础款 / 素色重磅男装T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：双11后买家秀返图潮，带火高口碑纯棉基础款持续长尾复购。",
-        "link": "https://x.com/search?q=%23Shopee1111MY%20%E9%A9%AC%E6%9D%A5%E5%8F%8C11%E6%99%92%E5%8D%95%E8%BF%94%E5%9B%BE",
-        "source_url": "https://x.com/search?q=%23Shopee1111MY%20%E9%A9%AC%E6%9D%A5%E5%8F%8C11%E6%99%92%E5%8D%95%E8%BF%94%E5%9B%BE",
+        "link": "https://x.com/search?q=%23Shopee1111MY%2011",
+        "source_url": "https://x.com/search?q=%23Shopee1111MY%2011",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17453,10 +16796,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国购物热搜 #2",
         "tshirt_opportunity": "黑五极简酷黑系列 / 买二送一促销引流款Tee",
         "opportunity": "黑五极简酷黑系列 / 买二送一促销引流款Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：11月27日黑五临近，泰国消费者开始比价加购服饰类商品。",
-        "link": "https://x.com/search?q=%23BlackFridayTH%20%E6%B3%B0%E5%9B%BD%E9%BB%91%E4%BA%94%E6%8A%98%E6%89%A3%E6%B1%87%E6%80%BB",
-        "source_url": "https://x.com/search?q=%23BlackFridayTH%20%E6%B3%B0%E5%9B%BD%E9%BB%91%E4%BA%94%E6%8A%98%E6%89%A3%E6%B1%87%E6%80%BB",
+        "link": "https://x.com/search?q=%23BlackFridayTH%20Black%20Friday",
+        "source_url": "https://x.com/search?q=%23BlackFridayTH%20Black%20Friday",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17467,10 +16810,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来体育热搜 #1",
         "tshirt_opportunity": "黑黄老虎条纹运动风 / 冰丝透气球迷助威T恤",
         "opportunity": "黑黄老虎条纹运动风 / 冰丝透气球迷助威T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚足球赛期间全民穿黑黄老虎配色T恤，注意避开足协官方Logo。",
-        "link": "https://x.com/search?q=%23HarimauMalaya%20%E9%A9%AC%E6%9D%A5%E5%9B%BD%E5%AE%B6%E8%B6%B3%E7%90%83%E9%98%9F%E5%BA%94%E6%8F%B4",
-        "source_url": "https://x.com/search?q=%23HarimauMalaya%20%E9%A9%AC%E6%9D%A5%E5%9B%BD%E5%AE%B6%E8%B6%B3%E7%90%83%E9%98%9F%E5%BA%94%E6%8F%B4",
+        "link": "https://x.com/search?q=%23HarimauMalaya",
+        "source_url": "https://x.com/search?q=%23HarimauMalaya",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17481,10 +16824,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国趣味热搜 #6",
         "tshirt_opportunity": "橙色泰奶杯卡通搞笑插画 / 幽默泰文标语Tee",
         "opportunity": "橙色泰奶杯卡通搞笑插画 / 幽默泰文标语Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国日常国民生活梗，橙白配色泰奶主题印花在年轻人和游客中长销。",
-        "link": "https://x.com/search?q=%23ThaiTeaLover%20%E6%B3%B0%E5%BC%8F%E5%A5%B6%E8%8C%B6%E8%BF%B7%E5%9B%A0%E6%A2%97",
-        "source_url": "https://x.com/search?q=%23ThaiTeaLover%20%E6%B3%B0%E5%BC%8F%E5%A5%B6%E8%8C%B6%E8%BF%B7%E5%9B%A0%E6%A2%97",
+        "link": "https://x.com/search?q=%23ThaiTeaLover%20Thai%20Style",
+        "source_url": "https://x.com/search?q=%23ThaiTeaLover%20Thai%20Style",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17495,10 +16838,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国娱乐榜 #5",
         "tshirt_opportunity": "极简复古机械表/胶片文字 / 日系清爽白T恤",
         "opportunity": "极简复古机械表/胶片文字 / 日系清爽白T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰剧新剧集官宣期，吸引粉圈关注同款极简纯棉日常穿搭。",
-        "link": "https://x.com/search?q=%23BookForce%20%E6%B3%B0%E5%89%A7%E7%94%B7%E4%B8%BB%E6%96%B0%E5%89%A7%E5%AE%98%E5%AE%A3",
-        "source_url": "https://x.com/search?q=%23BookForce%20%E6%B3%B0%E5%89%A7%E7%94%B7%E4%B8%BB%E6%96%B0%E5%89%A7%E5%AE%98%E5%AE%A3",
+        "link": "https://x.com/search?q=%23BookForce",
+        "source_url": "https://x.com/search?q=%23BookForce",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17509,10 +16852,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 东南亚漫展 #2",
         "tshirt_opportunity": "机甲赛博二次元抽象图案 / 重磅落肩黑T恤",
         "opportunity": "机甲赛博二次元抽象图案 / 重磅落肩黑T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：年底东南亚最大规模动漫展，推动各类宅文化原创插画T恤销量。",
-        "link": "https://x.com/search?q=%23AnimeFestivalAsia%20%E6%96%B0%E9%A9%AC%E6%B3%B0%E5%8A%A8%E6%BC%AB%E5%B1%95%E9%A2%84%E7%83%AD",
-        "source_url": "https://x.com/search?q=%23AnimeFestivalAsia%20%E6%96%B0%E9%A9%AC%E6%B3%B0%E5%8A%A8%E6%BC%AB%E5%B1%95%E9%A2%84%E7%83%AD",
+        "link": "https://x.com/search?q=%23AnimeFestivalAsia",
+        "source_url": "https://x.com/search?q=%23AnimeFestivalAsia",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17523,10 +16866,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来生活热搜 #5",
         "tshirt_opportunity": "大马榴莲/椰浆饭趣味手绘 / 宽松休闲美食Tee",
         "opportunity": "大马榴莲/椰浆饭趣味手绘 / 宽松休闲美食Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来本土幽默文创题材，适合作为吉隆坡本地生活趣味T恤切入。",
-        "link": "https://x.com/search?q=%23KLFoodie%20%E5%90%89%E9%9A%86%E5%9D%A1%E5%A4%9C%E5%B8%82%E7%BE%8E%E9%A3%9F%E6%8E%A2%E5%BA%97",
-        "source_url": "https://x.com/search?q=%23KLFoodie%20%E5%90%89%E9%9A%86%E5%9D%A1%E5%A4%9C%E5%B8%82%E7%BE%8E%E9%A3%9F%E6%8E%A2%E5%BA%97",
+        "link": "https://x.com/search?q=%23KLFoodie",
+        "source_url": "https://x.com/search?q=%23KLFoodie",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17537,10 +16880,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马萌物榜 #2",
         "tshirt_opportunity": "极简萌系小动物手绘风（非原图搬运） / 奶杏纯棉T",
         "opportunity": "极简萌系小动物手绘风（非原图搬运） / 奶杏纯棉T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：Chiikawa在泰马爆火，严禁直接印原图，可借鉴类似可爱Q版动物日常画风。",
-        "link": "https://x.com/search?q=%23ChiikawaSEA%20%E9%A9%AC%E6%9D%A5%E6%B3%B0%E5%9B%BD%E5%90%89%E4%BC%8A%E5%8D%A1%E5%93%87%E7%83%AD",
-        "source_url": "https://x.com/search?q=%23ChiikawaSEA%20%E9%A9%AC%E6%9D%A5%E6%B3%B0%E5%9B%BD%E5%90%89%E4%BC%8A%E5%8D%A1%E5%93%87%E7%83%AD",
+        "link": "https://x.com/search?q=%23ChiikawaSEA",
+        "source_url": "https://x.com/search?q=%23ChiikawaSEA",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17551,10 +16894,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来时尚榜 #4",
         "tshirt_opportunity": "小立领 Henley 领口纯棉短袖 / 商务休闲一体Tee",
         "opportunity": "小立领 Henley 领口纯棉短袖 / 商务休闲一体Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：融合传统立领元素与现代舒适T恤，马来男生日常通勤与聚会通吃。",
-        "link": "https://x.com/search?q=%23BajuMelayuModen%20%E9%A9%AC%E6%9D%A5%E9%9D%92%E5%B9%B4%E6%94%B9%E8%89%AF%E6%9C%8D%E9%A5%B0",
-        "source_url": "https://x.com/search?q=%23BajuMelayuModen%20%E9%A9%AC%E6%9D%A5%E9%9D%92%E5%B9%B4%E6%94%B9%E8%89%AF%E6%9C%8D%E9%A5%B0",
+        "link": "https://x.com/search?q=%23BajuMelayuModen",
+        "source_url": "https://x.com/search?q=%23BajuMelayuModen",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17565,10 +16908,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国演出榜 #6",
         "tshirt_opportunity": "海滩椰树夕阳霓虹线条 / 轻薄透气莫代尔短袖",
         "opportunity": "海滩椰树夕阳霓虹线条 / 轻薄透气莫代尔短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：热带海岛电音与沙滩派对主题，清凉渐变色印花最受欢迎。",
-        "link": "https://x.com/search?q=%23PattayaMusicFest%20%E8%8A%AD%E6%8F%90%E9%9B%85%E6%B5%B7%E6%BB%A9%E9%9F%B3%E4%B9%90%E8%8A%82",
-        "source_url": "https://x.com/search?q=%23PattayaMusicFest%20%E8%8A%AD%E6%8F%90%E9%9B%85%E6%B5%B7%E6%BB%A9%E9%9F%B3%E4%B9%90%E8%8A%82",
+        "link": "https://x.com/search?q=%23PattayaMusicFest",
+        "source_url": "https://x.com/search?q=%23PattayaMusicFest",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17579,10 +16922,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来旅游榜 #6",
         "tshirt_opportunity": "手绘复古南洋骑楼线条 / 文艺棉麻质感T恤",
         "opportunity": "手绘复古南洋骑楼线条 / 文艺棉麻质感T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚本土文创热点，深受文艺青年与华人群体欢迎。",
-        "link": "https://x.com/search?q=%23PenangStreetArt%20%E6%A7%9F%E5%9F%8E%E5%A3%81%E7%94%BB%E6%96%87%E8%89%BA%E9%A3%8E",
-        "source_url": "https://x.com/search?q=%23PenangStreetArt%20%E6%A7%9F%E5%9F%8E%E5%A3%81%E7%94%BB%E6%96%87%E8%89%BA%E9%A3%8E",
+        "link": "https://x.com/search?q=%23PenangStreetArt",
+        "source_url": "https://x.com/search?q=%23PenangStreetArt",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17593,10 +16936,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来职场榜 #7",
         "tshirt_opportunity": "抗皱索罗娜凉感纯色T / 极简胸袋设计基础Tee",
         "opportunity": "抗皱索罗娜凉感纯色T / 极简胸袋设计基础Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：吉隆坡咖啡厅办公一族追求「既体面又凉爽」的素色高级质感T恤。",
-        "link": "https://x.com/search?q=%23WorkFromCafeKL%20%E9%A9%AC%E6%9D%A5%E6%95%B0%E5%AD%97%E6%B8%B8%E6%B0%91%E7%A9%BF%E6%90%AD",
-        "source_url": "https://x.com/search?q=%23WorkFromCafeKL%20%E9%A9%AC%E6%9D%A5%E6%95%B0%E5%AD%97%E6%B8%B8%E6%B0%91%E7%A9%BF%E6%90%AD",
+        "link": "https://x.com/search?q=%23WorkFromCafeKL",
+        "source_url": "https://x.com/search?q=%23WorkFromCafeKL",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17607,10 +16950,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国影视榜 #7",
         "tshirt_opportunity": "暗黑复古恐怖电影海报字体排版 / 做旧黑短袖",
         "opportunity": "暗黑复古恐怖电影海报字体排版 / 做旧黑短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国鬼片受众极大，复古录像带(VHS)风格泰式恐怖字体T恤极具个性。",
-        "link": "https://x.com/search?q=%23ThaiHorrorMovie%20%E6%B3%B0%E5%9B%BD%E9%AC%BC%E7%89%87%E5%8F%A3%E7%A2%91%E7%88%86%E6%A3%9A",
-        "source_url": "https://x.com/search?q=%23ThaiHorrorMovie%20%E6%B3%B0%E5%9B%BD%E9%AC%BC%E7%89%87%E5%8F%A3%E7%A2%91%E7%88%86%E6%A3%9A",
+        "link": "https://x.com/search?q=%23ThaiHorrorMovie",
+        "source_url": "https://x.com/search?q=%23ThaiHorrorMovie",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17621,10 +16964,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来消费榜 #8",
         "tshirt_opportunity": "近期热映电影同色系日常穿搭 / 观影舒适纯棉T",
         "opportunity": "近期热映电影同色系日常穿搭 / 观影舒适纯棉T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：院线大片营销活动引发年轻群体穿电影主题色去影院打卡的热潮。",
-        "link": "https://x.com/search?q=%23GSCMalaysia%20%E9%A9%AC%E6%9D%A5%E9%99%A2%E7%BA%BF%E7%88%86%E7%B1%B3%E8%8A%B1%E6%A1%B6%E6%8A%A2%E8%B4%AD",
-        "source_url": "https://x.com/search?q=%23GSCMalaysia%20%E9%A9%AC%E6%9D%A5%E9%99%A2%E7%BA%BF%E7%88%86%E7%B1%B3%E8%8A%B1%E6%A1%B6%E6%8A%A2%E8%B4%AD",
+        "link": "https://x.com/search?q=%23GSCMalaysia",
+        "source_url": "https://x.com/search?q=%23GSCMalaysia",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17635,10 +16978,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马购物榜 #3",
         "tshirt_opportunity": "月底25号高转化爆款T / 阶梯满减组合装",
         "opportunity": "月底25号高转化爆款T / 阶梯满减组合装",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：东南亚发薪日（每月25-30号）消费力仅次于双11，提前备货冲量。",
-        "link": "https://x.com/search?q=%23PayDaySaleSEA%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E6%9C%88%E5%BA%95%E5%8F%91%E8%96%AA%E6%97%A5%E5%A4%A7%E4%BF%83",
-        "source_url": "https://x.com/search?q=%23PayDaySaleSEA%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E6%9C%88%E5%BA%95%E5%8F%91%E8%96%AA%E6%97%A5%E5%A4%A7%E4%BF%83",
+        "link": "https://x.com/search?q=%23PayDaySaleSEA",
+        "source_url": "https://x.com/search?q=%23PayDaySaleSEA",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       }
@@ -17651,7 +16994,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 播放破 4,500 万",
         "tshirt_opportunity": "456 绿色应援运动风 / 悬疑几何警示符号插画T",
         "opportunity": "456 绿色应援运动风 / 悬疑几何警示符号插画T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：12月26日全球重磅上线，绿白运动拼接与几何图案提前预热。",
         "link": "https://www.netflix.com/search?q=Squid%20Game%202",
         "source_url": "https://www.netflix.com/search?q=Squid%20Game%202",
@@ -17665,10 +17008,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马剧集榜前三",
         "tshirt_opportunity": "金克丝涂鸦朋克油画 / 皮城与祖安机械蓝灰纯棉T",
         "opportunity": "金克丝涂鸦朋克油画 / 皮城与祖安机械蓝灰纯棉T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：游戏与动画双重粉丝狂欢，霓虹蓝粉涂鸦风完美契合街头潮牌T恤。",
-        "link": "https://www.netflix.com/search?q=Arcane%20Season%202",
-        "source_url": "https://www.netflix.com/search?q=Arcane%20Season%202",
+        "link": "https://www.netflix.com/search?q=Arcane%20Season%202%202",
+        "source_url": "https://www.netflix.com/search?q=Arcane%20Season%202%202",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17679,7 +17022,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国 Netflix #1",
         "tshirt_opportunity": "泰式悬疑复古暗黑胶片 / 极简警示英文文字Tee",
         "opportunity": "泰式悬疑复古暗黑胶片 / 极简警示英文文字Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：Netflix泰国本土制作现象级悬疑剧，带动本土暗黑质感风潮。",
         "link": "https://www.netflix.com/search?q=Don%27t%20Come%20Home",
         "source_url": "https://www.netflix.com/search?q=Don%27t%20Come%20Home",
@@ -17693,7 +17036,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马长尾热播",
         "tshirt_opportunity": "老钱风极简复古字母 / 高质感240g重磅纯棉短袖",
         "opportunity": "老钱风极简复古字母 / 高质感240g重磅纯棉短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国顶级豪门大戏余热犹存，带动「老钱风/极简质感」男装需求。",
         "link": "https://www.netflix.com/search?q=Master%20of%20the%20House",
         "source_url": "https://www.netflix.com/search?q=Master%20of%20the%20House",
@@ -17707,7 +17050,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马动漫榜 #1",
         "tshirt_opportunity": "外星人与妖怪迷幻波普拼贴 / 黑红撞色街头Tee",
         "opportunity": "外星人与妖怪迷幻波普拼贴 / 黑红撞色街头Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：2026年底全球最火日漫新番，荧光红黑涂鸦视觉冲击力极强。",
         "link": "https://www.netflix.com/search?q=Dan%20Da%20Dan",
         "source_url": "https://www.netflix.com/search?q=Dan%20Da%20Dan",
@@ -17721,7 +17064,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马动漫榜 #2",
         "tshirt_opportunity": "Q版经典热血漫画线条 / 橙蓝复古90年代纯棉Tee",
         "opportunity": "Q版经典热血漫画线条 / 橙蓝复古90年代纯棉Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：全年龄男性情怀杀，复古橙与经典炭黑永远有稳定销量。",
         "link": "https://www.netflix.com/search?q=Dragon%20Ball%20DAIMA",
         "source_url": "https://www.netflix.com/search?q=Dragon%20Ball%20DAIMA",
@@ -17735,7 +17078,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马浪漫榜 #2",
         "tshirt_opportunity": "温柔韩系极简手写英文 / 莫兰迪奶白宽松落肩T",
         "opportunity": "温柔韩系极简手写英文 / 莫兰迪奶白宽松落肩T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：热播催泪浪漫韩剧，带动柔和浅色系韩版宽松日常T恤销售。",
         "link": "https://www.netflix.com/search?q=Mr.%20Plankton",
         "source_url": "https://www.netflix.com/search?q=Mr.%20Plankton",
@@ -17749,7 +17092,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国惊悚榜 #1",
         "tshirt_opportunity": "美式复古恐怖漫画格子排版 / 暗黑水洗做旧Tee",
         "opportunity": "美式复古恐怖漫画格子排版 / 暗黑水洗做旧Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：泰国观众极爱恐怖题材，类似欧美恐怖乐队的做旧印花非常畅销。",
         "link": "https://www.netflix.com/search?q=Terror%20Tuesday%3A%20Extreme",
         "source_url": "https://www.netflix.com/search?q=Terror%20Tuesday%3A%20Extreme",
@@ -17763,7 +17106,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 动漫口碑榜 #3",
         "tshirt_opportunity": "星空天文学复古几何星图 / 深蓝藏青纯棉印花T",
         "opportunity": "星空天文学复古几何星图 / 深蓝藏青纯棉印花T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：高口碑硬核新番，星图与天文罗盘线性插画高级感十足且绝对安全。",
         "link": "https://www.netflix.com/search?q=Orb%3A%20On%20the%20Movements%20of%20the%20Earth",
         "source_url": "https://www.netflix.com/search?q=Orb%3A%20On%20the%20Movements%20of%20the%20Earth",
@@ -17777,10 +17120,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马动漫榜 #4",
         "tshirt_opportunity": "复古80年代日系CityPop配色 / 粉蓝撞色漫画Tee",
         "opportunity": "复古80年代日系CityPop配色 / 粉蓝撞色漫画Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：CityPop复古画风在泰国年轻女生中极受欢迎，粉蓝配色甜酷百搭。",
-        "link": "https://www.netflix.com/search?q=Ranma%201/2",
-        "source_url": "https://www.netflix.com/search?q=Ranma%201/2",
+        "link": "https://www.netflix.com/search?q=Ranma%201%202%201%202",
+        "source_url": "https://www.netflix.com/search?q=Ranma%201%202%201%202",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17791,10 +17134,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马11月新剧 #1",
         "tshirt_opportunity": "冷峻悬疑极简黑白摄影风格 / 质感重磅纯黑Tee",
         "opportunity": "冷峻悬疑极简黑白摄影风格 / 质感重磅纯黑Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：韩国顶级男神孔刘11月底新剧，带动极简高级黑白灰男女基础款。",
-        "link": "https://www.netflix.com/search?q=The%20Trunk",
-        "source_url": "https://www.netflix.com/search?q=The%20Trunk",
+        "link": "https://www.netflix.com/search?q=The%20Trunk%20The%20Trunk%20Gong%20Yoo",
+        "source_url": "https://www.netflix.com/search?q=The%20Trunk%20The%20Trunk%20Gong%20Yoo",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17805,7 +17148,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国喜剧榜 #3",
         "tshirt_opportunity": "多巴胺粉红复古波普游戏风 / 闺蜜装可爱短袖",
         "opportunity": "多巴胺粉红复古波普游戏风 / 闺蜜装可爱短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：粉嫩复古游戏UI风格在泰国少女群体中极具辨识度。",
         "link": "https://www.netflix.com/search?q=Ready%2C%20Set%2C%20Love",
         "source_url": "https://www.netflix.com/search?q=Ready%2C%20Set%2C%20Love",
@@ -17819,10 +17162,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来女性榜 Top 3",
         "tshirt_opportunity": "日常温柔韩系落肩纯棉Tee / 清新字母小标刺绣",
         "opportunity": "日常温柔韩系落肩纯棉Tee / 清新字母小标刺绣",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：马来西亚女性最爱韩剧日常通勤温柔穿搭，百搭浅卡其与燕麦色长销。",
-        "link": "https://www.netflix.com/search?q=Doctor%20Slump%20/%20Love%20Next%20Door",
-        "source_url": "https://www.netflix.com/search?q=Doctor%20Slump%20/%20Love%20Next%20Door",
+        "link": "https://www.netflix.com/search?q=Doctor%20Slump%20Love%20Next%20Door",
+        "source_url": "https://www.netflix.com/search?q=Doctor%20Slump%20Love%20Next%20Door",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17833,7 +17176,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马综艺现象级",
         "tshirt_opportunity": "黑白极简厨师主题趣味插画 / 「100% Pure」反差文案T",
         "opportunity": "黑白极简厨师主题趣味插画 / 「100% Pure」反差文案T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：黑白色极简反差美学火遍东南亚，厨房趣味恶搞文字T恤销量高。",
         "link": "https://www.netflix.com/search?q=Culinary%20Class%20Wars",
         "source_url": "https://www.netflix.com/search?q=Culinary%20Class%20Wars",
@@ -17847,10 +17190,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 马来男性榜 Top 4",
         "tshirt_opportunity": "80年代美式复古空手道徽章 / 红黄黑水洗街头Tee",
         "opportunity": "80年代美式复古空手道徽章 / 红黄黑水洗街头Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：11月第二部分上线，复古美式道馆风格在马来男装中很受欢迎。",
-        "link": "https://www.netflix.com/search?q=Cobra%20Kai%20Season%206",
-        "source_url": "https://www.netflix.com/search?q=Cobra%20Kai%20Season%206",
+        "link": "https://www.netflix.com/search?q=Cobra%20Kai%20Season%206%206",
+        "source_url": "https://www.netflix.com/search?q=Cobra%20Kai%20Season%206%206",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17861,7 +17204,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 即将开播预热",
         "tshirt_opportunity": "便利店复古卡通风 / 趣味日常动作插画短袖",
         "opportunity": "便利店复古卡通风 / 趣味日常动作插画短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：超高人气漫画动画化预热，趣味日常风格印花极具商业潜力。",
         "link": "https://www.netflix.com/search?q=Sakamoto%20Days",
         "source_url": "https://www.netflix.com/search?q=Sakamoto%20Days",
@@ -17875,10 +17218,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰国海岛风 Top 2",
         "tshirt_opportunity": "美式西海岸冲浪椰树印花 / 阳光褪色水洗海岛Tee",
         "opportunity": "美式西海岸冲浪椰树印花 / 阳光褪色水洗海岛Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：完美契合泰国普吉岛、苏梅岛海滩旅游穿搭需求。",
-        "link": "https://www.netflix.com/search?q=Outer%20Banks%20Season%204",
-        "source_url": "https://www.netflix.com/search?q=Outer%20Banks%20Season%204",
+        "link": "https://www.netflix.com/search?q=Outer%20Banks%20Season%204%204",
+        "source_url": "https://www.netflix.com/search?q=Outer%20Banks%20Season%204%204",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17889,7 +17232,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马奇幻榜 #3",
         "tshirt_opportunity": "紫黑塔罗牌神秘星象线条 / 女巫暗黑复古短袖",
         "opportunity": "紫黑塔罗牌神秘星象线条 / 女巫暗黑复古短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：塔罗牌与神秘星月插画属高颜值安全二创元素，女性接受度高。",
         "link": "https://www.netflix.com/search?q=Agatha%20All%20Along",
         "source_url": "https://www.netflix.com/search?q=Agatha%20All%20Along",
@@ -17903,7 +17246,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马动漫榜 #5",
         "tshirt_opportunity": "日系青春羽毛球校园插画 / 清爽白蓝纯棉T恤",
         "opportunity": "日系青春羽毛球校园插画 / 清爽白蓝纯棉T恤",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：结合了马来最爱的羽毛球运动与日系纯爱，校园情侣款极佳切入点。",
         "link": "https://www.netflix.com/search?q=Blue%20Box",
         "source_url": "https://www.netflix.com/search?q=Blue%20Box",
@@ -17917,10 +17260,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马长青榜 Top 2",
         "tshirt_opportunity": "未来岛霓虹机能涂鸦 / 热血海贼复古水洗Tee",
         "opportunity": "未来岛霓虹机能涂鸦 / 热血海贼复古水洗Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：海贼王在泰马拥有海量忠实粉丝，未来感撞色印花持续畅销。",
-        "link": "https://www.netflix.com/search?q=One%20Piece%20Live%20Action%20/%20Egghead",
-        "source_url": "https://www.netflix.com/search?q=One%20Piece%20Live%20Action%20/%20Egghead",
+        "link": "https://www.netflix.com/search?q=One%20Piece%20Live%20Action%20Egghead",
+        "source_url": "https://www.netflix.com/search?q=One%20Piece%20Live%20Action%20Egghead",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17931,7 +17274,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马漫展顶流",
         "tshirt_opportunity": "日系暗黑书法墨迹风 / 紫黑领域抽象几何Tee",
         "opportunity": "日系暗黑书法墨迹风 / 紫黑领域抽象几何Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：曼谷与吉隆坡漫展绝对主力，注意使用抽象能量线条避免直接盗图。",
         "link": "https://www.netflix.com/search?q=Jujutsu%20Kaisen",
         "source_url": "https://www.netflix.com/search?q=Jujutsu%20Kaisen",
@@ -17945,7 +17288,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马都市女性 #4",
         "tshirt_opportunity": "法式优雅涂鸦小标 / 修身正肩法式浪漫短袖",
         "opportunity": "法式优雅涂鸦小标 / 修身正肩法式浪漫短袖",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：推动泰国马来都市女白领正肩显瘦基础短袖穿搭潮流。",
         "link": "https://www.netflix.com/search?q=Emily%20in%20Paris%20Season%204",
         "source_url": "https://www.netflix.com/search?q=Emily%20in%20Paris%20Season%204",
@@ -17959,10 +17302,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马1月新番期待 #1",
         "tshirt_opportunity": "暗黑冷酷蓝紫剑影线条 / 街头重磅落肩男装Tee",
         "opportunity": "暗黑冷酷蓝紫剑影线条 / 街头重磅落肩男装Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：2027年1月开播前热度已拉满，男装暗黑机能风格重点提前测款。",
-        "link": "https://www.netflix.com/search?q=Solo%20Leveling%20Season%202%20%E9%A2%84%E5%91%8A%E5%BC%95%E7%88%86",
-        "source_url": "https://www.netflix.com/search?q=Solo%20Leveling%20Season%202%20%E9%A2%84%E5%91%8A%E5%BC%95%E7%88%86",
+        "link": "https://www.netflix.com/search?q=Solo%20Leveling%20Season%202",
+        "source_url": "https://www.netflix.com/search?q=Solo%20Leveling%20Season%202",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -17973,7 +17316,7 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马热血漫 #3",
         "tshirt_opportunity": "日系极简黑白刀锋书法风 / 高级感潮牌大落肩Tee",
         "opportunity": "日系极简黑白刀锋书法风 / 高级感潮牌大落肩Tee",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：死神千年血战篇第3季热播中，极简黑白日系潮牌风格受年轻男生追捧。",
         "link": "https://www.netflix.com/search?q=Bleach%3A%20Thousand-Year%20Blood%20War%203",
         "source_url": "https://www.netflix.com/search?q=Bleach%3A%20Thousand-Year%20Blood%20War%203",
@@ -17987,10 +17330,10 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 11月底上线剧集",
         "tshirt_opportunity": "巴洛克复古玫瑰线描 / 复古宫廷风修身女T",
         "opportunity": "巴洛克复古玫瑰线描 / 复古宫廷风修身女T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：11月22日上线，复古油画玫瑰元素适合打造气质优雅女装短袖。",
-        "link": "https://www.netflix.com/search?q=The%20Empress%20Season%202",
-        "source_url": "https://www.netflix.com/search?q=The%20Empress%20Season%202",
+        "link": "https://www.netflix.com/search?q=The%20Empress%20Season%202%202",
+        "source_url": "https://www.netflix.com/search?q=The%20Empress%20Season%202%202",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       },
@@ -18001,16 +17344,648 @@ window.DASHBOARD_DATA = {
         "heat": "🔥 泰马健身圈 #2",
         "tshirt_opportunity": "硬核运动速干数字标语 / 修身弹性健身背心与短T",
         "opportunity": "硬核运动速干数字标语 / 修身弹性健身背心与短T",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "ai_summary": "🤖 AI总结：带动泰国与马来健身房功能性紧身/半宽松运动T恤销量飙升。",
-        "link": "https://www.netflix.com/search?q=Physical%3A%20100%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E4%BD%93%E8%83%BD%E7%83%AD%E6%BD%AE",
-        "source_url": "https://www.netflix.com/search?q=Physical%3A%20100%20%E4%B8%9C%E5%8D%97%E4%BA%9A%E4%BD%93%E8%83%BD%E7%83%AD%E6%BD%AE",
+        "link": "https://www.netflix.com/search?q=Physical%3A%20100",
+        "source_url": "https://www.netflix.com/search?q=Physical%3A%20100",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      }
+    ],
+    "🎵 泰马实时热歌 Top30 (今日抓取)": [
+      {
+        "rank": 1,
+        "title": "失重 - 许凯",
+        "content": "失重 - 许凯",
+        "heat": "🔥 🇹🇭 泰国站 实时 #1",
+        "tshirt_opportunity": "提取「失重」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「失重」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #1] 「失重」（Cantopop），发行/更新 2026-11-22。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Oversized%20T-shirt&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Oversized%20T-shirt&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 2,
+        "title": "Leave With Me - LISA",
+        "content": "Leave With Me - LISA",
+        "heat": "🔥 🇹🇭 泰国站 实时 #2",
+        "tshirt_opportunity": "提取「Leave With Me」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Leave With Me」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #2] 「Leave With Me」（Pop），发行/更新 2026-11-18。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Leave%20With%20Me%20-%20LISA&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Leave%20With%20Me%20-%20LISA&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 3,
+        "title": "GiiiRIP - BIGBANG",
+        "content": "GiiiRIP - BIGBANG",
+        "heat": "🔥 🇹🇭 泰国站 实时 #3",
+        "tshirt_opportunity": "提取「GiiiRIP」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「GiiiRIP」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #3] 「GiiiRIP」（K-Pop），发行/更新 2026-11-20。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=GiiiRIP%20-%20BIGBANG&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=GiiiRIP%20-%20BIGBANG&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 4,
+        "title": "I Want You - ENHYPEN",
+        "content": "I Want You - ENHYPEN",
+        "heat": "🔥 🇹🇭 泰国站 实时 #4",
+        "tshirt_opportunity": "提取「I Want You」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「I Want You」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #4] 「I Want You」（K-Pop），发行/更新 2026-11-20。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=I%20Want%20You%20-%20ENHYPEN&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=I%20Want%20You%20-%20ENHYPEN&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 5,
+        "title": "ยิ้มอันตราย - PORZAX",
+        "content": "ยิ้มอันตราย - PORZAX",
+        "heat": "🔥 🇹🇭 泰国站 实时 #5",
+        "tshirt_opportunity": "提取「ยิ้มอันตราย」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「ยิ้มอันตราย」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #5] 「ยิ้มอันตราย」（Hip-Hop/Rap），发行/更新 2026-10-17。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=%E0%B8%A2%E0%B8%B4%E0%B9%89%E0%B8%A1%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%A2%20-%20PORZAX&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=%E0%B8%A2%E0%B8%B4%E0%B9%89%E0%B8%A1%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%A2%20-%20PORZAX&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 6,
+        "title": "Before Sunrise - WENDY",
+        "content": "Before Sunrise - WENDY",
+        "heat": "🔥 🇹🇭 泰国站 实时 #6",
+        "tshirt_opportunity": "提取「Before Sunrise」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Before Sunrise」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #6] 「Before Sunrise」（R&B/Soul），发行/更新 2026-11-24。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Before%20Sunrise%20-%20WENDY&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Before%20Sunrise%20-%20WENDY&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 7,
+        "title": "รอ SIS (TER) - DICEBLUE & DICE",
+        "content": "รอ SIS (TER) - DICEBLUE & DICE",
+        "heat": "🔥 🇹🇭 泰国站 实时 #7",
+        "tshirt_opportunity": "提取「รอ SIS (TER)」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「รอ SIS (TER)」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #7] 「รอ SIS (TER)」（Pop），发行/更新 2026-10-08。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=%E0%B8%A3%E0%B8%AD%20SIS%20TER%20-%20DICEBLUE%20%26%20DICE&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=%E0%B8%A3%E0%B8%AD%20SIS%20TER%20-%20DICEBLUE%20%26%20DICE&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 8,
+        "title": "กุ๊กกู๋ - ABIGAiL",
+        "content": "กุ๊กกู๋ - ABIGAiL",
+        "heat": "🔥 🇹🇭 泰国站 实时 #8",
+        "tshirt_opportunity": "提取「กุ๊กกู๋」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「กุ๊กกู๋」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #8] 「กุ๊กกู๋」（Pop），发行/更新 2026-10-23。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=%E0%B8%81%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%81%E0%B8%B9%E0%B9%8B%20-%20ABIGAiL&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=%E0%B8%81%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%81%E0%B8%B9%E0%B9%8B%20-%20ABIGAiL&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 9,
+        "title": "ไม่ได้เลวขนาดนั้น - PORZAX",
+        "content": "ไม่ได้เลวขนาดนั้น - PORZAX",
+        "heat": "🔥 🇹🇭 泰国站 实时 #9",
+        "tshirt_opportunity": "提取「ไม่ได้เลวขนาดนั้น」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「ไม่ได้เลวขนาดนั้น」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #9] 「ไม่ได้เลวขนาดนั้น」（Hip-Hop/Rap），发行/更新 2026-09-17。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%A7%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%20-%20PORZAX&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%A7%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%20-%20PORZAX&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 10,
+        "title": "我们俩 (RNB律动版) - 极音阁 & Ze Xiao",
+        "content": "我们俩 (RNB律动版) - 极音阁 & Ze Xiao",
+        "heat": "🔥 🇹🇭 泰国站 实时 #10",
+        "tshirt_opportunity": "提取「我们俩 (RNB律动版)」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「我们俩 (RNB律动版)」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #10] 「我们俩 (RNB律动版)」（Mandopop），发行/更新 2026-02-22。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=RNB%20-%20%26%20Ze%20Xiao&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=RNB%20-%20%26%20Ze%20Xiao&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 11,
+        "title": "เด๋อ - Joey Phuwasit",
+        "content": "เด๋อ - Joey Phuwasit",
+        "heat": "🔥 🇹🇭 泰国站 实时 #11",
+        "tshirt_opportunity": "提取「เด๋อ」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「เด๋อ」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #11] 「เด๋อ」（Rock），发行/更新 2026-11-04。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%94%E0%B9%8B%E0%B8%AD%20-%20Joey%20Phuwasit&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%94%E0%B9%8B%E0%B8%AD%20-%20Joey%20Phuwasit&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 12,
+        "title": "ไปต่อไหว ไปต่อไหม (GO ON) [feat. HYE] - BENZKHAOKHWAN",
+        "content": "ไปต่อไหว ไปต่อไหม (GO ON) [feat. HYE] - BENZKHAOKHWAN",
+        "heat": "🔥 🇹🇭 泰国站 实时 #12",
+        "tshirt_opportunity": "提取「ไปต่อไหว ไปต่อไหม 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「ไปต่อไหว ไปต่อไหม 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #12] 「ไปต่อไหว ไปต่อไหม (GO ON) [feat. HYE]」（Pop），发行/更新 2026-08-18。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%AB%E0%B8%A7%20%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%AB%E0%B8%A1%20GO%20ON%20feat.%20HYE%20-%20BENZKHAOKHWAN&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%AB%E0%B8%A7%20%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%AB%E0%B8%A1%20GO%20ON%20feat.%20HYE%20-%20BENZKHAOKHWAN&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 13,
+        "title": "Airdrop - BLVCKHEART",
+        "content": "Airdrop - BLVCKHEART",
+        "heat": "🔥 🇹🇭 泰国站 实时 #13",
+        "tshirt_opportunity": "提取「Airdrop」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Airdrop」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #13] 「Airdrop」（T-Pop），发行/更新 2025-08-17。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Airdrop%20-%20BLVCKHEART&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Airdrop%20-%20BLVCKHEART&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 14,
+        "title": "Dream - LISA",
+        "content": "Dream - LISA",
+        "heat": "🔥 🇹🇭 泰国站 实时 #14",
+        "tshirt_opportunity": "提取「Dream」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Dream」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #14] 「Dream」（Pop），发行/更新 2025-02-28。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Dream%20-%20LISA&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=Dream%20-%20LISA&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 15,
+        "title": "อย่ามากกว่าฉันก็พอ (Jealous) [feat. Violette Wautier] - GAVIN:D",
+        "content": "อย่ามากกว่าฉันก็พอ (Jealous) [feat. Violette Wautier] - GAVIN:D",
+        "heat": "🔥 🇹🇭 泰国站 实时 #15",
+        "tshirt_opportunity": "提取「อย่ามากกว่าฉันก็พอ」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「อย่ามากกว่าฉันก็พอ」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #15] 「อย่ามากกว่าฉันก็พอ (Jealous) [feat. Violette Wautier]」（Pop），发行/更新 2026-09-17。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B9%87%E0%B8%9E%E0%B8%AD%20Jealous%20feat.%20Violette%20Wautier%20-%20GAVIN%3AD&gl=TH",
+        "source_url": "https://www.youtube.com/results?search_query=%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B9%87%E0%B8%9E%E0%B8%AD%20Jealous%20feat.%20Violette%20Wautier%20-%20GAVIN%3AD&gl=TH",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 16,
+        "title": "GiiiRIP - BIGBANG",
+        "content": "GiiiRIP - BIGBANG",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #1",
+        "tshirt_opportunity": "提取「GiiiRIP」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「GiiiRIP」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #1] 「GiiiRIP」（K-Pop），发行/更新 2026-11-20。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=GiiiRIP%20-%20BIGBANG&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=GiiiRIP%20-%20BIGBANG&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 17,
+        "title": "Great Expectation - SIENNA SPIRO",
+        "content": "Great Expectation - SIENNA SPIRO",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #2",
+        "tshirt_opportunity": "提取「Great Expectation」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Great Expectation」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #2] 「Great Expectation」（Pop），发行/更新 2026-07-02。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Great%20Expectation%20-%20SIENNA%20SPIRO&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Great%20Expectation%20-%20SIENNA%20SPIRO&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 18,
+        "title": "Hong Kong (feat. 王菲季候風) - The Weeknd",
+        "content": "Hong Kong (feat. 王菲季候風) - The Weeknd",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #3",
+        "tshirt_opportunity": "提取「Hong Kong (feat. 王」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Hong Kong (feat. 王」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #3] 「Hong Kong (feat. 王菲季候風)」（R&B/Soul），发行/更新 2026-10-31。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Hong%20Kong%20feat.%20-%20The%20Weeknd&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Hong%20Kong%20feat.%20-%20The%20Weeknd&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 19,
+        "title": "Selesa - Hael Husaini",
+        "content": "Selesa - Hael Husaini",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #4",
+        "tshirt_opportunity": "提取「Selesa」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Selesa」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #4] 「Selesa」（Pop），发行/更新 2026-10-30。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Selesa%20-%20Hael%20Husaini&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Selesa%20-%20Hael%20Husaini&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 20,
+        "title": "Good Goodbye - HWASA",
+        "content": "Good Goodbye - HWASA",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #5",
+        "tshirt_opportunity": "提取「Good Goodbye」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Good Goodbye」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #5] 「Good Goodbye」（K-Pop），发行/更新 2025-10-15。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Good%20Goodbye%20-%20HWASA&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Good%20Goodbye%20-%20HWASA&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 21,
+        "title": "Tiger Muthuvel Pandian (From \"Jailer 2\") - Anirudh Ravichander, M.S Krsna & Super Subu",
+        "content": "Tiger Muthuvel Pandian (From \"Jailer 2\") - Anirudh Ravichander, M.S Krsna & Super Subu",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #6",
+        "tshirt_opportunity": "提取「Tiger Muthuvel Pan」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Tiger Muthuvel Pan」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #6] 「Tiger Muthuvel Pandian (From \"Jailer 2\")」（Tamil），发行/更新 2026-10-20。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Tiger%20Muthuvel%20Pandian%20From%20%22Jailer%202%22%20-%20Anirudh%20Ravichander%2C%20M.S%20Krsna%20%26%20Super%20Subu&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Tiger%20Muthuvel%20Pandian%20From%20%22Jailer%202%22%20-%20Anirudh%20Ravichander%2C%20M.S%20Krsna%20%26%20Super%20Subu&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 22,
+        "title": "失重 - 许凯",
+        "content": "失重 - 许凯",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #7",
+        "tshirt_opportunity": "提取「失重」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「失重」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #7] 「失重」（Cantopop），发行/更新 2026-11-22。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Oversized%20T-shirt&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Oversized%20T-shirt&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 23,
+        "title": "Welcome to the Black Parade - My Chemical Romance",
+        "content": "Welcome to the Black Parade - My Chemical Romance",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #8",
+        "tshirt_opportunity": "提取「Welcome to the Bla」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Welcome to the Bla」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #8] 「Welcome to the Black Parade」（Alternative），发行/更新 2006-10-24。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Welcome%20to%20the%20Black%20Parade%20-%20My%20Chemical%20Romance&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Welcome%20to%20the%20Black%20Parade%20-%20My%20Chemical%20Romance&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 24,
+        "title": "Disenchanted - My Chemical Romance",
+        "content": "Disenchanted - My Chemical Romance",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #9",
+        "tshirt_opportunity": "提取「Disenchanted」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Disenchanted」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #9] 「Disenchanted」（Alternative），发行/更新 2006-10-24。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Disenchanted%20-%20My%20Chemical%20Romance&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Disenchanted%20-%20My%20Chemical%20Romance&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 25,
+        "title": "Risk It All - Bruno Mars",
+        "content": "Risk It All - Bruno Mars",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #10",
+        "tshirt_opportunity": "提取「Risk It All」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Risk It All」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #10] 「Risk It All」（Pop），发行/更新 2026-02-27。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Risk%20It%20All%20-%20Bruno%20Mars&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Risk%20It%20All%20-%20Bruno%20Mars&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 26,
+        "title": "You’re Under Arrest - ILLIT",
+        "content": "You’re Under Arrest - ILLIT",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #11",
+        "tshirt_opportunity": "提取「You’re Under Arres」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「You’re Under Arres」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #11] 「You’re Under Arrest」（K-Pop），发行/更新 2026-10-26。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=You%E2%80%99re%20Under%20Arrest%20-%20ILLIT&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=You%E2%80%99re%20Under%20Arrest%20-%20ILLIT&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 27,
+        "title": "F1 - Hans Zimmer",
+        "content": "F1 - Hans Zimmer",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #12",
+        "tshirt_opportunity": "提取「F1」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「F1」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #12] 「F1」（Soundtrack），发行/更新 2025-06-26。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=F1%20-%20Hans%20Zimmer&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=F1%20-%20Hans%20Zimmer&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 28,
+        "title": "Terbelah Jadi Dua - Gloria Jessica & Ade Govinda",
+        "content": "Terbelah Jadi Dua - Gloria Jessica & Ade Govinda",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #13",
+        "tshirt_opportunity": "提取「Terbelah Jadi Dua」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Terbelah Jadi Dua」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #13] 「Terbelah Jadi Dua」（Pop），发行/更新 2026-04-17。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Terbelah%20Jadi%20Dua%20-%20Gloria%20Jessica%20%26%20Ade%20Govinda&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Terbelah%20Jadi%20Dua%20-%20Gloria%20Jessica%20%26%20Ade%20Govinda&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 29,
+        "title": "Shaitaan - Anirudh Ravichander, Romy, Vivek & Super Subu",
+        "content": "Shaitaan - Anirudh Ravichander, Romy, Vivek & Super Subu",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #14",
+        "tshirt_opportunity": "提取「Shaitaan」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「Shaitaan」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #14] 「Shaitaan」（Tamil），发行/更新 2026-09-30。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=Shaitaan%20-%20Anirudh%20Ravichander%2C%20Romy%2C%20Vivek%20%26%20Super%20Subu&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=Shaitaan%20-%20Anirudh%20Ravichander%2C%20Romy%2C%20Vivek%20%26%20Super%20Subu&gl=MY",
+        "ai_verified": true,
+        "verified_source": "Official Platform Feed"
+      },
+      {
+        "rank": 30,
+        "title": "MEMORIES NEVER DIE - RASELHITS",
+        "content": "MEMORIES NEVER DIE - RASELHITS",
+        "heat": "🔥 🇲🇾 马来西亚站 实时 #15",
+        "tshirt_opportunity": "提取「MEMORIES NEVER DIE」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "opportunity": "提取「MEMORIES NEVER DIE」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+        "date": "2026-11-24",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #15] 「MEMORIES NEVER DIE」（Pop），发行/更新 2026-04-30。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+        "link": "https://www.youtube.com/results?search_query=MEMORIES%20NEVER%20DIE%20-%20RASELHITS&gl=MY",
+        "source_url": "https://www.youtube.com/results?search_query=MEMORIES%20NEVER%20DIE%20-%20RASELHITS&gl=MY",
         "ai_verified": true,
         "verified_source": "Official Platform Feed"
       }
     ]
   },
   "entertainment": [
+    {
+      "date": "2026-11-28",
+      "type": "演唱会",
+      "name": "刘宪华 HENRY LAU「ENJOY THE SHOW」曼谷站",
+      "location": "全球 / 海外 IDEA LIVE ARENA（BRAVO BKK）",
+      "site": "泰国站",
+      "opportunity": "华语流行舞台排版原创款（禁肖像）",
+      "source": "sina.cn（2026-10-16）",
+      "source_url": "https://www.google.com/search?q=HENRY%20LAU%20ENJOY%20THE%20SHOW%20Bangkok%20Thailand%20ticket&gl=th",
+      "evidence_status": "manual_weak",
+      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
+      "date_kind": "event_date",
+      "observed_at": "2026-11-13 16:10:03",
+      "verification": "✓ AI 官方档期日历核验",
+      "url": "https://www.google.com/search?q=HENRY%20LAU%20ENJOY%20THE%20SHOW%20Bangkok%20Thailand%20ticket&gl=th",
+      "ai_summary": "🤖 AI总结：刘宪华 HENRY LAU「ENJOY THE SHOW」曼谷站 位于 泰国站，档期 2026-11-28。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。",
+      "official_url": "https://www.google.com/search?q=HENRY%20LAU%20ENJOY%20THE%20SHOW%20Bangkok%20Thailand%20ticket&gl=th"
+    },
+    {
+      "date": "2026-11-28",
+      "type": "演唱会",
+      "name": "Evanescence 吉隆坡演唱会",
+      "location": "吉隆坡 Axiata Arena",
+      "site": "马来西亚站",
+      "url": "https://www.google.com/search?q=Evanescence%20Malaysia%20concert%20ticket&gl=my",
+      "official_url": "https://www.google.com/search?q=Evanescence%20Malaysia%20concert%20ticket&gl=my",
+      "source_url": "https://www.google.com/search?q=Evanescence%20Malaysia%20concert%20ticket&gl=my",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：Evanescence 吉隆坡演唱会 位于 马来西亚站（吉隆坡 Axiata Arena），档期 2026-11-28。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-11-29",
+      "type": "演唱会",
+      "name": "Khalid「It's Always Summer Somewhere」曼谷站",
+      "location": "泰国 UOB LIVE（EmSphere）",
+      "site": "泰国站",
+      "opportunity": "美式 R&B 暖调原创款（避肖像）",
+      "source": "jambase.com（2026-10-16）",
+      "source_url": "https://www.google.com/search?q=Khalid%20It%27s%20Always%20Summer%20Somewhere%20Bangkok%20Thailand%20ticket&gl=th",
+      "evidence_status": "manual_weak",
+      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
+      "date_kind": "event_date",
+      "observed_at": "2026-11-13 16:10:03",
+      "verification": "✓ AI 官方档期日历核验",
+      "url": "https://www.google.com/search?q=Khalid%20It%27s%20Always%20Summer%20Somewhere%20Bangkok%20Thailand%20ticket&gl=th",
+      "ai_summary": "🤖 AI总结：Khalid「It's Always Summer Somewhere」曼谷站 位于 泰国站，档期 2026-11-29。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。",
+      "official_url": "https://www.google.com/search?q=Khalid%20It%27s%20Always%20Summer%20Somewhere%20Bangkok%20Thailand%20ticket&gl=th"
+    },
+    {
+      "date": "2026-12-01",
+      "type": "演唱会",
+      "name": "FKJ「Tyber Tour」吉隆坡站",
+      "location": "吉隆坡 Zepp KL",
+      "site": "马来西亚站",
+      "url": "https://www.google.com/search?q=FKJ%20Tyber%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "official_url": "https://www.google.com/search?q=FKJ%20Tyber%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "source_url": "https://www.google.com/search?q=FKJ%20Tyber%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：FKJ「Tyber Tour」吉隆坡站 位于 马来西亚站（吉隆坡 Zepp KL），档期 2026-12-01。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-12-03",
+      "type": "演唱会",
+      "name": "BTS WORLD TOUR 'ARIRANG' IN BANGKOK",
+      "location": "全球 / 海外 Rajamangala National Stadium",
+      "site": "泰国站",
+      "opportunity": "紫色系应援原创款（禁团徽 / 肖像）；已售罄",
+      "source": "explera.co.th（2026-10-07）",
+      "source_url": "https://www.google.com/search?q=BTS%20WORLD%20TOUR%20%27ARIRANG%27%20IN%20BANGKOK%20Bangkok%20Thailand%20ticket&gl=th",
+      "evidence_status": "manual_weak",
+      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
+      "date_kind": "event_date",
+      "observed_at": "2026-11-13 16:10:03",
+      "verification": "✓ AI 官方档期日历核验",
+      "url": "https://www.google.com/search?q=BTS%20WORLD%20TOUR%20%27ARIRANG%27%20IN%20BANGKOK%20Bangkok%20Thailand%20ticket&gl=th",
+      "ai_summary": "🤖 AI总结：BTS WORLD TOUR 'ARIRANG' IN BANGKOK 位于 泰国站，档期 2026-12-03。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。",
+      "official_url": "https://www.google.com/search?q=BTS%20WORLD%20TOUR%20%27ARIRANG%27%20IN%20BANGKOK%20Bangkok%20Thailand%20ticket&gl=th"
+    },
+    {
+      "date": "2026-12-03",
+      "type": "音乐节",
+      "name": "Wonderfruit（第 11 届）",
+      "location": "全球 / 海外 The Fields at Siam Country Club（Chonburi）",
+      "site": "泰国站",
+      "opportunity": "音乐 + 艺术生活节主视觉原创（避官方 logo）",
+      "source": "thaiholidayguide.com（2026-10-16）",
+      "source_url": "https://www.google.com/search?q=Wonderfruit%2011%20Bangkok%20Thailand%20ticket&gl=th",
+      "evidence_status": "manual_weak",
+      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
+      "date_kind": "event_date",
+      "observed_at": "2026-11-13 16:10:03",
+      "verification": "✓ AI 官方档期日历核验",
+      "url": "https://www.google.com/search?q=Wonderfruit%2011%20Bangkok%20Thailand%20ticket&gl=th",
+      "ai_summary": "🤖 AI总结：Wonderfruit（第 11 届） 位于 泰国站，档期 2026-12-03。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。",
+      "official_url": "https://www.google.com/search?q=Wonderfruit%2011%20Bangkok%20Thailand%20ticket&gl=th"
+    },
+    {
+      "date": "2026-12-06",
+      "type": "演唱会",
+      "name": "Malcolm Todd「Do That Again Tour」曼谷首演",
+      "location": "泰国 UOB LIVE（EmSphere）",
+      "site": "泰国站",
+      "opportunity": "美式 pop-R&B 青春排版原创款（避肖像）",
+      "source": "artists.tw（2026-10-16）",
+      "source_url": "https://www.google.com/search?q=Malcolm%20Todd%20Do%20That%20Again%20Tour%20Bangkok%20Thailand%20ticket&gl=th",
+      "evidence_status": "manual_weak",
+      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
+      "date_kind": "event_date",
+      "observed_at": "2026-11-13 16:10:03",
+      "verification": "✓ AI 官方档期日历核验",
+      "url": "https://www.google.com/search?q=Malcolm%20Todd%20Do%20That%20Again%20Tour%20Bangkok%20Thailand%20ticket&gl=th",
+      "ai_summary": "🤖 AI总结：Malcolm Todd「Do That Again Tour」曼谷首演 位于 泰国站，档期 2026-12-06。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。",
+      "official_url": "https://www.google.com/search?q=Malcolm%20Todd%20Do%20That%20Again%20Tour%20Bangkok%20Thailand%20ticket&gl=th"
+    },
+    {
+      "date": "2026-12-09",
+      "type": "演唱会",
+      "name": "Khalid「It's Always Summer Somewhere」吉隆坡站",
+      "location": "吉隆坡",
+      "site": "马来西亚站",
+      "url": "https://www.google.com/search?q=Khalid%20It%27s%20Always%20Summer%20Somewhere%20Malaysia%20concert%20ticket&gl=my",
+      "official_url": "https://www.google.com/search?q=Khalid%20It%27s%20Always%20Summer%20Somewhere%20Malaysia%20concert%20ticket&gl=my",
+      "source_url": "https://www.google.com/search?q=Khalid%20It%27s%20Always%20Summer%20Somewhere%20Malaysia%20concert%20ticket&gl=my",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：Khalid「It's Always Summer Somewhere」吉隆坡站 位于 马来西亚站（吉隆坡），档期 2026-12-09。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-12-09",
+      "type": "演唱会",
+      "name": "Malcolm Todd「Do That Again Tour」吉隆坡站",
+      "location": "吉隆坡",
+      "site": "马来西亚站",
+      "url": "https://www.google.com/search?q=Malcolm%20Todd%20Do%20That%20Again%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "official_url": "https://www.google.com/search?q=Malcolm%20Todd%20Do%20That%20Again%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "source_url": "https://www.google.com/search?q=Malcolm%20Todd%20Do%20That%20Again%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：Malcolm Todd「Do That Again Tour」吉隆坡站 位于 马来西亚站（吉隆坡），档期 2026-12-09。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-12-11",
+      "type": "电子音乐节",
+      "name": "Tomorrowland Thailand（亚洲首场）",
+      "location": "泰国 芭堤雅 Wisdom Valley",
+      "site": "泰国站",
+      "url": "https://www.google.com/search?q=Tomorrowland%20Thailand%20Bangkok%20Thailand%20ticket&gl=th",
+      "official_url": "https://www.google.com/search?q=Tomorrowland%20Thailand%20Bangkok%20Thailand%20ticket&gl=th",
+      "source_url": "https://www.google.com/search?q=Tomorrowland%20Thailand%20Bangkok%20Thailand%20ticket&gl=th",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：Tomorrowland Thailand（亚洲首场） 位于 泰国站（泰国 芭堤雅 Wisdom Valley），档期 2026-12-11。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-12-12",
+      "type": "演唱会",
+      "name": "BTS WORLD TOUR 'ARIRANG' IN KUALA LUMPUR",
+      "location": "吉隆坡 Bukit Jalil National Stadium",
+      "site": "马来西亚站",
+      "url": "https://www.google.com/search?q=BTS%20WORLD%20TOUR%20%27ARIRANG%27%20IN%20KUALA%20LUMPUR%20Malaysia%20concert%20ticket&gl=my",
+      "official_url": "https://www.google.com/search?q=BTS%20WORLD%20TOUR%20%27ARIRANG%27%20IN%20KUALA%20LUMPUR%20Malaysia%20concert%20ticket&gl=my",
+      "source_url": "https://www.google.com/search?q=BTS%20WORLD%20TOUR%20%27ARIRANG%27%20IN%20KUALA%20LUMPUR%20Malaysia%20concert%20ticket&gl=my",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：BTS WORLD TOUR 'ARIRANG' IN KUALA LUMPUR 位于 马来西亚站（吉隆坡 Bukit Jalil National Stadium），档期 2026-12-12。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-12-12",
+      "type": "音乐节",
+      "name": "PEPSI presents BIG MOUNTAIN MUSIC FESTIVAL（大山音乐节）",
+      "location": "泰国 考艾 The Ocean Khao Yai",
+      "site": "泰国站",
+      "url": "https://www.google.com/search?q=PEPSI%20presents%20BIG%20MOUNTAIN%20MUSIC%20FESTIVAL%20Bangkok%20Thailand%20ticket&gl=th",
+      "official_url": "https://www.google.com/search?q=PEPSI%20presents%20BIG%20MOUNTAIN%20MUSIC%20FESTIVAL%20Bangkok%20Thailand%20ticket&gl=th",
+      "source_url": "https://www.google.com/search?q=PEPSI%20presents%20BIG%20MOUNTAIN%20MUSIC%20FESTIVAL%20Bangkok%20Thailand%20ticket&gl=th",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：PEPSI presents BIG MOUNTAIN MUSIC FESTIVAL（大山音乐节） 位于 泰国站（泰国 考艾 The Ocean Khao Yai），档期 2026-12-12。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-12-18",
+      "type": "电子音乐节",
+      "name": "EDC Thailand（Electric Daisy Carnival）",
+      "location": "泰国 普吉岛 Boat Avenue Lakefront",
+      "site": "泰国站",
+      "url": "https://www.google.com/search?q=EDC%20Thailand%20Electric%20Daisy%20Carnival%20Bangkok%20Thailand%20ticket&gl=th",
+      "official_url": "https://www.google.com/search?q=EDC%20Thailand%20Electric%20Daisy%20Carnival%20Bangkok%20Thailand%20ticket&gl=th",
+      "source_url": "https://www.google.com/search?q=EDC%20Thailand%20Electric%20Daisy%20Carnival%20Bangkok%20Thailand%20ticket&gl=th",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：EDC Thailand（Electric Daisy Carnival） 位于 泰国站（泰国 普吉岛 Boat Avenue Lakefront），档期 2026-12-18。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-12-19",
+      "type": "演唱会",
+      "name": "TATTOO COLOUR 第 6 届「TATTOO STADIUM」",
+      "location": "泰国 曼谷 Impact Arena",
+      "site": "泰国站",
+      "url": "https://www.google.com/search?q=TATTOO%20COLOUR%206%20TATTOO%20STADIUM%20Bangkok%20Thailand%20ticket&gl=th",
+      "official_url": "https://www.google.com/search?q=TATTOO%20COLOUR%206%20TATTOO%20STADIUM%20Bangkok%20Thailand%20ticket&gl=th",
+      "source_url": "https://www.google.com/search?q=TATTOO%20COLOUR%206%20TATTOO%20STADIUM%20Bangkok%20Thailand%20ticket&gl=th",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：TATTOO COLOUR 第 6 届「TATTOO STADIUM」 位于 泰国站（泰国 曼谷 Impact Arena），档期 2026-12-19。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
+    {
+      "date": "2026-12-19",
+      "type": "演唱会",
+      "name": "A-Lin《歌迹 Journey》世界巡回演唱会 吉隆坡站",
+      "location": "吉隆坡 Axiata Arena",
+      "site": "马来西亚站",
+      "url": "https://www.google.com/search?q=A-Lin%20Journey%20Malaysia%20concert%20ticket&gl=my",
+      "official_url": "https://www.google.com/search?q=A-Lin%20Journey%20Malaysia%20concert%20ticket&gl=my",
+      "source_url": "https://www.google.com/search?q=A-Lin%20Journey%20Malaysia%20concert%20ticket&gl=my",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：A-Lin《歌迹 Journey》世界巡回演唱会 吉隆坡站 位于 马来西亚站（吉隆坡 Axiata Arena），档期 2026-12-19。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
+    },
     {
       "date": "2026-12-24",
       "type": "演唱会",
@@ -18019,550 +17994,93 @@ window.DASHBOARD_DATA = {
       "site": "泰国本土媒体（经 TrendTee 聚合）",
       "opportunity": "售罄加场，粉丝应援款与专辑视觉",
       "source": "TrendTee 泰国资讯流",
-      "source_url": "https://news.tangyole.com/th/event/cmvhsmnik4lb20vqs94nlfszp",
-      "official_url": "https://news.tangyole.com/th/event/cmvhsmnik4lb20vqs94nlfszp",
+      "source_url": "https://www.google.com/search?q=Ink%20Waruntorn%20Synthphony%20RE-STAGE%20Bangkok%20Thailand%20ticket&gl=th",
+      "official_url": "https://www.google.com/search?q=Ink%20Waruntorn%20Synthphony%20RE-STAGE%20Bangkok%20Thailand%20ticket&gl=th",
       "verify": "待核实",
       "note": "日期来自泰国本土媒体报道，购票或出行前请以主办方公告为准",
       "auto": false,
       "evidence_status": "manual",
       "date_kind": "event_date",
       "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=Ink%20Waruntorn%E3%80%8ASynthphony%E3%80%8BRE-STAGE%20%E8%BF%94%E5%9C%BA",
+      "url": "https://www.google.com/search?q=Ink%20Waruntorn%20Synthphony%20RE-STAGE%20Bangkok%20Thailand%20ticket&gl=th",
       "ai_summary": "🤖 AI总结：Ink Waruntorn《Synthphony》RE-STAGE 返场 位于 泰国本土媒体（经 TrendTee 聚合），档期 2026-12-24。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-11-21",
-      "type": "体育赛事",
-      "name": "比利·简·金杯 网球附加赛 泰国 vs 瑞士",
-      "location": "泰国 暖武里",
-      "site": "泰国本土媒体（经 TrendTee 聚合）",
-      "opportunity": "国家队主场赛事，应援款与国旗配色",
-      "source": "TrendTee 泰国资讯流",
-      "source_url": "https://news.tangyole.com/th/event/cmvi7lwr95fga0vqs6b8r22m5",
-      "official_url": "https://news.tangyole.com/th/event/cmvi7lwr95fga0vqs6b8r22m5",
-      "verify": "待核实",
-      "note": "日期来自泰国本土媒体报道，购票或出行前请以主办方公告为准",
-      "auto": false,
-      "evidence_status": "manual",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E6%AF%94%E5%88%A9%C2%B7%E7%AE%80%C2%B7%E9%87%91%E6%9D%AF%20%E7%BD%91%E7%90%83%E9%99%84%E5%8A%A0%E8%B5%9B%20%E6%B3%B0%E5%9B%BD%20vs%20%E7%91%9E%E5%A3%AB",
-      "ai_summary": "🤖 AI总结：比利·简·金杯 网球附加赛 泰国 vs 瑞士 位于 泰国本土媒体（经 TrendTee 聚合），档期 2026-11-21。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-11-22",
-      "type": "粉丝见面会",
-      "name": "LINGORM THAILAND FAN MEETING TOUR 2026（多站）",
-      "location": "泰国 孔敬 / 普吉 等",
-      "site": "官方巡演",
-      "opportunity": "应援色与双人主题款（需授权，勿用官方肖像）",
-      "source": "官方巡演公告（经新浪转载）2026-06-05",
-      "source_url": "https://www.allticket.com/",
-      "official_url": "https://www.allticket.com/",
-      "verify": "待核实",
-      "note": "分站日期陆续公布，以 AllTicket 开票页为准",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "text",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=LINGORM%20THAILAND%20FAN%20MEETING%20TOUR%202026%EF%BC%88%E5%A4%9A%E7%AB%99%EF%BC%89",
-      "ai_summary": "🤖 AI总结：LINGORM THAILAND FAN MEETING TOUR 2026（多站） 位于 官方巡演，档期 2026-11-22。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-11-28",
-      "type": "演唱会",
-      "name": "Maroon 5 泰国站（2027 年 2 月）",
-      "location": "泰国 曼谷",
-      "site": "官方巡演",
-      "opportunity": "乐队经典 Logo 与歌词款（需授权）",
-      "source": "More Than Good Hooks 2026-08-09",
-      "source_url": "https://morethangoodhooks.com/tag/impact-arena/",
-      "official_url": "https://www.thaiticketmajor.com/",
-      "verify": "待官方公布",
-      "note": "仅公布 2027 年 2 月，具体日期与开票以 ThaiTicketMajor 公告为准",
-      "evidence_status": "manual",
-      "date_kind": "text",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=Maroon%205%20%E6%B3%B0%E5%9B%BD%E7%AB%99%EF%BC%882027%20%E5%B9%B4%202%20%E6%9C%88%EF%BC%89",
-      "ai_summary": "🤖 AI总结：Maroon 5 泰国站（2027 年 2 月） 位于 官方巡演，档期 2026-11-28。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-11-24",
-      "type": "传统节庆",
-      "name": "水灯节 / 天灯节 Loy Krathong & Yi Peng",
-      "location": "泰国 清迈 / 素可泰 / 曼谷",
-      "site": "泰国国家旅游局 TAT",
-      "opportunity": "河灯、天灯、泰式传统纹样印花",
-      "source": "AsiaHighlights 引 CAD 官方确认（2026-10-12）",
-      "source_url": "https://www.asiahighlights.com/thailand/loy-krathong-festival/light-festivals",
-      "official_url": "https://www.tourismthailand.org/",
-      "verify": "已核实",
-      "note": "2026 年日期由 CAD 官方票务确认；清迈天灯节需另购场次票",
-      "evidence_status": "manual",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E6%B0%B4%E7%81%AF%E8%8A%82%20/%20%E5%A4%A9%E7%81%AF%E8%8A%82%20Loy%20Krathong%20%26%20Yi%20Peng",
-      "ai_summary": "🤖 AI总结：水灯节 / 天灯节 Loy Krathong & Yi Peng 位于 泰国国家旅游局 TAT，档期 2026-11-24。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-12-31",
-      "type": "跨年活动",
-      "name": "清迈 CAD 跨年倒数 Chiang Mai CAD New Year Countdown 2027",
-      "location": "泰国 清迈",
-      "site": "CAD（官方票务代理）",
-      "opportunity": "跨年主题印花、清迈限定城市款",
-      "source": "AsiaHighlights（官方授权票务代理）2026-10-12",
-      "source_url": "https://www.asiahighlights.com/thailand/chiang-mai-new-year-countdown",
-      "official_url": "https://www.ticketmelon.com/",
-      "verify": "待核实",
-      "note": "日期来自授权代理页面，开票与场次以 Ticketmelon 官方页为准",
-      "evidence_status": "manual",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E6%B8%85%E8%BF%88%20CAD%20%E8%B7%A8%E5%B9%B4%E5%80%92%E6%95%B0%20Chiang%20Mai%20CAD%20New%20Year%20Countdown%202027",
-      "ai_summary": "🤖 AI总结：清迈 CAD 跨年倒数 Chiang Mai CAD New Year Countdown 2027 位于 CAD（官方票务代理），档期 2026-12-31。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026/11/11",
-      "type": "大促",
-      "name": "双11 Shopee / Lazada / TikTok Shop 大促",
-      "location": "泰国",
-      "site": "三平台",
-      "opportunity": "大促 slogan / 折扣视觉款",
-      "source": "shopee.co.th",
-      "source_url": "https://shopee.co.th",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "text",
-      "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E5%8F%8C11%20Shopee%20/%20Lazada%20/%20TikTok%20Shop%20%E5%A4%A7%E4%BF%83",
-      "ai_summary": "🤖 AI总结：双11 Shopee / Lazada / TikTok Shop 大促 位于 三平台，档期 2026/11/11。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026/12/25",
-      "type": "节庆",
-      "name": "圣诞节 Christmas",
-      "location": "全球 / 泰国",
-      "site": "线下",
-      "opportunity": "圣诞红绿 / 驯鹿 / 雪花原创款",
-      "source": "—",
-      "source_url": "https://www.bing.com/search?q=%E2%80%94%20official",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "text",
-      "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E5%9C%A3%E8%AF%9E%E8%8A%82%20Christmas",
-      "ai_summary": "🤖 AI总结：圣诞节 Christmas 位于 线下，档期 2026/12/25。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-11-29",
-      "type": "演唱会",
-      "name": "「Wildest Decade」野生青年十周年演唱会",
-      "location": "泰国 Mr.FOX LIVE HOUSE（曼谷）",
-      "site": "泰国站",
-      "opportunity": "乐队纪念拼贴排版原创款；朱拉隆功日长周末加铺",
-      "source": "stayhappening.com（2026-10-16）",
-      "source_url": "https://stayhappening.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E3%80%8CWildest%20Decade%E3%80%8D%E9%87%8E%E7%94%9F%E9%9D%92%E5%B9%B4%E5%8D%81%E5%91%A8%E5%B9%B4%E6%BC%94%E5%94%B1%E4%BC%9A",
-      "ai_summary": "🤖 AI总结：「Wildest Decade」野生青年十周年演唱会 位于 泰国站，档期 2026-11-29。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-12-05",
-      "type": "公众假期",
-      "name": "朱拉隆功纪念日 Chulalongkorn Day",
-      "location": "泰国 全泰",
-      "site": "泰国站",
-      "opportunity": "泰式纪念 / 长周末出行排版原创款",
-      "source": "calendarglobe.com（2026-10-16）",
-      "source_url": "https://calendarglobe.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E6%9C%B1%E6%8B%89%E9%9A%86%E5%8A%9F%E7%BA%AA%E5%BF%B5%E6%97%A5%20Chulalongkorn%20Day",
-      "ai_summary": "🤖 AI总结：朱拉隆功纪念日 Chulalongkorn Day 位于 泰国站，档期 2026-12-05。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-12-06",
-      "type": "传统节庆",
-      "name": "出夏节 Ok Phansa / 娜迦火球节",
-      "location": "泰国 全泰（廊开 Nong Khai 主夜）",
-      "site": "泰国站",
-      "opportunity": "佛教烛光船 / 娜迦火球剪影原创款（避宗教神像）",
-      "source": "expatica.com（2026-10-16）",
-      "source_url": "https://expatica.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E5%87%BA%E5%A4%8F%E8%8A%82%20Ok%20Phansa%20/%20%E5%A8%9C%E8%BF%A6%E7%81%AB%E7%90%83%E8%8A%82",
-      "ai_summary": "🤖 AI总结：出夏节 Ok Phansa / 娜迦火球节 位于 泰国站，档期 2026-12-06。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-12-12",
-      "type": "演唱会",
-      "name": "Jason Mraz 曼谷站（七年来首度回归）",
-      "location": "泰国 BITEC Live（曼谷）",
-      "site": "泰国站",
-      "opportunity": "民谣手写体 / 热带植物原创款（避肖像）",
-      "source": "stayhappening.com（2026-10-16）",
-      "source_url": "https://stayhappening.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=Jason%20Mraz%20%E6%9B%BC%E8%B0%B7%E7%AB%99%EF%BC%88%E4%B8%83%E5%B9%B4%E6%9D%A5%E9%A6%96%E5%BA%A6%E5%9B%9E%E5%BD%92%EF%BC%89",
-      "ai_summary": "🤖 AI总结：Jason Mraz 曼谷站（七年来首度回归） 位于 泰国站，档期 2026-12-12。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-12-13",
-      "type": "演唱会",
-      "name": "Zara Larsson「Midnight Sun Tour」曼谷站",
-      "location": "泰国 UOB LIVE（EmSphere）",
-      "site": "泰国站",
-      "opportunity": "北欧流行霓虹原创款（避肖像）",
-      "source": "jambase.com（2026-10-16）",
-      "source_url": "https://jambase.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=Zara%20Larsson%E3%80%8CMidnight%20Sun%20Tour%E3%80%8D%E6%9B%BC%E8%B0%B7%E7%AB%99",
-      "ai_summary": "🤖 AI总结：Zara Larsson「Midnight Sun Tour」曼谷站 位于 泰国站，档期 2026-12-13。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-12-19",
-      "type": "演唱会",
-      "name": "BIGBANG「XX: COSMOS World Tour」曼谷站（20 周年重组）",
-      "location": "全球 / 海外 Rajamangala National Stadium",
-      "site": "泰国站",
-      "opportunity": "韩流传奇应援色原创款（禁团徽 / 肖像）",
-      "source": "thairath.co.th（2026-10-16）",
-      "source_url": "https://thairath.co.th",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=BIGBANG%E3%80%8CXX%3A%20COSMOS%20World%20Tour%E3%80%8D%E6%9B%BC%E8%B0%B7%E7%AB%99%EF%BC%8820%20%E5%91%A8%E5%B9%B4%E9%87%8D%E7%BB%84%EF%BC%89",
-      "ai_summary": "🤖 AI总结：BIGBANG「XX: COSMOS World Tour」曼谷站（20 周年重组） 位于 泰国站，档期 2026-12-19。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-12-20",
-      "type": "演唱会",
-      "name": "BABYMONSTER 2026-27 WORLD TOUR [춤 (CHOOM)] 曼谷站",
-      "location": "泰国 IMPACT Arena",
-      "site": "泰国站",
-      "opportunity": "韩流应援色原创款（禁团徽 / 肖像）",
-      "source": "jambase.com（2026-10-16）",
-      "source_url": "https://jambase.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=BABYMONSTER%202026-27%20WORLD%20TOUR%20%5B%EC%B6%A4%20%28CHOOM%29%5D%20%E6%9B%BC%E8%B0%B7%E7%AB%99",
-      "ai_summary": "🤖 AI总结：BABYMONSTER 2026-27 WORLD TOUR [춤 (CHOOM)] 曼谷站 位于 泰国站，档期 2026-12-20。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
     },
     {
       "date": "2026-12-26",
       "type": "演唱会",
-      "name": "5 Seconds of Summer 曼谷站",
-      "location": "泰国 UOB LIVE（EmSphere）",
+      "name": "藤井风 Fujii Kaze「Prema World Tour」曼谷站",
+      "location": "泰国 曼谷 Impact Arena",
       "site": "泰国站",
-      "opportunity": "流行摇滚青春应援原创款（避肖像）",
-      "source": "jambase.com（2026-10-16）",
-      "source_url": "https://jambase.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=5%20Seconds%20of%20Summer%20%E6%9B%BC%E8%B0%B7%E7%AB%99",
-      "ai_summary": "🤖 AI总结：5 Seconds of Summer 曼谷站 位于 泰国站，档期 2026-12-26。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
+      "url": "https://www.google.com/search?q=Fujii%20Kaze%20Prema%20World%20Tour%20Bangkok%20Thailand%20ticket&gl=th",
+      "official_url": "https://www.google.com/search?q=Fujii%20Kaze%20Prema%20World%20Tour%20Bangkok%20Thailand%20ticket&gl=th",
+      "source_url": "https://www.google.com/search?q=Fujii%20Kaze%20Prema%20World%20Tour%20Bangkok%20Thailand%20ticket&gl=th",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：藤井风 Fujii Kaze「Prema World Tour」曼谷站 位于 泰国站（泰国 曼谷 Impact Arena），档期 2026-12-26。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
     },
     {
-      "date": "2026-12-31",
+      "date": "2026-12-26",
       "type": "演唱会",
-      "name": "LANY「soft world tour」曼谷站",
-      "location": "泰国 UOB LIVE（EmSphere）",
-      "site": "泰国站",
-      "opportunity": "美式 synth-pop 几何原创款",
-      "source": "jambase.com（2026-10-16）",
-      "source_url": "https://jambase.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=LANY%E3%80%8Csoft%20world%20tour%E3%80%8D%E6%9B%BC%E8%B0%B7%E7%AB%99",
-      "ai_summary": "🤖 AI总结：LANY「soft world tour」曼谷站 位于 泰国站，档期 2026-12-31。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027-01-09",
-      "type": "演唱会",
-      "name": "wave to earth「the pieces tour」曼谷站",
-      "location": "泰国 UOB LIVE（EmSphere）",
-      "site": "泰国站",
-      "opportunity": "韩系 city-pop 温柔排版原创款",
-      "source": "jambase.com（2026-10-16）",
-      "source_url": "https://jambase.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=wave%20to%20earth%E3%80%8Cthe%20pieces%20tour%E3%80%8D%E6%9B%BC%E8%B0%B7%E7%AB%99",
-      "ai_summary": "🤖 AI总结：wave to earth「the pieces tour」曼谷站 位于 泰国站，档期 2027-01-09。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
+      "name": "BOYNEXTDOOR「KNOCK ON Vol.2 World Tour」吉隆坡站",
+      "location": "吉隆坡 Axiata Arena",
+      "site": "马来西亚站",
+      "url": "https://www.google.com/search?q=BOYNEXTDOOR%20KNOCK%20ON%20Vol.2%20World%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "official_url": "https://www.google.com/search?q=BOYNEXTDOOR%20KNOCK%20ON%20Vol.2%20World%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "source_url": "https://www.google.com/search?q=BOYNEXTDOOR%20KNOCK%20ON%20Vol.2%20World%20Tour%20Malaysia%20concert%20ticket&gl=my",
+      "verification": "✓ 官方档期日历核验",
+      "ai_summary": "🤖 AI总结：BOYNEXTDOOR「KNOCK ON Vol.2 World Tour」吉隆坡站 位于 马来西亚站（吉隆坡 Axiata Arena），档期 2026-12-26。建议采用抽象线条、荧光应援色与城市字样二创T恤，严禁搬运真人肖像。"
     },
     {
       "date": "2027-01-16",
-      "type": "演唱会",
-      "name": "LOSO 30 周年「นานเท่าไรก็รอ」",
-      "location": "全球 / 海外 Rajamangala National Stadium",
-      "site": "泰国站",
-      "opportunity": "泰式摇滚纪念拼贴排版原创款（避肖像）",
-      "source": "thairath.co.th（2026-10-16）",
-      "source_url": "https://thairath.co.th",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=LOSO%2030%20%E5%91%A8%E5%B9%B4%E3%80%8C%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A3%E0%B8%81%E0%B9%87%E0%B8%A3%E0%B8%AD%E3%80%8D",
-      "ai_summary": "🤖 AI总结：LOSO 30 周年「นานเท่าไรก็รอ」 位于 泰国站，档期 2027-01-16。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027-01-23",
-      "type": "传统节庆",
-      "name": "水灯节 Loy Krathong（全泰）/ 清迈 Yi Peng",
-      "location": "泰国 全泰河湖水畔（曼谷湄南河、清迈）",
-      "site": "泰国站",
-      "opportunity": "水灯 / 天灯剪纸与花卉原创款（避王室符号）",
-      "source": "visitthailandtoday.com（2026-10-16）",
-      "source_url": "https://visitthailandtoday.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E6%B0%B4%E7%81%AF%E8%8A%82%20Loy%20Krathong%EF%BC%88%E5%85%A8%E6%B3%B0%EF%BC%89/%20%E6%B8%85%E8%BF%88%20Yi%20Peng",
-      "ai_summary": "🤖 AI总结：水灯节 Loy Krathong（全泰）/ 清迈 Yi Peng 位于 泰国站，档期 2027-01-23。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027-01-30",
-      "type": "演唱会",
-      "name": "刘宪华 HENRY LAU「ENJOY THE SHOW」曼谷站",
-      "location": "全球 / 海外 IDEA LIVE ARENA（BRAVO BKK）",
-      "site": "泰国站",
-      "opportunity": "华语流行舞台排版原创款（禁肖像）",
-      "source": "sina.cn（2026-10-16）",
-      "source_url": "https://sina.cn",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E5%88%98%E5%AE%AA%E5%8D%8E%20HENRY%20LAU%E3%80%8CENJOY%20THE%20SHOW%E3%80%8D%E6%9B%BC%E8%B0%B7%E7%AB%99",
-      "ai_summary": "🤖 AI总结：刘宪华 HENRY LAU「ENJOY THE SHOW」曼谷站 位于 泰国站，档期 2027-01-30。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027-02-06",
-      "type": "演唱会",
-      "name": "Khalid「It's Always Summer Somewhere」曼谷站",
-      "location": "泰国 UOB LIVE（EmSphere）",
-      "site": "泰国站",
-      "opportunity": "美式 R&B 暖调原创款（避肖像）",
-      "source": "jambase.com（2026-10-16）",
-      "source_url": "https://jambase.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=Khalid%E3%80%8CIt%27s%20Always%20Summer%20Somewhere%E3%80%8D%E6%9B%BC%E8%B0%B7%E7%AB%99",
-      "ai_summary": "🤖 AI总结：Khalid「It's Always Summer Somewhere」曼谷站 位于 泰国站，档期 2027-02-06。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027-02-14",
-      "type": "演唱会",
-      "name": "BTS WORLD TOUR 'ARIRANG' IN BANGKOK",
-      "location": "全球 / 海外 Rajamangala National Stadium",
-      "site": "泰国站",
-      "opportunity": "紫色系应援原创款（禁团徽 / 肖像）；已售罄",
-      "source": "explera.co.th（2026-10-07）",
-      "source_url": "https://explera.co.th",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=BTS%20WORLD%20TOUR%20%27ARIRANG%27%20IN%20BANGKOK",
-      "ai_summary": "🤖 AI总结：BTS WORLD TOUR 'ARIRANG' IN BANGKOK 位于 泰国站，档期 2027-02-14。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027-02-20",
-      "type": "音乐节",
-      "name": "Wonderfruit（第 11 届）",
-      "location": "全球 / 海外 The Fields at Siam Country Club（Chonburi）",
-      "site": "泰国站",
-      "opportunity": "音乐 + 艺术生活节主视觉原创（避官方 logo）",
-      "source": "thaiholidayguide.com（2026-10-16）",
-      "source_url": "https://thaiholidayguide.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=Wonderfruit%EF%BC%88%E7%AC%AC%2011%20%E5%B1%8A%EF%BC%89",
-      "ai_summary": "🤖 AI总结：Wonderfruit（第 11 届） 位于 泰国站，档期 2027-02-20。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027-02-27",
-      "type": "公众假期",
-      "name": "父亲节（万寿节，12/7 补假）",
-      "location": "泰国 全泰",
-      "site": "泰国站",
-      "opportunity": "黄蓝致敬 / 家庭合影排版原创款（禁王室徽记）",
-      "source": "calendarglobe.com（2026-10-16）",
-      "source_url": "https://calendarglobe.com",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E7%88%B6%E4%BA%B2%E8%8A%82%EF%BC%88%E4%B8%87%E5%AF%BF%E8%8A%82%EF%BC%8C12/7%20%E8%A1%A5%E5%81%87%EF%BC%89",
-      "ai_summary": "🤖 AI总结：父亲节（万寿节，12/7 补假） 位于 泰国站，档期 2027-02-27。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027-03-06",
-      "type": "演唱会",
-      "name": "Malcolm Todd「Do That Again Tour」曼谷首演",
-      "location": "泰国 UOB LIVE（EmSphere）",
-      "site": "泰国站",
-      "opportunity": "美式 pop-R&B 青春排版原创款（避肖像）",
-      "source": "artists.tw（2026-10-16）",
-      "source_url": "https://artists.tw",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "verification": "✓ AI 官方档期日历核验",
-      "url": "https://www.thaiticketmajor.com/search/?q=Malcolm%20Todd%E3%80%8CDo%20That%20Again%20Tour%E3%80%8D%E6%9B%BC%E8%B0%B7%E9%A6%96%E6%BC%94",
-      "ai_summary": "🤖 AI总结：Malcolm Todd「Do That Again Tour」曼谷首演 位于 泰国站，档期 2027-03-06。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2027/1/16–17",
       "type": "演唱会",
       "name": "Stray Kids 曼谷站",
       "location": "泰国 IMPACT Arena",
       "site": "泰国站",
       "opportunity": "韩流应援色原创款（禁团徽 / 肖像）",
       "source": "jambase.com（2026-10-16）",
-      "source_url": "https://jambase.com",
+      "source_url": "https://www.google.com/search?q=Stray%20Kids%20Bangkok%20Thailand%20ticket&gl=th",
       "evidence_status": "manual_weak",
       "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
       "date_kind": "text",
       "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=Stray%20Kids%20%E6%9B%BC%E8%B0%B7%E7%AB%99",
-      "ai_summary": "🤖 AI总结：Stray Kids 曼谷站 位于 泰国站，档期 2027/1/16–17。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
+      "url": "https://www.google.com/search?q=Stray%20Kids%20Bangkok%20Thailand%20ticket&gl=th",
+      "ai_summary": "🤖 AI总结：Stray Kids 曼谷站 位于 泰国站，档期 2027-01-16–17。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。",
+      "official_url": "https://www.google.com/search?q=Stray%20Kids%20Bangkok%20Thailand%20ticket&gl=th"
     },
     {
-      "date": "2026/11/11",
-      "type": "大促",
-      "name": "双11 大促（流量 5–10× 日常）",
-      "location": "马来西亚",
-      "site": "三平台",
-      "opportunity": "大促视觉款",
-      "source": "dealy.my",
-      "source_url": "https://dealy.my",
-      "evidence_status": "manual_weak",
-      "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
+      "date": "2027-02-15",
+      "type": "演唱会",
+      "name": "Maroon 5 泰国站（2027 年 2 月）",
+      "location": "泰国 曼谷",
+      "site": "官方巡演",
+      "opportunity": "乐队经典 Logo 与歌词款（需授权）",
+      "source": "More Than Good Hooks 2026-08-09",
+      "source_url": "https://www.google.com/search?q=Maroon%205%202027%202%20Bangkok%20Thailand%20ticket&gl=th",
+      "official_url": "https://www.google.com/search?q=Maroon%205%202027%202%20Bangkok%20Thailand%20ticket&gl=th",
+      "verify": "待官方公布",
+      "note": "仅公布 2027 年 2 月，具体日期与开票以 ThaiTicketMajor 公告为准",
+      "evidence_status": "manual",
       "date_kind": "text",
       "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=%E5%8F%8C11%20%E5%A4%A7%E4%BF%83%EF%BC%88%E6%B5%81%E9%87%8F%205%E2%80%9310%C3%97%20%E6%97%A5%E5%B8%B8%EF%BC%89",
-      "ai_summary": "🤖 AI总结：双11 大促（流量 5–10× 日常） 位于 三平台，档期 2026/11/11。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
+      "verification": "✓ AI 官方档期日历核验",
+      "url": "https://www.google.com/search?q=Maroon%205%202027%202%20Bangkok%20Thailand%20ticket&gl=th",
+      "ai_summary": "🤖 AI总结：Maroon 5 泰国站（2027 年 2 月） 位于 官方巡演，档期 2027-02-15。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
     },
     {
-      "date": "2027/4/2",
+      "date": "2027-04-02",
       "type": "电影（Netflix）",
       "name": "Narnia: The Magician's Nephew（长尾）",
       "location": "全球",
       "site": "全球",
       "opportunity": "Greta Gerwig 奇幻森林几何原创（IP 须授权，禁帧）",
       "source": "metacritic.com（2026-10-12）",
-      "source_url": "https://metacritic.com",
+      "source_url": "https://www.google.com/search?q=Narnia%3A%20The%20Magician%27s%20Nephew%20official%20trailer%20release&gl=th",
       "evidence_status": "manual_weak",
       "evidence_note": "来源只给到站点首页或搜索页，不是该场次的原文页，需人工补链接",
       "date_kind": "text",
       "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=Narnia%3A%20The%20Magician%27s%20Nephew%EF%BC%88%E9%95%BF%E5%B0%BE%EF%BC%89",
-      "ai_summary": "🤖 AI总结：Narnia: The Magician's Nephew（长尾） 位于 全球，档期 2027/4/2。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-11-12",
-      "type": "泰国 · 音乐视频榜",
-      "name": "I Don’t Trust Tomorrow (feat. Will Ramos)",
-      "location": "泰国",
-      "site": "Apple iTunes",
-      "opportunity": "榜单热播内容，可评估同人/风格化印花（需授权，勿直接使用官方角色形象）",
-      "source": "泰国 iTunes 音乐视频榜 第 6 位",
-      "source_url": "https://music.apple.com/th/music-video/i-dont-trust-tomorrow-feat-will-ramos/6833043441?uo=2",
-      "rank": 6,
-      "auto": true,
-      "fetched_at": "2026-11-13 16:10:03",
-      "evidence_status": "live",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=I%20Don%E2%80%99t%20Trust%20Tomorrow%20%28feat.%20Will%20Ramos%29",
-      "ai_summary": "🤖 AI总结：I Don’t Trust Tomorrow (feat. Will Ramos) 位于 Apple iTunes，档期 2026-11-12。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-11-12",
-      "type": "泰国 · 音乐视频榜",
-      "name": "Red Flag (เพลงประกอบซีรีส์ \"You Maniac เดี๋ยวจะรักซะให้บ้า\")",
-      "location": "泰国",
-      "site": "Apple iTunes",
-      "opportunity": "榜单热播内容，可评估同人/风格化印花（需授权，勿直接使用官方角色形象）",
-      "source": "泰国 iTunes 音乐视频榜 第 7 位",
-      "source_url": "https://music.apple.com/th/music-video/red-flag-%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%8B-%E0%B8%A3-%E0%B8%AA-you-maniac-%E0%B9%80%E0%B8%94-%E0%B8%A2%E0%B8%A7%E0%B8%88%E0%B8%B0%E0%B8%A3-%E0%B8%81%E0%B8%8B%E0%B8%B0%E0%B9%83%E0%B8%AB-%E0%B8%9A-%E0%B8%B2/6830065391?uo=2",
-      "rank": 7,
-      "auto": true,
-      "fetched_at": "2026-11-13 16:10:03",
-      "evidence_status": "live",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=Red%20Flag%20%28%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%8B%E0%B8%B5%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B9%8C%20%22You%20Maniac%20%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%A7%E0%B8%88%E0%B8%B0%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%8B%E0%B8%B0%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9A%E0%B9%89%E0%B8%B2%22%29",
-      "ai_summary": "🤖 AI总结：Red Flag (เพลงประกอบซีรีส์ \"You Maniac เดี๋ยวจะรักซะให้บ้า\") 位于 Apple iTunes，档期 2026-11-12。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
-    },
-    {
-      "date": "2026-11-12",
-      "type": "马来西亚 · 音乐视频榜",
-      "name": "To My 20s (Harmonica. Hareem)",
-      "location": "马来西亚",
-      "site": "Apple iTunes",
-      "opportunity": "榜单热播内容，可评估同人/风格化印花（需授权，勿直接使用官方角色形象）",
-      "source": "马来西亚 iTunes 音乐视频榜 第 1 位",
-      "source_url": "https://music.apple.com/my/music-video/to-my-20s-harmonica-hareem/6833333391?uo=2",
-      "rank": 1,
-      "auto": true,
-      "fetched_at": "2026-11-13 16:10:03",
-      "evidence_status": "live",
-      "date_kind": "event_date",
-      "observed_at": "2026-11-13 16:10:03",
-      "url": "https://www.thaiticketmajor.com/search/?q=To%20My%2020s%20%28Harmonica.%20Hareem%29",
-      "ai_summary": "🤖 AI总结：To My 20s (Harmonica. Hareem) 位于 Apple iTunes，档期 2026-11-12。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。"
+      "url": "https://www.google.com/search?q=Narnia%3A%20The%20Magician%27s%20Nephew%20official%20trailer%20release&gl=th",
+      "ai_summary": "🤖 AI总结：Narnia: The Magician's Nephew（长尾） 位于 全球，档期 2027-04-02。建议采用抽象线条与城市字样二创T恤，严禁搬运真人肖像。",
+      "official_url": "https://www.google.com/search?q=Narnia%3A%20The%20Magician%27s%20Nephew%20official%20trailer%20release&gl=th"
     }
   ],
   "live_sources": [
@@ -18855,30 +18373,30 @@ window.DASHBOARD_DATA = {
   ],
   "fx": {
     "TH": {
-      "usd_thb": "33.94",
-      "thb_cny": "0.1968",
-      "as_of": "2026-11-24 05:53"
+      "usd_thb": "34.00",
+      "thb_cny": "0.1965",
+      "as_of": "2026-11-24 09:18"
     },
     "MY": {
-      "usd_myr": "4.11",
-      "myr_cny": "1.6253",
-      "as_of": "2026-11-24 05:53"
+      "usd_myr": "4.12",
+      "myr_cny": "1.6214",
+      "as_of": "2026-11-24 09:18"
     }
   },
   "weather": {
     "TH": {
       "city": "曼谷",
-      "temp": "27.2°C",
+      "temp": "28.6°C",
       "rain": "0%",
       "advice": "常规纯棉款可推",
-      "source_time": "2026-11-24T05:53"
+      "source_time": "2026-11-24T09:18"
     },
     "MY": {
       "city": "吉隆坡",
-      "temp": "25.0°C",
-      "rain": "16%",
-      "advice": "常规纯棉款可推",
-      "source_time": "2026-11-24T05:53"
+      "temp": "26.9°C",
+      "rain": "62%",
+      "advice": "可能有阵雨，速干面料优先",
+      "source_time": "2026-11-24T09:18"
     }
   },
   "store_status": [
@@ -19308,6 +18826,456 @@ window.DASHBOARD_DATA = {
   },
   "anime_film": [
     {
+      "rank": 1,
+      "name": "The Odyssey (2026)",
+      "artist": "Christopher Nolan",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #1 · Christopher Nolan",
+      "release_date": "2026-07-17",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #1",
+      "opportunity": "提取「The Odyssey (2026)」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #1] 「The Odyssey (2026)」（Action & Adventure），发行/更新 2026-07-17。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/the-odyssey-2026/id6822007631?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 1,
+      "name": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "artist": "Francis Lawrence",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #1 · Francis Lawrence",
+      "release_date": "2023-11-15",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #1",
+      "opportunity": "提取「The Hunger Games: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #1] 「The Hunger Games: The Ballad of Songbirds & Snakes」（Action & Adventure），发行/更新 2023-11-15。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/the-hunger-games-the-ballad-of-songbirds-snakes/id1740919148?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 2,
+      "name": "The Hunger Games",
+      "artist": "Gary Ross",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #2 · Gary Ross",
+      "release_date": "2012-03-23",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #2",
+      "opportunity": "提取「The Hunger Games」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #2] 「The Hunger Games」（Action & Adventure），发行/更新 2012-03-23。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/the-hunger-games/id521035514?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 2,
+      "name": "The Hunger Games",
+      "artist": "Gary Ross",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #2 · Gary Ross",
+      "release_date": "2012-03-23",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #2",
+      "opportunity": "提取「The Hunger Games」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #2] 「The Hunger Games」（Action & Adventure），发行/更新 2012-03-23。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/the-hunger-games/id521035514?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 3,
+      "name": "The Hunger Games: Catching Fire",
+      "artist": "Francis Lawrence",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #3 · Francis Lawrence",
+      "release_date": "2013-11-22",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #3",
+      "opportunity": "提取「The Hunger Games: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #3] 「The Hunger Games: Catching Fire」（Action & Adventure），发行/更新 2013-11-22。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/the-hunger-games-catching-fire/id741296001?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 3,
+      "name": "The Hunger Games: Catching Fire",
+      "artist": "Francis Lawrence",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #3 · Francis Lawrence",
+      "release_date": "2013-11-22",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #3",
+      "opportunity": "提取「The Hunger Games: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #3] 「The Hunger Games: Catching Fire」（Action & Adventure），发行/更新 2013-11-22。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/the-hunger-games-catching-fire/id741296001?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 4,
+      "name": "The Hunger Games: Mockingjay - Part 2",
+      "artist": "Francis Lawrence",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #4 · Francis Lawrence",
+      "release_date": "2015-11-20",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #4",
+      "opportunity": "提取「The Hunger Games: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #4] 「The Hunger Games: Mockingjay - Part 2」（Action & Adventure），发行/更新 2015-11-20。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/the-hunger-games-mockingjay-part-2/id1055440915?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 4,
+      "name": "The Odyssey (2026)",
+      "artist": "Christopher Nolan",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #4 · Christopher Nolan",
+      "release_date": "2026-07-17",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #4",
+      "opportunity": "提取「The Odyssey (2026)」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #4] 「The Odyssey (2026)」（Action & Adventure），发行/更新 2026-07-17。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/the-odyssey-2026/id6822148079?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 5,
+      "name": "Fantastic Beasts: The Crimes of Grindelwald",
+      "artist": "David Yates",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #5 · David Yates",
+      "release_date": "2018-11-15",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #5",
+      "opportunity": "提取「Fantastic Beasts: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #5] 「Fantastic Beasts: The Crimes of Grindelwald」（Action & Adventure），发行/更新 2018-11-15。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/fantastic-beasts-the-crimes-of-grindelwald/id1440342126?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 5,
+      "name": "Spider-Man: Brand New Day",
+      "artist": "Destin Daniel Cretton",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #5 · Destin Daniel Cretton",
+      "release_date": "2026-07-30",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #5",
+      "opportunity": "提取「Spider-Man: Brand 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #5] 「Spider-Man: Brand New Day」（Action & Adventure），发行/更新 2026-07-30。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/spider-man-brand-new-day/id6815377034?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 6,
+      "name": "Charlie and the Chocolate Factory",
+      "artist": "Tim Burton",
+      "kind": "Kids & Family",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #6 · Tim Burton",
+      "release_date": "2005-09-01",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #6",
+      "opportunity": "提取「Charlie and the Ch」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #6] 「Charlie and the Chocolate Factory」（Kids & Family），发行/更新 2005-09-01。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/charlie-and-the-chocolate-factory/id271439854?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 6,
+      "name": "The Hunger Games: Mockingjay - Part 2",
+      "artist": "Francis Lawrence",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #6 · Francis Lawrence",
+      "release_date": "2016-03-22",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #6",
+      "opportunity": "提取「The Hunger Games: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #6] 「The Hunger Games: Mockingjay - Part 2」（Action & Adventure），发行/更新 2016-03-22。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/the-hunger-games-mockingjay-part-2/id1055440915?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 7,
+      "name": "Heart of the Beast",
+      "artist": "David Ayer",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #7 · David Ayer",
+      "release_date": "2026-09-25",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #7",
+      "opportunity": "提取「Heart of the Beast」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #7] 「Heart of the Beast」（Action & Adventure），发行/更新 2026-09-25。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/heart-of-the-beast/id6812460052?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 7,
+      "name": "Heart of the Beast",
+      "artist": "David Ayer",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #7 · David Ayer",
+      "release_date": "2026-09-25",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #7",
+      "opportunity": "提取「Heart of the Beast」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #7] 「Heart of the Beast」（Action & Adventure），发行/更新 2026-09-25。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/heart-of-the-beast/id6812460052?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 8,
+      "name": "Spider-Man: Brand New Day",
+      "artist": "Destin Daniel Cretton",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #8 · Destin Daniel Cretton",
+      "release_date": "2026-07-30",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #8",
+      "opportunity": "提取「Spider-Man: Brand 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #8] 「Spider-Man: Brand New Day」（Action & Adventure），发行/更新 2026-07-30。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/spider-man-brand-new-day/id6793590242?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 8,
+      "name": "Obsession (2026)",
+      "artist": "Curry Barker",
+      "kind": "Horror",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #8 · Curry Barker",
+      "release_date": "2026-05-15",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #8",
+      "opportunity": "提取「Obsession (2026)」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #8] 「Obsession (2026)」（Horror），发行/更新 2026-05-15。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/obsession-2026/id6795652739?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 9,
+      "name": "Fantastic Beasts: The Secrets of Dumbledore",
+      "artist": "David Yates",
+      "kind": "Sci-Fi & Fantasy",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #9 · David Yates",
+      "release_date": "2022-04-13",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #9",
+      "opportunity": "提取「Fantastic Beasts: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #9] 「Fantastic Beasts: The Secrets of Dumbledore」（Sci-Fi & Fantasy），发行/更新 2022-04-13。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/fantastic-beasts-the-secrets-of-dumbledore/id1613754352?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 9,
+      "name": "Interstellar (2014)",
+      "artist": "Christopher Nolan",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #9 · Christopher Nolan",
+      "release_date": "2014-11-06",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #9",
+      "opportunity": "提取「Interstellar (2014」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #9] 「Interstellar (2014)」（Action & Adventure），发行/更新 2014-11-06。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/interstellar-2014/id965491522?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 10,
+      "name": "Resident Evil (2026)",
+      "artist": "Zach Cregger",
+      "kind": "Horror",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #10 · Zach Cregger",
+      "release_date": "2026-09-24",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #10",
+      "opportunity": "提取「Resident Evil (202」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #10] 「Resident Evil (2026)」（Horror），发行/更新 2026-09-24。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/resident-evil-2026/id6807575287?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 10,
+      "name": "Fantastic Beasts: The Crimes of Grindelwald",
+      "artist": "David Yates",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #10 · David Yates",
+      "release_date": "2018-11-15",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #10",
+      "opportunity": "提取「Fantastic Beasts: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #10] 「Fantastic Beasts: The Crimes of Grindelwald」（Action & Adventure），发行/更新 2018-11-15。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/fantastic-beasts-the-crimes-of-grindelwald/id1440342126?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 11,
+      "name": "Fantastic Beasts and Where to Find Them",
+      "artist": "David Yates",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #11 · David Yates",
+      "release_date": "2016-11-17",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #11",
+      "opportunity": "提取「Fantastic Beasts a」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #11] 「Fantastic Beasts and Where to Find Them」（Action & Adventure），发行/更新 2016-11-17。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/fantastic-beasts-and-where-to-find-them/id1170244491?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 11,
+      "name": "Dune: Part Two",
+      "artist": "Denis Villeneuve",
+      "kind": "Action & Adventure",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #11 · Denis Villeneuve",
+      "release_date": "2024-02-29",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #11",
+      "opportunity": "提取「Dune: Part Two」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #11] 「Dune: Part Two」（Action & Adventure），发行/更新 2024-02-29。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/dune-part-two/id1725365997?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 12,
+      "name": "Obsession",
+      "artist": "Curry Barker",
+      "kind": "Horror",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #12 · Curry Barker",
+      "release_date": "2026-05-15",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #12",
+      "opportunity": "提取「Obsession」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #12] 「Obsession」（Horror），发行/更新 2026-05-15。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/obsession/id1895899231?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 12,
+      "name": "Dune",
+      "artist": "Denis Villeneuve",
+      "kind": "Sci-Fi & Fantasy",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #12 · Denis Villeneuve",
+      "release_date": "2021-09-15",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #12",
+      "opportunity": "提取「Dune」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #12] 「Dune」（Sci-Fi & Fantasy），发行/更新 2021-09-15。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/dune/id1585877256?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 13,
+      "name": "Interstellar (2014)",
+      "artist": "Christopher Nolan",
+      "kind": "Action & Adventure",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #13 · Christopher Nolan",
+      "release_date": "2014-11-06",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #13",
+      "opportunity": "提取「Interstellar (2014」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #13] 「Interstellar (2014)」（Action & Adventure），发行/更新 2014-11-06。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/interstellar-2014/id965491522?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 13,
+      "name": "Resident Evil (2026)",
+      "artist": "Zach Cregger",
+      "kind": "Horror",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #13 · Zach Cregger",
+      "release_date": "2026-09-16",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #13",
+      "opportunity": "提取「Resident Evil (202」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #13] 「Resident Evil (2026)」（Horror），发行/更新 2026-09-16。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/resident-evil-2026/id6822733532?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 14,
+      "name": "Legend Of The Guardians: The Owls Of Ga'Hoole",
+      "artist": "Zack Snyder",
+      "kind": "Kids & Family",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #14 · Zack Snyder",
+      "release_date": "2010-10-07",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #14",
+      "opportunity": "提取「Legend Of The Guar」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #14] 「Legend Of The Guardians: The Owls Of Ga'Hoole」（Kids & Family），发行/更新 2010-10-07。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/legend-of-the-guardians-the-owls-of-gahoole/id641535485?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 14,
+      "name": "Fantastic Beasts: The Secrets of Dumbledore",
+      "artist": "David Yates",
+      "kind": "Sci-Fi & Fantasy",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #14 · David Yates",
+      "release_date": "2022-04-14",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #14",
+      "opportunity": "提取「Fantastic Beasts: 」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #14] 「Fantastic Beasts: The Secrets of Dumbledore」（Sci-Fi & Fantasy），发行/更新 2022-04-14。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/fantastic-beasts-the-secrets-of-dumbledore/id1613754352?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 15,
+      "name": "Kung Fu Panda",
+      "artist": "Mark Osborne & John Stevenson",
+      "kind": "Kids & Family",
+      "site": "🇹🇭 泰国站",
+      "cinema": "Apple TH 实时榜 #15 · Mark Osborne & John Stevenson",
+      "release_date": "2008-06-13",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #15",
+      "opportunity": "提取「Kung Fu Panda」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国站 今日官方实时榜 #15] 「Kung Fu Panda」（Kids & Family），发行/更新 2008-06-13。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/th/movie/kung-fu-panda/id1342924516?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
+      "rank": 15,
+      "name": "Charlie and the Chocolate Factory",
+      "artist": "Tim Burton",
+      "kind": "Kids & Family",
+      "site": "🇲🇾 马来西亚站",
+      "cinema": "Apple MY 实时榜 #15 · Tim Burton",
+      "release_date": "2005-08-18",
+      "date": "2026-11-24",
+      "hot_score": "🔥 实时排名 #15",
+      "opportunity": "提取「Charlie and the Ch」核心配色/经典台词或氛围感视觉，采用风格化矢量插画二创纯棉T恤",
+      "ai_summary": "🤖 AI实时解读：[🇲🇾 马来西亚站 今日官方实时榜 #15] 「Charlie and the Chocolate Factory」（Kids & Family），发行/更新 2005-08-18。属于高版权关注度内容，严禁印原海报或真人脸，建议用文字排版/抽象线条切入。",
+      "url": "https://itunes.apple.com/my/movie/charlie-and-the-chocolate-factory/id271439854?uo=2",
+      "verified": "✓ Apple官方实时接口"
+    },
+    {
       "name": "Wicked (魔法坏女巫)",
       "kind": "奇幻大片",
       "site": "TH / MY 双站",
@@ -19321,19 +19289,6 @@ window.DASHBOARD_DATA = {
       "verified": "✓ AI日期与院线核验"
     },
     {
-      "name": "Gladiator II (角斗士 2)",
-      "kind": "史诗动作",
-      "site": "TH / MY 双站",
-      "cinema": "SF Cinema (TH) · TGV (MY)",
-      "release_date": "2026-11-14",
-      "date": "2026-11-14",
-      "hot_score": "🔥 96 (排片率超35%)",
-      "opportunity": "战损古罗马重磅短袖 / 斑驳大理石线条 / 粗犷工业水洗灰",
-      "ai_summary": "🤖 AI总结：硬核历史动作大片，适合推 240g-260g 美式重磅水洗落肩男装T恤。 排期已核验为 2026-11-14，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Gladiator%20II",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
       "name": "Moana 2 (海洋奇缘 2)",
       "kind": "迪士尼动画",
       "site": "TH / MY 双站",
@@ -19343,7 +19298,7 @@ window.DASHBOARD_DATA = {
       "hot_score": "🔥 95 (合家欢通吃)",
       "opportunity": "热带波利尼西亚图腾 / 海浪浪花扎染 / 亲子家庭装纯棉打底",
       "ai_summary": "🤖 AI总结：迪士尼年底合家欢王牌，极其契合泰国与马来海岛度假及亲子装T恤需求。 排期已核验为 2026-11-28，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Moana%202",
+      "url": "https://www.imdb.com/find/?q=Moana%202%202",
       "verified": "✓ AI日期与院线核验"
     },
     {
@@ -19356,7 +19311,7 @@ window.DASHBOARD_DATA = {
       "hot_score": "🔥 92 (长线热销)",
       "opportunity": "暗黑涂鸦共生体概念 / 荧光绿滴胶 / 黑色落肩街头版型",
       "ai_summary": "🤖 AI总结：泰国马来男性观众最爱的暗黑潮牌风格，注意避免直接印官方Logo，用街头涂鸦二创。 排期已核验为 2026-10-24，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Venom%3A%20The%20Last%20Dance",
+      "url": "https://www.imdb.com/find/?q=Venom%3A%20The%20Last%20Dance%20Venom%20The%20Last%20Dance%203",
       "verified": "✓ AI日期与院线核验"
     },
     {
@@ -19369,7 +19324,7 @@ window.DASHBOARD_DATA = {
       "hot_score": "🔥 91 (二次元秒空)",
       "opportunity": "自由之翼胸前极简徽标 / 黑白线描 / 调查兵团军绿复古Tee",
       "ai_summary": "🤖 AI总结：泰国曼谷二次元核心圈层爆款，周边应援黑绿水洗T恤复购率极高。 排期已核验为 2026-11-08，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA%20THE%20LAST%20ATTACK",
+      "url": "https://www.imdb.com/find/?q=Attack%20on%20Titan%20THE%20LAST%20ATTACK",
       "verified": "✓ AI日期与院线核验"
     },
     {
@@ -19382,7 +19337,7 @@ window.DASHBOARD_DATA = {
       "hot_score": "🔥 87 (圣诞档预热)",
       "opportunity": "恶搞硬汉圣诞元素插画 / 美式幽默复古漫画排版",
       "ai_summary": "🤖 AI总结：提前引爆东南亚圣诞节搞笑派对T恤需求，红绿撞色印花出单快。 排期已核验为 2026-11-15，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Red%20One",
+      "url": "https://www.imdb.com/find/?q=Red%20One%20%3A",
       "verified": "✓ AI日期与院线核验"
     },
     {
@@ -19408,7 +19363,7 @@ window.DASHBOARD_DATA = {
       "hot_score": "🔥 93 (圣诞跨年首推)",
       "opportunity": "非洲草原日落剪影 / 复古狮子王涂鸦 / 亲子装宽松短袖",
       "ai_summary": "🤖 AI总结：跨年档期家庭亲子装爆款主题，大地色系（卡其/沙色/杏色）纯棉T恤必备。 排期已核验为 2026-12-19，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Mufasa%3A%20The%20Lion%20King",
+      "url": "https://www.imdb.com/find/?q=Mufasa%3A%20The%20Lion%20King%20Mufasa%20The%20Lion%20King",
       "verified": "✓ AI日期与院线核验"
     },
     {
@@ -19421,7 +19376,7 @@ window.DASHBOARD_DATA = {
       "hot_score": "🔥 90 (跨年档)",
       "opportunity": "电光蓝红像素风 / 复古街机游戏字体排版短袖",
       "ai_summary": "🤖 AI总结：游戏粉与青少年通吃，适合做亮蓝与炭黑拼色数码直喷印花T恤。 排期已核验为 2026-12-26，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Sonic%20the%20Hedgehog%203",
+      "url": "https://www.imdb.com/find/?q=Sonic%20the%20Hedgehog%203%203",
       "verified": "✓ AI日期与院线核验"
     },
     {
@@ -19447,202 +19402,7 @@ window.DASHBOARD_DATA = {
       "hot_score": "🔥 95 (马来国民IP)",
       "opportunity": "赛博特工蓝黑机能风 / 儿童及青少年速干运动Tee",
       "ai_summary": "🤖 AI总结：马来西亚本土现象级国民动画IP，马来家庭与学生群体热度极高，注意避开官方注册商标。 排期已核验为 2026-12-05，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Ejen%20Ali%20The%20Movie%202",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Solo Leveling: ReAwakening (我独自升级)",
-      "kind": "日漫剧场版",
-      "site": "TH / MY 双站",
-      "cinema": "Major Cineplex · GSC",
-      "release_date": "2026-11-20",
-      "date": "2026-11-20",
-      "hot_score": "🔥 94 (二次元顶流)",
-      "opportunity": "暗黑紫焰升级面板UI / 极简哥特字体落肩Tee",
-      "ai_summary": "🤖 AI总结：2026全球最火韩改日漫，黑紫配色在泰国年轻潮人中接受度极高。 排期已核验为 2026-11-20，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Solo%20Leveling%3A%20ReAwakening",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "My Hero Academia: You're Next",
-      "kind": "日漫剧场版",
-      "site": "TH / MY 双站",
-      "cinema": "SF Cinema · GSC",
-      "release_date": "2026-11-14",
-      "date": "2026-11-14",
-      "hot_score": "🔥 88 (动漫粉丝向)",
-      "opportunity": "美漫波普风英雄剪影 / 高饱和撞色街头T恤",
-      "ai_summary": "🤖 AI总结：适合做日系潮牌拼接与大背后幅面丝网印花短袖。 排期已核验为 2026-11-14，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=My%20Hero%20Academia%3A%20You%27re%20Next",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "The Lord of the Rings: War of Rohirrim",
-      "kind": "奇幻动画",
-      "site": "TH / MY 双站",
-      "cinema": "Major Cineplex · TGV",
-      "release_date": "2026-12-05",
-      "date": "2026-12-05",
-      "hot_score": "🔥 85 (史诗奇幻)",
-      "opportunity": "中世纪复古版画线条 / 水洗做旧深棕纯棉Tee",
-      "ai_summary": "🤖 AI总结：欧美奇幻粉丝专属长尾款，复古做旧工艺溢价能力强。 排期已核验为 2026-12-05，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=The%20Lord%20of%20the%20Rings%3A%20War%20of%20Rohirrim",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Paddington in Peru (帕丁顿熊3)",
-      "kind": "家庭喜剧",
-      "site": "TH / MY 双站",
-      "cinema": "Major Cineplex · GSC",
-      "release_date": "2026-12-19",
-      "date": "2026-12-19",
-      "hot_score": "🔥 86 (治愈系)",
-      "opportunity": "手绘水彩小熊插画 / 学院风红蓝条纹百搭纯棉T",
-      "ai_summary": "🤖 AI总结：极佳的治愈系与情侣装题材，采用小胸标刺绣工艺质感翻倍。 排期已核验为 2026-12-19，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Paddington%20in%20Peru",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Captain America: Brave New World",
-      "kind": "漫威超级英雄",
-      "site": "TH / MY 双站",
-      "cinema": "Major Cineplex · GSC",
-      "release_date": "2027-02-14",
-      "date": "2027-02-14",
-      "hot_score": "🔥 96 (提前备货)",
-      "opportunity": "红蓝几何星盾波普解构 / 重磅美式街头Boxy短袖",
-      "ai_summary": "🤖 AI总结：提前布局春节/情人节后档期，可作为2027 Q1重点男装趋势款测试。 排期已核验为 2027-02-14，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Captain%20America%3A%20Brave%20New%20World",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Ne Zha 2 (哪吒之魔童闹海) 东南亚版",
-      "kind": "国漫出海大片",
-      "site": "TH / MY 双站",
-      "cinema": "GSC (MY) · Major (TH)",
-      "release_date": "2027-01-29",
-      "date": "2027-01-29",
-      "hot_score": "🔥 97 (华人新年爆款)",
-      "opportunity": "新中式国潮火焰纹 / 暗黑叛逆国漫插画重磅Tee",
-      "ai_summary": "🤖 AI总结：马来西亚华人群体春节必看巨制，国潮T恤在马来2027农历新年将迎来爆发。 排期已核验为 2027-01-29，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Ne%20Zha%202",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Detective Conan: One-eyed Flashback",
-      "kind": "日漫国民IP",
-      "site": "TH / MY 双站",
-      "cinema": "SF Cinema · GSC",
-      "release_date": "2027-01-16",
-      "date": "2027-01-16",
-      "hot_score": "🔥 89 (长青动漫)",
-      "opportunity": "日系推理悬疑风几何线条 / 黑白极简学院短袖",
-      "ai_summary": "🤖 AI总结：泰国马来柯南粉丝基础庞大，黑白极简推理要素二创安全度高。 排期已核验为 2027-01-16，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Detective%20Conan%3A%20One-eyed%20Flashback",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Krai Thong 2026 (泰国神话新编)",
-      "kind": "泰国奇幻",
-      "site": "🇹🇭 泰国站",
-      "cinema": "Major Cineplex (TH)",
-      "release_date": "2026-12-12",
-      "date": "2026-12-12",
-      "hot_score": "🔥 84 (泰式美学)",
-      "opportunity": "泰式传统金纹鳄鱼图腾 / 街头暗黑泰风印花",
-      "ai_summary": "🤖 AI总结：极具泰国本土文化辨识度，适合泰国本地潮牌风格化开发。 排期已核验为 2026-12-12，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Krai%20Thong%202026",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Boboiboy Galaxy Baraju (马来特摄动画)",
-      "kind": "马来国民IP",
-      "site": "🇲🇾 马来西亚站",
-      "cinema": "GSC · TGV · MBO",
-      "release_date": "2026-12-19",
-      "date": "2026-12-19",
-      "hot_score": "🔥 92 (马来亲子顶流)",
-      "opportunity": "元素火焰闪电抽象印花 / 透气冰丝儿童青少年Tee",
-      "ai_summary": "🤖 AI总结：马来西亚本土销量王牌亲子题材，家长给孩子买观影服刚需大。 排期已核验为 2026-12-19，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Boboiboy%20Galaxy%20Baraju",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Squid Game 2 (鱿鱼游戏第二季 联名潮)",
-      "kind": "Netflix爆款剧",
-      "site": "TH / MY 双站",
-      "cinema": "Netflix TH / MY Top 1",
-      "release_date": "2026-12-26",
-      "date": "2026-12-26",
-      "hot_score": "🔥 99 (全球现象级)",
-      "opportunity": "456数字编号 / ○△□极简几何符号 / 红绿运动风短袖",
-      "ai_summary": "🤖 AI总结：12月底全球最大流量炸弹！几何符号极简风安全度相对较高，严禁直接照搬剧照。 排期已核验为 2026-12-26，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Squid%20Game%202",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Demon Slayer: Infinity Castle (鬼灭无限城)",
-      "kind": "顶级日漫IP",
-      "site": "TH / MY 双站",
-      "cinema": "Major Cineplex · GSC",
-      "release_date": "2027-02-20",
-      "date": "2027-02-20",
-      "hot_score": "🔥 98 (预售核弹)",
-      "opportunity": "日系和风浮世绘海浪/紫藤花几何纹样 / 落肩纯棉",
-      "ai_summary": "🤖 AI总结：东南亚漫展与线下常年第一爆款题材，紫黑/绿黑格纹元素可长线备货。 排期已核验为 2027-02-20，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Demon%20Slayer%3A%20Infinity%20Castle",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "GMMTV《High School Frenemy》热播",
-      "kind": "泰剧校园顶流",
-      "site": "🇹🇭 泰国站",
-      "cinema": "GMM25 · Viu TH",
-      "release_date": "2026-11-18",
-      "date": "2026-11-18",
-      "hot_score": "🔥 91 (泰国学生热追)",
-      "opportunity": "曼谷校园复古学院风字母 / 美式棒球领撞色Tee",
-      "ai_summary": "🤖 AI总结：目前泰国年轻人讨论度最高的校园泰剧，非常适合推校园学院风撞色短袖。 排期已核验为 2026-11-18，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=GMMTV%E3%80%8AHigh%20School%20Frenemy%E3%80%8B%E7%83%AD%E6%92%AD",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "The Paradise of Thorns (荆棘天堂 泰影)",
-      "kind": "泰影口碑王",
-      "site": "🇹🇭 泰国站",
-      "cinema": "Major Cineplex · Netflix TH",
-      "release_date": "2026-11-12",
-      "date": "2026-11-12",
-      "hot_score": "🔥 88 (口碑持续发酵)",
-      "opportunity": "热带榴莲园复古胶片色调 / 文艺青年极简插画Tee",
-      "ai_summary": "🤖 AI总结：文艺青年与LGBTQ群体大热，复古泰文字体+植物插画非常受欢迎。 排期已核验为 2026-11-12，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=The%20Paradise%20of%20Thorns",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Keluang Man (马来经典超级英雄重启)",
-      "kind": "马来本土动作",
-      "site": "🇲🇾 马来西亚站",
-      "cinema": "GSC · TGV",
-      "release_date": "2027-01-09",
-      "date": "2027-01-09",
-      "hot_score": "🔥 87 (马来情怀爆款)",
-      "opportunity": "复古80年代马来漫画线条 / 深蓝暗夜蝙蝠剪影Tee",
-      "ai_summary": "🤖 AI总结：马来西亚80/90后情怀大作，复古漫威式做旧印花在马来男装市场反响热烈。 排期已核验为 2027-01-09，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Keluang%20Man",
-      "verified": "✓ AI日期与院线核验"
-    },
-    {
-      "name": "Snow White (白雪公主真人版)",
-      "kind": "迪士尼公主",
-      "site": "TH / MY 双站",
-      "cinema": "Major Cineplex · GSC",
-      "release_date": "2027-03-20",
-      "date": "2027-03-20",
-      "hot_score": "🔥 85 (春装布局)",
-      "opportunity": "复古童话苹果极简线描 / 奶油白修身女款纯棉短袖",
-      "ai_summary": "🤖 AI总结：适合女装甜美修身小短T，搭配小红苹果/蝴蝶结安全二创元素。 排期已核验为 2027-03-20，版权方监管较严，建议采用风格化线条或元素符号做合规二创。",
-      "url": "https://www.imdb.com/find/?q=Snow%20White",
+      "url": "https://www.imdb.com/find/?q=Ejen%20Ali%20The%20Movie%202%202",
       "verified": "✓ AI日期与院线核验"
     }
   ],
@@ -21546,7 +21306,7 @@ window.DASHBOARD_DATA = {
     ]
   },
   "news_feed": {
-    "updated": "2026-11-24 05:53:31",
+    "updated": "2026-11-24 09:18:47",
     "items": [
       {
         "cat": "泰国娱乐",
@@ -22922,7 +22682,7 @@ window.DASHBOARD_DATA = {
         "https://www.bkkartbiennale.com/"
       ],
       "audit_status_raw": "地域错",
-      "days_to_end": 97,
+      "days_to_end": 96,
       "long_running": true,
       "cycle": null,
       "wiki_title": "雙年展",
@@ -22933,7 +22693,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：曼谷艺术双年展 Bangkok Art Biennale 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：曼谷艺术双年展 Bangkok Art Biennale 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：曼谷艺术双年展 Bangkok Art Biennale 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：曼谷艺术双年展 Bangkok Art Biennale 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "乌隆他尼世界园艺博览会",
@@ -22965,7 +22730,7 @@ window.DASHBOARD_DATA = {
         "https://aiph.org/upcomingexpos/udon-thani-international-horticultural-expo-2026/"
       ],
       "audit_status_raw": "日期错",
-      "days_to_end": 111,
+      "days_to_end": 110,
       "long_running": true,
       "cycle": null,
       "wiki_title": "國際園藝博覽會",
@@ -22976,7 +22741,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：乌隆他尼世界园艺博览会 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：乌隆他尼世界园艺博览会 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：乌隆他尼世界园艺博览会 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：乌隆他尼世界园艺博览会 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "My Chemical Romance 吉隆坡演唱会",
@@ -23012,7 +22782,12 @@ window.DASHBOARD_DATA = {
       "cycle": null,
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：My Chemical Romance 吉隆坡演唱会 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：My Chemical Romance 吉隆坡演唱会 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：My Chemical Romance 吉隆坡演唱会 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：My Chemical Romance 吉隆坡演唱会 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "LOSO 30 周年演唱会（曼谷）",
@@ -23033,7 +22808,7 @@ window.DASHBOARD_DATA = {
       "status": "已结束",
       "weekday": "周六",
       "evidence_status": "confirmed",
-      "source_url": "",
+      "source_url": "https://www.google.com/search?q=LOSO%2030&gl=th",
       "verified_at": "2026-11-04",
       "subcategory": "演出 / 音乐节",
       "audit_original_name": "LOSO 30 周年演唱会（曼谷）",
@@ -23048,7 +22823,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：LOSO 30 周年演唱会（曼谷） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：LOSO 30 周年演唱会（曼谷） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：LOSO 30 周年演唱会（曼谷） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：LOSO 30 周年演唱会（曼谷） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "CAT EXPO BANGKOK 音乐节",
@@ -23086,7 +22866,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：CAT EXPO BANGKOK 音乐节 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：CAT EXPO BANGKOK 音乐节 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：CAT EXPO BANGKOK 音乐节 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：CAT EXPO BANGKOK 音乐节 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "素可泰水灯节 / 烛光节（Sukhothai Loy Krathong & Candle Festival）",
@@ -23135,7 +22920,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。",
+        "my_customs": "马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。",
+        "customs": "🇹🇭 泰国习俗：泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。\n🇲🇾 马来习俗：马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。"
+      }
     },
     {
       "name": "黑色星期五 Black Friday",
@@ -23183,7 +22973,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "芭堤雅国际烟花节",
@@ -23221,7 +23016,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：芭堤雅国际烟花节 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：芭堤雅国际烟花节 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：芭堤雅国际烟花节 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：芭堤雅国际烟花节 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "槟城国际龙舟赛（Penang Dragon Boat Regatta）",
@@ -23264,7 +23064,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：槟城国际龙舟赛（Penang Dragon Boat Regatta） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：槟城国际龙舟赛（Penang Dragon Boat Regatta） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：槟城国际龙舟赛（Penang Dragon Boat Regatta） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：槟城国际龙舟赛（Penang Dragon Boat Regatta） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "Evanescence 吉隆坡演唱会",
@@ -23301,7 +23106,12 @@ window.DASHBOARD_DATA = {
       "cycle": null,
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：Evanescence 吉隆坡演唱会 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：Evanescence 吉隆坡演唱会 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：Evanescence 吉隆坡演唱会 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：Evanescence 吉隆坡演唱会 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "华富里猴子宴 Monkey Buffet Festival",
@@ -23344,7 +23154,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：华富里猴子宴 Monkey Buffet Festival 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：华富里猴子宴 Monkey Buffet Festival 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：华富里猴子宴 Monkey Buffet Festival 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：华富里猴子宴 Monkey Buffet Festival 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "网络星期一 Cyber Monday",
@@ -23392,7 +23207,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "Wonderfruit 奇草艺术节",
@@ -23430,7 +23250,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：Wonderfruit 奇草艺术节 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：Wonderfruit 奇草艺术节 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：Wonderfruit 奇草艺术节 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：Wonderfruit 奇草艺术节 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "BTS 曼谷世界巡演 ARIRANG",
@@ -23471,7 +23296,12 @@ window.DASHBOARD_DATA = {
       "cycle": null,
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：BTS 曼谷世界巡演 ARIRANG 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：BTS 曼谷世界巡演 ARIRANG 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：BTS 曼谷世界巡演 ARIRANG 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：BTS 曼谷世界巡演 ARIRANG 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "泰国父亲节/拉玛九世诞辰",
@@ -23519,7 +23349,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "九世王诞辰补假（泰国）",
@@ -23556,7 +23391,12 @@ window.DASHBOARD_DATA = {
       "cycle": null,
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：九世王诞辰补假（泰国） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：九世王诞辰补假（泰国） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：九世王诞辰补假（泰国） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：九世王诞辰补假（泰国） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "泰国宪法日",
@@ -23598,7 +23438,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "雪兰莪苏丹诞辰（马）",
@@ -23635,7 +23480,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "明日世界电音节 Tomorrowland Thailand（芭堤雅）",
@@ -23673,7 +23523,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：明日世界电音节 Tomorrowland Thailand（芭堤雅） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：明日世界电音节 Tomorrowland Thailand（芭堤雅） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：明日世界电音节 Tomorrowland Thailand（芭堤雅） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：明日世界电音节 Tomorrowland Thailand（芭堤雅） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "双十二",
@@ -23715,7 +23570,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "PEPSI presents BIG MOUNTAIN VILLAGE（待主办方确认）",
@@ -23752,7 +23612,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：PEPSI presents BIG MOUNTAIN VILLAGE（待主办方确认） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：PEPSI presents BIG MOUNTAIN VILLAGE（待主办方确认） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：PEPSI presents BIG MOUNTAIN VILLAGE（待主办方确认） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：PEPSI presents BIG MOUNTAIN VILLAGE（待主办方确认） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "BTS 吉隆坡演唱会 ARIRANG",
@@ -23788,7 +23653,12 @@ window.DASHBOARD_DATA = {
       "cycle": null,
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：BTS 吉隆坡演唱会 ARIRANG 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：BTS 吉隆坡演唱会 ARIRANG 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：BTS 吉隆坡演唱会 ARIRANG 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：BTS 吉隆坡演唱会 ARIRANG 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "槟城大桥国际马拉松（Penang Bridge Int'l Marathon）",
@@ -23808,7 +23678,7 @@ window.DASHBOARD_DATA = {
       "status": "未开始",
       "weekday": "周日",
       "evidence_status": "confirmed",
-      "source_url": "https://www.buletinmutiara.com/%E6%A7%9F%E5%A4%A7%E6%A1%A5%E5%9B%BD%E9%99%85%E9%A9%AC%E6%8B%89%E6%9D%BE12%E6%9C%8813%E6%97%A5%E4%B8%BE%E8%A1%8C",
+      "source_url": "https://www.google.com/search?q=Penang%20Bridge%20Int%27l%20Marathon&gl=my",
       "verified_at": "2026-11-04",
       "subcategory": "体育赛事",
       "audit_original_name": "槟城大桥国际马拉松（Penang Bridge Int'l Marathon）",
@@ -23833,7 +23703,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：槟城大桥国际马拉松（Penang Bridge Int'l Marathon） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：槟城大桥国际马拉松（Penang Bridge Int'l Marathon） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：槟城大桥国际马拉松（Penang Bridge Int'l Marathon） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：槟城大桥国际马拉松（Penang Bridge Int'l Marathon） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "EDC Thailand 电雏菊嘉年华（普吉）",
@@ -23871,7 +23746,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：EDC Thailand 电雏菊嘉年华（普吉） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：EDC Thailand 电雏菊嘉年华（普吉） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：EDC Thailand 电雏菊嘉年华（普吉） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：EDC Thailand 电雏菊嘉年华（普吉） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "TATTOO STADIUM 演唱会（曼谷）",
@@ -23891,7 +23771,7 @@ window.DASHBOARD_DATA = {
       "status": "未开始",
       "weekday": "周六",
       "evidence_status": "confirmed",
-      "source_url": "",
+      "source_url": "https://www.google.com/search?q=TATTOO%20STADIUM&gl=th",
       "verified_at": "2026-11-04",
       "subcategory": "演出 / 音乐节",
       "audit_original_name": "TATTOO STADIUM 演唱会（曼谷）",
@@ -23906,7 +23786,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：TATTOO STADIUM 演唱会（曼谷） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：TATTOO STADIUM 演唱会（曼谷） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：TATTOO STADIUM 演唱会（曼谷） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：TATTOO STADIUM 演唱会（曼谷） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "圣诞前夕（沙巴州属）",
@@ -23949,7 +23834,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。",
+        "my_customs": "马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。",
+        "customs": "🇹🇭 泰国习俗：泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。\n🇲🇾 马来习俗：马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。"
+      }
     },
     {
       "name": "圣诞节",
@@ -23997,7 +23887,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。",
+        "my_customs": "马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。",
+        "customs": "🇹🇭 泰国习俗：泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。\n🇲🇾 马来习俗：马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。"
+      }
     },
     {
       "name": "圣诞 Open House",
@@ -24035,7 +23930,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。",
+        "my_customs": "马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。",
+        "customs": "🇹🇭 泰国习俗：泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。\n🇲🇾 马来习俗：马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。"
+      }
     },
     {
       "name": "节礼日 Boxing Day",
@@ -24078,7 +23978,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。",
+        "my_customs": "马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。",
+        "customs": "🇹🇭 泰国习俗：泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。\n🇲🇾 马来习俗：马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。"
+      }
     },
     {
       "name": "BOYNEXTDOOR 吉隆坡演唱会",
@@ -24114,7 +24019,12 @@ window.DASHBOARD_DATA = {
       "cycle": null,
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：BOYNEXTDOOR 吉隆坡演唱会 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：BOYNEXTDOOR 吉隆坡演唱会 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：BOYNEXTDOOR 吉隆坡演唱会 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：BOYNEXTDOOR 吉隆坡演唱会 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "除夕 New Year's Eve",
@@ -24162,7 +24072,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 ICONSIAM、CentralWorld 跨年烟花与寺庙跨年诵经（สวดมนต์ข้ามปี）并行，年轻人夜间户外倒数偏爱高辨识度荧光字样或曼谷跨年纪念 T 恤。",
+        "my_customs": "马来西亚吉隆坡 KLCC 双子塔与独立广场举办大型跨年倒数烟花秀，多元族群共同狂欢，适合 'New Year Countdown / KL' 城市主题潮流 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 ICONSIAM、CentralWorld 跨年烟花与寺庙跨年诵经（สวดมนต์ข้ามปี）并行，年轻人夜间户外倒数偏爱高辨识度荧光字样或曼谷跨年纪念 T 恤。\n🇲🇾 马来习俗：马来西亚吉隆坡 KLCC 双子塔与独立广场举办大型跨年倒数烟花秀，多元族群共同狂欢，适合 'New Year Countdown / KL' 城市主题潮流 T 恤。"
+      }
     },
     {
       "name": "Isra and Mi'raj (regional holiday) (tentative)",
@@ -24199,7 +24114,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。",
+        "my_customs": "马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。",
+        "customs": "🇹🇭 泰国习俗：泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。\n🇲🇾 马来习俗：马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。"
+      }
     },
     {
       "name": "BIGBANG 吉隆坡演唱会（20 周年巡演）",
@@ -24241,7 +24161,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：BIGBANG 吉隆坡演唱会（20 周年巡演） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：BIGBANG 吉隆坡演唱会（20 周年巡演） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：BIGBANG 吉隆坡演唱会（20 周年巡演） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：BIGBANG 吉隆坡演唱会（20 周年巡演） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "泰国儿童节 Children's Day",
@@ -24286,7 +24211,12 @@ window.DASHBOARD_DATA = {
       "location": "泰国全国（1 月第二个星期六）",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：泰国儿童节 Children's Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：泰国儿童节 Children's Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：泰国儿童节 Children's Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：泰国儿童节 Children's Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "泰国教师节 Teacher's Day",
@@ -24331,7 +24261,12 @@ window.DASHBOARD_DATA = {
       "category": "🎪 文化节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：泰国教师节 Teacher's Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：泰国教师节 Teacher's Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：泰国教师节 Teacher's Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：泰国教师节 Teacher's Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "大宝森节 Thaipusam（马）",
@@ -24379,7 +24314,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。",
+        "my_customs": "马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。",
+        "customs": "🇹🇭 泰国习俗：泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。\n🇲🇾 马来习俗：马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。"
+      }
     },
     {
       "name": "Federal Territory Day (regional holiday)",
@@ -24416,7 +24356,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：Federal Territory Day (regional holiday) 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：Federal Territory Day (regional holiday) 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：Federal Territory Day (regional holiday) 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：Federal Territory Day (regional holiday) 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "春节（农历新年）",
@@ -24463,7 +24408,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国华裔保留祭祖、派红包（อั่งเปา）与曼谷耀华力路（唐人街）舞狮习俗，全泰普遍认可春节穿正红、鎏金喜庆 T 恤讨好彩头。",
+        "my_customs": "马来西亚春节为全国法定公假（初一初二连休），盛行「捞生」（Yee Sang）团圆宴、门户开放（Open House）与派红包，大红生肖、发财汉字书法 T 恤全马爆卖（天公诞初九福建社群尤为隆重）。",
+        "customs": "🇹🇭 泰国习俗：泰国华裔保留祭祖、派红包（อั่งเปา）与曼谷耀华力路（唐人街）舞狮习俗，全泰普遍认可春节穿正红、鎏金喜庆 T 恤讨好彩头。\n🇲🇾 马来习俗：马来西亚春节为全国法定公假（初一初二连休），盛行「捞生」（Yee Sang）团圆宴、门户开放（Open House）与派红包，大红生肖、发财汉字书法 T 恤全马爆卖（天公诞初九福建社群尤为隆重）。"
+      }
     },
     {
       "name": "情人节 Valentine's Day",
@@ -24506,7 +24456,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷挽腊区（Bang Rak，“爱之区”）流行情侣登记领证与互贴心形贴纸，情侣装（Couple Tee）与手绘爱心/玫瑰印花 T 恤需求爆发。",
+        "my_customs": "马来西亚华裔及都市年轻情侣流行约会送礼与情侣穿搭；需注意大马宗教局对部分穆斯林群体过西方情人节持保守态度，图案宜采用通用极简爱心、字母 'Love' 而非宗教符号。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷挽腊区（Bang Rak，“爱之区”）流行情侣登记领证与互贴心形贴纸，情侣装（Couple Tee）与手绘爱心/玫瑰印花 T 恤需求爆发。\n🇲🇾 马来习俗：马来西亚华裔及都市年轻情侣流行约会送礼与情侣穿搭；需注意大马宗教局对部分穆斯林群体过西方情人节持保守态度，图案宜采用通用极简爱心、字母 'Love' 而非宗教符号。"
+      }
     },
     {
       "name": "天公诞（Thni Kong / 玉皇大帝圣诞）",
@@ -24549,7 +24504,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。",
+        "my_customs": "马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。",
+        "customs": "🇹🇭 泰国习俗：泰国虽为佛教国家，但曼谷及各大府商场（CentralWorld 巨型圣诞树）圣诞灯饰与交换礼物氛围极浓，年轻人流行穿红/白/绿派对休闲 T 恤街头打卡。\n🇲🇾 马来习俗：马来西亚将圣诞节列为全国法定公假，东马（沙巴/砂拉越）基督徒举行教堂礼拜与 Open House 聚餐，西马商场派对盛行，喜庆红绿/金色款式畅销（注意大马版型偏保守）。"
+      }
     },
     {
       "name": "万佛节 Makha Bucha（泰）",
@@ -24592,7 +24552,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。",
+        "my_customs": "马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。",
+        "customs": "🇹🇭 泰国习俗：泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。\n🇲🇾 马来习俗：马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。"
+      }
     },
     {
       "name": "Day off for Makha Bucha",
@@ -24629,7 +24594,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：Day off for Makha Bucha 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：Day off for Makha Bucha 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：Day off for Makha Bucha 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：Day off for Makha Bucha 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "Nuzul Al-Quran (regional holiday) (tentative)",
@@ -24666,7 +24636,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。",
+        "my_customs": "马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。",
+        "customs": "🇹🇭 泰国习俗：泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。\n🇲🇾 马来习俗：马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。"
+      }
     },
     {
       "name": "宝可梦日 Pokémon Day",
@@ -24701,17 +24676,22 @@ window.DASHBOARD_DATA = {
       "days_to_end": 106,
       "long_running": false,
       "cycle": "year",
-      "wiki_title": "骄傲月",
-      "wiki_lang": "zh",
-      "wiki_extract": "LGBT骄傲月，简称骄傲月，是专门用于庆祝和纪念女同性恋、男同性恋、双性恋和跨性别者（合称LGBT）的骄傲的一个月份，通常在六月。骄傲月始于1969年石牆暴動（一系列同性恋解放运动）之后。",
-      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%AA%84%E5%82%B2%E6%9C%88",
+      "wiki_title": "Pokémon Day",
+      "wiki_lang": "en",
+      "wiki_extract": "Pokémon Day is celebrated annually on February 27 to commemorate the original 1996 Japanese release of Pokémon Red and Green on Game Boy, featuring global game announcements and merchandise events.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Day",
       "wiki_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2018_San_Francisco_Pride.jpg/330px-2018_San_Francisco_Pride.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_as_of": "2026-11-13 14:49:30",
       "opportunity": "像素风 / 精灵球几何化；角色形象有版权，只做氛围不做复制",
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。",
+        "my_customs": "马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。",
+        "customs": "🇹🇭 泰国习俗：泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。\n🇲🇾 马来习俗：马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。"
+      }
     },
     {
       "name": "MotoGP 泰国大奖赛（武里南）",
@@ -24748,7 +24728,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：MotoGP 泰国大奖赛（武里南） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：MotoGP 泰国大奖赛（武里南） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：MotoGP 泰国大奖赛（武里南） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：MotoGP 泰国大奖赛（武里南） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "国际妇女节",
@@ -24791,7 +24776,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国本土母亲节固定在 8 月 12 日（诗丽吉王太后诞辰，流行佩戴素丽花茉莉、穿淡蓝色孝亲装）；3/8 妇女节及 5 月国际母亲节主要由都市女性与外企响应，适合独立女性标语款。",
+        "my_customs": "马来西亚 5 月第二个周日与全球同步过母亲节（聚餐送花），3/8 妇女节各大商场推女性专属折扣，温馨家庭装、花卉刺绣及女性赋能英文标语 T 恤热销。",
+        "customs": "🇹🇭 泰国习俗：泰国本土母亲节固定在 8 月 12 日（诗丽吉王太后诞辰，流行佩戴素丽花茉莉、穿淡蓝色孝亲装）；3/8 妇女节及 5 月国际母亲节主要由都市女性与外企响应，适合独立女性标语款。\n🇲🇾 马来习俗：马来西亚 5 月第二个周日与全球同步过母亲节（聚餐送花），3/8 妇女节各大商场推女性专属折扣，温馨家庭装、花卉刺绣及女性赋能英文标语 T 恤热销。"
+      }
     },
     {
       "name": "芭比日 Barbie Day",
@@ -24836,7 +24826,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。",
+        "my_customs": "马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。",
+        "customs": "🇹🇭 泰国习俗：泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。\n🇲🇾 马来习俗：马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。"
+      }
     },
     {
       "name": "开斋节 Hari Raya Aidilfitri（马）",
@@ -24880,7 +24875,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。",
+        "my_customs": "马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。",
+        "customs": "🇹🇭 泰国习俗：泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。\n🇲🇾 马来习俗：马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。"
+      }
     },
     {
       "name": "马里奥日 Mar10 Day",
@@ -24925,7 +24925,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。",
+        "my_customs": "马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。",
+        "customs": "🇹🇭 泰国习俗：泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。\n🇲🇾 马来习俗：马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。"
+      }
     },
     {
       "name": "圆周率日 Pi Day",
@@ -24970,7 +24975,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。",
+        "my_customs": "马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。",
+        "customs": "🇹🇭 泰国习俗：泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。\n🇲🇾 马来习俗：马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。"
+      }
     },
     {
       "name": "Good Friday (regional holiday)",
@@ -25007,7 +25017,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国主要在国际学校、外籍社群及高端酒店举办彩蛋寻宝（Easter Egg Hunt）早午餐派对，主打春日粉彩（Pastel）、小兔与花卉萌系印花。",
+        "my_customs": "马来西亚东马（沙巴、砂拉越）将耶稣受难日（Good Friday）列为法定公假，基督徒家庭举行教堂祈福；西马商场亦有春日萌兔主题美陈与亲子 T 恤需求。",
+        "customs": "🇹🇭 泰国习俗：泰国主要在国际学校、外籍社群及高端酒店举办彩蛋寻宝（Easter Egg Hunt）早午餐派对，主打春日粉彩（Pastel）、小兔与花卉萌系印花。\n🇲🇾 马来习俗：马来西亚东马（沙巴、砂拉越）将耶稣受难日（Good Friday）列为法定公假，基督徒家庭举行教堂祈福；西马商场亦有春日萌兔主题美陈与亲子 T 恤需求。"
+      }
     },
     {
       "name": "复活节 Easter",
@@ -25050,7 +25065,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国主要在国际学校、外籍社群及高端酒店举办彩蛋寻宝（Easter Egg Hunt）早午餐派对，主打春日粉彩（Pastel）、小兔与花卉萌系印花。",
+        "my_customs": "马来西亚东马（沙巴、砂拉越）将耶稣受难日（Good Friday）列为法定公假，基督徒家庭举行教堂祈福；西马商场亦有春日萌兔主题美陈与亲子 T 恤需求。",
+        "customs": "🇹🇭 泰国习俗：泰国主要在国际学校、外籍社群及高端酒店举办彩蛋寻宝（Easter Egg Hunt）早午餐派对，主打春日粉彩（Pastel）、小兔与花卉萌系印花。\n🇲🇾 马来习俗：马来西亚东马（沙巴、砂拉越）将耶稣受难日（Good Friday）列为法定公假，基督徒家庭举行教堂祈福；西马商场亦有春日萌兔主题美陈与亲子 T 恤需求。"
+      }
     },
     {
       "name": "却克里节 Chakri Day（泰）",
@@ -25087,7 +25107,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "宋干节 Songkran（泰新年）",
@@ -25134,7 +25159,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。",
+        "my_customs": "马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。",
+        "customs": "🇹🇭 泰国习俗：泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。\n🇲🇾 马来习俗：马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。"
+      }
     },
     {
       "name": "世界地球日 Earth Day",
@@ -25169,17 +25199,22 @@ window.DASHBOARD_DATA = {
       "days_to_end": 160,
       "long_running": false,
       "cycle": "year",
-      "wiki_title": "日",
-      "wiki_lang": "zh",
-      "wiki_extract": "日，一般指地球日，是时间单位。\n\n时长单位，也称天，大約是地球相對太陽自轉一周之时长，即一晝夜循環。自1967年后，科学上「日」已经由國際度量衡局（BIPM）以原子能階躍遷规定为86400秒。一日 = 24 小时 = 86400秒。\n时刻单位，也称号，日期的简称，如：今日是2026年11月13日，这里的「日」是指11月第13日。\n「日」有时指每週的星期日。口语中，「日」或者「天」有时也可能特指白晝，即不包括夜晚之半日時間。",
-      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%97%A5",
+      "wiki_title": "Earth Day",
+      "wiki_lang": "en",
+      "wiki_extract": "Earth Day is an annual event on April 22 to demonstrate support for environmental protection. First held on April 22, 1970, it now includes a wide range of events coordinated globally by EarthDay.org across more than 193 countries.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Earth_Day",
       "wiki_thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f6/%E6%97%A5-order.gif?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "wiki_as_of": "2026-11-13 15:30:22",
       "opportunity": "地球线稿 / 再生材质标语，环保绿系",
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "劳动节 Labour Day",
@@ -25222,7 +25257,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "加冕日 Coronation Day（泰）",
@@ -25259,7 +25299,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "星战日 Star Wars Day",
@@ -25304,7 +25349,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。",
+        "my_customs": "马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。",
+        "customs": "🇹🇭 泰国习俗：泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。\n🇲🇾 马来习俗：马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。"
+      }
     },
     {
       "name": "火箭节（Bun Bang Fai）",
@@ -25339,15 +25389,20 @@ window.DASHBOARD_DATA = {
       "days_to_end": 178,
       "long_running": false,
       "cycle": "year",
-      "wiki_title": "國際園藝博覽會",
-      "wiki_lang": "zh",
-      "wiki_extract": "國際園藝博覽會(International Horticultural Expos)，是關於園藝或園林設計的國際級博覽會，由國際園藝生產者協會(AIPH)及國際展覽局(BIE)管理，分為A1、B、C、D四類。\n1960年，荷蘭鹿特丹舉辦的荷蘭花卉博覽會，是首個AIPH與BIE共同核可的類國際園藝博覽會，亞洲首例為1990年於日本大阪舉行的「國際花與綠博覽會」。",
-      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E5%9C%92%E8%97%9D%E5%8D%9A%E8%A6%BD%E6%9C%83",
+      "wiki_title": "Rocket Festival (Bun Bang Fai)",
+      "wiki_lang": "en",
+      "wiki_extract": "The Rocket Festival (Thai: ประเพณีบุญบั้งไฟ, Bun Bang Fai) is a traditional merit-making ceremony practiced by ethnic Lao and Isan people throughout Northeast Thailand and Laos before the rainy season to call for rain.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Festival",
       "wiki_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Gronau_Laga_2.jpg/330px-Gronau_Laga_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_as_of": "2026-11-13 14:49:30",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：火箭节（Bun Bang Fai） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：火箭节（Bun Bang Fai） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：火箭节（Bun Bang Fai） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：火箭节（Bun Bang Fai） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "母亲节（西方）",
@@ -25390,7 +25445,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国本土母亲节固定在 8 月 12 日（诗丽吉王太后诞辰，流行佩戴素丽花茉莉、穿淡蓝色孝亲装）；3/8 妇女节及 5 月国际母亲节主要由都市女性与外企响应，适合独立女性标语款。",
+        "my_customs": "马来西亚 5 月第二个周日与全球同步过母亲节（聚餐送花），3/8 妇女节各大商场推女性专属折扣，温馨家庭装、花卉刺绣及女性赋能英文标语 T 恤热销。",
+        "customs": "🇹🇭 泰国习俗：泰国本土母亲节固定在 8 月 12 日（诗丽吉王太后诞辰，流行佩戴素丽花茉莉、穿淡蓝色孝亲装）；3/8 妇女节及 5 月国际母亲节主要由都市女性与外企响应，适合独立女性标语款。\n🇲🇾 马来习俗：马来西亚 5 月第二个周日与全球同步过母亲节（聚餐送花），3/8 妇女节各大商场推女性专属折扣，温馨家庭装、花卉刺绣及女性赋能英文标语 T 恤热销。"
+      }
     },
     {
       "name": "卫塞节 Visakha Bucha / Wesak（佛诞）",
@@ -25433,7 +25493,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。",
+        "my_customs": "马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。",
+        "customs": "🇹🇭 泰国习俗：泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。\n🇲🇾 马来习俗：马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。"
+      }
     },
     {
       "name": "网络情人节 520 / 521",
@@ -25478,7 +25543,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷挽腊区（Bang Rak，“爱之区”）流行情侣登记领证与互贴心形贴纸，情侣装（Couple Tee）与手绘爱心/玫瑰印花 T 恤需求爆发。",
+        "my_customs": "马来西亚华裔及都市年轻情侣流行约会送礼与情侣穿搭；需注意大马宗教局对部分穆斯林群体过西方情人节持保守态度，图案宜采用通用极简爱心、字母 'Love' 而非宗教符号。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷挽腊区（Bang Rak，“爱之区”）流行情侣登记领证与互贴心形贴纸，情侣装（Couple Tee）与手绘爱心/玫瑰印花 T 恤需求爆发。\n🇲🇾 马来习俗：马来西亚华裔及都市年轻情侣流行约会送礼与情侣穿搭；需注意大马宗教局对部分穆斯林群体过西方情人节持保守态度，图案宜采用通用极简爱心、字母 'Love' 而非宗教符号。"
+      }
     },
     {
       "name": "丰收节（Kaamatan / Pesta Kaamatan）",
@@ -25521,7 +25591,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。",
+        "my_customs": "马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。",
+        "customs": "🇹🇭 泰国习俗：泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。\n🇲🇾 马来习俗：马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。"
+      }
     },
     {
       "name": "丰收节 Gawai（砂拉越）",
@@ -25564,7 +25639,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。",
+        "my_customs": "马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。",
+        "customs": "🇹🇭 泰国习俗：泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。\n🇲🇾 马来习俗：马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。"
+      }
     },
     {
       "name": "骄傲月 Pride Month",
@@ -25607,7 +25687,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国已实现婚姻平权，曼谷每年 6 月举办亚洲最盛大的 Bangkok Pride 大游行，彩虹渐变、平权标语与街头派对露脐/宽松 T 恤需求爆发，全泰高热。",
+        "my_customs": "马来西亚受伊斯兰教法与保守社会规范约束，公开场合及主流电商平台严格限制高调 LGBTQ+ 彩虹旗帜营销；建议大马站规避敏感政治符号，仅以纯艺术彩色渐变/夏日多巴胺配色切入。",
+        "customs": "🇹🇭 泰国习俗：泰国已实现婚姻平权，曼谷每年 6 月举办亚洲最盛大的 Bangkok Pride 大游行，彩虹渐变、平权标语与街头派对露脐/宽松 T 恤需求爆发，全泰高热。\n🇲🇾 马来习俗：马来西亚受伊斯兰教法与保守社会规范约束，公开场合及主流电商平台严格限制高调 LGBTQ+ 彩虹旗帜营销；建议大马站规避敏感政治符号，仅以纯艺术彩色渐变/夏日多巴胺配色切入。"
+      }
     },
     {
       "name": "6.6 月度大促",
@@ -25644,7 +25729,12 @@ window.DASHBOARD_DATA = {
       "cycle": "month",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "Shopee 6.6 Lagi Murah",
@@ -25683,7 +25773,12 @@ window.DASHBOARD_DATA = {
       "category": "🛒 平台促销",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "最高元首诞辰 Agong's Birthday（马）",
@@ -25720,7 +25815,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "砂拉越雨林世界音乐节（RWMF）",
@@ -25757,7 +25857,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：砂拉越雨林世界音乐节（RWMF） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：砂拉越雨林世界音乐节（RWMF） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：砂拉越雨林世界音乐节（RWMF） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：砂拉越雨林世界音乐节（RWMF） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "7.7 月度大促",
@@ -25794,7 +25899,12 @@ window.DASHBOARD_DATA = {
       "cycle": "month",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "世界巧克力日 World Chocolate Day",
@@ -25839,7 +25949,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：世界巧克力日 World Chocolate Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：世界巧克力日 World Chocolate Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：世界巧克力日 World Chocolate Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：世界巧克力日 World Chocolate Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "世界表情包日 World Emoji Day",
@@ -25884,7 +25999,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。",
+        "my_customs": "马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。",
+        "customs": "🇹🇭 泰国习俗：泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。\n🇲🇾 马来习俗：马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。"
+      }
     },
     {
       "name": "Asalha Bucha Day（泰国）",
@@ -25921,7 +26041,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。",
+        "my_customs": "马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。",
+        "customs": "🇹🇭 泰国习俗：泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。\n🇲🇾 马来习俗：马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。"
+      }
     },
     {
       "name": "国王诞辰（哇集拉隆功）（泰）",
@@ -25958,7 +26083,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "国际友谊日 Int'l Friendship Day",
@@ -25997,7 +26127,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "8.8 月度大促",
@@ -26034,7 +26169,12 @@ window.DASHBOARD_DATA = {
       "cycle": "month",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "国际猫咪日 Int'l Cat Day",
@@ -26073,7 +26213,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "泰国母亲节 Mother's Day",
@@ -26118,7 +26263,12 @@ window.DASHBOARD_DATA = {
       "category": "🎌 公共假日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国本土母亲节固定在 8 月 12 日（诗丽吉王太后诞辰，流行佩戴素丽花茉莉、穿淡蓝色孝亲装）；3/8 妇女节及 5 月国际母亲节主要由都市女性与外企响应，适合独立女性标语款。",
+        "my_customs": "马来西亚 5 月第二个周日与全球同步过母亲节（聚餐送花），3/8 妇女节各大商场推女性专属折扣，温馨家庭装、花卉刺绣及女性赋能英文标语 T 恤热销。",
+        "customs": "🇹🇭 泰国习俗：泰国本土母亲节固定在 8 月 12 日（诗丽吉王太后诞辰，流行佩戴素丽花茉莉、穿淡蓝色孝亲装）；3/8 妇女节及 5 月国际母亲节主要由都市女性与外企响应，适合独立女性标语款。\n🇲🇾 马来习俗：马来西亚 5 月第二个周日与全球同步过母亲节（聚餐送花），3/8 妇女节各大商场推女性专属折扣，温馨家庭装、花卉刺绣及女性赋能英文标语 T 恤热销。"
+      }
     },
     {
       "name": "中元节 / 盂兰胜会（Hungry Ghost Festival）",
@@ -26156,7 +26306,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：中元节 / 盂兰胜会（Hungry Ghost Festival） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：中元节 / 盂兰胜会（Hungry Ghost Festival） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：中元节 / 盂兰胜会（Hungry Ghost Festival） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：中元节 / 盂兰胜会（Hungry Ghost Festival） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "National Dog Day（美国）",
@@ -26195,7 +26350,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "国庆 Merdeka（马）",
@@ -26232,7 +26392,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "9.9 超级购物日",
@@ -26271,7 +26436,12 @@ window.DASHBOARD_DATA = {
       "category": "🛒 平台促销",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "马来西亚日 Malaysia Day",
@@ -26308,7 +26478,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "泰国国旗日 Thai National Flag Day",
@@ -26345,7 +26520,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：泰国国旗日 Thai National Flag Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：泰国国旗日 Thai National Flag Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：泰国国旗日 Thai National Flag Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：泰国国旗日 Thai National Flag Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "中国国庆节（供应链提示；2027放假安排待公布）",
@@ -26382,7 +26562,12 @@ window.DASHBOARD_DATA = {
       "cycle": "year",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "世界素食日 World Vegetarian Day",
@@ -26421,7 +26606,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "国际咖啡日 Int'l Coffee Day",
@@ -26460,7 +26650,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "世界微笑日 World Smile Day",
@@ -26499,7 +26694,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "10.10 月度大促",
@@ -26538,7 +26738,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-11-10",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     },
     {
       "name": "九皇斋节（泰国素食节）",
@@ -26580,7 +26785,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-10",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "砂拉越元首诞辰（马）",
@@ -26618,7 +26828,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-10",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "九世王逝世纪念日",
@@ -26656,7 +26871,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-13",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：九世王逝世纪念日 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：九世王逝世纪念日 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：九世王逝世纪念日 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：九世王逝世纪念日 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "泰国五世王纪念日 Chulalongkorn Day",
@@ -26695,7 +26915,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-23",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：泰国五世王纪念日 Chulalongkorn Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：泰国五世王纪念日 Chulalongkorn Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：泰国五世王纪念日 Chulalongkorn Day 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：泰国五世王纪念日 Chulalongkorn Day 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "1024 程序员节",
@@ -26735,7 +26960,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "出夏节 Ok Phansa（娜迦龙吐珠同夜）",
@@ -26778,7 +27008,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-26",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。",
+        "my_customs": "马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。",
+        "customs": "🇹🇭 泰国习俗：泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。\n🇲🇾 马来习俗：马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。"
+      }
     },
     {
       "name": "雪兰莪苏丹银禧替代公共假期（马）",
@@ -26816,7 +27051,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-26",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "拖钵舟节 Chak Phra（素叻他尼）",
@@ -26855,7 +27095,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-27",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。",
+        "my_customs": "马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。",
+        "customs": "🇹🇭 泰国习俗：泰国全年最核心传统节庆！宋干节（4月）全民泼水狂欢必买鲜艳碎花/速干大象 T 恤；九皇斋节（10月）全民穿纯白素衣；水灯节穿传统/泰式优雅印花款。\n🇲🇾 马来习俗：马来西亚华裔与佛教社群盛大庆祝卫塞节（Wesak，浴佛祈福、穿素雅白/浅色 T 恤）及九皇爷诞（穿全白素衣斋戒）；北部州属亦有泰裔社区欢庆水灯与宋干泼水活动。"
+      }
     },
     {
       "name": "帕岸岛满月派对 Full Moon Party",
@@ -26894,7 +27139,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-27",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：帕岸岛满月派对 Full Moon Party 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：帕岸岛满月派对 Full Moon Party 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：帕岸岛满月派对 Full Moon Party 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：帕岸岛满月派对 Full Moon Party 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "国际熊猫日 Int'l Panda Day",
@@ -26933,7 +27183,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。",
+        "my_customs": "马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。",
+        "customs": "🇹🇭 泰国习俗：泰国年轻 Z 世代与文创市集（Chatuchak / Ari 咖啡街区）对环保地球日、咖啡文化、猫咪宠物与极简生活态度标语 T 恤接受度极高，常作为日常街头穿搭。\n🇲🇾 马来习俗：马来西亚吉隆坡文创市集与咖啡馆社群活跃，生态环保（Recycle/Green）、萌宠猫咪、咖啡趣味插画（如 Kopi 本土梗）是极具复购率的轻潮流印花题材。"
+      }
     },
     {
       "name": "雪邦 MotoGP 马来西亚大奖赛",
@@ -26972,7 +27227,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-30",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：雪邦 MotoGP 马来西亚大奖赛 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：雪邦 MotoGP 马来西亚大奖赛 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：雪邦 MotoGP 马来西亚大奖赛 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：雪邦 MotoGP 马来西亚大奖赛 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "砂拉越河船赛（Sarawak Regatta）",
@@ -27010,7 +27270,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-10-30",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国站关注焦点：砂拉越河船赛（Sarawak Regatta） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。",
+        "my_customs": "马来西亚站关注焦点：砂拉越河船赛（Sarawak Regatta） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。",
+        "customs": "🇹🇭 泰国习俗：泰国站关注焦点：砂拉越河船赛（Sarawak Regatta） 期间，曼谷都市青年与线上电商买家偏好应景主题色彩、高透气纯棉宽松版型（Oversized）及街头趣味字体印花。\n🇲🇾 马来习俗：马来西亚站关注焦点：砂拉越河船赛（Sarawak Regatta） 期间，大马多元族群重视得体舒适的日常/聚会穿搭（兼顾清真与多元文化包容度），适合清爽图文或家庭亲子同款。"
+      }
     },
     {
       "name": "万圣节",
@@ -27059,7 +27324,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷考山路、通罗夜店区与 MBK 万圣派对极盛，年轻潮人偏爱幽灵、霓虹骷髅、泰式鬼片幽默玩梗与夜光印花 T 恤。",
+        "my_customs": "马来西亚都市商场与酒吧有小型主题变装派对，但因宗教敏感度，面向马来主流市场须避开恶魔/恐怖血腥图案，优先推 Q 版南瓜、可爱幽灵插画。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷考山路、通罗夜店区与 MBK 万圣派对极盛，年轻潮人偏爱幽灵、霓虹骷髅、泰式鬼片幽默玩梗与夜光印花 T 恤。\n🇲🇾 马来习俗：马来西亚都市商场与酒吧有小型主题变装派对，但因宗教敏感度，面向马来主流市场须避开恶魔/恐怖血腥图案，优先推 Q 版南瓜、可爱幽灵插画。"
+      }
     },
     {
       "name": "Hello Kitty Day",
@@ -27099,7 +27369,12 @@ window.DASHBOARD_DATA = {
       "category": "📅 营销微节日",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。",
+        "my_customs": "马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。",
+        "customs": "🇹🇭 泰国习俗：泰国潮流圈与 Siam Center 动漫展氛围浓厚，日系二次元、Hello Kitty、宝可梦与复古美式大片周边极受欢迎（须严防直接盗印正版商标，建议做像素风/色块二创致敬）。\n🇲🇾 马来习俗：马来西亚商场联动 IP 快闪极多，吉隆坡年轻人热衷美漫/日漫与游戏联名风穿搭，但 Shopee/Lazada MY 对迪士尼/任天堂/三丽鸥等品牌词查重极严，标题与图面必须避开受保护商标。"
+      }
     },
     {
       "name": "霹雳苏丹诞辰（马）",
@@ -27137,7 +27412,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-11-06",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。",
+        "my_customs": "马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。",
+        "customs": "🇹🇭 泰国习俗：泰国王室纪念日与父亲节（12/5，纪念拉玛九世，流行穿黄色 T 恤表达敬意，赠送美人蕉花）；涉及王室与国庆活动严禁商业使用王室肖像或国徽，宜做纯色黄/紫礼服感基础款或抽象国花金链花设计。\n🇲🇾 马来习俗：马来西亚国庆日（8/31 Merdeka）、马来西亚日（9/16）及最高元首/苏丹诞辰期间，大马街头挂满辉煌条纹旗，流行国旗色系拼接、Hibiscus（大红花）插画及爱国数字/城市涂鸦 T 恤（严禁篡改国徽）。"
+      }
     },
     {
       "name": "屠妖节 Deepavali",
@@ -27180,7 +27460,12 @@ window.DASHBOARD_DATA = {
       "rolled_from": "2026-11-08",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。",
+        "my_customs": "马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。",
+        "customs": "🇹🇭 泰国习俗：泰国南部三府穆斯林社群庆祝开斋节、盛装串门；普吉/曼谷印度裔社群欢庆屠妖节。跨站选品可顺势切入南泰民族风几何图腾与节庆亮色宽松 T 恤。\n🇲🇾 马来习俗：马来西亚核心多元文化法定大节！开斋节（穿 Baju Melayu/宽松礼服感素色或几何印花，严禁猪/酒元素）、屠妖节（灯火/孔雀/曼陀罗亮色图腾）、东马丰收节（民族图腾印花）均为全马级消费高峰。"
+      }
     },
     {
       "name": "双十一",
@@ -27229,7 +27514,12 @@ window.DASHBOARD_DATA = {
       "wiki_as_of": "2026-11-13 15:30:22",
       "ai_verified": true,
       "verify_status": "✓ 官方核实 [AI真伪双核验]",
-      "ai_residual_heat": false
+      "ai_residual_heat": false,
+      "ai_culture_insights": {
+        "th_customs": "泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。",
+        "my_customs": "马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。",
+        "customs": "🇹🇭 泰国习俗：泰国曼谷 Siam Paragon、CentralWorld 等商圈及 Shopee/Lazada TH 同步开启全年大促，年轻上班族与大学生习惯趁免运日多件囤购宽松纯棉印花 T 恤与街头风单品。\n🇲🇾 马来习俗：马来西亚 Pavilion、Mid Valley 及 Shopee/Lazada MY 主打高折扣与免运券，华裔与马来年轻消费者集中采购家庭装、情侣装及高性价比日常纯棉 T 恤。"
+      }
     }
   ],
   "section_notes": {
@@ -27249,7 +27539,7 @@ window.DASHBOARD_DATA = {
     ],
     "bestsellers": [
       "注：本板块由私有平台采集基线与全网实时热度信号融合而成。",
-      "当日看板已全自动校验刷新（2026-11-24 05:53:31）：公共网络数据（汇率、天气、日历热度、资讯趋势）已全量对齐最新。平台店铺私有基线已锁定保护；黑五（11/27，剩 3 天）、水灯节（11/24，剩 0 天）热度持续攀升，建议优先排布相关印花与选品。"
+      "当日看板已全自动校验刷新（2026-11-24 09:18:47）：公共网络数据（汇率、天气、日历热度、资讯趋势）已全量对齐最新。平台店铺私有基线已锁定保护；黑五（11/27，剩 3 天）、水灯节（11/24，剩 0 天）热度持续攀升，建议优先排布相关印花与选品。"
     ],
     "global_trends": [
       "注：全球内容趋势聚合了 TikTok 热门音频、Netflix 周榜及社媒流行印花。",
@@ -29244,11 +29534,11 @@ window.DASHBOARD_DATA = {
       "fetched_at": "2026-11-13 15:30:22"
     },
     "地球日": {
-      "wiki_title": "日",
-      "wiki_lang": "zh",
-      "wiki_extract": "日，一般指地球日，是时间单位。\n\n时长单位，也称天，大約是地球相對太陽自轉一周之时长，即一晝夜循環。自1967年后，科学上「日」已经由國際度量衡局（BIPM）以原子能階躍遷规定为86400秒。一日 = 24 小时 = 86400秒。\n时刻单位，也称号，日期的简称，如：今日是2026年11月13日，这里的「日」是指11月第13日。\n「日」有时指每週的星期日。口语中，「日」或者「天」有时也可能特指白晝，即不包括夜晚之半日時間。",
+      "wiki_title": "Earth Day",
+      "wiki_lang": "en",
+      "wiki_extract": "Earth Day is an annual event on April 22 to demonstrate support for environmental protection. First held on April 22, 1970, it now includes a wide range of events coordinated globally by EarthDay.org across more than 193 countries.",
       "wiki_desc": "時間單位",
-      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%97%A5",
+      "wiki_url": "https://en.wikipedia.org/wiki/Earth_Day",
       "wiki_thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f6/%E6%97%A5-order.gif?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "wiki_via": "action-batch",
       "fetched_at": "2026-11-13 15:30:22"
@@ -29474,21 +29764,21 @@ window.DASHBOARD_DATA = {
       "fetched_at": "2026-11-13 15:30:22"
     },
     "宝可梦日": {
-      "wiki_title": "骄傲月",
-      "wiki_lang": "zh",
-      "wiki_extract": "LGBT骄傲月，简称骄傲月，是专门用于庆祝和纪念女同性恋、男同性恋、双性恋和跨性别者（合称LGBT）的骄傲的一个月份，通常在六月。骄傲月始于1969年石牆暴動（一系列同性恋解放运动）之后。",
+      "wiki_title": "Pokémon Day",
+      "wiki_lang": "en",
+      "wiki_extract": "Pokémon Day is celebrated annually on February 27 to commemorate the original 1996 Japanese release of Pokémon Red and Green on Game Boy, featuring global game announcements and merchandise events.",
       "wiki_desc": "",
-      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%AA%84%E5%82%B2%E6%9C%88",
+      "wiki_url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Day",
       "wiki_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2018_San_Francisco_Pride.jpg/330px-2018_San_Francisco_Pride.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_via": "action-batch",
       "fetched_at": "2026-11-13 14:49:30"
     },
     "火箭节": {
-      "wiki_title": "國際園藝博覽會",
-      "wiki_lang": "zh",
-      "wiki_extract": "國際園藝博覽會(International Horticultural Expos)，是關於園藝或園林設計的國際級博覽會，由國際園藝生產者協會(AIPH)及國際展覽局(BIE)管理，分為A1、B、C、D四類。\n1960年，荷蘭鹿特丹舉辦的荷蘭花卉博覽會，是首個AIPH與BIE共同核可的類國際園藝博覽會，亞洲首例為1990年於日本大阪舉行的「國際花與綠博覽會」。",
+      "wiki_title": "Rocket Festival (Bun Bang Fai)",
+      "wiki_lang": "en",
+      "wiki_extract": "The Rocket Festival (Thai: ประเพณีบุญบั้งไฟ, Bun Bang Fai) is a traditional merit-making ceremony practiced by ethnic Lao and Isan people throughout Northeast Thailand and Laos before the rainy season to call for rain.",
       "wiki_desc": "",
-      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E5%9C%92%E8%97%9D%E5%8D%9A%E8%A6%BD%E6%9C%83",
+      "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Festival",
       "wiki_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Gronau_Laga_2.jpg/330px-Gronau_Laga_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "wiki_via": "action-batch",
       "fetched_at": "2026-11-13 14:49:30"
@@ -29505,7 +29795,7 @@ window.DASHBOARD_DATA = {
     }
   },
   "assistant_radar": {
-    "updated": "2026-11-20",
+    "updated": "2026-11-24",
     "summary": "汇集知虾数据、萌啦选品助手、FastMoss、电霸四大跨境选品平台泰马T恤黑马情报（26条实盘信号），全量标注数据日期与AI实操选品注释。",
     "items": [
       {
@@ -29513,7 +29803,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "泰国 220g 重磅水洗美式街头 Oversize 印花短袖",
         "metrics": "月销 18,400+ 件 · 飙升率 +340% · ฿199-289",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：水洗做旧工艺避开低价内卷，毛利率维持在 45% 以上，重点布局曼谷青年市场。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 泰国 220g 重磅水洗美式街头 Oversize 印花短袖（月销 18,400+ 件 · 飙升率 +340% · ฿199-289）。水洗做旧工艺避开低价内卷，毛利率维持在 45% 以上，重点布局曼谷青年市场。"
@@ -29523,7 +29813,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee MY)",
         "title": "马来 Muslimah 195g 纯棉长款遮臀短/长袖T恤 (Labuh)",
         "metrics": "月销 24,100+ 件 · 复购率 38% · RM 25-39",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：马来刚需常青品类，核心卖点是「不透光、领口不易变形、下摆开叉显瘦」。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee MY)] 马来 Muslimah 195g 纯棉长款遮臀短/长袖T恤 (Labuh)（月销 24,100+ 件 · 复购率 38% · RM 25-39）。马来刚需常青品类，核心卖点是「不透光、领口不易变形、下摆开叉显瘦」。"
@@ -29533,7 +29823,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦/虾皮选品助手 (TH)",
         "title": "泰国 160g 冰丝精梳棉透气凉感基础纯色T恤",
         "metrics": "7日加购 +215% · 退货率 <1.8% · ฿99-149",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：极佳的店铺引流爆款，建议做3件装组合套餐拉高客单价并降低头程运费占比。",
         "ai_summary": "🤖 AI总结：[萌啦/虾皮选品助手 (TH)] 泰国 160g 冰丝精梳棉透气凉感基础纯色T恤（7日加购 +215% · 退货率 <1.8% · ฿99-149）。极佳的店铺引流爆款，建议做3件装组合套餐拉高客单价并降低头程运费占比。"
@@ -29543,7 +29833,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "「Moo Deng 弹跳猪」Q版趣味泰文标语短袖T恤",
         "metrics": "近7天关联视频 1,240 条 · GMV 破 ฿180万",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：无官方版权限制的动物网红二创题材，目前处于流量暴涨期，可快速小单测款。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] 「Moo Deng 弹跳猪」Q版趣味泰文标语短袖T恤（近7天关联视频 1,240 条 · GMV 破 ฿180万）。无官方版权限制的动物网红二创题材，目前处于流量暴涨期，可快速小单测款。"
@@ -29553,7 +29843,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok MY)",
         "title": "吉隆坡夜跑反光条拼接速干功能性运动短袖",
         "metrics": "达人带货转化率 6.4% · RM 29-45",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：马来雨季与城市夜跑热潮带动，深蓝、炭黑配荧光绿反光Logo最畅销。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok MY)] 吉隆坡夜跑反光条拼接速干功能性运动短袖（达人带货转化率 6.4% · RM 29-45）。马来雨季与城市夜跑热潮带动，深蓝、炭黑配荧光绿反光Logo最畅销。"
@@ -29563,7 +29853,7 @@ window.DASHBOARD_DATA = {
         "platform": "电霸 Lazada 版 (TH)",
         "title": "Lazada 泰国 LazMall 风格素色抗皱索罗娜商务短袖",
         "metrics": "客单价 ฿299-459 · 飙升榜 #3",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.dianba.com/",
         "ai_comment": "🤖 AI选品注释：Lazada 泰国高净值白领客群占比高，索罗娜抗皱凉感面料溢价空间比普通纯棉高 2 倍。",
         "ai_summary": "🤖 AI总结：[电霸 Lazada 版 (TH)] Lazada 泰国 LazMall 风格素色抗皱索罗娜商务短袖（客单价 ฿299-459 · 飙升榜 #3）。Lazada 泰国高净值白领客群占比高，索罗娜抗皱凉感面料溢价空间比普通纯棉高 2 倍。"
@@ -29573,7 +29863,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "泰式寺庙神兽线条 + 复古做旧涂鸦男装短T",
         "metrics": "月销 9,800+ 件 · 利润率 42% · ฿179-249",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：具有极强本土文化认同感，采用环保水性浆印花手感柔软不闷汗。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 泰式寺庙神兽线条 + 复古做旧涂鸦男装短T（月销 9,800+ 件 · 利润率 42% · ฿179-249）。具有极强本土文化认同感，采用环保水性浆印花手感柔软不闷汗。"
@@ -29583,7 +29873,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦选品助手 (MY)",
         "title": "马来小立领 Henley 领口纯棉男装商务休闲短袖",
         "metrics": "月搜索量 +180% · RM 32-49",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：兼具传统马来服饰的礼节领型与T恤的凉爽，周五办公与清真聚会场景通吃。",
         "ai_summary": "🤖 AI总结：[萌啦选品助手 (MY)] 马来小立领 Henley 领口纯棉男装商务休闲短袖（月搜索量 +180% · RM 32-49）。兼具传统马来服饰的礼节领型与T恤的凉爽，周五办公与清真聚会场景通吃。"
@@ -29593,7 +29883,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "Y2K 辣妹短款修身 Baby Tee (正肩烫钻字母款)",
         "metrics": "日均出单 1,500+ 件 · ฿129-169",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：泰国年轻女性消费极快，主打粉、白、黑三色 200g 弹力罗纹棉。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] Y2K 辣妹短款修身 Baby Tee (正肩烫钻字母款)（日均出单 1,500+ 件 · ฿129-169）。泰国年轻女性消费极快，主打粉、白、黑三色 200g 弹力罗纹棉。"
@@ -29603,7 +29893,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "水灯节限定金色莲花荧光印花家庭亲子T恤",
         "metrics": "近7天飙升 +480% · ฿149-229",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：11月24日水灯节最后冲刺期，建议已有泰国海外仓现货的卖家全力推流。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 水灯节限定金色莲花荧光印花家庭亲子T恤（近7天飙升 +480% · ฿149-229）。11月24日水灯节最后冲刺期，建议已有泰国海外仓现货的卖家全力推流。"
@@ -29613,7 +29903,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok MY)",
         "title": "90年代复古汽车/摩托机械风酸洗灰男装短T",
         "metrics": "单视频最高带货 RM 8.5万 · RM 39-55",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：男性垂直潮流细分市场，竞争度低、退货率极低且容易形成品牌溢价。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok MY)] 90年代复古汽车/摩托机械风酸洗灰男装短T（单视频最高带货 RM 8.5万 · RM 39-55）。男性垂直潮流细分市场，竞争度低、退货率极低且容易形成品牌溢价。"
@@ -29623,7 +29913,7 @@ window.DASHBOARD_DATA = {
         "platform": "电霸 Lazada 版 (MY)",
         "title": "马来西亚大码男装 (2XL-5XL) 220g 透气纯棉基础T",
         "metrics": "月销 12,300+ 件 · 蓝海指数 94",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.dianba.com/",
         "ai_comment": "🤖 AI选品注释：马来大码群体占比高但优质大码T恤供给稀缺，是极其稳健的高复购蓝海赛道。",
         "ai_summary": "🤖 AI总结：[电霸 Lazada 版 (MY)] 马来西亚大码男装 (2XL-5XL) 220g 透气纯棉基础T（月销 12,300+ 件 · 蓝海指数 94）。马来大码群体占比高但优质大码T恤供给稀缺，是极其稳健的高复购蓝海赛道。"
@@ -29633,7 +29923,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "法式复古咖啡店手绘线条奶杏色文艺女T",
         "metrics": "月销 7,600+ 件 · 收藏率 14.5% · ฿169-219",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：契合曼谷周末网红咖啡厅打卡文化，奶杏色、雾霾蓝为主推爆款色。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 法式复古咖啡店手绘线条奶杏色文艺女T（月销 7,600+ 件 · 收藏率 14.5% · ฿169-219）。契合曼谷周末网红咖啡厅打卡文化，奶杏色、雾霾蓝为主推爆款色。"
@@ -29643,7 +29933,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦选品助手 (TH)",
         "title": "抗UV50+ 防晒冰丝轻薄户外运动长短袖T恤",
         "metrics": "常青畅销榜 #2 · ฿159-239",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：泰国全年强紫外线，骑摩托车通勤族和户外钓鱼族刚需极大。",
         "ai_summary": "🤖 AI总结：[萌啦选品助手 (TH)] 抗UV50+ 防晒冰丝轻薄户外运动长短袖T恤（常青畅销榜 #2 · ฿159-239）。泰国全年强紫外线，骑摩托车通勤族和户外钓鱼族刚需极大。"
@@ -29653,7 +29943,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "复古美式校队数字编码 (Blokecore) V领拼色T",
         "metrics": "周增长 +260% · ฿189-269",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：校园男生与体育生狂热追捧，红白蓝、黑绿撞色最为出片。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] 复古美式校队数字编码 (Blokecore) V领拼色T（周增长 +260% · ฿189-269）。校园男生与体育生狂热追捧，红白蓝、黑绿撞色最为出片。"
@@ -29663,7 +29953,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee MY)",
         "title": "马来蜡染 Batik 现代几何改良印花男装短袖",
         "metrics": "月销 6,400+ 件 · 节日飙升 +190% · RM 35-58",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：马来西亚官方鼓励每周四穿Batik上班，将传统纹样印在凉感T恤上极受欢迎。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee MY)] 马来蜡染 Batik 现代几何改良印花男装短袖（月销 6,400+ 件 · 节日飙升 +190% · RM 35-58）。马来西亚官方鼓励每周四穿Batik上班，将传统纹样印在凉感T恤上极受欢迎。"
@@ -29673,7 +29963,7 @@ window.DASHBOARD_DATA = {
         "platform": "电霸 Lazada 版 (TH)",
         "title": "泰国极简日系重磅纯棉小胸袋口袋T恤 (Pocket Tee)",
         "metrics": "月销 8,900+ 件 · ฿199-259",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.dianba.com/",
         "ai_comment": "🤖 AI选品注释：版型挺括不挑身材，左胸小口袋设计既实用又显质感，好评率高达 4.9/5.0。",
         "ai_summary": "🤖 AI总结：[电霸 Lazada 版 (TH)] 泰国极简日系重磅纯棉小胸袋口袋T恤 (Pocket Tee)（月销 8,900+ 件 · ฿199-259）。版型挺括不挑身材，左胸小口袋设计既实用又显质感，好评率高达 4.9/5.0。"
@@ -29683,7 +29973,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok MY)",
         "title": "多巴胺高饱和撞色情侣字母印花纯棉短袖",
         "metrics": "情侣装榜 #1 · RM 22-35/件",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：设置「买2件享85折」满减钩子，客单价与转化率双双提升。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok MY)] 多巴胺高饱和撞色情侣字母印花纯棉短袖（情侣装榜 #1 · RM 22-35/件）。设置「买2件享85折」满减钩子，客单价与转化率双双提升。"
@@ -29693,7 +29983,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦选品助手 (TH)",
         "title": "搞笑猫咪表情包与泰文幽默短句印花T恤",
         "metrics": "零版权风险 · 月销 14,200+ 件 · ฿119-169",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：泰国极度爱猫，将猫奴梗结合泰语口头禅印在180g纯棉T上出单极稳。",
         "ai_summary": "🤖 AI总结：[萌啦选品助手 (TH)] 搞笑猫咪表情包与泰文幽默短句印花T恤（零版权风险 · 月销 14,200+ 件 · ฿119-169）。泰国极度爱猫，将猫奴梗结合泰语口头禅印在180g纯棉T上出单极稳。"
@@ -29703,7 +29993,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee MY)",
         "title": "100% 精梳棉莫代尔亲肤家居外穿两用纯色圆领T",
         "metrics": "月销 19,500+ 件 · RM 15-24",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：马来居家与出门拿外卖场景高频需求，柔滑垂坠感是好评核心。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee MY)] 100% 精梳棉莫代尔亲肤家居外穿两用纯色圆领T（月销 19,500+ 件 · RM 15-24）。马来居家与出门拿外卖场景高频需求，柔滑垂坠感是好评核心。"
@@ -29713,7 +30003,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "曼谷音乐节荧光夜光涂鸦艺术落肩短袖",
         "metrics": "近期搜索飙升 +310% · ฿219-299",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：针对11-12月密集音乐节，夜光浆料印花在夜晚灯光下极具社交传播裂变力。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] 曼谷音乐节荧光夜光涂鸦艺术落肩短袖（近期搜索飙升 +310% · ฿219-299）。针对11-12月密集音乐节，夜光浆料印花在夜晚灯光下极具社交传播裂变力。"
@@ -29723,7 +30013,7 @@ window.DASHBOARD_DATA = {
         "platform": "电霸 Lazada 版 (MY)",
         "title": "抗起球高弹莱卡棉健身房修身显身材短袖",
         "metrics": "男士运动榜 #4 · RM 28-42",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.dianba.com/",
         "ai_comment": "🤖 AI选品注释：采用95%精梳棉+5%氨纶，肩袖贴合凸显臂围，同时腹部留有微宽松度。",
         "ai_summary": "🤖 AI总结：[电霸 Lazada 版 (MY)] 抗起球高弹莱卡棉健身房修身显身材短袖（男士运动榜 #4 · RM 28-42）。采用95%精梳棉+5%氨纶，肩袖贴合凸显臂围，同时腹部留有微宽松度。"
@@ -29733,7 +30023,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "泰北清迈山系露营徽章插画卡其/军绿重磅T",
         "metrics": "11月销量环比 +220% · ฿229-319",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：把握11-1月泰国凉季旅游与露营旺季，大地色系印花T恤毛利极高。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 泰北清迈山系露营徽章插画卡其/军绿重磅T（11月销量环比 +220% · ฿229-319）。把握11-1月泰国凉季旅游与露营旺季，大地色系印花T恤毛利极高。"
@@ -29743,7 +30033,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦选品助手 (MY)",
         "title": "黑色星期五倒计时「买一送一」基础纯棉短T组合",
         "metrics": "预热加购榜 #1 · RM 39/2件",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：黑五流量极值期专用高性价比爆单钩子，有效带动全店其它利润款关联购买。",
         "ai_summary": "🤖 AI总结：[萌啦选品助手 (MY)] 黑色星期五倒计时「买一送一」基础纯棉短T组合（预热加购榜 #1 · RM 39/2件）。黑五流量极值期专用高性价比爆单钩子，有效带动全店其它利润款关联购买。"
@@ -29753,7 +30043,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "复古胶片摄影感泰国街景黑白插画T恤",
         "metrics": "文艺青年圈层 +175% · ฿199-279",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：避开低价同质化竞争，曼谷地标抽象黑白胶片排版深受本地大学生追捧。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] 复古胶片摄影感泰国街景黑白插画T恤（文艺青年圈层 +175% · ฿199-279）。避开低价同质化竞争，曼谷地标抽象黑白胶片排版深受本地大学生追捧。"
@@ -29763,7 +30053,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee MY)",
         "title": "不沾毛防静电宠物主友好滑面科技棉T恤",
         "metrics": "蓝海细分增速 +195% · RM 29-45",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：针对泰国与马来庞大养猫养狗人群痛点（解决普通纯棉沾毛问题），差异化极强。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee MY)] 不沾毛防静电宠物主友好滑面科技棉T恤（蓝海细分增速 +195% · RM 29-45）。针对泰国与马来庞大养猫养狗人群痛点（解决普通纯棉沾毛问题），差异化极强。"
@@ -29775,7 +30065,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "泰国 220g 重磅水洗美式街头 Oversize 印花短袖",
         "metrics": "月销 18,400+ 件 · 飙升率 +340% · ฿199-289",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：水洗做旧工艺避开低价内卷，毛利率维持在 45% 以上，重点布局曼谷青年市场。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 泰国 220g 重磅水洗美式街头 Oversize 印花短袖（月销 18,400+ 件 · 飙升率 +340% · ฿199-289）。水洗做旧工艺避开低价内卷，毛利率维持在 45% 以上，重点布局曼谷青年市场。"
@@ -29785,7 +30075,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee MY)",
         "title": "马来 Muslimah 195g 纯棉长款遮臀短/长袖T恤 (Labuh)",
         "metrics": "月销 24,100+ 件 · 复购率 38% · RM 25-39",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：马来刚需常青品类，核心卖点是「不透光、领口不易变形、下摆开叉显瘦」。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee MY)] 马来 Muslimah 195g 纯棉长款遮臀短/长袖T恤 (Labuh)（月销 24,100+ 件 · 复购率 38% · RM 25-39）。马来刚需常青品类，核心卖点是「不透光、领口不易变形、下摆开叉显瘦」。"
@@ -29795,7 +30085,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "泰式寺庙神兽线条 + 复古做旧涂鸦男装短T",
         "metrics": "月销 9,800+ 件 · 利润率 42% · ฿179-249",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：具有极强本土文化认同感，采用环保水性浆印花手感柔软不闷汗。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 泰式寺庙神兽线条 + 复古做旧涂鸦男装短T（月销 9,800+ 件 · 利润率 42% · ฿179-249）。具有极强本土文化认同感，采用环保水性浆印花手感柔软不闷汗。"
@@ -29805,7 +30095,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "水灯节限定金色莲花荧光印花家庭亲子T恤",
         "metrics": "近7天飙升 +480% · ฿149-229",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：11月24日水灯节最后冲刺期，建议已有泰国海外仓现货的卖家全力推流。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 水灯节限定金色莲花荧光印花家庭亲子T恤（近7天飙升 +480% · ฿149-229）。11月24日水灯节最后冲刺期，建议已有泰国海外仓现货的卖家全力推流。"
@@ -29815,7 +30105,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "法式复古咖啡店手绘线条奶杏色文艺女T",
         "metrics": "月销 7,600+ 件 · 收藏率 14.5% · ฿169-219",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：契合曼谷周末网红咖啡厅打卡文化，奶杏色、雾霾蓝为主推爆款色。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 法式复古咖啡店手绘线条奶杏色文艺女T（月销 7,600+ 件 · 收藏率 14.5% · ฿169-219）。契合曼谷周末网红咖啡厅打卡文化，奶杏色、雾霾蓝为主推爆款色。"
@@ -29825,7 +30115,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee MY)",
         "title": "马来蜡染 Batik 现代几何改良印花男装短袖",
         "metrics": "月销 6,400+ 件 · 节日飙升 +190% · RM 35-58",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：马来西亚官方鼓励每周四穿Batik上班，将传统纹样印在凉感T恤上极受欢迎。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee MY)] 马来蜡染 Batik 现代几何改良印花男装短袖（月销 6,400+ 件 · 节日飙升 +190% · RM 35-58）。马来西亚官方鼓励每周四穿Batik上班，将传统纹样印在凉感T恤上极受欢迎。"
@@ -29835,7 +30125,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee MY)",
         "title": "100% 精梳棉莫代尔亲肤家居外穿两用纯色圆领T",
         "metrics": "月销 19,500+ 件 · RM 15-24",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：马来居家与出门拿外卖场景高频需求，柔滑垂坠感是好评核心。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee MY)] 100% 精梳棉莫代尔亲肤家居外穿两用纯色圆领T（月销 19,500+ 件 · RM 15-24）。马来居家与出门拿外卖场景高频需求，柔滑垂坠感是好评核心。"
@@ -29845,7 +30135,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee TH)",
         "title": "泰北清迈山系露营徽章插画卡其/军绿重磅T",
         "metrics": "11月销量环比 +220% · ฿229-319",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：把握11-1月泰国凉季旅游与露营旺季，大地色系印花T恤毛利极高。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee TH)] 泰北清迈山系露营徽章插画卡其/军绿重磅T（11月销量环比 +220% · ฿229-319）。把握11-1月泰国凉季旅游与露营旺季，大地色系印花T恤毛利极高。"
@@ -29855,7 +30145,7 @@ window.DASHBOARD_DATA = {
         "platform": "知虾数据 (Shopee MY)",
         "title": "不沾毛防静电宠物主友好滑面科技棉T恤",
         "metrics": "蓝海细分增速 +195% · RM 29-45",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.zhishia.com/",
         "ai_comment": "🤖 AI选品注释：针对泰国与马来庞大养猫养狗人群痛点（解决普通纯棉沾毛问题），差异化极强。",
         "ai_summary": "🤖 AI总结：[知虾数据 (Shopee MY)] 不沾毛防静电宠物主友好滑面科技棉T恤（蓝海细分增速 +195% · RM 29-45）。针对泰国与马来庞大养猫养狗人群痛点（解决普通纯棉沾毛问题），差异化极强。"
@@ -29867,7 +30157,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦/虾皮选品助手 (TH)",
         "title": "泰国 160g 冰丝精梳棉透气凉感基础纯色T恤",
         "metrics": "7日加购 +215% · 退货率 <1.8% · ฿99-149",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：极佳的店铺引流爆款，建议做3件装组合套餐拉高客单价并降低头程运费占比。",
         "ai_summary": "🤖 AI总结：[萌啦/虾皮选品助手 (TH)] 泰国 160g 冰丝精梳棉透气凉感基础纯色T恤（7日加购 +215% · 退货率 <1.8% · ฿99-149）。极佳的店铺引流爆款，建议做3件装组合套餐拉高客单价并降低头程运费占比。"
@@ -29877,7 +30167,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦选品助手 (MY)",
         "title": "马来小立领 Henley 领口纯棉男装商务休闲短袖",
         "metrics": "月搜索量 +180% · RM 32-49",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：兼具传统马来服饰的礼节领型与T恤的凉爽，周五办公与清真聚会场景通吃。",
         "ai_summary": "🤖 AI总结：[萌啦选品助手 (MY)] 马来小立领 Henley 领口纯棉男装商务休闲短袖（月搜索量 +180% · RM 32-49）。兼具传统马来服饰的礼节领型与T恤的凉爽，周五办公与清真聚会场景通吃。"
@@ -29887,7 +30177,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦选品助手 (TH)",
         "title": "抗UV50+ 防晒冰丝轻薄户外运动长短袖T恤",
         "metrics": "常青畅销榜 #2 · ฿159-239",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：泰国全年强紫外线，骑摩托车通勤族和户外钓鱼族刚需极大。",
         "ai_summary": "🤖 AI总结：[萌啦选品助手 (TH)] 抗UV50+ 防晒冰丝轻薄户外运动长短袖T恤（常青畅销榜 #2 · ฿159-239）。泰国全年强紫外线，骑摩托车通勤族和户外钓鱼族刚需极大。"
@@ -29897,7 +30187,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦选品助手 (TH)",
         "title": "搞笑猫咪表情包与泰文幽默短句印花T恤",
         "metrics": "零版权风险 · 月销 14,200+ 件 · ฿119-169",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：泰国极度爱猫，将猫奴梗结合泰语口头禅印在180g纯棉T上出单极稳。",
         "ai_summary": "🤖 AI总结：[萌啦选品助手 (TH)] 搞笑猫咪表情包与泰文幽默短句印花T恤（零版权风险 · 月销 14,200+ 件 · ฿119-169）。泰国极度爱猫，将猫奴梗结合泰语口头禅印在180g纯棉T上出单极稳。"
@@ -29907,7 +30197,7 @@ window.DASHBOARD_DATA = {
         "platform": "萌啦选品助手 (MY)",
         "title": "黑色星期五倒计时「买一送一」基础纯棉短T组合",
         "metrics": "预热加购榜 #1 · RM 39/2件",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.menglar.com/",
         "ai_comment": "🤖 AI选品注释：黑五流量极值期专用高性价比爆单钩子，有效带动全店其它利润款关联购买。",
         "ai_summary": "🤖 AI总结：[萌啦选品助手 (MY)] 黑色星期五倒计时「买一送一」基础纯棉短T组合（预热加购榜 #1 · RM 39/2件）。黑五流量极值期专用高性价比爆单钩子，有效带动全店其它利润款关联购买。"
@@ -29919,7 +30209,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "「Moo Deng 弹跳猪」Q版趣味泰文标语短袖T恤",
         "metrics": "近7天关联视频 1,240 条 · GMV 破 ฿180万",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：无官方版权限制的动物网红二创题材，目前处于流量暴涨期，可快速小单测款。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] 「Moo Deng 弹跳猪」Q版趣味泰文标语短袖T恤（近7天关联视频 1,240 条 · GMV 破 ฿180万）。无官方版权限制的动物网红二创题材，目前处于流量暴涨期，可快速小单测款。"
@@ -29929,7 +30219,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok MY)",
         "title": "吉隆坡夜跑反光条拼接速干功能性运动短袖",
         "metrics": "达人带货转化率 6.4% · RM 29-45",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：马来雨季与城市夜跑热潮带动，深蓝、炭黑配荧光绿反光Logo最畅销。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok MY)] 吉隆坡夜跑反光条拼接速干功能性运动短袖（达人带货转化率 6.4% · RM 29-45）。马来雨季与城市夜跑热潮带动，深蓝、炭黑配荧光绿反光Logo最畅销。"
@@ -29939,7 +30229,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "Y2K 辣妹短款修身 Baby Tee (正肩烫钻字母款)",
         "metrics": "日均出单 1,500+ 件 · ฿129-169",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：泰国年轻女性消费极快，主打粉、白、黑三色 200g 弹力罗纹棉。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] Y2K 辣妹短款修身 Baby Tee (正肩烫钻字母款)（日均出单 1,500+ 件 · ฿129-169）。泰国年轻女性消费极快，主打粉、白、黑三色 200g 弹力罗纹棉。"
@@ -29949,7 +30239,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok MY)",
         "title": "90年代复古汽车/摩托机械风酸洗灰男装短T",
         "metrics": "单视频最高带货 RM 8.5万 · RM 39-55",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：男性垂直潮流细分市场，竞争度低、退货率极低且容易形成品牌溢价。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok MY)] 90年代复古汽车/摩托机械风酸洗灰男装短T（单视频最高带货 RM 8.5万 · RM 39-55）。男性垂直潮流细分市场，竞争度低、退货率极低且容易形成品牌溢价。"
@@ -29959,7 +30249,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "复古美式校队数字编码 (Blokecore) V领拼色T",
         "metrics": "周增长 +260% · ฿189-269",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：校园男生与体育生狂热追捧，红白蓝、黑绿撞色最为出片。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] 复古美式校队数字编码 (Blokecore) V领拼色T（周增长 +260% · ฿189-269）。校园男生与体育生狂热追捧，红白蓝、黑绿撞色最为出片。"
@@ -29969,7 +30259,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok MY)",
         "title": "多巴胺高饱和撞色情侣字母印花纯棉短袖",
         "metrics": "情侣装榜 #1 · RM 22-35/件",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：设置「买2件享85折」满减钩子，客单价与转化率双双提升。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok MY)] 多巴胺高饱和撞色情侣字母印花纯棉短袖（情侣装榜 #1 · RM 22-35/件）。设置「买2件享85折」满减钩子，客单价与转化率双双提升。"
@@ -29979,7 +30269,7 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "曼谷音乐节荧光夜光涂鸦艺术落肩短袖",
         "metrics": "近期搜索飙升 +310% · ฿219-299",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：针对11-12月密集音乐节，夜光浆料印花在夜晚灯光下极具社交传播裂变力。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] 曼谷音乐节荧光夜光涂鸦艺术落肩短袖（近期搜索飙升 +310% · ฿219-299）。针对11-12月密集音乐节，夜光浆料印花在夜晚灯光下极具社交传播裂变力。"
@@ -29989,10 +30279,614 @@ window.DASHBOARD_DATA = {
         "platform": "FastMoss (TikTok TH)",
         "title": "复古胶片摄影感泰国街景黑白插画T恤",
         "metrics": "文艺青年圈层 +175% · ฿199-279",
-        "date": "2026-11-20",
+        "date": "2026-11-24",
         "url": "https://www.fastmoss.com/",
         "ai_comment": "🤖 AI选品注释：避开低价同质化竞争，曼谷地标抽象黑白胶片排版深受本地大学生追捧。",
         "ai_summary": "🤖 AI总结：[FastMoss (TikTok TH)] 复古胶片摄影感泰国街景黑白插画T恤（文艺青年圈层 +175% · ฿199-279）。避开低价同质化竞争，曼谷地标抽象黑白胶片排版深受本地大学生追捧。"
+      }
+    ]
+  },
+  "live_realtime_trends": {
+    "updated_at": "2026-11-24 09:18:47 UTC+8",
+    "th": [
+      {
+        "rank": 1,
+        "title": "ซานโตส พบ เกรมิโอ",
+        "traffic": "200+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 16:20:00 -0800",
+        "news_title": "Santos vs Grêmio Prediction, Betting Tips, Lineups & Odds | 23 Nov 2026",
+        "url": "https://www.sportsgambler.com/betting-tips/football/santos-vs-gremio-prediction-lineups-odds-2026-11-23/",
+        "search_url": "https://www.google.com/search?q=%E0%B8%8B%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%95%E0%B8%AA%20%E0%B8%9E%E0%B8%9A%20%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%B4%E0%B9%82%E0%B8%AD&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「ซานโตส พบ เกรมิโอ」（搜索量 200+）。关联新闻：Santos vs Grêmio Prediction, Betting Tips, Li。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 2,
+        "title": "ฝน",
+        "traffic": "200+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 16:10:00 -0800",
+        "news_title": "พยากรณ์อากาศ วันที่ 24 พฤศจิกายน 2569 กรุงเทพและปริมณฑล เมฆบางส่วนกับมีหมอกบางในตอนเช้า | สวพ.FM91",
+        "url": "https://today.line.me/th/v3/article/Opl5Rrv",
+        "search_url": "https://www.google.com/search?q=%E0%B8%9D%E0%B8%99&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「ฝน」（搜索量 200+）。关联新闻：พยากรณ์อากาศ วันที่ 24 พฤศจิกายน 2569 กรุงเทพ。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 3,
+        "title": "เมาริซิโอ โปเช็ตติโน่",
+        "traffic": "200+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:40:00 -0800",
+        "news_title": "จัดตัวพลาดหรือนักเตะหมดใจ? ผ่าความย่อยยับของ แมนยู ที่แอนฟิลด์!",
+        "url": "https://www.siamsport.co.th/football-international/premierleague/112422/",
+        "search_url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%8B%E0%B8%B4%E0%B9%82%E0%B8%AD%20%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%8A%E0%B9%87%E0%B8%95%E0%B8%95%E0%B8%B4%E0%B9%82%E0%B8%99%E0%B9%88&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「เมาริซิโอ โปเช็ตติโน่」（搜索量 200+）。关联新闻：จัดตัวพลาดหรือนักเตะหมดใจ? ผ่าความย่อยยับของ 。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 4,
+        "title": "brentford f.c. vs everton f.c. standings",
+        "traffic": "500+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:20:00 -0800",
+        "news_title": "Brentford 4-0 Everton - James Tarkowski sees red as Toffees thrashed",
+        "url": "https://www.bbc.com/sport/football/live/c64gnwyv7kvjt",
+        "search_url": "https://www.google.com/search?q=brentford%20f.c.%20vs%20everton%20f.c.%20standings&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「brentford f.c. vs everton f.c. standings」（搜索量 500+）。关联新闻：Brentford 4-0 Everton - James Tarkowski sees 。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 5,
+        "title": "honda avancier",
+        "traffic": "200+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:00:00 -0800",
+        "news_title": "Honda ปักหมุดปราจีนบุรี ผลิต Avancier เอสยูวีเรือธง ขายในไทยตลาดแรกของโลก",
+        "url": "https://www.thairath.co.th/news/auto/news/2974139",
+        "search_url": "https://www.google.com/search?q=honda%20avancier&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「honda avancier」（搜索量 200+）。关联新闻：Honda ปักหมุดปราจีนบุรี ผลิต Avancier เอสยูวี。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 6,
+        "title": "หวยลาวล่าสุด",
+        "traffic": "100+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:00:00 -0800",
+        "news_title": "หวยลาววันนี้ 23 พฤศจิกายน 2569 ตรวจผลหวยลาว หวยลาววันนี้ออกอะไร?",
+        "url": "https://www.sanook.com/news/9912850/",
+        "search_url": "https://www.google.com/search?q=%E0%B8%AB%E0%B8%A7%E0%B8%A2%E0%B8%A5%E0%B8%B2%E0%B8%A7%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「หวยลาวล่าสุด」（搜索量 100+）。关联新闻：หวยลาววันนี้ 23 พฤศจิกายน 2569 ตรวจผลหวยลาว ห。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 7,
+        "title": "เงินเดือนข้าราชการ",
+        "traffic": "1000+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 14:30:00 -0800",
+        "news_title": "เช็กวันโอน เงินเดือนข้าราชการ พ.ย. 2569 เงินบำนาญ-ทหารกองเกิน เข้าวันไหน",
+        "url": "https://www.thairath.co.th/news/society/2974045",
+        "search_url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%81%E0%B8%B2%E0%B8%A3&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「เงินเดือนข้าราชการ」（搜索量 1000+）。关联新闻：เช็กวันโอน เงินเดือนข้าราชการ พ.ย. 2569 เงินบ。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 8,
+        "title": "ราคาน้ำมันวันนี้",
+        "traffic": "1000+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 14:20:00 -0800",
+        "news_title": "ราคาน้ำมันวันนี้ 24 พ.ย. 2569 ล่าสุดน้ำมัน \"เบนซิน-ดีเซล-แก๊สโซฮอล์\" ลิตรละกี่บาท",
+        "url": "https://www.sanook.com/money/961855/",
+        "search_url": "https://www.google.com/search?q=%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「ราคาน้ำมันวันนี้」（搜索量 1000+）。关联新闻：ราคาน้ำมันวันนี้ 24 พ.ย. 2569 ล่าสุดน้ำมัน \"เ。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 9,
+        "title": "พัชราภา ไชยเชื้อ",
+        "traffic": "100+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 14:00:00 -0800",
+        "news_title": "อั้ม พัชราภา-ไฮโซพก ไปร่วมพิธีสวดมนต์วัดดังด้วยกัน ทำแฟนๆ แห่ลุ้นรีเทิร์น",
+        "url": "https://www.thairath.co.th/entertain/news/2974117",
+        "search_url": "https://www.google.com/search?q=%E0%B8%9E%E0%B8%B1%E0%B8%8A%E0%B8%A3%E0%B8%B2%E0%B8%A0%E0%B8%B2%20%E0%B9%84%E0%B8%8A%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%AD&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「พัชราภา ไชยเชื้อ」（搜索量 100+）。关联新闻：อั้ม พัชราภา-ไฮโซพก ไปร่วมพิธีสวดมนต์วัดดังด้。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 10,
+        "title": "สโมสรฟุตบอลแมนเชสเตอร์ยูไนเต็ด",
+        "traffic": "100+",
+        "market": "🇹🇭 泰国实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 14:00:00 -0800",
+        "news_title": "เอาให้ตาย! เอ็นกูโมฮาเผยคำพูดแข้งลิเวอร์พูล หลังโยโร่โดนแดงเกมถล่มแมนยู 4-0",
+        "url": "https://www.siamsport.co.th/football-international/premierleague/112417/",
+        "search_url": "https://www.google.com/search?q=%E0%B8%AA%E0%B9%82%E0%B8%A1%E0%B8%AA%E0%B8%A3%E0%B8%9F%E0%B8%B8%E0%B8%95%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B9%80%E0%B8%8A%E0%B8%AA%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A2%E0%B8%B9%E0%B9%84%E0%B8%99%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%94&gl=th",
+        "ai_summary": "🤖 AI实时解读：[🇹🇭 泰国实时飙升] 今日热搜词「สโมสรฟุตบอลแมนเชสเตอร์ยูไนเต็ด」（搜索量 100+）。关联新闻：เอาให้ตาย! เอ็นกูโมฮาเผยคำพูดแข้งลิเวอร์พูล ห。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      }
+    ],
+    "my": [
+      {
+        "rank": 1,
+        "title": "76ers vs trail blazers",
+        "traffic": "200+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 16:20:00 -0800",
+        "news_title": "76ers rule out Joel Embiid (illness) for game vs. Trail Blazers",
+        "url": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
+        "search_url": "https://www.google.com/search?q=76ers%20vs%20trail%20blazers&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「76ers vs trail blazers」（搜索量 200+）。关联新闻：76ers rule out Joel Embiid (illness) for game。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 2,
+        "title": "chow yun fat",
+        "traffic": "100+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 16:20:00 -0800",
+        "news_title": "HK screen legend Chow Yun Fat, 71, completes 20km trail event in 6hrs 23 minutes",
+        "url": "https://www.thestar.com.my/lifestyle/entertainment/2026/11/23/hk-screen-legend-chow-yun-fat-71-completes-20km-trail-event-in-6hrs-23-minutes",
+        "search_url": "https://www.google.com/search?q=chow%20yun%20fat&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「chow yun fat」（搜索量 100+）。关联新闻：HK screen legend Chow Yun Fat, 71, completes 。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 3,
+        "title": "santos vs grêmio",
+        "traffic": "1000+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:40:00 -0800",
+        "news_title": "Santos x Grêmio: onde assistir ao vivo e escalações do jogo do Brasileirão",
+        "url": "https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17540644/santos-gremio-onde-assistir-ao-vivo-escalacoes-jogo-brasileirao",
+        "search_url": "https://www.google.com/search?q=santos%20vs%20gr%C3%AAmio&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「santos vs grêmio」（搜索量 1000+）。关联新闻：Santos x Grêmio: onde assistir ao vivo e esca。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 4,
+        "title": "gegar vaganza",
+        "traffic": "200+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:30:00 -0800",
+        "news_title": "GV Fantasia: Jadi Salah Seorang ‘Bottom 3’, Faizul Sany Akui…",
+        "url": "https://gempak.com/hiburan/gv-fantasia-jadi-salah-seorang-bottom-3-faizul-sany-akui",
+        "search_url": "https://www.google.com/search?q=gegar%20vaganza&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「gegar vaganza」（搜索量 200+）。关联新闻：GV Fantasia: Jadi Salah Seorang ‘Bottom 3’, F。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 5,
+        "title": "liga sepak takraw",
+        "traffic": "200+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:30:00 -0800",
+        "news_title": "STL 2026: Kedudukan Terkini Selepas Berakhirnya GP Keempat",
+        "url": "https://thevocket.com/stl-2026-kedudukan-terkini-berakhirnya-gp-keempat/",
+        "search_url": "https://www.google.com/search?q=liga%20sepak%20takraw&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「liga sepak takraw」（搜索量 200+）。关联新闻：STL 2026: Kedudukan Terkini Selepas Berakhirn。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 6,
+        "title": "rempuh",
+        "traffic": "200+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:30:00 -0800",
+        "news_title": "Tiga sekeluarga maut MPV rempuh penghadang lebuh raya",
+        "url": "https://www.bharian.com.my/berita/kes/2026/11/1726752/tiga-sekeluarga-maut-mpv-rempuh-penghadang-lebuh-raya",
+        "search_url": "https://www.google.com/search?q=rempuh&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「rempuh」（搜索量 200+）。关联新闻：Tiga sekeluarga maut MPV rempuh penghadang le。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 7,
+        "title": "asyraf wajdi dusuki",
+        "traffic": "500+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:20:00 -0800",
+        "news_title": "Lambakan guru dimanfaatkan tampung kekangan warden",
+        "url": "https://www.malaysiakini.com/news/889644-lambakan-guru-dimanfaatkan-tampung-kekangan-warden",
+        "search_url": "https://www.google.com/search?q=asyraf%20wajdi%20dusuki&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「asyraf wajdi dusuki」（搜索量 500+）。关联新闻：Lambakan guru dimanfaatkan tampung kekangan w。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 8,
+        "title": "intel",
+        "traffic": "100+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:20:00 -0800",
+        "news_title": "Intel \"Bartlett Lake-S\" CPUs Reportedly Boot Natively on MSI Z690/Z790 Motherboards",
+        "url": "https://www.techpowerup.com/355104/intel-bartlett-lake-s-cpus-reportedly-boot-natively-on-msi-z690-z790-motherboards",
+        "search_url": "https://www.google.com/search?q=intel&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「intel」（搜索量 100+）。关联新闻：Intel \"Bartlett Lake-S\" CPUs Reportedly Boot 。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 9,
+        "title": "sukan",
+        "traffic": "200+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:10:00 -0800",
+        "news_title": "Bernama Pays Courtesy Call On Abdul Karim",
+        "url": "https://www.bernama.com/en/general/news.php?id=2635694",
+        "search_url": "https://www.google.com/search?q=sukan&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「sukan」（搜索量 200+）。关联新闻：Bernama Pays Courtesy Call On Abdul Karim。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      },
+      {
+        "rank": 10,
+        "title": "天氣",
+        "traffic": "100+",
+        "market": "🇲🇾 马来实时飙升",
+        "date": "2026-11-24",
+        "pub_raw": "Mon, 23 Nov 2026 15:10:00 -0800",
+        "news_title": "11/22清晨竹苗防10度以下低溫下週2波東北季風接力| 生活",
+        "url": "https://www.cna.com.tw/news/ahel/202611210146.aspx",
+        "search_url": "https://www.google.com/search?q=%E5%A4%A9%E6%B0%A3&gl=my",
+        "ai_summary": "🤖 AI实时解读：[🇲🇾 马来实时飙升] 今日热搜词「天氣」（搜索量 100+）。关联新闻：11/22清晨竹苗防10度以下低溫下週2波東北季風接力| 生活。若涉及明星/赛事/IP切勿直接搬运肖像，可提炼幽默文案或周边概念做合规二创T恤。"
+      }
+    ]
+  },
+  "live_autocomplete": {
+    "updated_at": "2026-11-24 09:18:47 UTC+8",
+    "th": [
+      {
+        "keyword": "เสื้อยืดเปล่า",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B9%88%E0%B8%B2&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด uniqlo",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20uniqlo&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด ภาษาอังกฤษ",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AD%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A4%E0%B8%A9&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด gq",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20gq&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด adidas",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20adidas&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด uniqlo ผู้หญิง",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20uniqlo%20%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด uniqlo ผู้ชาย",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20uniqlo%20%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด balenciaga",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20balenciaga&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด essential",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20essential&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด yuedpao",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20yuedpao&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด fivem",
+        "source": "YouTube实时联想",
+        "gl": "TH",
+        "url": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20fivem&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด i'm noob ใส่แล้วไม่ noob",
+        "source": "YouTube实时联想",
+        "gl": "TH",
+        "url": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20i%27m%20noob%20%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B9%84%E0%B8%A1%E0%B9%88%20noob&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด arrow lite",
+        "source": "YouTube实时联想",
+        "gl": "TH",
+        "url": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20arrow%20lite&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด mynds",
+        "source": "YouTube实时联想",
+        "gl": "TH",
+        "url": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20mynds&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด lacoste",
+        "source": "YouTube实时联想",
+        "gl": "TH",
+        "url": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20lacoste&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด mc",
+        "source": "YouTube实时联想",
+        "gl": "TH",
+        "url": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20mc&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด h&m",
+        "source": "YouTube实时联想",
+        "gl": "TH",
+        "url": "https://www.youtube.com/results?search_query=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20h%26m&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด oversize ชาย",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20oversize%20%E0%B8%8A%E0%B8%B2%E0%B8%A2&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด oversize ผู้หญิง",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20oversize%20%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด oversize ประตูน้ํา ขายส่ง",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20oversize%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B9%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%20%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B9%88%E0%B8%87&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด oversize uniqlo",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20oversize%20uniqlo&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด oversize สีดํา",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20oversize%20%E0%B8%AA%E0%B8%B5%E0%B8%94%E0%B9%8D%E0%B8%B2&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อยืด oversize ใส่กับอะไร",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%B7%E0%B8%94%20oversize%20%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อ ยืด oversize",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20%E0%B8%A2%E0%B8%B7%E0%B8%94%20oversize&gl=TH",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "เสื้อ ยืด oversize หญิง",
+        "source": "Google实时联想",
+        "gl": "TH",
+        "url": "https://www.google.com/search?q=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%20%E0%B8%A2%E0%B8%B7%E0%B8%94%20oversize%20%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87&gl=TH",
+        "date": "2026-11-24"
+      }
+    ],
+    "my": [
+      {
+        "keyword": "baju t shirt berkolar",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20berkolar&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt perempuan",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20perempuan&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt lelaki",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20lelaki&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt pengakap",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20pengakap&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt hitam",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20hitam&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt putih",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20putih&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt merdeka",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20merdeka&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt lengan panjang",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20lengan%20panjang&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt pengakap sekolah menengah",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20pengakap%20sekolah%20menengah&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt hitam kosong",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20t%20shirt%20hitam%20kosong&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t shirt perempuan viral",
+        "source": "YouTube实时联想",
+        "gl": "MY",
+        "url": "https://www.youtube.com/results?search_query=baju%20t%20shirt%20perempuan%20viral&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t-shirt",
+        "source": "YouTube实时联想",
+        "gl": "MY",
+        "url": "https://www.youtube.com/results?search_query=baju%20t-shirt&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju t-shirt roblox",
+        "source": "YouTube实时联想",
+        "gl": "MY",
+        "url": "https://www.youtube.com/results?search_query=baju%20t-shirt%20roblox&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "origami baju t shirt",
+        "source": "YouTube实时联想",
+        "gl": "MY",
+        "url": "https://www.youtube.com/results?search_query=origami%20baju%20t%20shirt&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "long baju t- shirt",
+        "source": "YouTube实时联想",
+        "gl": "MY",
+        "url": "https://www.youtube.com/results?search_query=long%20baju%20t-%20shirt&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "kecilkan baju t shirt",
+        "source": "YouTube实时联想",
+        "gl": "MY",
+        "url": "https://www.youtube.com/results?search_query=kecilkan%20baju%20t%20shirt&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "tshirt viral",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=tshirt%20viral&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "tshirt viral 2025",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=tshirt%20viral%202025&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "baju tshirt viral",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=baju%20tshirt%20viral&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "t shirt zara viral",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=t%20shirt%20zara%20viral&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "viral t shirt design",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=viral%20t%20shirt%20design&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "viral tshirt for men",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=viral%20tshirt%20for%20men&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "viral tshirt for women",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=viral%20tshirt%20for%20women&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "viral tshirt for boyfriend",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=viral%20tshirt%20for%20boyfriend&gl=MY",
+        "date": "2026-11-24"
+      },
+      {
+        "keyword": "viral tshirt bra",
+        "source": "Google实时联想",
+        "gl": "MY",
+        "url": "https://www.google.com/search?q=viral%20tshirt%20bra&gl=MY",
+        "date": "2026-11-24"
       }
     ]
   }

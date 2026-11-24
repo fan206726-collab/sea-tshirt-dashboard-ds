@@ -199,6 +199,13 @@ def run_update():
     update_calendar_and_countdown(data)
     update_notes_and_freshness(data)
 
+    # 执行 14 路免登录全网实时活水抓取 (Google Trends / Apple电影&音乐 / Google实时联想词)
+    try:
+        import live_engine
+        data = live_engine.enrich_dashboard_live(data)
+    except Exception as e:
+        print(f"[-] 实时活水引擎提示: {e}")
+
     # 接入 Google Gemini AI 智能审核与选品总监
     try:
         import ai_auditor
@@ -212,6 +219,13 @@ def run_update():
         data = ai_lifecycle_auditor.audit_lifecycle_governance(data)
     except Exception as e:
         print(f"[-] 14天时效与AI热度治理流水线异常: {e}")
+
+    # 执行全站链接外语本地化与演艺档期清洗
+    try:
+        import fix_all_urls_lang
+        data = fix_all_urls_lang.sanitize_dashboard_data(data)
+    except Exception as e:
+        print(f"[-] 全站链接与演艺档期清洗异常: {e}")
 
     # 发布前必须通过刚性真实性与准确度质检门禁（不合格绝不上云）
     assert_data_veracity_and_accuracy(data)
